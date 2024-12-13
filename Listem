@@ -3,7 +3,7 @@
 http://stream.tvcdn.net/ulusal/trt-1.m3u8
 #EXTINF:-1 tvg-id="ATV.tr" tvg-logo="https://i.hizliresim.com/tfgt2u0.png" group-title="Ulusal",atv
 http://stream.tvcdn.net/ulusal/atv.m3u8
-#EXTINF:-1 tvg-id="KanalD.tr" tvg-logo="http://assets.tvcdn.net/a06096dc-fd5e-4103-bfb4-83e612df23ec.png" group-title="Ulusal",Kanal D
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-logo="https://i.hizliresim.com/tfgt2u0.png" group-title="Ulusal",Kanal D
 http://stream.tvcdn.net/ulusal/kanal-d.m3u8
 #EXTINF:-1 tvg-id="Now.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="Ulusal",Now TV
 http://stream.tvcdn.net/ulusal/now-tv.m3u8
