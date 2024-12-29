@@ -26,7 +26,7 @@ http://stream.tvcdn.net/ulusal/atv.m3u8|cast=false
 http://stream.tvcdn.net/ulusal/kanal-d.m3u8|cast=false
 #EXTINF:-1 tvg-id="Now.tr" tvg-logo="http://assets.tvcdn.net/80eb8816-1855-41f5-9002-7a05cc93fe4f.png" group-title="Uluslararası",Now TV
 http://stream.tvcdn.net/ulusal/now-tv.m3u8|cast=false
-#EXTINF:-1 tvg-id="ShowTV.tr" tvg-logo="http://assets.tvcdn.net/9d873881-bb5e-40f0-88db-8c47aa215e5a.png" group-title="Uluslararası",Show TV
+#EXTINF:-1 tvg-id="ShowTV.tr" tvg-logo="http://assets.tvcdn.net/9d873881-bb5e-40f0-88db-8c47aa215e5a.png" group-title="Uluslararası",SHOW TV HD
 http://stream.tvcdn.net/ulusal/show-tv.m3u8|cast=false
 #EXTINF:-1 tvg-id="BeyazTV.tr" tvg-logo="http://assets.tvcdn.net/60d7aaf4-817b-46be-bbab-68f8b30de8fb.png" group-title="Uluslararası",Beyaz TV
 http://stream.tvcdn.net/ulusal/beyaz-tv.m3u8|cast=false
