@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://www.bevy.be/bevyfiles/turkeypremium2.xml" | SON GÜNCELLENME 19:59 01.09.2024 | KİNGTV
+#EXTM3U x-tvg-url="https://www.open-epg.com/generate/UmKJqTxMZr.xml" | SON GÜNCELLENME 19:59 01.09.2024 | KİNGTV
 #EXTINF:-1 tvg-id="beinsports1.tr" tvg-name="TR: BEIN SPORTS 1 HD" tvg-logo="https://i.ibb.co/RpWXrvp/launcher-icon.jpg" group-title="ÜMİTVİP", BEIN SPORTS 1 HD tvg-id="beinsports1.tr" tvg-name="TR: BEIN SPORTS 1 HD" tvg-logo="https://i.ibb.co/RpWXrvp/launcher-icon.jpg" group-title="ÜMİTVİP", BEIN SPORTS 1 HD
 http://474097886878885797.ofdhu1210.xyz:80/live/vi131854/gqunKQDCcpU/885797.ts
 #EXTINF:-1 tvg-id="beinsports1.tr" tvg-name="TR: BEIN SPORTS 1 HD" tvg-logo="https://i.ibb.co/RpWXrvp/launcher-icon.jpg" group-title="ÜMİTVİP", BEIN SPORTS 1
@@ -15,6 +15,7 @@ https://deathless-sporting-iptv.tiiny.io/?ID=bein-sports-1-turkey/158
 https://tinyurl.com/yereltvkanallaridijital?idx=aHR0cHM6Ly93d3cub2hhLnRvL29oYS10di9wbGF5LzM4NDA0NzU2NTNjMDM3Nzg3ZjYwYzE=
 #EXTINF:-1 tvg-id="beinsports1.tr" tvg-name="TR: BEIN SPORTS 1 HD" tvg-logo="https://i.ibb.co/RpWXrvp/launcher-icon.jpg" group-title="ÜMİTVİP", BEIN SPORTS 1
 https://deathless-sporting-iptv.tiiny.io/?ID=bein-sports-1-turkey/158
+
 #EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="Uluslararası",TRT 1
 http://stream.tvcdn.net/ulusal/trt-1.m3u8|cast=false
 #EXTINF:-1 tvg-id="Pıtyap.tr" tvg-logo="https://i.hizliresim.com/tfgt2u0.png" group-title="Uluslararası",Pıtyap
