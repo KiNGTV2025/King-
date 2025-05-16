@@ -1,0 +1,16 @@
+[
+  {
+    "id": "a880d1841a905298",
+    "username": "ali",
+    "password": "aliali",
+    "expiresAt": "2025-12-31",
+    "allowOffline": true
+  },
+  {
+    "id": "android_device_id_2",
+    "username": "user2",
+    "password": "pass2",
+    "expiresAt": "2025-11-30",
+    "allowOffline": false
+  }
+]
