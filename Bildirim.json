@@ -1,22 +1,8 @@
 {
-  "enabled": true,
-  "title": "Yeni uyarı",
-  "message": "🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲",
-  "style": "bigpicture",
-"lines": ["Mesaj 1", "Mesaj 2", "Merhaba 3"],
-  "sound": true,
-  "vibrate": true,
-  "expires": "2025-05-25T14:06:00",
-  "image": "https://i.ibb.co/1WcQPPp/Picsart-25-02-16-08-05-36-241.png",
-  "actions": [
-    {
-      "title": "Telegram",
-      "url": "https://t.me/UmitMod"
-    },
-    {
-      "title": "🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲"
-    }
-  ]
+  "autoShowEnabled": true,
+  "autoShowType": "info",
+  "success": { "enabled": true, "message": "Developed By Ali https://t.me/androidmod_ar!", "duration": 2000 },
+  "error":   { "enabled": true, "message": "Oops error!", "duration": 3000 },
+  "warning": { "enabled": true, "message": "Careful!", "duration": 2500 },
+  "info":    { "enabled": true, "message": "🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲", "duration": 1800 }
 }
-
-
