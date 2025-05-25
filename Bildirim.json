@@ -1,8 +1,8 @@
 {
   "autoShowEnabled": true,
-  "autoShowType": "warning",
+  "autoShowType": "info",
   "success": { "enabled": true, "message": "Gassal 2.sezon listeye eklendi", "duration": 2000 },
   "error":   { "enabled": true, "message": "Oops error!", "duration": 3000 },
   "warning": { "enabled": true, "message": "🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲!", "duration": 2500 },
-  "info":    { "enabled": true, "message": "🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲", "duration": 1800 }
+  "info":    { "enabled": true, "message": "🜲ÜⲘ𝖎ţ🜲 İyi seyirler diler", "duration": 1800 }
 }
