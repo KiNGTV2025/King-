@@ -2,7 +2,7 @@
   "enabled": true,
   "title": "Yeni uyarı",
   "message": "aaa",
-  "style": "inbox",
+  "style": "bigpicture",
 "lines": ["Mesaj 1", "Mesaj 2", "Merhaba 3"],
   "sound": true,
   "vibrate": true,
