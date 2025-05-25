@@ -1,6 +1,6 @@
 {
-  "autoShowEnabled": warning,
-  "autoShowType": "info",
+  "autoShowEnabled": true,
+  "autoShowType": "warning",
   "success": { "enabled": true, "message": "Gassal 2.sezon listeye eklendi", "duration": 2000 },
   "error":   { "enabled": true, "message": "Oops error!", "duration": 3000 },
   "warning": { "enabled": true, "message": "🜲ÜⲘ𝖎ţ Ⲙ0Ď🜲!", "duration": 2500 },
