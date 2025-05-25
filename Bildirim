@@ -6,7 +6,7 @@
 "lines": ["Mesaj 1", "Mesaj 2", "Merhaba 3"],
   "sound": true,
   "vibrate": true,
-  "expires": "2025-05-01T12:00:00",
+  "expires": "2025-05-25T14:06:00",
   "image": "https://i.ibb.co/1WcQPPp/Picsart-25-02-16-08-05-36-241.png",
   "actions": [
     {
