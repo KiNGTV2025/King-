@@ -1,0 +1,14 @@
+{
+  "versionCode": 9,
+  "versionName": "5.1",
+  "apkSize": 9,
+  "enabledDark": true,
+  "forceUp": true,
+  "whatIsNew": [
+    "Performance improved and some bugs fixed.",
+    "Android 14 support",
+    "Loading speed improved",
+    "Notification display issues fixed"
+  ],
+  "apkUrl": "https://www.dropbox.com/scl/fi/34hizhwjmut91zpz7xjp7/SyriaTalkPlus_Ultra.apk?rlkey=8gr6vebbisezu1718qv0so2qe&st=ct9jk73g&dl=1"
+}
