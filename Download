@@ -1,14 +1,28 @@
 {
-  "versionCode": 2,
-  "versionName": "1.1",
-  "apkSize": 1,
-  "enabledDark": true,
-  "forceUp": true,
-  "Yenilikler": [
-"Performans iyileştirildi ve bazı hatalar düzeltildi.",
-"Android 14 desteği",
-"Yükleme hızı iyileştirildi",
-"Bildirim görüntüleme sorunları düzeltildi"
-],
-  "apkUrl": "https://www.dropbox.com/scl/fi/tjo53nma1cqny07zkoof9/mit-TV_1.9.0.5.apk?rlkey=h8leze3jidjklq7vilx5tlv8c&st=c2yjpux3&dl=1"
+  "dialogConfig": {
+    "enabled": true,
+    "version": "1.0",
+    "mandatory": false,
+    "update_url": "https://t.me/androidmod_ar",
+    "title": "Update Availablr!",
+    "message": "A new version of the app has been released. Please update now to take advantage of the new features. ",
+    "socialLinks": [
+      {
+        "name": "facebook",
+        "url": "https://t.me/androidmod_ar"
+      },
+      {
+        "name": "twitter",
+        "url": "https://t.me/androidmod_ar"
+      },
+      {
+        "name": "instagram",
+        "url": "https://t.me/androidmod_ar"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://t.me/androidmod_ar"
+      }
+    ]
+  }
 }
