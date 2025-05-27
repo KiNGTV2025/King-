@@ -2,8 +2,8 @@
   "versionCode": 9,
   "versionName": "1.1",
   "apkSize": 19.1,
-  "enabledDark": true,
-  "forceUp": false,
+  "enabledDark": false,
+  "forceUp": true,
   "whatIsNew": [
     "Performans iyileştirildi ve bazı hatalar düzeltildi.",
     "Android 14 desteği",
