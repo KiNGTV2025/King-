@@ -1,6 +1,6 @@
 {
   "dialogConfig": {
-    "enabled": true,
+    "enabled": false,
     "version": "1.0",
     "mandatory": false,
     "update_url": "https://dl.dropbox.com/scl/fi/tjo53nma1cqny07zkoof9/mit-TV_1.9.0.5.apk?rlkey=h8leze3jidjklq7vilx5tlv8c&st=c2yjpux3&dl=1",
