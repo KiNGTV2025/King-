@@ -2,7 +2,7 @@
   "versionCode": 9,
   "versionName": "1.1",
   "apkSize": 19.1,
-  "enabledDark": false,
+  "enabledDark": true,
   "forceUp": false,
   "whatIsNew": [
     "Performans iyileştirildi ve bazı hatalar düzeltildi.",
