@@ -2,7 +2,7 @@
   "versionCode": 9,
   "versionName": "5.1",
   "apkSize": 9,
-  "enabledDark": true,
+  "enabledDark": false,
   "forceUp": true,
   "whatIsNew": [
 "Performans iyileştirildi ve bazı hatalar düzeltildi.",
