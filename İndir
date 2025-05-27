@@ -1,14 +1,14 @@
 {
   "versionCode": 9,
-  "versionName": "5.1",
-  "apkSize": 9,
+  "versionName": "1.1",
+  "apkSize": 19.1,
   "enabledDark": true,
   "forceUp": true,
   "whatIsNew": [
-    "Performance improved and some bugs fixed.",
-    "Android 14 support",
-    "Loading speed improved",
-    "Notification display issues fixed"
+    "Performans iyileştirildi ve bazı hatalar düzeltildi.",
+    "Android 14 desteği",
+    "Yükleme hızı iyileştirildi",
+    "Bildirim görüntüleme sorunları düzeltildi"
   ],
   "apkUrl": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/%C4%B0ndir"
 }
