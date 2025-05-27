@@ -1,14 +1,14 @@
 {
-  "sürümKodu": 1,
-  "sürümAdı": "5.1",
-  "apkBoyutu": 19.1mb,
+  "versionCode": 9,
+  "versionName": "5.1",
+  "apkSize": 9,
   "enabledDark": true,
   "forceUp": true,
-  "Yenilikler": [
-"Performans iyileştirildi ve bazı hatalar düzeltildi.",
-"Android 14 desteği",
-"Yükleme hızı iyileştirildi",
-"Bildirim görüntüleme sorunları düzeltildi"
-],
-  "apkUrl": "https://dl.dropbox.com/scl/fi/tjo53nma1cqny07zkoof9/mit-TV_1.9.0.5.apk?rlkey=h8leze3jidjklq7vilx5tlv8c&st=c2yjpux3&dl=1"
+  "whatIsNew": [
+    "Performance improved and some bugs fixed.",
+    "Android 14 support",
+    "Loading speed improved",
+    "Notification display issues fixed"
+  ],
+  "apkUrl": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/%C4%B0ndir"
 }
