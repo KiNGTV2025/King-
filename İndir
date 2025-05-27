@@ -2,7 +2,7 @@
   "sürümKodu": 1,
   "sürümAdı": "5.1",
   "apkBoyutu": 9,
-  "enabledDark": false,
+  "enabledDark": true,
   "forceUp": true,
   "Yenilikler": [
 "Performans iyileştirildi ve bazı hatalar düzeltildi.",
