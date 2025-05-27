@@ -1,10 +1,10 @@
 {
-  "versionCode": 9,
-  "versionName": "5.1",
-  "apkSize": 9,
+  "sürümKodu": 1,
+  "sürümAdı": "5.1",
+  "apkBoyutu": 9,
   "enabledDark": false,
   "forceUp": true,
-  "whatIsNew": [
+  "Yenilikler": [
 "Performans iyileştirildi ve bazı hatalar düzeltildi.",
 "Android 14 desteği",
 "Yükleme hızı iyileştirildi",
