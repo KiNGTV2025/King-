@@ -1,0 +1,7 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="None" tvg-name="24 (7)" tvg-logo="" group-title="Turkey"
+https://vavooumit.umittv.workers.dev/ts-proxy?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1702937932%2Findex.m3u8&headers=%7B%22User-Agent%22%3A%22VAVOO%2F1.0%22%2C%22Referer%22%3A%22https%3A%2F%2Fvavoo.to%2F%22%7D
+
+#EXTINF:-1 tvg-id="None" tvg-name="24 KITCHEN (7)" tvg-logo="" group-title="Turkey"
+https://vavooumit.umittv.workers.dev/ts-proxy?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3329504843%2Findex.m3u8&headers=%7B%22User-Agent%22%3A%22VAVOO%2F1.0%22%2C%22Referer%22%3A%22https%3A%2F%2Fvavoo.to%2F%22%7D
