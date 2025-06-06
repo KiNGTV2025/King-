@@ -3,7 +3,7 @@
     "enabled": false,
     "version": "1.0",
     "mandatory": true,
-    "update_url": "https://dl.dropbox.com/scl/fi/tjo53nma1cqny07zkoof9/mit-TV_1.9.0.5.apk?rlkey=h8leze3jidjklq7vilx5tlv8c&st=c2yjpux3&dl=1",
+    "update_url": "",
     "title": "Güncelleme Mevcut!",
     "message": "Uygulamanın yeni bir sürümü yayınlandı. Yeni özelliklerden yararlanmak için lütfen hemen güncelleyin. ",
     "socialLinks": [
