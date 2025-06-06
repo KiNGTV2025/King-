@@ -1,7 +1,7 @@
 
 {
-  "dialogConfig": 
-    "enabled": false,
+  "dialogConfig": {
+    "enabled": true,
     "version": "1.0",
     "mandatory": true,
     "update_url": "",
@@ -26,3 +26,4 @@
       }
     ]
   }
+}
