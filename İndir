@@ -3,7 +3,7 @@
   "versionName": "1.0",
   "apkSize": 19.1,
   "enabledDark": true,
-  "forceUp": false,
+  "forceUp": true,
   "whatIsNew": [
     "Performans iyileştirildi ve bazı hatalar düzeltildi.",
     "Android 14 desteği",
