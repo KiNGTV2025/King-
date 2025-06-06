@@ -1,27 +1,27 @@
 {
   "dialogConfig": {
     "enabled": true,
-    "version": "1.1",
-    "mandatory": true,
-    "update_url": "",
-    "title": "Güncelleme Mevcut!",
-    "message": "Uygulamanın yeni bir sürümü yayınlandı. Yeni özelliklerden yararlanmak için lütfen hemen güncelleyin. ",
+    "version": "1.0",
+    "mandatory": false,
+    "update_url": "https://t.me/androidmod_ar",
+    "title": "Update Availablr!",
+    "message": "A new version of the app has been released. Please update now to take advantage of the new features. ",
     "socialLinks": [
       {
         "name": "facebook",
-        "url": "https://t.me/UmitMod"
+        "url": "https://t.me/androidmod_ar"
       },
       {
         "name": "twitter",
-        "url": "https://t.me/UmitMod"
+        "url": "https://t.me/androidmod_ar"
       },
       {
         "name": "instagram",
-        "url": "https://t.me/UmitMod"
+        "url": "https://t.me/androidmod_ar"
       },
       {
         "name": "linkedin",
-        "url": "https://t.me/UmitMod"
+        "url": "https://t.me/androidmod_ar"
       }
     ]
   }
