@@ -1,6 +1,6 @@
-[
+
 {
-  "dialogConfig": {
+  "dialogConfig": 
     "enabled": false,
     "version": "1.0",
     "mandatory": true,
@@ -25,4 +25,4 @@
         "url": "https://t.me/UmitMod"
       }
     ]
-  
+  }
