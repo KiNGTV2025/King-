@@ -5,6 +5,9 @@ on:
     - cron: '0 */6 * * *'  # Her 6 saatte bir
   workflow_dispatch:  # Manuel çalıştırma için
 
+permissions:
+  contents: write  # Dosya yazma izni
+
 jobs:
   update:
     runs-on: ubuntu-latest
