@@ -5,7 +5,7 @@ import re
 import os
 import sys
 import requests
-from datetime import datetime, timezone, timedelta
+from datetime import datetime
 from base64 import b64encode
 
 # Yapılandırma Ayarları
@@ -23,15 +23,20 @@ USER_AGENT = 'okhttp/4.12.0'
 REFERER = 'https://twitter.com/'
 
 def is_base_url_working(base_url):
+    """Base URL'nin çalışıp çalışmadığını kontrol et"""
     test_url = f"{base_url}/api/channel/by/filtres/0/0/0{SUFFIX}"
     try:
-        req = urllib.request.Request(test_url, headers={'User-Agent': USER_AGENT})
+        req = urllib.request.Request(
+            test_url,
+            headers={'User-Agent': USER_AGENT}
+        )
         with urllib.request.urlopen(req, timeout=10) as response:
             return response.status == 200
     except:
         return False
 
 def get_dynamic_base_url():
+    """GitHub'dan dinamik olarak Base URL'yi al"""
     try:
         with urllib.request.urlopen(SOURCE_URL) as response:
             content = response.read().decode('utf-8')
@@ -42,10 +47,14 @@ def get_dynamic_base_url():
     return DEFAULT_BASE_URL
 
 def fetch_data(url):
+    """API'den veri çek"""
     try:
         req = urllib.request.Request(
             url,
-            headers={'User-Agent': USER_AGENT, 'Referer': REFERER}
+            headers={
+                'User-Agent': USER_AGENT,
+                'Referer': REFERER
+            }
         )
         with urllib.request.urlopen(req, timeout=15) as response:
             return json.loads(response.read().decode('utf-8'))
@@ -53,33 +62,57 @@ def fetch_data(url):
         print(f"API hatası ({url}): {e}", file=sys.stderr)
         return None
 
+def generate_unique_id(entry, index, category):
+    """Benzersiz ID oluşturma fonksiyonu"""
+    base_id = entry.get('id', '').strip()
+    title = entry.get('title', '').strip().replace(' ', '_')
+    quality = entry.get('quality', '').strip()
+    
+    # Özel karakterleri temizle
+    clean_id = re.sub(r'[^a-zA-Z0-9_-]', '', base_id) if base_id else ""
+    clean_title = re.sub(r'[^a-zA-Z0-9_-]', '', title)
+    
+    if clean_id:
+        return f"{category[:3]}_{clean_id}_{quality}" if quality else f"{category[:3]}_{clean_id}"
+    else:
+        return f"{category[:3]}_{clean_title}_{index}_{quality}" if quality else f"{category[:3]}_{clean_title}_{index}"
+
 def process_content(content, category_name):
+    """İçeriği işle ve tüm kayıtları döndür"""
     entries = []
     if not content.get('sources'):
         return entries
     
     for source in content['sources']:
         if source.get('type') == 'm3u8' and source.get('url'):
+            if not all([content.get('title'), source.get('url')]):
+                continue
+                
             entries.append({
                 'id': content.get('id', ''),
                 'title': content.get('title', ''),
                 'image': content.get('image', ''),
                 'group': f"ÜmitVIP~{category_name}",
                 'url': source['url'],
-                'quality': source.get('quality', '')
+                'quality': source.get('quality', ''),
+                'category': category_name
             })
     return entries
 
 def update_github_file(json_data, github_token):
+    """JSON dosyasını GitHub'a yükle"""
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE_PATH}"
+    
     headers = {
         "Authorization": f"token {github_token}",
         "Accept": "application/vnd.github.v3+json"
     }
     
+    # Mevcut dosyayı al
     response = requests.get(url, headers=headers)
     sha = response.json().get("sha", "") if response.status_code == 200 else ""
     
+    # Yeni içerik
     content = json.dumps(json_data, ensure_ascii=False, indent=2)
     encoded_content = b64encode(content.encode("utf-8")).decode("utf-8")
     
@@ -93,48 +126,78 @@ def update_github_file(json_data, github_token):
     return response.status_code in [200, 201]
 
 def main():
+    # Base URL'yi belirle
     base_url = DEFAULT_BASE_URL if is_base_url_working(DEFAULT_BASE_URL) else get_dynamic_base_url()
     print(f"Kullanılan Base URL: {base_url}", file=sys.stderr)
     
     all_entries = []
+    total_count = 0
     
-    # CANLI YAYINLAR
+    # CANLI YAYINLAR (0-3 arası sayfalar)
     for page in range(4):
         url = f"{base_url}/api/channel/by/filtres/0/0/{page}{SUFFIX}"
         if data := fetch_data(url):
             for content in data:
-                all_entries.extend(process_content(content, "Canlı Yayınlar"))
+                entries = process_content(content, "Canlı Yayınlar")
+                all_entries.extend(entries)
+                total_count += len(entries)
     
-    # FİLMLER
+    # FİLMLER (Tüm kategoriler)
     film_kategorileri = {
-        "0": "Son Filmler", "14": "Aile", "1": "Aksiyon", "13": "Animasyon",
-        "19": "Belgesel Filmleri", "4": "Bilim Kurgu", "2": "Dram",
-        "10": "Fantastik", "3": "Komedi", "8": "Korku", "17": "Macera", "5": "Romantik"
+        "0": "Son Filmler",
+        "14": "Aile",
+        "1": "Aksiyon",
+        "13": "Animasyon",
+        "19": "Belgesel Filmleri",
+        "4": "Bilim Kurgu",
+        "2": "Dram",
+        "10": "Fantastik",
+        "3": "Komedi",
+        "8": "Korku",
+        "17": "Macera",
+        "5": "Romantik"
     }
     
     for category_id, category_name in film_kategorileri.items():
-        for page in range(8):
+        for page in range(8):  # 0-7 arası sayfalar
             url = f"{base_url}/api/movie/by/filtres/{category_id}/created/{page}{SUFFIX}"
             if data := fetch_data(url):
                 for content in data:
-                    all_entries.extend(process_content(content, category_name))
+                    entries = process_content(content, category_name)
+                    all_entries.extend(entries)
+                    total_count += len(entries)
     
-    # DİZİLER
+    # DİZİLER (0-7 arası sayfalar)
     for page in range(8):
         url = f"{base_url}/api/serie/by/filtres/0/created/{page}{SUFFIX}"
         if data := fetch_data(url):
             for content in data:
-                all_entries.extend(process_content(content, "Son Diziler"))
+                entries = process_content(content, "Son Diziler")
+                all_entries.extend(entries)
+                total_count += len(entries)
     
     # JSON verisini oluştur
-    json_data = {
-        entry['id'] if entry['id'] else entry['title']: {
+    json_data = {}
+    duplicate_count = 0
+    
+    for idx, entry in enumerate(all_entries, 1):
+        unique_id = generate_unique_id(entry, idx, entry['category'])
+        
+        if unique_id in json_data:
+            duplicate_count += 1
+            unique_id = f"{unique_id}_{duplicate_count}"
+        
+        json_data[unique_id] = {
             "baslik": entry['title'],
             "url": entry['url'],
             "logo": entry['image'],
-            "grup": entry['group']
-        } for entry in all_entries
-    }
+            "grup": entry['group'],
+            "kalite": entry['quality']
+        }
+    
+    print(f"Toplam işlenen kayıt: {total_count}")
+    print(f"Oluşturulan JSON girişi: {len(json_data)}")
+    print(f"Çakışma sayısı: {duplicate_count}")
     
     # GitHub'a yükle
     github_token = os.getenv('GITHUB_TOKEN')
