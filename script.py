@@ -1,88 +1,98 @@
-# script.py
 import json
 import urllib.request
 import urllib.error
 import re
 import sys
 
-DEFAULT_BASE_URL = 'https://m.prectv50.sbs'
-SOURCE_URL = 'https://raw.githubusercontent.com/kerimmkirac/cs-kerim2/main/RecTV/src/main/kotlin/com/kerimmkirac/RecTV.kt'
-API_KEY = '4F5A9C3D9A86FA54EACEDDD635185/c3c5bd17-e37b-4b94-a944-8a3688a30452'
-SUFFIX = f'/{API_KEY}'
-USER_AGENT = 'googleusercontent'
-REFERER = 'https://twitter.com/'
+# Sabit tanımlamalar
+VARSayılan_URL = 'https://m.prectv50.sbs'  # Varsayılan API adresi
+KAYNAK_URL = 'https://raw.githubusercontent.com/kerimmkirac/cs-kerim2/main/RecTV/src/main/kotlin/com/kerimmkirac/RecTV.kt'  # Yedek URL kaynağı
+API_ANAHTARI = '4F5A9C3D9A86FA54EACEDDD635185/c3c5bd17-e37b-4b94-a944-8a3688a30452'  # API erişim anahtarı
+SON_EK = f'/{API_ANAHTARI}'  # API isteklerine eklenecek son ek
+KULLANICI_AGENTI = 'googleusercontent'  # Kullanıcı kimliği
+REFERANS = 'https://twitter.com/'  # Referans adres
 
-def is_base_url_working(base_url: str) -> bool:
+def url_calisiyor_mu(base_url: str) -> bool:
+    """Verilen URL'nin çalışıp çalışmadığını kontrol eder"""
     try:
-        req = urllib.request.Request(
-            f"{base_url}/api/channel/by/filtres/0/0/0{SUFFIX}",
+        istek = urllib.request.Request(
+            f"{base_url}/api/channel/by/filtres/0/0/0{SON_EK}",
             headers={'User-Agent': 'okhttp/4.12.0'}
         )
-        with urllib.request.urlopen(req, timeout=10) as response:
-            return response.status == 200
+        with urllib.request.urlopen(istek, timeout=10) as yanit:
+            return yanit.status == 200
     except:
         return False
 
-def get_dynamic_base_url() -> str:
+def dinamik_url_al() -> str:
+    """Yedek kaynaktan güncel URL'yi almaya çalışır"""
     try:
-        with urllib.request.urlopen(SOURCE_URL) as response:
-            content = response.read().decode('utf-8')
-            match = re.search(r'override\s+var\s+mainUrl\s*=\s*"([^"]+)"', content)
-            if match:
-                return match.group(1)
+        with urllib.request.urlopen(KAYNAK_URL) as yanit:
+            icerik = yanit.read().decode('utf-8')
+            eslesme = re.search(r'override\s+var\s+mainUrl\s*=\s*"([^"]+)"', icerik)
+            if eslesme:
+                return eslesme.group(1)
     except:
         pass
-    return DEFAULT_BASE_URL
+    return VARSayılan_URL
 
-def fetch_data(url: str):
+def veri_cek(url: str):
+    """Belirtilen URL'den JSON verisi çeker"""
     try:
-        req = urllib.request.Request(
+        istek = urllib.request.Request(
             url,
-            headers={'User-Agent': USER_AGENT, 'Referer': REFERER}
+            headers={'User-Agent': KULLANICI_AGENTI, 'Referer': REFERANS}
         )
-        with urllib.request.urlopen(req, timeout=15) as response:
-            return json.loads(response.read().decode('utf-8'))
-    except Exception as e:
-        print(f"API hatası ({url}): {e}", file=sys.stderr)
+        with urllib.request.urlopen(istek, timeout=15) as yanit:
+            return json.loads(yanit.read().decode('utf-8'))
+    except Exception as hata:
+        print(f"API hatası ({url}): {hata}", file=sys.stderr)
         return None
 
-def collect_all_data():
-    base_url = DEFAULT_BASE_URL if is_base_url_working(DEFAULT_BASE_URL) else get_dynamic_base_url()
+def tum_verileri_topla():
+    """Tüm verileri toplar ve kategorilere ayırır"""
+    base_url = VARSayılan_URL if url_calisiyor_mu(VARSayılan_URL) else dinamik_url_al()
     print(f"Kullanılan Base URL: {base_url}", file=sys.stderr)
 
-    all_data = {"canli": [], "filmler": [], "diziler": []}
+    tum_veri = {"canli": [], "filmler": [], "diziler": []}
 
-    for page in range(4):
-        url = f"{base_url}/api/channel/by/filtres/0/0/{page}{SUFFIX}"
-        data = fetch_data(url)
-        if data:
-            all_data["canli"].extend(data)
+    # Canlı yayın verileri (4 sayfa)
+    for sayfa in range(4):
+        url = f"{base_url}/api/channel/by/filtres/0/0/{sayfa}{SON_EK}"
+        veri = veri_cek(url)
+        if veri:
+            tum_veri["canli"].extend(veri)
 
-    movie_categories = {
+    # Film kategorileri
+    film_kategorileri = {
         "0": "Son Filmler", "14": "Aile", "1": "Aksiyon", "13": "Animasyon",
         "19": "Belgesel", "4": "Bilim Kurgu", "2": "Dram", "10": "Fantastik",
         "3": "Komedi", "8": "Korku", "17": "Macera", "5": "Romantik"
     }
 
-    for cat_id in movie_categories:
-        for page in range(8):
-            url = f"{base_url}/api/movie/by/filtres/{cat_id}/created/{page}{SUFFIX}"
-            data = fetch_data(url)
-            if data:
-                all_data["filmler"].extend(data)
+    # Film verileri (her kategori için 8 sayfa)
+    for kategori_id in film_kategorileri:
+        for sayfa in range(8):
+            url = f"{base_url}/api/movie/by/filtres/{kategori_id}/created/{sayfa}{SON_EK}"
+            veri = veri_cek(url)
+            if veri:
+                tum_veri["filmler"].extend(veri)
 
-    for page in range(8):
-        url = f"{base_url}/api/serie/by/filtres/0/created/{page}{SUFFIX}"
-        data = fetch_data(url)
-        if data:
-            all_data["diziler"].extend(data)
+    # Dizi verileri (8 sayfa)
+    for sayfa in range(8):
+        url = f"{base_url}/api/serie/by/filtres/0/created/{sayfa}{SON_EK}"
+        veri = veri_cek(url)
+        if veri:
+            tum_veri["diziler"].extend(veri)
 
-    return all_data
+    return tum_veri
 
 def main():
-    data = collect_all_data()
-    with open("qdene.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+    """Ana işlem fonksiyonu"""
+    veri = tum_verileri_topla()
+    with open("recTV_verileri.json", "w", encoding="utf-8") as dosya:
+        json.dump(veri, dosya, indent=2, ensure_ascii=False)
+    print("Veriler başarıyla kaydedildi!")
 
 if __name__ == "__main__":
     main()
