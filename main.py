@@ -2,6 +2,7 @@ import json
 import urllib.request
 import urllib.error
 import re
+import os
 import sys
 import requests
 from datetime import datetime, timezone, timedelta
@@ -68,19 +69,6 @@ def process_content(content, category_name):
                 'quality': source.get('quality', '')
             })
     return entries
-
-def generate_m3u_content(entries):
-    m3u_lines = ['#EXTM3U']
-    for entry in entries:
-        quality_str = f" [{entry['quality']}]" if entry['quality'] and entry['quality'].lower() != "none" else ""
-        m3u_lines.extend([
-            f'#EXTINF:-1 tvg-id="{entry["id"]}" tvg-name="{entry["title"]}" '
-            f'tvg-logo="{entry["image"]}" group-title="{entry["group"]}", {entry["title"]}{quality_str}',
-            f'#EXTVLCOPT:http-user-agent={USER_AGENT}',
-            f'#EXTVLCOPT:http-referrer={REFERER}',
-            entry['url']
-        )
-    return m3u_lines
 
 def update_github_file(json_data, github_token):
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE_PATH}"
