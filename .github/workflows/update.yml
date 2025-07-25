@@ -1,0 +1,26 @@
+name: Update qdene.json
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Her 6 saatte bir
+  workflow_dispatch:  # Manuel çalıştırma için
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Python kurulumu
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Bağımlılıkları yükle
+      run: pip install requests
+    
+    - name: Betiği çalıştır
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: python main.py
