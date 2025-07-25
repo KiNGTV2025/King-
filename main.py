@@ -57,16 +57,26 @@ def fetch_data(url):
             }
         )
         with urllib.request.urlopen(req, timeout=15) as response:
-            return json.loads(response.read().decode('utf-8'))
+            data = json.loads(response.read().decode('utf-8'))
+            # API yanıtının beklenen formatta olduğunu kontrol et
+            if isinstance(data, list):
+                return data
+            elif isinstance(data, dict) and 'data' in data:
+                return data['data']
+            return data
     except Exception as e:
         print(f"API hatası ({url}): {e}", file=sys.stderr)
         return None
 
 def generate_unique_id(entry, index, category):
     """Benzersiz ID oluşturma fonksiyonu"""
-    base_id = entry.get('id', '').strip()
-    title = entry.get('title', '').strip().replace(' ', '_')
-    quality = entry.get('quality', '').strip()
+    # Entry'nin dictionary olduğundan emin ol
+    if not isinstance(entry, dict):
+        return f"entry_{index}"
+    
+    base_id = str(entry.get('id', '')).strip()
+    title = str(entry.get('title', '')).strip().replace(' ', '_')
+    quality = str(entry.get('quality', '')).strip()
     
     # Özel karakterleri temizle
     clean_id = re.sub(r'[^a-zA-Z0-9_-]', '', base_id) if base_id else ""
@@ -80,21 +90,26 @@ def generate_unique_id(entry, index, category):
 def process_content(content, category_name):
     """İçeriği işle ve tüm kayıtları döndür"""
     entries = []
-    if not content.get('sources'):
+    
+    # İçeriğin beklenen formatta olduğunu kontrol et
+    if not isinstance(content, dict) or not content.get('sources'):
         return entries
     
     for source in content['sources']:
+        if not isinstance(source, dict):
+            continue
+            
         if source.get('type') == 'm3u8' and source.get('url'):
             if not all([content.get('title'), source.get('url')]):
                 continue
                 
             entries.append({
-                'id': content.get('id', ''),
-                'title': content.get('title', ''),
-                'image': content.get('image', ''),
+                'id': str(content.get('id', '')),
+                'title': str(content.get('title', '')),
+                'image': str(content.get('image', '')),
                 'group': f"ÜmitVIP~{category_name}",
-                'url': source['url'],
-                'quality': source.get('quality', ''),
+                'url': str(source['url']),
+                'quality': str(source.get('quality', '')),
                 'category': category_name
             })
     return entries
@@ -137,10 +152,11 @@ def main():
     for page in range(4):
         url = f"{base_url}/api/channel/by/filtres/0/0/{page}{SUFFIX}"
         if data := fetch_data(url):
-            for content in data:
-                entries = process_content(content, "Canlı Yayınlar")
-                all_entries.extend(entries)
-                total_count += len(entries)
+            if isinstance(data, list):
+                for content in data:
+                    entries = process_content(content, "Canlı Yayınlar")
+                    all_entries.extend(entries)
+                    total_count += len(entries)
     
     # FİLMLER (Tüm kategoriler)
     film_kategorileri = {
@@ -162,42 +178,49 @@ def main():
         for page in range(8):  # 0-7 arası sayfalar
             url = f"{base_url}/api/movie/by/filtres/{category_id}/created/{page}{SUFFIX}"
             if data := fetch_data(url):
-                for content in data:
-                    entries = process_content(content, category_name)
-                    all_entries.extend(entries)
-                    total_count += len(entries)
+                if isinstance(data, list):
+                    for content in data:
+                        entries = process_content(content, category_name)
+                        all_entries.extend(entries)
+                        total_count += len(entries)
     
     # DİZİLER (0-7 arası sayfalar)
     for page in range(8):
         url = f"{base_url}/api/serie/by/filtres/0/created/{page}{SUFFIX}"
         if data := fetch_data(url):
-            for content in data:
-                entries = process_content(content, "Son Diziler")
-                all_entries.extend(entries)
-                total_count += len(entries)
+            if isinstance(data, list):
+                for content in data:
+                    entries = process_content(content, "Son Diziler")
+                    all_entries.extend(entries)
+                    total_count += len(entries)
     
     # JSON verisini oluştur
     json_data = {}
     duplicate_count = 0
     
     for idx, entry in enumerate(all_entries, 1):
-        unique_id = generate_unique_id(entry, idx, entry['category'])
-        
-        if unique_id in json_data:
-            duplicate_count += 1
-            unique_id = f"{unique_id}_{duplicate_count}"
-        
-        json_data[unique_id] = {
-            "baslik": entry['title'],
-            "url": entry['url'],
-            "logo": entry['image'],
-            "grup": entry['group'],
-            "kalite": entry['quality']
-        }
+        try:
+            unique_id = generate_unique_id(entry, idx, entry['category'])
+            
+            if unique_id in json_data:
+                duplicate_count += 1
+                unique_id = f"{unique_id}_{duplicate_count}"
+            
+            json_data[unique_id] = {
+                "baslik": entry['title'],
+                "url": entry['url'],
+                "logo": entry['image'],
+                "grup": entry['group'],
+                "kalite": entry['quality']
+            }
+        except Exception as e:
+            print(f"Hatalı kayıt atlandı (index {idx}): {e}", file=sys.stderr)
+            continue
     
     print(f"Toplam işlenen kayıt: {total_count}")
     print(f"Oluşturulan JSON girişi: {len(json_data)}")
     print(f"Çakışma sayısı: {duplicate_count}")
+    print(f"Atlanan kayıt sayısı: {total_count - len(json_data)}")
     
     # GitHub'a yükle
     github_token = os.getenv('GITHUB_TOKEN')
