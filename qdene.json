@@ -797,6 +797,13 @@
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
   },
+  "9112": {
+    "baslik": "Osiris",
+    "url": "https://load.rectv2024live.com/hls/8/cdn1611/jQZ6Y0HE8iCUpnnnGkwo8FJzUIYBZPd7m76Yf3pv.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/b4a352ffac328af811eae90411754b92.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9106": {
     "baslik": "M3GAN 2.0",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/ieglHArugbzRhQ0OaHd7igRZunoTV8hrMkIMg1g4.mp4/index.m3u8",
@@ -1987,13 +1994,6 @@
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
-  "8174": {
-    "baslik": "Ferry 2",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/9726b47bbb5a04958b34198a1c355b89173470323412.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/61cf351af16425075f2688630e1057f4.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
   "9107": {
     "baslik": "Normal Bir Kadın",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/qjBOqpcsy91CHA3fUXBIrnoUMnrNXNeoHuWkBhFf.mp4/index.m3u8",
@@ -2334,7 +2334,7 @@
     "baslik": "The Power of the Dog",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/xcMxVe6O5DnpP0JDluiB0HFz0cQVfK9cZkKWvWFm.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/257cf6da7a55649d97ead82bd401d6d3.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Dram",
     "kalite": "None"
   },
   "8898": {
@@ -2972,6 +2972,13 @@
     "url": "https://load.rectv2024live.com/hls/11/cdn65/iNiVEnTq26QyL08bMRmi2lAF1zgDMIoi7ws7ghRW.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/2eac2ff0688cd14ff60e26fcb8b728d7.jpg",
     "grup": "ÜmitVIP~Romantik",
+    "kalite": "None"
+  },
+  "9110": {
+    "baslik": "Cehennem Gibi Bir Yaz",
+    "url": "https://load.rectv2024live.com/hls/8/cdn1611/G2BnQSL29ZzcXhc7HxRjkuZPYJYRrRs1ChbYVAm1.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/8895b397accb5392b37e29a725455f3a.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
     "kalite": "None"
   },
   "9097": {
@@ -3728,13 +3735,6 @@
     "url": "https://load.rectv2024live.com/hls/8/cdn444/JH5jKKWGvL6lBFFiXgxv3r1CvJkkltH0CgUsAKyx.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e4c2c6779c3d2ac018b2073606c11690.jpg",
     "grup": "ÜmitVIP~Komedi",
-    "kalite": "None"
-  },
-  "8400": {
-    "baslik": "Aşk Meşk: Çaresi Yok",
-    "url": "https://load.rectv2024live.com/hls/8/cdn444/hhEtxNkqKqV2IzexdXHGQRxnWwzS5Ztfr9zip0JT.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/73d312da4ce7d703b987ac1c5c40e81f.jpg",
-    "grup": "ÜmitVIP~Romantik",
     "kalite": "None"
   },
   "2787": {
@@ -4525,6 +4525,13 @@
     "baslik": "L'Amour ouf",
     "url": "https://load.rectv2024live.com/hls/8/cdn444/ga2ZYTv7osi4MDk68A7lp4AWQqe0qvPCXLhbFI6D.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/f222eae6ec96e1ac6e6d356be60b534a.jpg",
+    "grup": "ÜmitVIP~Romantik",
+    "kalite": "None"
+  },
+  "8400": {
+    "baslik": "Aşk Meşk: Çaresi Yok",
+    "url": "https://load.rectv2024live.com/hls/8/cdn444/hhEtxNkqKqV2IzexdXHGQRxnWwzS5Ztfr9zip0JT.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/73d312da4ce7d703b987ac1c5c40e81f.jpg",
     "grup": "ÜmitVIP~Romantik",
     "kalite": "None"
   },
@@ -6170,20 +6177,6 @@
     "baslik": "Blackwater Lane",
     "url": "https://load.rectv2024live.com/hls/8/cdn801/f8eab7e45208e1dd7202d08c98995a7c17344339205.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/b671c88c5e5946c88b001f7613f9297d.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "None"
-  },
-  "8151": {
-    "baslik": "Outbreak",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/af6399c34320e21d52a68cc984e6985e17343441979.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/c17aef110b0be11814827cfae301404a.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "None"
-  },
-  "8146": {
-    "baslik": "Hayali - Imaginary",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/544f991a60e9238b5b29f22caf01cd7c173425937211.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/c3c185463fcadf9ad1a133c1356471f9.jpg",
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
@@ -7944,6 +7937,13 @@
     "grup": "ÜmitVIP~Aile",
     "kalite": "None"
   },
+  "9111": {
+    "baslik": "Fantastik Dörtlü: İlk Adımlar",
+    "url": "https://load.rectv2024live.com/hls/8/cdn1611/pvzhyHdA79m0KoVu1eXwpiT3zdTvqX4pP3fjEtDt.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/df2cde745cd8ca0ff20fe5e4b2c42009.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9063": {
     "baslik": "The Unholy Trinity",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/JF44GehVGnGDFE1udgxRQTEVHo0od9kjFYC6jgWY.mp4/index.m3u8",
@@ -8238,13 +8238,6 @@
     "grup": "ÜmitVIP~Macera",
     "kalite": "None"
   },
-  "7322": {
-    "baslik": "The Last Queen",
-    "url": "https://load.rectv2024live.com/hls/11/cdn60/6737c0f476bb59e344c877de83670d5817194261667.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a18509dc8ab419bad66618783a49eeb8.jpg",
-    "grup": "ÜmitVIP~Macera",
-    "kalite": "None"
-  },
   "9042": {
     "baslik": "Felaketler Dizisi: 17.000 Davetsiz Misafir",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/7rBpdYjZCUWfp89MYRd4YLIHogItIZTW0e3c81lZ.mp4/index.m3u8",
@@ -8284,7 +8277,7 @@
     "baslik": "David Attenborough ile Okyanuslar",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/gVHV5txnRtocXNIh6j7dYoL9JLPyg4EiuKhdjFPy.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/c3509252ff577ad7e4eb8a80425705ad.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Belgesel",
     "kalite": "None"
   },
   "8883": {
@@ -9348,13 +9341,6 @@
     "baslik": "Hurry Up Tomorrow",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/RTUUndIIVEGva79mxOigXsSICBknwEuidHSxtvY8.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/1d4e6e908a33f56aa7f79dbe58275bc6.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
-    "kalite": "None"
-  },
-  "8902": {
-    "baslik": "Oda",
-    "url": "https://load.rectv2024live.com/hls/8/cdn1611/4ChhB4HPk2BmgDPUZ6GJ21OMsYiOAipGPiv3bedv.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/3db41300b4549d90fe11eca58e7b3ca0.jpg",
     "grup": "ÜmitVIP~Son Filmler",
     "kalite": "None"
   }
