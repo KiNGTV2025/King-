@@ -2974,6 +2974,20 @@
     "grup": "ÜmitVIP~Romantik",
     "kalite": "None"
   },
+  "9114": {
+    "baslik": "Cehennem Gibi Bir Yaz",
+    "url": "https://load.rectv2024live.com/hls/8/cdn1611/AwaGoPC929ZZYVzGA5Pv1SQTMicG0ZuZmy9XJytg.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/d8edf0563bb5af901af9223f7f3719b0.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
+  "9113": {
+    "baslik": "Lilo & Stiç",
+    "url": "https://load.rectv2024live.com/hls/8/cdn1611/ENPQOveqgqO0L4XJwCwBTVQYKycFqrq49B0c2Uqo.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/dcd66b7362eba90c4c5078b600cd2737.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9110": {
     "baslik": "Cehennem Gibi Bir Yaz",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/G2BnQSL29ZzcXhc7HxRjkuZPYJYRrRs1ChbYVAm1.mp4/index.m3u8",
@@ -3728,13 +3742,6 @@
     "url": "https://load.rectv2024live.com/hls/8/cdn444/io7b7WqGU50PpQyEUPR9Gc97FKi0UGUwzcANHzxR.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e6700465d322b869524f5cb7189a46ff.jpg",
     "grup": "ÜmitVIP~Aile",
-    "kalite": "None"
-  },
-  "8410": {
-    "baslik": "Koparan Kardeşler",
-    "url": "https://load.rectv2024live.com/hls/8/cdn444/JH5jKKWGvL6lBFFiXgxv3r1CvJkkltH0CgUsAKyx.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e4c2c6779c3d2ac018b2073606c11690.jpg",
-    "grup": "ÜmitVIP~Komedi",
     "kalite": "None"
   },
   "2787": {
@@ -5512,21 +5519,21 @@
     "baslik": "Pengantin Iblis",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/oSXqa3hs7Yon7nMYzgLkFOoZ7SfBoQEaMmfrX72l.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/562466687a2d7fff3679f6ac98da9d57.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
   "8905": {
     "baslik": "Kusursuz Arkadaş - Companion",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/MYLRYmOCiKlZ1Yyh87GtJL9Ax20xYPPtCCt5cosc.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/c2d546b223053ef3ecab4fec9e4c07a9.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Korku",
     "kalite": "HD"
   },
   "8905_alt1": {
     "baslik": "Kusursuz Arkadaş - Companion (HD)",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/8bKXL7d5LxrQtfQrBpDCNmAtZXcgxnvbVnvJGfGE.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/c2d546b223053ef3ecab4fec9e4c07a9.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Korku",
     "kalite": "HD"
   },
   "8893": {
@@ -6173,13 +6180,6 @@
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
-  "8159": {
-    "baslik": "Blackwater Lane",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/f8eab7e45208e1dd7202d08c98995a7c17344339205.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/b671c88c5e5946c88b001f7613f9297d.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "None"
-  },
   "9103": {
     "baslik": "A Girl Named Willow",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/jp2un6tFeIcoi4TIFrpWVCfp6GzhiHbc3BKS0P8i.mp4/index.m3u8",
@@ -6639,7 +6639,7 @@
     "baslik": "Çocuk ve Balıkçıl",
     "url": "https://load.rectv2024live.com/hls/11/cdn60/99050b60dcf6030e93330a52fd2cca5d171978478410.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/f2ddb52e1bbab1e4816a60b95f7c6907.jpg",
-    "grup": "ÜmitVIP~Macera",
+    "grup": "ÜmitVIP~Animasyon",
     "kalite": "None"
   },
   "7320": {
@@ -7598,7 +7598,7 @@
     "baslik": "Şirinler",
     "url": "https://load.rectv2024live.com/hls/10/cdn32/da1e2d6bd4732bcb75b54f7134f5b50e17113044629.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/94a49d80e937368ce0f4cb110f1a9168.jpg",
-    "grup": "ÜmitVIP~Aile",
+    "grup": "ÜmitVIP~Animasyon",
     "kalite": "None"
   },
   "6795": {
