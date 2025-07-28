@@ -797,6 +797,13 @@
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
   },
+  "9119": {
+    "baslik": "Fantastik Dörtlü 2: Gümüş Sörfçü'nün Yükselişi",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/oDBsbwtnmSpcSK6P2NThmOkr6wT5EETblUkMw91v.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/857f2e9dd34b5d7f4ddf1596b975a1b8.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9112": {
     "baslik": "Osiris",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/jQZ6Y0HE8iCUpnnnGkwo8FJzUIYBZPd7m76Yf3pv.mp4/index.m3u8",
@@ -1445,14 +1452,14 @@
     "baslik": "Hapishane",
     "url": "https://load.rectv2024live.com/hls/11/cdn65/GaAIFiK0EIpa4qBZhGnYSMaFlsxUcbAHbaA6nNvw.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/7199e4957f2dc8147d5fb54b91464957.jpg",
-    "grup": "ÜmitVIP~Dram",
+    "grup": "ÜmitVIP~Aksiyon",
     "kalite": "None"
   },
   "8575": {
     "baslik": "Deva",
     "url": "https://load.rectv2024live.com/hls/11/cdn65/6BgK3hq4y4Ag7lO4uefZD0OjC8VW3fJpR9qc6grw.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/fd561c47509af7092a70d2507f5ca527.jpg",
-    "grup": "ÜmitVIP~Dram",
+    "grup": "ÜmitVIP~Aksiyon",
     "kalite": "None"
   },
   "8567": {
@@ -1987,11 +1994,25 @@
     "grup": "ÜmitVIP~Aksiyon",
     "kalite": "None"
   },
-  "8182": {
-    "baslik": "Roxana",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/536ef3adedea920d49c25733ae255e56173490417313.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4ef5c7fdbeede668d1d0094558467a62.jpg",
-    "grup": "ÜmitVIP~Korku",
+  "9118": {
+    "baslik": "Jane Austen Hayatımı Mahvetti",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/uOhFh1g4DMlfsNF0ST3OvwSbxJqIUaLjyFJWvXQ3.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/5549b88022f0bce405e2a5d1a2d35caf.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
+  "9117": {
+    "baslik": "The Surrender",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/OgXSNoPwdvgqgdVlgSEMVALz6oNHGaJiu2e6p18G.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e3fdd352f31597a39ee3995527e3fe5f.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
+  "9116": {
+    "baslik": "Gerçek Acı - A Real Pain",
+    "url": "https://load.rectv2024live.com/hls/8/cdn1611/W9wuybBWLqyilJrzoFd2uu4FwVTD1l2hVmwp88pt.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/661943655994791154fc12e427312595.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
     "kalite": "None"
   },
   "9107": {
@@ -2313,21 +2334,21 @@
     "baslik": "Hayat Budur!",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/aDHMvC1J7KVyFQDhH6GYB90g4rncA6sz33Nwu8An.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/90a3990ecc9c877b096d2f27f7aabfbe.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Romantik",
     "kalite": "None"
   },
   "8910": {
     "baslik": "My Old Ass",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/4nA5cKBozlQhDYI19zYuNrntr4S2cKPDFCrGD9DX.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/bfb81f1a6e88f5db074f1e615093ab86.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Komedi",
     "kalite": "None"
   },
   "8909": {
     "baslik": "Viva a Vida",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/Wdxf9Hv19st5Eusixbf4cfeOYYtUrNN1y3BtjCjs.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/ac995208ed950e6eec6c9b0428cf15a3.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Romantik",
     "kalite": "None"
   },
   "8903": {
@@ -2967,13 +2988,6 @@
     "grup": "ÜmitVIP~Romantik",
     "kalite": "None"
   },
-  "8573": {
-    "baslik": "Aşk Peşinde Bir Yıl",
-    "url": "https://load.rectv2024live.com/hls/11/cdn65/iNiVEnTq26QyL08bMRmi2lAF1zgDMIoi7ws7ghRW.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/2eac2ff0688cd14ff60e26fcb8b728d7.jpg",
-    "grup": "ÜmitVIP~Romantik",
-    "kalite": "None"
-  },
   "9115": {
     "baslik": "İllegal Hayatlar: Meclis",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/FsgRZjdOOnogInkjqtC7PT1YjTw2JnjQZrwRpMmG.mp4/index.m3u8",
@@ -3167,7 +3181,7 @@
     "baslik": "Sew Torn",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/2u7x148xZxJZokBwfEzO4wmHkUJAxDJ0nKRokkp6.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/85458c0d4be031100376f9e102fe45f4.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Komedi",
     "kalite": "None"
   },
   "8899": {
@@ -3513,6 +3527,13 @@
     "grup": "ÜmitVIP~Macera",
     "kalite": "HD"
   },
+  "8573": {
+    "baslik": "Aşk Peşinde Bir Yıl",
+    "url": "https://load.rectv2024live.com/hls/11/cdn65/iNiVEnTq26QyL08bMRmi2lAF1zgDMIoi7ws7ghRW.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/2eac2ff0688cd14ff60e26fcb8b728d7.jpg",
+    "grup": "ÜmitVIP~Romantik",
+    "kalite": "None"
+  },
   "8572": {
     "baslik": "Saate Karşı",
     "url": "https://load.rectv2024live.com/hls/11/cdn65/D0VwYNMAh4esCocG8XhozMR9RZ2o4wgGlh5l7xoc.mp4/index.m3u8",
@@ -3735,20 +3756,6 @@
     "url": "https://load.rectv2024live.com/hls/8/cdn444/hlZIOEnZ9PeYlJL3glVD83AT3KVkFyJR9JKnO9oH.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/ca7cecda058f2a84cc4e268589172a80.jpg",
     "grup": "ÜmitVIP~Komedi",
-    "kalite": "None"
-  },
-  "8431": {
-    "baslik": "Krazy House",
-    "url": "https://load.rectv2024live.com/hls/8/cdn444/CzLcK7f2SDfEKIoxGZ2SqXChdkQVSmlhxwkSNXzL.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/9a6b5747388a5423a4c3f0ae0631d706.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "None"
-  },
-  "8428": {
-    "baslik": "The Present",
-    "url": "https://load.rectv2024live.com/hls/8/cdn444/io7b7WqGU50PpQyEUPR9Gc97FKi0UGUwzcANHzxR.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e6700465d322b869524f5cb7189a46ff.jpg",
-    "grup": "ÜmitVIP~Aile",
     "kalite": "None"
   },
   "2787": {
@@ -5354,13 +5361,6 @@
     "grup": "ÜmitVIP~Romantik",
     "kalite": "None"
   },
-  "7158": {
-    "baslik": "Fingernails",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/4d5fb678ad64ab1f7c30e051426d2f69171550811011.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/f702988932a14432193c6d46238226ed.jpg",
-    "grup": "ÜmitVIP~Romantik",
-    "kalite": "None"
-  },
   "9066": {
     "baslik": "Mısır Tarlasındaki Palyaço",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/WA2n5BaCTGtNtgNvfkwOza7pti7f5nghxWX8VD0j.mp4/index.m3u8",
@@ -5893,6 +5893,13 @@
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
+  "8431": {
+    "baslik": "Krazy House",
+    "url": "https://load.rectv2024live.com/hls/8/cdn444/CzLcK7f2SDfEKIoxGZ2SqXChdkQVSmlhxwkSNXzL.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/9a6b5747388a5423a4c3f0ae0631d706.jpg",
+    "grup": "ÜmitVIP~Korku",
+    "kalite": "None"
+  },
   "8420": {
     "baslik": "Cambaz",
     "url": "https://load.rectv2024live.com/hls/8/cdn444/HVbQHTjxtExWVYervQp3mpVMSxx4lMsxIlXyvcDi.mp4/index.m3u8",
@@ -6152,6 +6159,13 @@
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
+  "8182": {
+    "baslik": "Roxana",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/536ef3adedea920d49c25733ae255e56173490417313.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4ef5c7fdbeede668d1d0094558467a62.jpg",
+    "grup": "ÜmitVIP~Korku",
+    "kalite": "None"
+  },
   "8181": {
     "baslik": "The Abandon",
     "url": "https://load.rectv2024live.com/hls/8/cdn801/db01c4ce346766acb12632bbe1aab448173490413413.mp4/index.m3u8",
@@ -6177,13 +6191,6 @@
     "baslik": "Gece Yüzüşü",
     "url": "https://load.rectv2024live.com/hls/8/cdn801/d01ff8d053993a709cc3363212ac1462173460545214.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/ed3d6e113f60c24ed715923b74397bbf.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "None"
-  },
-  "8163": {
-    "baslik": "Badarawuhi di Desa Penari",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/0d9e03a81c5d225a1192797b3c18eafc173451475315.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/08afbf2d982c1ff9720cd68282f839bc.jpg",
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
@@ -6269,6 +6276,13 @@
     "url": "https://load.rectv2024live.com/hls/11/cdn65/qTcxVTgKgjWV6Ykj1KmglKpG5iEU68u7pJVbiI0L.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/db2489844bd8458c6a882a24d5d7cb79.jpg",
     "grup": "ÜmitVIP~Macera",
+    "kalite": "None"
+  },
+  "8428": {
+    "baslik": "The Present",
+    "url": "https://load.rectv2024live.com/hls/8/cdn444/io7b7WqGU50PpQyEUPR9Gc97FKi0UGUwzcANHzxR.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e6700465d322b869524f5cb7189a46ff.jpg",
+    "grup": "ÜmitVIP~Aile",
     "kalite": "None"
   },
   "8339": {
@@ -7945,14 +7959,14 @@
     "kalite": "None"
   },
   "9111": {
-    "baslik": "Fantastik Dörtlü: İlk Adımlar",
+    "baslik": "Fantastik Dörtlü 4: İlk Adımlar",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/pvzhyHdA79m0KoVu1eXwpiT3zdTvqX4pP3fjEtDt.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/df2cde745cd8ca0ff20fe5e4b2c42009.jpg",
     "grup": "ÜmitVIP~Son Filmler",
     "kalite": "None"
   },
   "9111_alt1": {
-    "baslik": "Fantastik Dörtlü: İlk Adımlar (None)",
+    "baslik": "Fantastik Dörtlü 4: İlk Adımlar (None)",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/xGmZ6SUR2KztT3UwazvhmyQZReYuterTHy5SqdZX.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/df2cde745cd8ca0ff20fe5e4b2c42009.jpg",
     "grup": "ÜmitVIP~Son Filmler",
@@ -8242,13 +8256,6 @@
     "baslik": "Üç Silahşörler: Milady",
     "url": "https://load.rectv2024live.com/hls/11/cdn60/43073f266057103c51c3e04998bb218a172038825313.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/042841d968a34ebc81b3e791e441b0b5.jpg",
-    "grup": "ÜmitVIP~Macera",
-    "kalite": "None"
-  },
-  "7331": {
-    "baslik": "Kaptan Benim",
-    "url": "https://load.rectv2024live.com/hls/11/cdn60/c223d0fd8239e1c7ed29daab9379c5c0171978481412.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e73d1145e2dcc5e877ffd87ffb054f83.jpg",
     "grup": "ÜmitVIP~Macera",
     "kalite": "None"
   },
