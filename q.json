@@ -6,6 +6,12 @@
     "grup": "ÜmitVIP~Spor"
   },
   "149": {
+    "baslik": "Bein Sports 1 [FHD]",
+    "url": "https://lively1.cf4-86.workers.dev/static/bs11.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png",
+    "grup": "ÜmitVIP~Spor"
+  },
+  "149umitmod": {
     "baslik": "Bein Sports 1 [HD]",
     "url": "https://lively1.cf4-86.workers.dev/static/bs1.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png",
@@ -91,6 +97,18 @@
   },
   "160": {
     "baslik": "S Sport Plus [HD]",
+    "url": "https://lively1.cf4-86.workers.dev/static/pl1.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg",
+    "grup": "ÜmitVIP~Spor"
+  },
+  "160umitmod": {
+    "baslik": "S Sport Plus [HD]",
+    "url": "https://lively1.cf4-86.workers.dev/static/pl2.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg",
+    "grup": "ÜmitVIP~Spor"
+  },
+  "160umitmod1": {
+    "baslik": "S Sport Plus [HD]",
     "url": "https://lively1.cf4-86.workers.dev/static/pl3.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg",
     "grup": "ÜmitVIP~Spor"
@@ -114,6 +132,42 @@
     "grup": "ÜmitVIP~Spor"
   },
   "157": {
+    "baslik": "TABİİ SPOR [HD]",
+    "url": "https://tv.arectv34.sbs/live/tabi.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg",
+    "grup": "ÜmitVIP~Spor"
+  },
+  "157umitmod": {
+    "baslik": "TABİİ SPOR [HD]",
+    "url": "https://tv.arectv34.sbs/live/tabi1.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg",
+    "grup": "ÜmitVIP~Spor"
+  },
+  "157umitmod1": {
+    "baslik": "TABİİ SPOR [HD]",
+    "url": "https://tv.arectv34.sbs/live/tabi2.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg",
+    "grup": "ÜmitVIP~Spor"
+  },
+  "157umitmod2": {
+    "baslik": "TABİİ SPOR [HD]",
+    "url": "https://tv.arectv34.sbs/live/tabi3.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg",
+    "grup": "ÜmitVIP~Spor"
+  },
+  "157umitmod3": {
+    "baslik": "TABİİ SPOR [HD]",
+    "url": "https://tv.arectv34.sbs/live/tabi4.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg",
+    "grup": "ÜmitVIP~Spor"
+  },
+  "157umitmod4": {
+    "baslik": "TABİİ SPOR [HD]",
+    "url": "https://tv.arectv34.sbs/live/tabi5.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg",
+    "grup": "ÜmitVIP~Spor"
+  },
+  "157umitmod5": {
     "baslik": "TABİİ SPOR [HD]",
     "url": "https://tv.arectv34.sbs/live/tabi6.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg",
@@ -379,6 +433,12 @@
   },
   "30": {
     "baslik": "VIASAT HISTORY [HD]",
+    "url": "https://tv.arectv34.sbs/live/viasathistory.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/8ea2619561935fed906ee2278d5fa961.png",
+    "grup": "ÜmitVIP~Belgesel"
+  },
+  "30umitmod": {
+    "baslik": "VIASAT HISTORY [HD]",
     "url": "https://tv.arectv34.sbs/live/viasatexplore.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/8ea2619561935fed906ee2278d5fa961.png",
     "grup": "ÜmitVIP~Belgesel"
@@ -493,6 +553,12 @@
   },
   "56": {
     "baslik": "Sinema TV Yerli [HD]",
+    "url": "https://tv.arectv34.sbs/live/sinemayerli.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png",
+    "grup": "ÜmitVIP~Sinema"
+  },
+  "56umitmod": {
+    "baslik": "Sinema TV Yerli [HD]",
     "url": "https://tv.arectv34.sbs/live/sinemayerli2.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png",
     "grup": "ÜmitVIP~Sinema"
@@ -558,6 +624,12 @@
     "grup": "ÜmitVIP~Çocuk"
   },
   "10": {
+    "baslik": "FASHION TV [HD]",
+    "url": "https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/0ae3cc600b74755cd008b1695c274f3c.png",
+    "grup": "ÜmitVIP~Diğer"
+  },
+  "10umitmod": {
     "baslik": "FASHION TV [HD]",
     "url": "https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/playlist.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/0ae3cc600b74755cd008b1695c274f3c.png",
