@@ -1994,6 +1994,20 @@
     "grup": "ÜmitVIP~Aksiyon",
     "kalite": "None"
   },
+  "9121": {
+    "baslik": "The Life of Chuck",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/LInzwZL2PaJrT0KUJNnOtiikJOJpMU7o9pYAr3W4.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/26187905164f60edade8ec0331658c28.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
+  "9120": {
+    "baslik": "The Movie Teller",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/v6qZ04XWuMz7DCooaE96BMIA8nRU0ZXNb6eibGwh.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/93454431d472d846f5b6889d46b115a4.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9118": {
     "baslik": "Jane Austen Hayatımı Mahvetti",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/uOhFh1g4DMlfsNF0ST3OvwSbxJqIUaLjyFJWvXQ3.mp4/index.m3u8",
@@ -2327,7 +2341,7 @@
     "baslik": "Karantina",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/iLOynOM1U1SOGOSXu4FoxltwkdWfD4cUpKNN11NE.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/09d4c2fd73da66a8e9597af08fd8b240.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Dram",
     "kalite": "None"
   },
   "8913": {
@@ -2972,20 +2986,6 @@
     "url": "https://load.rectv2024live.com/hls/11/cdn65/3JnLOwQRlQZbasT2OpHGK8woYKwlCK4BYNDl0sZd.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/f8dbe7d268f8b6fad90b56381a67c592.jpg",
     "grup": "ÜmitVIP~Korku",
-    "kalite": "None"
-  },
-  "8587": {
-    "baslik": "Kara Torba Operasyonu - Black Bag",
-    "url": "https://load.rectv2024live.com/hls/11/cdn65/hvWw9labb4lSAuICxS3dNvQvJO1ATHEJI9dgc4Rg.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/d8dfbbf6c6cccfccd24dc0d457df62c2.jpg",
-    "grup": "ÜmitVIP~Dram",
-    "kalite": "None"
-  },
-  "8581": {
-    "baslik": "Vadedilmiş Kalpler",
-    "url": "https://load.rectv2024live.com/hls/11/cdn65/ASzGu1WiCkGQzxYm66jiLaoIGtbYUjKAH4mWPmC2.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/748d669306d6304744bbc5bc00db8bd4.jpg",
-    "grup": "ÜmitVIP~Romantik",
     "kalite": "None"
   },
   "9115": {
@@ -4500,6 +4500,13 @@
     "grup": "ÜmitVIP~Macera",
     "kalite": "None"
   },
+  "8581": {
+    "baslik": "Vadedilmiş Kalpler",
+    "url": "https://load.rectv2024live.com/hls/11/cdn65/ASzGu1WiCkGQzxYm66jiLaoIGtbYUjKAH4mWPmC2.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/748d669306d6304744bbc5bc00db8bd4.jpg",
+    "grup": "ÜmitVIP~Romantik",
+    "kalite": "None"
+  },
   "8571": {
     "baslik": "Aşk ve Küller",
     "url": "https://load.rectv2024live.com/hls/11/cdn65/Ruzbfk2Tu3SmymtG1CgxUwL4c1lkpf7lDoUN9oBr.mp4/index.m3u8",
@@ -5361,6 +5368,13 @@
     "grup": "ÜmitVIP~Romantik",
     "kalite": "None"
   },
+  "9122": {
+    "baslik": "28 Yıl Sonra",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/G94jAEWGFlPwm90s6uNTOL5yZHriuP3SwzyZl0Qp.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/aee49169c1e1659920b9bb3a7ef2bf5c.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9066": {
     "baslik": "Mısır Tarlasındaki Palyaço",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/WA2n5BaCTGtNtgNvfkwOza7pti7f5nghxWX8VD0j.mp4/index.m3u8",
@@ -6186,13 +6200,6 @@
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/d86b190bd73eca6890f4c6530b751af0.jpg",
     "grup": "ÜmitVIP~Korku",
     "kalite": "Xbet"
-  },
-  "8167": {
-    "baslik": "Gece Yüzüşü",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/d01ff8d053993a709cc3363212ac1462173460545214.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/ed3d6e113f60c24ed715923b74397bbf.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "None"
   },
   "9103": {
     "baslik": "A Girl Named Willow",
@@ -7031,13 +7038,6 @@
     "baslik": "Hobbit: Smaug'un Çorak Toprakları",
     "url": "https://load.rectv2024live.com/hls/10/cdn32/70a388c24b77cc7c2fa3620a905c3240171131325011.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/1eb46a0d260e36e11da1c4f8b81dcdee.jpg",
-    "grup": "ÜmitVIP~Fantastik",
-    "kalite": "None"
-  },
-  "6827": {
-    "baslik": "Hobbit: Beklenmedik Yolculuk",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/409f86672d4c59e353536b3124b1dc5817113132159.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/1e757446ab7f36900d093bc35aa754ab.jpg",
     "grup": "ÜmitVIP~Fantastik",
     "kalite": "None"
   },
@@ -8291,7 +8291,7 @@
     "baslik": "ASTROWORLD FACİASI",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/UUUBvC06MwzewCHLupcvz0AsTU5jJhs2A7frP6bZ.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/b937894f3784b05acc15fe59356bafb9.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Belgesel",
     "kalite": "None"
   },
   "8904": {
@@ -9355,13 +9355,6 @@
     "baslik": "Legend of the Forest",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/hvYyMRgJb8xe0nYwNU4oOhHbIej1dZbzuWb4EUTH.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/d5083186b09938c9b9c491141bbc081c.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
-    "kalite": "None"
-  },
-  "8914": {
-    "baslik": "Hurry Up Tomorrow",
-    "url": "https://load.rectv2024live.com/hls/8/cdn1611/RTUUndIIVEGva79mxOigXsSICBknwEuidHSxtvY8.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/1d4e6e908a33f56aa7f79dbe58275bc6.jpg",
     "grup": "ÜmitVIP~Son Filmler",
     "kalite": "None"
   }
