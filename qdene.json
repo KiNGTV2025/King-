@@ -1123,7 +1123,7 @@
     "baslik": "Gizli Görev - Deep Cover",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/ixnqO54XGHTO3c89U966m0uCnqrxeyXUd4Cpt0Hq.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/8c5bfe9f3f1b96013e9415ce615a15ed.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Komedi",
     "kalite": "None"
   },
   "8896": {
@@ -1445,7 +1445,7 @@
     "baslik": "The Prosecutor",
     "url": "https://load.rectv2024live.com/hls/11/cdn65/6Hxk457gCltZQLJc674LvGoK6P8XJpbzasTvCePs.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/f870240b8db7747d215445d2adb4b8f4.jpg",
-    "grup": "ÜmitVIP~Dram",
+    "grup": "ÜmitVIP~Aksiyon",
     "kalite": "None"
   },
   "8576": {
@@ -1994,6 +1994,20 @@
     "grup": "ÜmitVIP~Aksiyon",
     "kalite": "None"
   },
+  "9124": {
+    "baslik": "Uçuş Planı",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/CsRt3olL6Pi71BtpeqqXY8gLKS6Pw28bfEpqVXWY.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/61df69d79aa2c4a15ec24f8e07c73acd.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
+  "9123": {
+    "baslik": "Uçurtmayı Vurmasınlar",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/MEgBTELzUiuEn9EBX3U2NQFlyjHCITtdiBeouWss.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/81c1895d5d2f9f3fa5d4e5b2026a9f37.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9121": {
     "baslik": "The Life of Chuck",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/LInzwZL2PaJrT0KUJNnOtiikJOJpMU7o9pYAr3W4.mp4/index.m3u8",
@@ -2334,7 +2348,7 @@
     "baslik": "Tanımlanamayan",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/A4Vyuwiv4a3NsyUsyNHZueEQt9mascApKlZjYHKL.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/0afafd7a08fcafa7da250470094352b0.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Komedi",
     "kalite": "None"
   },
   "8916": {
@@ -2979,13 +2993,6 @@
     "url": "https://load.rectv2024live.com/hls/11/cdn65/6rTOu8jBigxtfMBIvcs7SkgoVkhQXUUJpngqsP00.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/499dbcbfba67e549e2245976b6d3232e.jpg",
     "grup": "ÜmitVIP~Romantik",
-    "kalite": "None"
-  },
-  "8590": {
-    "baslik": "Varlık",
-    "url": "https://load.rectv2024live.com/hls/11/cdn65/3JnLOwQRlQZbasT2OpHGK8woYKwlCK4BYNDl0sZd.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/f8dbe7d268f8b6fad90b56381a67c592.jpg",
-    "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
   "9115": {
@@ -5813,6 +5820,13 @@
     "baslik": "Popeye the Slayer Man",
     "url": "https://load.rectv2024live.com/hls/11/cdn65/rYg2B5bMMNvDFiN49jB9oT88ItFClB772u5XGkDh.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/cf49e9194acd0772d58051435b0c80a1.jpg",
+    "grup": "ÜmitVIP~Korku",
+    "kalite": "None"
+  },
+  "8590": {
+    "baslik": "Varlık",
+    "url": "https://load.rectv2024live.com/hls/11/cdn65/3JnLOwQRlQZbasT2OpHGK8woYKwlCK4BYNDl0sZd.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/f8dbe7d268f8b6fad90b56381a67c592.jpg",
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
