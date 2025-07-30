@@ -5376,11 +5376,18 @@
     "kalite": "None"
   },
   "9122": {
-    "baslik": "28 Yıl Sonra",
+    "baslik": "28 Yıl Sonra - 28 Years Later",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/G94jAEWGFlPwm90s6uNTOL5yZHriuP3SwzyZl0Qp.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/aee49169c1e1659920b9bb3a7ef2bf5c.jpg",
     "grup": "ÜmitVIP~Son Filmler",
-    "kalite": "None"
+    "kalite": "HD"
+  },
+  "9122_alt1": {
+    "baslik": "28 Yıl Sonra - 28 Years Later (Xbet)",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/yE0gZ4NsbzOHi6kqH0fyc3ztT9BleT7rmOLvSltW.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/aee49169c1e1659920b9bb3a7ef2bf5c.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "Xbet"
   },
   "9066": {
     "baslik": "Mısır Tarlasındaki Palyaço",
