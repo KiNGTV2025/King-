@@ -2001,6 +2001,13 @@
     "grup": "ÜmitVIP~Fantastik",
     "kalite": "None"
   },
+  "9138": {
+    "baslik": "Sev Beni - Love Me",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/fkN5Y7zm4AR6KOMADWSNQuCkLy646IzLGz8bnonn.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/6ecb8d7958fa318277e9f08101502c45.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9124": {
     "baslik": "Uçuş Planı",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/CsRt3olL6Pi71BtpeqqXY8gLKS6Pw28bfEpqVXWY.mp4/index.m3u8",
@@ -2341,7 +2348,7 @@
     "baslik": "Kefenler - The Shrouds",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/WSfHtTNDkGCArAQryKCR6ulJH9NUKRrcUyyhS2RM.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/661b9e68085cc13705eab831216f878b.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Dram",
     "kalite": "None"
   },
   "8921": {
@@ -2995,13 +3002,6 @@
     "grup": "ÜmitVIP~Dram",
     "kalite": "None"
   },
-  "8599": {
-    "baslik": "Bridget Jones: Onun İçin Çıldırıyor",
-    "url": "https://load.rectv2024live.com/hls/11/cdn65/6rTOu8jBigxtfMBIvcs7SkgoVkhQXUUJpngqsP00.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/499dbcbfba67e549e2245976b6d3232e.jpg",
-    "grup": "ÜmitVIP~Romantik",
-    "kalite": "None"
-  },
   "9130": {
     "baslik": "Get Away - Kaçamak",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/E8iGvL13byve3Ys1HBSUg7OFHshzsMz0eX2h28eT.mp4/index.m3u8",
@@ -3525,6 +3525,13 @@
     "url": "https://load.rectv2024live.com/hls/11/cdn65/84JdDbeLtO8zCKJb4JJc4EX7WdQKi0jYH5RGmzKP.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/9a3caed84a23b40cca45174a49a8714d.jpg",
     "grup": "ÜmitVIP~Macera",
+    "kalite": "None"
+  },
+  "8599": {
+    "baslik": "Bridget Jones: Onun İçin Çıldırıyor",
+    "url": "https://load.rectv2024live.com/hls/11/cdn65/6rTOu8jBigxtfMBIvcs7SkgoVkhQXUUJpngqsP00.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/499dbcbfba67e549e2245976b6d3232e.jpg",
+    "grup": "ÜmitVIP~Romantik",
     "kalite": "None"
   },
   "8596": {
@@ -5374,13 +5381,6 @@
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e8a834f7fa0a5403659e3bcb6ca8b991.jpg",
     "grup": "ÜmitVIP~Romantik",
     "kalite": "HD"
-  },
-  "7160": {
-    "baslik": "Tre di troppo",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/fb18d376219907e168c6cd0c6479164c171554432014.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/6e87769f329165da376d1552c0348df7.jpg",
-    "grup": "ÜmitVIP~Romantik",
-    "kalite": "None"
   },
   "9135": {
     "baslik": "Vahşi Değişim",
@@ -7773,13 +7773,6 @@
     "baslik": "Süper Aile",
     "url": "https://load.rectv2024live.com/7/cdn333/f1c1d9b8-369e-495f-a8d6-3b4921e68603/f1c1d9b8-369e-495f-a8d6-3b4921e68603-master.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/692783efbc9635bc6361defab2daebef.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6432": {
-    "baslik": "Pinokyo: Sihirli Yolculuk",
-    "url": "https://load.rectv2024live.com/7/cdn333/4ee0a8dd-97b2-4995-876e-0178100d870b/4ee0a8dd-97b2-4995-876e-0178100d870b-master.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a975d42a37a9a35e8723b28fbc03138c.jpg",
     "grup": "ÜmitVIP~Animasyon",
     "kalite": "None"
   },
