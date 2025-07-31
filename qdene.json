@@ -797,6 +797,13 @@
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
   },
+  "9137": {
+    "baslik": "Beowulf: Ölümsüz Savaşçı",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/HBHl4qeaacVDruYvP3NDZ6oMdDZJBhzUfm3SILqf.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/c237a9849644595a876839c18b1e33b0.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9119": {
     "baslik": "Fantastik Dörtlü 2: Gümüş Sörfçü'nün Yükselişi",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/oDBsbwtnmSpcSK6P2NThmOkr6wT5EETblUkMw91v.mp4/index.m3u8",
@@ -1123,7 +1130,7 @@
     "baslik": "Cells At Work!",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/0vC3E13YdDBcUAeNVwSo4vXKAKoLGAOsskzRAX8K.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/0332641b92f20d46993dc37a12cf2c61.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Macera",
     "kalite": "None"
   },
   "8919": {
@@ -1992,13 +1999,6 @@
     "url": "https://load.rectv2024live.com/hls/8/cdn801/8de9c9f06af05cec09278c1ec6d6d58617349041525.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/ccaa06aa42a67a80d9d3e6017926f2ca.jpg",
     "grup": "ÜmitVIP~Fantastik",
-    "kalite": "None"
-  },
-  "8183": {
-    "baslik": "Cold Road",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/ec882766b6e4010941b6b6f23f728920173494859613.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4b098b8112bf8face539346d9770fdb9.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
     "kalite": "None"
   },
   "9124": {
@@ -5382,6 +5382,13 @@
     "grup": "ÜmitVIP~Romantik",
     "kalite": "None"
   },
+  "9135": {
+    "baslik": "Vahşi Değişim",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/oLfOHf4KsROLq1zAJjwQFyBxERvZl0Aq7kyqx5r3.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/170bead0d05af1c51a33d3ff74401e3f.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9122": {
     "baslik": "28 Yıl Sonra - 28 Years Later",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/G94jAEWGFlPwm90s6uNTOL5yZHriuP3SwzyZl0Qp.mp4/index.m3u8",
@@ -5533,21 +5540,21 @@
     "baslik": "Şeytan Ayini",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/A8n0TGXllhvlocoFpCDhkedRwvdhyAuqAOn5dve0.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/166265bc9dd60092728c27c63a92d06d.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Korku",
     "kalite": "HD"
   },
   "8924_alt1": {
     "baslik": "Şeytan Ayini (HD)",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/VoPZLJtlcdh2jAiBuY3sFGuKKGee32cq5RoG7IC1.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/166265bc9dd60092728c27c63a92d06d.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Korku",
     "kalite": "HD"
   },
   "8923": {
     "baslik": "Clown in a Cornfield",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/qTsO3O7n8jRgmbksAyQfDVgbUx8DiwSIrB9MlH76.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/72c84523e5717d252911e2168189399a.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
   "8907": {
@@ -6205,13 +6212,6 @@
     "baslik": "Roxana",
     "url": "https://load.rectv2024live.com/hls/8/cdn801/536ef3adedea920d49c25733ae255e56173490417313.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4ef5c7fdbeede668d1d0094558467a62.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "None"
-  },
-  "8181": {
-    "baslik": "The Abandon",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/db01c4ce346766acb12632bbe1aab448173490413413.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/d35eeda4c7b5d77b59a9eabbffc523ce.jpg",
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
@@ -7409,7 +7409,7 @@
     "baslik": "Altın Gaga ve Macera Çetesi",
     "url": "https://load.rectv2024live.com/hls/11/cdn60/d59b4540bec1e9480167fe7b9fea4c73172002959815.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/99958762c31209290714afd1a56035f0.jpg",
-    "grup": "ÜmitVIP~Macera",
+    "grup": "ÜmitVIP~Aile",
     "kalite": "None"
   },
   "7323": {
@@ -7780,13 +7780,6 @@
     "baslik": "Pinokyo: Sihirli Yolculuk",
     "url": "https://load.rectv2024live.com/7/cdn333/4ee0a8dd-97b2-4995-876e-0178100d870b/4ee0a8dd-97b2-4995-876e-0178100d870b-master.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a975d42a37a9a35e8723b28fbc03138c.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6419": {
-    "baslik": "maboroshi",
-    "url": "https://load.rectv2024live.com/7/cdn333/32aa0eb7-884e-4ebf-9431-844489d65345/32aa0eb7-884e-4ebf-9431-844489d65345-master.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/2d4f2ea80b6802ef940ce075540ca25e.jpg",
     "grup": "ÜmitVIP~Animasyon",
     "kalite": "None"
   },
@@ -9343,6 +9336,13 @@
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/69df52846cfcd0ce0fe5e046f9b23155.jpg",
     "grup": "ÜmitVIP~Belgesel",
     "kalite": "HD"
+  },
+  "9136": {
+    "baslik": "Napoli'nin Sırrı",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/K8VIkWakG7TLpVWfywZNyKvB38iKGAHxnt2P7EdJ.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/be8aa8cd61b34c12c9634ea3ed774bc5.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
   },
   "9129": {
     "baslik": "War of the Worlds",
