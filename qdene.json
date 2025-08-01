@@ -1109,21 +1109,21 @@
     "baslik": "Alappuzha Gymkhana",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/2UnCjwu1xX3LxWYyNyEjuHFNBaQDZK6MuEEeD6j2.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/81f8bb8d68434f059d4d9e4051b89ef3.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Komedi",
     "kalite": "None"
   },
   "8928": {
     "baslik": "Ejderhanı Nasıl Eğitirsin",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/kwHnDXjBQKAVws5s5ZARgEJgHwjuL2NkQugvPThC.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/60c5cf99b23434aa6885477b1261505e.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Aile",
     "kalite": "Xbet"
   },
   "8928_alt1": {
     "baslik": "Ejderhanı Nasıl Eğitirsin (HD)",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/SIKweLcnbxTEwfxy39zT8lZrdi2u346IDP1oisYL.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/60c5cf99b23434aa6885477b1261505e.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Aile",
     "kalite": "HD"
   },
   "8922": {
@@ -1999,6 +1999,20 @@
     "url": "https://load.rectv2024live.com/hls/8/cdn801/8de9c9f06af05cec09278c1ec6d6d58617349041525.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/ccaa06aa42a67a80d9d3e6017926f2ca.jpg",
     "grup": "ÜmitVIP~Fantastik",
+    "kalite": "None"
+  },
+  "9144": {
+    "baslik": "Samia",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/CnwdFAdeKrq1cqHXizBGvAv0ogrbuxj2J8GdDArb.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/fd75828957a56841b9b451b5dfe63569.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
+  "9141": {
+    "baslik": "My Oxford Year",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/JlyY81m8aqor6G0sJB97sGAbqhhuwoJ7jEzBom8d.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a726409ea286969c9a38c96357a40fe1.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
     "kalite": "None"
   },
   "9138": {
@@ -2988,20 +3002,6 @@
     "grup": "ÜmitVIP~Komedi",
     "kalite": "None"
   },
-  "8604": {
-    "baslik": "Sergio & Serguéi",
-    "url": "https://load.rectv2024live.com/hls/11/cdn65/w3wabWMaDjmKGKPzWEF1epZxS2iTE5WoK9c5sAkK.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/7b866e08ce61eafc3247c6d6e2154671.jpg",
-    "grup": "ÜmitVIP~Dram",
-    "kalite": "None"
-  },
-  "8603": {
-    "baslik": "Testler",
-    "url": "https://load.rectv2024live.com/hls/11/cdn65/XAqln3LGI0MQxhzO5JDIK3zFrpnifl77OeqdIepB.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/037aaf3ce0b48d468b9745898b7afb9b.jpg",
-    "grup": "ÜmitVIP~Dram",
-    "kalite": "None"
-  },
   "9130": {
     "baslik": "Get Away - Kaçamak",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/E8iGvL13byve3Ys1HBSUg7OFHshzsMz0eX2h28eT.mp4/index.m3u8",
@@ -3188,7 +3188,7 @@
     "baslik": "Morgan: Killer Doll",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/xyzHDeCzICBVNTPnmZntwTnkOL7zGOMyQZCVgyWD.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/94941c6008cc3146d43c23d8fb6d6c09.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
   "8920": {
@@ -5368,19 +5368,12 @@
     "grup": "ÜmitVIP~Aile",
     "kalite": "None"
   },
-  "7178": {
-    "baslik": "Rekabet - Challengers",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/787a1a5cb45a808311ca6ce9ce56211c171596957113.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e8a834f7fa0a5403659e3bcb6ca8b991.jpg",
-    "grup": "ÜmitVIP~Romantik",
-    "kalite": "HD"
-  },
-  "7178_alt1": {
-    "baslik": "Rekabet - Challengers (HD)",
-    "url": "https://load.rectv2024live.com/hls/11/cdn60/f7725cea06fa4644644fca73f48e1dab17194255907.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e8a834f7fa0a5403659e3bcb6ca8b991.jpg",
-    "grup": "ÜmitVIP~Romantik",
-    "kalite": "HD"
+  "9142": {
+    "baslik": "Şeytan Tohumları",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/OKvTIgbBBUzuAU8W8WpEIjsqJDQtIceQ4wBDD2Ok.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/69c17993961c4fcc412084f6b81afbbd.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
   },
   "9135": {
     "baslik": "Vahşi Değişim",
@@ -6205,13 +6198,6 @@
     "baslik": "Daddy's Head",
     "url": "https://load.rectv2024live.com/hls/8/cdn801/7d62ca8240eaad907777269363eb7f9317349535249.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/98bea4773f57c4aae39c5a00f410cba8.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "None"
-  },
-  "8182": {
-    "baslik": "Roxana",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/536ef3adedea920d49c25733ae255e56173490417313.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4ef5c7fdbeede668d1d0094558467a62.jpg",
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
@@ -7626,7 +7612,7 @@
     "baslik": "Şirinler 2",
     "url": "https://load.rectv2024live.com/hls/10/cdn32/085c25e9fd26e25ec0f0096cee9b58d817113044848.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/505a12bedd1821081ec6b53336b5c368.jpg",
-    "grup": "ÜmitVIP~Aile",
+    "grup": "ÜmitVIP~Animasyon",
     "kalite": "None"
   },
   "6819": {
