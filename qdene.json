@@ -1102,7 +1102,7 @@
     "baslik": "Diablo",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/vmTfwupanUCJQQBeP4737K9YUgA4kSe4EjkAiypS.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/8b59ff4a077593bbca4d6f4ff4e6985f.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Aksiyon",
     "kalite": "None"
   },
   "8930": {
@@ -2355,7 +2355,7 @@
     "baslik": "Mountainhead",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/P6nUn0YZL22HBY1YiiNXNqGl40e37PrbHMi2YGNb.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4a7bea56493448bef7adf9fe117db2d5.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Komedi",
     "kalite": "None"
   },
   "8926": {
@@ -3002,6 +3002,20 @@
     "grup": "ÜmitVIP~Komedi",
     "kalite": "None"
   },
+  "9145": {
+    "baslik": "The Monkey",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/QKZB9bmtfbApTiMDJa80kfYaUtQuXhyAyJFCkp28.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/9282961b59dfb10bc4afaf1e732d766c.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "HD"
+  },
+  "9145_alt1": {
+    "baslik": "The Monkey (HD)",
+    "url": "https://load.rectv2024live.com/hls/11/cdn65/Mg6UPmg0T4Hl77y6FF3eSCHXDWPR1lP0v62pmToC.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/9282961b59dfb10bc4afaf1e732d766c.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "HD"
+  },
   "9130": {
     "baslik": "Get Away - Kaçamak",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/E8iGvL13byve3Ys1HBSUg7OFHshzsMz0eX2h28eT.mp4/index.m3u8",
@@ -3490,13 +3504,6 @@
     "url": "https://load.rectv2024live.com/hls/11/cdn65/R9wW4edTNXy17isYByZD1m9bnFb9sOdpY1xpm3fa.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/5701bf1bcaf6a0a02619ba089c7a3f99.jpg",
     "grup": "ÜmitVIP~Romantik",
-    "kalite": "None"
-  },
-  "8627": {
-    "baslik": "The Monkey",
-    "url": "https://load.rectv2024live.com/hls/11/cdn65/Mg6UPmg0T4Hl77y6FF3eSCHXDWPR1lP0v62pmToC.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/6b02cb1a15a52dee754f988b2bde6cbc.jpg",
-    "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
   "8618": {
@@ -5368,6 +5375,20 @@
     "grup": "ÜmitVIP~Aile",
     "kalite": "None"
   },
+  "9146": {
+    "baslik": "Son Durak: Kan Bağı",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/2kCmQxw067tUouR19ngDSwvEIQ6tap197SVbko8X.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/5e07edcf6e935e6ca2b50a5cd69bff01.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "HD"
+  },
+  "9146_alt1": {
+    "baslik": "Son Durak: Kan Bağı (HD)",
+    "url": "https://load.rectv2024live.com/hls/8/cdn1611/YYJBjahZUHKSuSrYh2nNdLMIqn0WFJlOIumaLqDa.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/5e07edcf6e935e6ca2b50a5cd69bff01.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "HD"
+  },
   "9142": {
     "baslik": "Şeytan Tohumları",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/OKvTIgbBBUzuAU8W8WpEIjsqJDQtIceQ4wBDD2Ok.mp4/index.m3u8",
@@ -5647,20 +5668,6 @@
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/7f6219b437ca99426714b73566a41564.jpg",
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
-  },
-  "8806": {
-    "baslik": "Son Durak: Kan Bağı",
-    "url": "https://load.rectv2024live.com/hls/8/cdn1611/YYJBjahZUHKSuSrYh2nNdLMIqn0WFJlOIumaLqDa.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/abf8f616f74e1a6afc14feedfe40e482.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "HD"
-  },
-  "8806_alt1": {
-    "baslik": "Son Durak: Kan Bağı (Xbet)",
-    "url": "https://load.rectv2024live.com/hls/8/cdn1611/66CHdjbhcav0MD5jgOuBz1EMVHVhrKTcx81lNRON.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/abf8f616f74e1a6afc14feedfe40e482.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "Xbet"
   },
   "8803": {
     "baslik": "Sting",
@@ -5949,13 +5956,6 @@
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
-  "8417": {
-    "baslik": "The Monkey",
-    "url": "https://load.rectv2024live.com/hls/8/cdn1611/lQebV0oh7nVhKPiHUZ2yzkJNiTsQydDS7eVrFHyW.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/855c3b5be7f462ee6ca591cfae3fa418.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "None"
-  },
   "8399": {
     "baslik": "Soğuk Nehir",
     "url": "https://load.rectv2024live.com/hls/8/cdn444/B98wAKHvaBVD9N0UdQyZDlGCzXoNPjvWFo52oKYc.mp4/index.m3u8",
@@ -6198,6 +6198,13 @@
     "baslik": "Daddy's Head",
     "url": "https://load.rectv2024live.com/hls/8/cdn801/7d62ca8240eaad907777269363eb7f9317349535249.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/98bea4773f57c4aae39c5a00f410cba8.jpg",
+    "grup": "ÜmitVIP~Korku",
+    "kalite": "None"
+  },
+  "8182": {
+    "baslik": "Roxana",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/536ef3adedea920d49c25733ae255e56173490417313.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4ef5c7fdbeede668d1d0094558467a62.jpg",
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
