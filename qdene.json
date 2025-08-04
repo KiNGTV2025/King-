@@ -797,6 +797,13 @@
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
   },
+  "9156": {
+    "baslik": "Uzay Oyunları",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/oL2sdghOKU7pFsMB443I8zcaL6E4mRUGju0tvLmI.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4aadcda3a61dbae9598c9e4706f7f4ca.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9148": {
     "baslik": "Saýara: İntikam Meleği",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/m9ofdy6Jq46jPp5oHqbg0tLuHcDqGGUkvyR2lx06.mp4/index.m3u8",
@@ -1994,13 +2001,6 @@
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
-  "8187": {
-    "baslik": "Ölümcül Sır",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/1529cccea853c4804f87520281d6eff417349534916.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a91d03b3f782f89f28f3c873b4e3ad4c.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
   "9155": {
     "baslik": "Seven Veils",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/mSDlETfleFIiGS2zfnlSajSGiuqDaIJsfnpxZWac.mp4/index.m3u8",
@@ -3188,7 +3188,7 @@
     "baslik": "Reel İstanbul Organize",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/jRtdSscrVbxfbU1bqn2X948MLep8sAtGDSRRGaHe.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/6e2d0f9491b6239edf8cdf5531c4e5a4.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Komedi",
     "kalite": "None"
   },
   "8942": {
@@ -6674,7 +6674,7 @@
     "baslik": "Hayalî",
     "url": "https://load.rectv2024live.com/hls/11/cdn60/0b5268063e4ce5e94a466189a6b64f7e172019912112.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/85467f2836ca40cc0b23ae58660b4f52.jpg",
-    "grup": "ÜmitVIP~Macera",
+    "grup": "ÜmitVIP~Aile",
     "kalite": "None"
   },
   "7330": {
