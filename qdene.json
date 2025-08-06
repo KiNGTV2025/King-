@@ -797,6 +797,13 @@
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
   },
+  "9164": {
+    "baslik": "The Pickup",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/f5r5pogI053lHmfgFnTRK9FiGZ8dPBcuFRe8428W.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/80a2882b47dd16b8919f04337902f4a2.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9162": {
     "baslik": "Jurassic World: Rebirth",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/Dbz3TOuUT9CU1cb20EIIPnK4fngdEqM5lw1h5Tst.mp4/index.m3u8",
@@ -1459,7 +1466,7 @@
     "baslik": "G20",
     "url": "https://load.rectv2024live.com/hls/11/cdn65/ielIgIliIpa91sATEAtoaXlNti4QNKjgHv7d0xqt.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/8f76297075a799f78e71d71ed1ffeaa1.jpg",
-    "grup": "ÜmitVIP~Dram",
+    "grup": "ÜmitVIP~Aksiyon",
     "kalite": "None"
   },
   "8619": {
@@ -1994,11 +2001,11 @@
     "grup": "ÜmitVIP~Aksiyon",
     "kalite": "None"
   },
-  "8198": {
-    "baslik": "Keskin Nişancı: K.M.İ.T. - Küresel Müdahale ve İstihbarat Timi",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/23966fad040e783fbdeb15190a1f34d9173514557213.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/034bf5fb3e89785575b219531d2f4c2f.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
+  "9163": {
+    "baslik": "Heldin",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/MnY0Yyy4ASJgYKuE8jNpCUEAaJhWca1EvRpxDMTb.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/569da0eefffd2b70a06b731029df39c3.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
     "kalite": "None"
   },
   "9160": {
@@ -3167,21 +3174,21 @@
     "baslik": "Bir Minecraft Filmi",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/4jsG3rkly4XdG0NDS6xMHyUWDpzmN79K0EnRjdTN.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4f648f4f598f7dca8c9d2e432d5d5635.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Macera",
     "kalite": "HD"
   },
   "8959_alt1": {
     "baslik": "Bir Minecraft Filmi (HD)",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/LpZwB1nfipbp899aZaJ5ktdPcurpTmbJO33DxCYo.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4f648f4f598f7dca8c9d2e432d5d5635.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Macera",
     "kalite": "HD"
   },
   "8957": {
     "baslik": "Tezgah",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/rejU2CQbPE9g2ZUYk8VZQKAbH2KSyESxpEmBdCOw.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/40c93850264c6a4122c54f26f85b88b0.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Komedi",
     "kalite": "None"
   },
   "8947": {
@@ -3778,20 +3785,6 @@
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/7474c8d9f9fb506fdfc5fe1e9691c533.jpg",
     "grup": "ÜmitVIP~Fantastik",
     "kalite": "None"
-  },
-  "8459": {
-    "baslik": "Anora",
-    "url": "https://load.rectv2024live.com/hls/11/cdn64/loWrlf2Cw96l2nttGSVqynHeG1ehu9oufjSi84ws.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/440b7cc701425b5efd04a3eda3cb24e7.jpg",
-    "grup": "ÜmitVIP~Romantik",
-    "kalite": "HD"
-  },
-  "8459_alt1": {
-    "baslik": "Anora (HD)",
-    "url": "https://load.rectv2024live.com/hls/11/cdn64/v6Gp61TbgcTjUmD9APoYNxxzgFZGh6D0zhtXyyLX.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/440b7cc701425b5efd04a3eda3cb24e7.jpg",
-    "grup": "ÜmitVIP~Romantik",
-    "kalite": "HD"
   },
   "2787": {
     "baslik": "Arrival - Geliş",
@@ -4583,6 +4576,20 @@
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/c7053a8c27ac0f263e17cb9f841edea1.jpg",
     "grup": "ÜmitVIP~Romantik",
     "kalite": "None"
+  },
+  "8459": {
+    "baslik": "Anora",
+    "url": "https://load.rectv2024live.com/hls/11/cdn64/loWrlf2Cw96l2nttGSVqynHeG1ehu9oufjSi84ws.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/440b7cc701425b5efd04a3eda3cb24e7.jpg",
+    "grup": "ÜmitVIP~Romantik",
+    "kalite": "HD"
+  },
+  "8459_alt1": {
+    "baslik": "Anora (HD)",
+    "url": "https://load.rectv2024live.com/hls/11/cdn64/v6Gp61TbgcTjUmD9APoYNxxzgFZGh6D0zhtXyyLX.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/440b7cc701425b5efd04a3eda3cb24e7.jpg",
+    "grup": "ÜmitVIP~Romantik",
+    "kalite": "HD"
   },
   "8404": {
     "baslik": "L'Amour ouf",
