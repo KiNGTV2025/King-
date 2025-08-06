@@ -797,6 +797,13 @@
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
   },
+  "9166": {
+    "baslik": "Utopia",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/jArjBm4SDAvAv9fVpoVATHhssy2S1o3MgGIQy0jC.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/9e0a0cf9578c0a475956e57ab0230d5f.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9164": {
     "baslik": "The Pickup",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/f5r5pogI053lHmfgFnTRK9FiGZ8dPBcuFRe8428W.mp4/index.m3u8",
@@ -1095,7 +1102,7 @@
     "baslik": "K-Pop: İblis Avcıları",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/luWW459agJPYTcBUa2zCOgJwmDtBwDodjrzed7zS.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/82c20a8d3832fa07cc37748dcecec7a5.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Animasyon",
     "kalite": "None"
   },
   "8946": {
@@ -1992,13 +1999,6 @@
     "url": "https://load.rectv2024live.com/hls/8/cdn801/f0456d3a01e9e87a0d7ad72d36ef64c917355580367.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a1e989e8639a8222367ef0aa51301df2.jpg",
     "grup": "ÜmitVIP~Fantastik",
-    "kalite": "None"
-  },
-  "8216": {
-    "baslik": "99. Blok",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/cee3eef5d9b79e7e39a890c9ed1a0437173555418210.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/5028b17811e61c1e60b665c41774c07d.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
     "kalite": "None"
   },
   "9163": {
@@ -5554,7 +5554,7 @@
     "baslik": "Marshmallow",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/9YM8MEISaCi1GI5SO4AiyMfAsCaRKkHIkREWDgYv.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/860d4fefaed4e87a3a9388bc97d89f4a.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
   "8953": {
@@ -9336,6 +9336,13 @@
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/69df52846cfcd0ce0fe5e046f9b23155.jpg",
     "grup": "ÜmitVIP~Belgesel",
     "kalite": "HD"
+  },
+  "9165": {
+    "baslik": "Ahlaksız - Depravity",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/2dmCxnLuiStpf5Ml5HAhUg8MJnaBI5xP4QhRy2n8.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/9f3419925f79cd8c8ac61d24e3989758.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
   },
   "9159": {
     "baslik": "Scorched Earth",
