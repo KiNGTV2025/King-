@@ -797,6 +797,13 @@
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
   },
+  "9162": {
+    "baslik": "Jurassic World: Rebirth",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/Dbz3TOuUT9CU1cb20EIIPnK4fngdEqM5lw1h5Tst.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/43f1775b43b981b5079be95c56c2d543.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9156": {
     "baslik": "Uzay Oyunları",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/oL2sdghOKU7pFsMB443I8zcaL6E4mRUGju0tvLmI.mp4/index.m3u8",
@@ -1992,13 +1999,6 @@
     "url": "https://load.rectv2024live.com/hls/8/cdn801/23966fad040e783fbdeb15190a1f34d9173514557213.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/034bf5fb3e89785575b219531d2f4c2f.jpg",
     "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8195": {
-    "baslik": "Werewolves",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/475e8e1b85cdd10638ab0c6001dba500173512235411.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/9cce2bf3a2e70568dd6862ebd1915509.jpg",
-    "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
   "9160": {
@@ -5554,7 +5554,7 @@
     "baslik": "The Death That Awaits",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/DHDTnVOY6Bs6ST1VQlgazmMYtExJp5YPNUR8oUuS.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a0fe315e06051c77075904d781b5c202.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
   "8941": {
@@ -6177,6 +6177,13 @@
     "baslik": "Bag of Lies",
     "url": "https://load.rectv2024live.com/hls/8/cdn801/106fa99cb19e58b5c48494081e24bbf917352310536.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/f651d380959f18f424a21050d14ea5d9.jpg",
+    "grup": "ÜmitVIP~Korku",
+    "kalite": "None"
+  },
+  "8195": {
+    "baslik": "Werewolves",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/475e8e1b85cdd10638ab0c6001dba500173512235411.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/9cce2bf3a2e70568dd6862ebd1915509.jpg",
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
@@ -8249,13 +8256,6 @@
     "baslik": "Hayvan Krallığı",
     "url": "https://load.rectv2024live.com/hls/11/cdn60/a790b65405a60cb34aadc4468ba7b2cb172043025915.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/9fc4acdef9506e5c42aaf87398e46cb6.jpg",
-    "grup": "ÜmitVIP~Macera",
-    "kalite": "None"
-  },
-  "7356": {
-    "baslik": "Üç Silahşörler: Milady",
-    "url": "https://load.rectv2024live.com/hls/11/cdn60/43073f266057103c51c3e04998bb218a172038825313.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/042841d968a34ebc81b3e791e441b0b5.jpg",
     "grup": "ÜmitVIP~Macera",
     "kalite": "None"
   },
