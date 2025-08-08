@@ -1,21 +1,21 @@
 {
   "160": {
     "baslik": "S Sport Plus",
-    "url": "https://1.cf5-2c8.workers.dev/static/pl1.m3u8",
+    "url": "https://1.cf5-2c8.workers.dev/static/pl1.m3u8?ad=random",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg",
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
   },
   "160_alt1": {
     "baslik": "S Sport Plus (HD)",
-    "url": "https://1.cf5-2c8.workers.dev/static/pl2.m3u8",
+    "url": "https://1.cf5-2c8.workers.dev/static/pl2.m3u8?ad=random",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg",
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
   },
   "160_alt2": {
     "baslik": "S Sport Plus (HD)",
-    "url": "https://1.cf5-2c8.workers.dev/static/pl3.m3u8",
+    "url": "https://1.cf5-2c8.workers.dev/static/pl3.m3u8?ad=random",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg",
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
@@ -85,35 +85,35 @@
   },
   "149": {
     "baslik": "Bein Sports 1",
-    "url": "https://1.cf5-2c8.workers.dev/static/bs1.m3u8",
+    "url": "https://1.cf5-2c8.workers.dev/static/bs1.m3u8?ad=random",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png",
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
   },
   "149_alt1": {
     "baslik": "Bein Sports 1 (FHD)",
-    "url": "https://1.cf5-2c8.workers.dev/static/bs11.m3u8",
+    "url": "https://1.cf5-2c8.workers.dev/static/bs11.m3u8?ad=random",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png",
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "FHD"
   },
   "148": {
     "baslik": "Bein Sports 2",
-    "url": "https://1.cf5-2c8.workers.dev/static/bs2.m3u8",
+    "url": "https://1.cf5-2c8.workers.dev/static/bs2.m3u8?ad=random",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/6e235279a86721ccf20f97237669c15b.png",
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
   },
   "147": {
     "baslik": "Bein Sports 3",
-    "url": "https://1.cf5-2c8.workers.dev/static/bs3.m3u8",
+    "url": "https://1.cf5-2c8.workers.dev/static/bs3.m3u8?ad=random",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/cc82d1d3295bbdabd4b0f7ddaa0321b7.png",
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
   },
   "146": {
     "baslik": "Bein Sports 4",
-    "url": "https://1.cf5-2c8.workers.dev/static/bs4.m3u8",
+    "url": "https://1.cf5-2c8.workers.dev/static/bs4.m3u8?ad=random",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/2ff145f33c044ec8e7e11fdde18aa844.png",
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
@@ -127,21 +127,21 @@
   },
   "144": {
     "baslik": "Bein Sports Max 1",
-    "url": "https://tv.arectv34.sbs/live/bm1.m3u8",
+    "url": "https://tv.arectv34.sbs/live/bm1.m3u8?ad=random",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/45e029fab41029ba5aa986cf157ab30e.png",
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "None"
   },
   "142": {
     "baslik": "Bein Sports Max 2",
-    "url": "https://tv.arectv34.sbs/live/bm2.m3u8",
+    "url": "https://tv.arectv34.sbs/live/bm2.m3u8?ad=random",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/e0de03768014baae665e79af69d5198f.png",
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "None"
   },
   "141": {
     "baslik": "S SPORT 1",
-    "url": "https://1.cf5-2c8.workers.dev/static/ss11.m3u8",
+    "url": "https://1.cf5-2c8.workers.dev/static/ss11.m3u8?ad=random",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/29b3ca0f04190b3727b3d8255cbb5d2a.jpg",
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
@@ -232,7 +232,7 @@
   },
   "127": {
     "baslik": "Nba TV",
-    "url": "https://1.cf5-2c8.workers.dev/list/yayinnbatv.m3u8",
+    "url": "https://tv.arectv34.sbs/live/yayinnbatv.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/7b8b88c5d436a3cdecf4facb78342019.jpg",
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
@@ -3167,7 +3167,7 @@
     "baslik": "Elio",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/PnW2hnEJzuleP20kgXCf1NaQyoWFpQEzHTRuxcAI.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/d6e8bfb88776dcd9ea0c0e42788c5d7e.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Macera",
     "kalite": "None"
   },
   "8959": {
@@ -5540,14 +5540,14 @@
     "baslik": "28 Yıl Sonra",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/CHXOymmPSbu3GEJPF2bAOWhrED0CZ2vhTBiaO8JF.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/6b67901ea3114aa8329eaf0b8b4c50c0.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
   "8965": {
     "baslik": "Vesnan",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/tiDsS7up8z51fTqKm4POzuLqvccRsOAO7S8n6XFO.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4a576bbb4049ff8d077f17ab9460f405.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
   "8963": {
@@ -7055,6 +7055,13 @@
     "grup": "ÜmitVIP~Fantastik",
     "kalite": "None"
   },
+  "9169": {
+    "baslik": "Rafadan Tayfa: Kapadokya",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/d1hbKLMfs92MqSPKuCYrieRPosTcIPmm59s5S5Mi.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/fd0b1c0317bf82033e01f272f80873a0.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9025": {
     "baslik": "Kayara",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/PM8ko0DtiExq88a6PC2ySx0lkVze4YdHnRbZgwQN.mp4/index.m3u8",
@@ -7640,7 +7647,7 @@
     "baslik": "Şirinler: Kayıp Köy",
     "url": "https://load.rectv2024live.com/hls/10/cdn32/b75b61a1a3ceed4897e20c4279a7d042171130444311.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/86095be16487dcfb524742993c1f03b3.jpg",
-    "grup": "ÜmitVIP~Aile",
+    "grup": "ÜmitVIP~Animasyon",
     "kalite": "None"
   },
   "6820": {
@@ -7787,13 +7794,6 @@
     "baslik": "Büyülü Kahramanlar: Büyük Macera",
     "url": "https://load.rectv2024live.com/7/cdn333/fb0a540a-461f-4d42-9507-e36a457def0f/fb0a540a-461f-4d42-9507-e36a457def0f-master.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/74bcfa8cca23617f049181b02733072c.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6436": {
-    "baslik": "Süper Aile",
-    "url": "https://load.rectv2024live.com/7/cdn333/f1c1d9b8-369e-495f-a8d6-3b4921e68603/f1c1d9b8-369e-495f-a8d6-3b4921e68603-master.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/692783efbc9635bc6361defab2daebef.jpg",
     "grup": "ÜmitVIP~Animasyon",
     "kalite": "None"
   },
@@ -8271,6 +8271,20 @@
     "url": "https://load.rectv2024live.com/hls/11/cdn60/a790b65405a60cb34aadc4468ba7b2cb172043025915.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/9fc4acdef9506e5c42aaf87398e46cb6.jpg",
     "grup": "ÜmitVIP~Macera",
+    "kalite": "None"
+  },
+  "9171": {
+    "baslik": "Asrın Elmas Soygunu",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/qistnXWGXKjVeFfRfVISyPpXpy7yuY4zdu5TcDH3.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e5121c3c1d7ce77217e40d871c1f7e8a.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
+  "9170": {
+    "baslik": "Sally",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/iLTibdnUCdWA4C4eWWQfgUAmDaaV9vZhfLdhuR7i.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/7452664ba8112c695a57ebeac0d99f6c.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
     "kalite": "None"
   },
   "9042": {
@@ -9327,20 +9341,6 @@
     "baslik": "Umuda Koşan Kızlar",
     "url": "https://load.rectv2024live.com/hls/4/cdn1/cdn/movies/trdublaj/Umuda.Kosan.Kizlar.2021.DUAL.1080p.NF.WEB-DL.DDP5.1.H.264-TURG.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/3260536e3e0a49c3cfb7fb874462b0a4.jpg",
-    "grup": "ÜmitVIP~Belgesel",
-    "kalite": "HD"
-  },
-  "2903": {
-    "baslik": "Sahilde Cinayet",
-    "url": "https://load.rectv2024live.com/hls/4/cdn1/cdn/movies/trdublaj/Sahilde.Cinayet.2021.DUAL.1080p.NF.WEB-DL.DDP5.1.H.264-TURG.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/52b5e4ef78b386b9c98ef98acd5624ea.jpg",
-    "grup": "ÜmitVIP~Belgesel",
-    "kalite": "HD"
-  },
-  "2808": {
-    "baslik": "Friends: The Reunion",
-    "url": "https://load.rectv2024live.com/hls/2/cdn7/Filmler/FriendsTheReunion.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/69df52846cfcd0ce0fe5e046f9b23155.jpg",
     "grup": "ÜmitVIP~Belgesel",
     "kalite": "HD"
   },
