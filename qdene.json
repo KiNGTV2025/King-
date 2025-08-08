@@ -20,6 +20,41 @@
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
   },
+  "160_alt3": {
+    "baslik": "S Sport Plus (HD)",
+    "url": "https://1.cf5-2c8.workers.dev/static/pl4.m3u8?ad=random",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg",
+    "grup": "ÜmitVIP~Canlı Yayınlar",
+    "kalite": "HD"
+  },
+  "160_alt4": {
+    "baslik": "S Sport Plus (HD)",
+    "url": "https://1.cf5-2c8.workers.dev/static/pl5.m3u8?ad=random",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg",
+    "grup": "ÜmitVIP~Canlı Yayınlar",
+    "kalite": "HD"
+  },
+  "160_alt5": {
+    "baslik": "S Sport Plus (HD)",
+    "url": "https://1.cf5-2c8.workers.dev/static/pl6.m3u8?ad=random",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg",
+    "grup": "ÜmitVIP~Canlı Yayınlar",
+    "kalite": "HD"
+  },
+  "160_alt6": {
+    "baslik": "S Sport Plus (HD)",
+    "url": "https://1.cf5-2c8.workers.dev/static/pl7.m3u8?ad=random",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg",
+    "grup": "ÜmitVIP~Canlı Yayınlar",
+    "kalite": "HD"
+  },
+  "160_alt7": {
+    "baslik": "S Sport Plus (HD)",
+    "url": "https://1.cf5-2c8.workers.dev/static/pl8.m3u8?ad=random",
+    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg",
+    "grup": "ÜmitVIP~Canlı Yayınlar",
+    "kalite": "HD"
+  },
   "157": {
     "baslik": "TABİİ SPOR",
     "url": "https://tv.arectv34.sbs/live/tabi.m3u8",
@@ -796,6 +831,13 @@
     "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/0ae3cc600b74755cd008b1695c274f3c.png",
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
+  },
+  "9173": {
+    "baslik": "Land of Bad",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/pqSgJL9hxobefRyeeNr4AwkdQQ675wbuc4NkGK7g.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/3de330eedf452aa9e502036b1a8a66a4.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
   },
   "9166": {
     "baslik": "Utopia",
@@ -1994,11 +2036,11 @@
     "grup": "ÜmitVIP~Macera",
     "kalite": "None"
   },
-  "8220": {
-    "baslik": "Kutsal Savaşçı",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/f0456d3a01e9e87a0d7ad72d36ef64c917355580367.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a1e989e8639a8222367ef0aa51301df2.jpg",
-    "grup": "ÜmitVIP~Fantastik",
+  "9172": {
+    "baslik": "Presence",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/DCTdpVHH1pz5hKw4AlFPjdQgjEFEprK265ck3AOM.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/c3b59459c7fccc6a0e97f67868bf49c0.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
     "kalite": "None"
   },
   "9168": {
@@ -3002,13 +3044,6 @@
     "grup": "ÜmitVIP~Dram",
     "kalite": "None"
   },
-  "8633": {
-    "baslik": "O'Dessa",
-    "url": "https://load.rectv2024live.com/hls/11/cdn65/B8J1XJVUNYtBYRA0Hc0GPrzYlgUHPnqSZwSn9G43.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/ad83fe9c6df8883f2828447ce4c561ed.jpg",
-    "grup": "ÜmitVIP~Dram",
-    "kalite": "None"
-  },
   "9161": {
     "baslik": "Yıl 2000",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/65I9AABhnUgtPNj6qK8XwHmNWsr3dWi5TjcWlwSu.mp4/index.m3u8",
@@ -3160,7 +3195,7 @@
     "baslik": "Kutsal Damacana 5: Zombi!",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/AN1p7JF1157Ng3j5f0MwJWQI5jfzS8SizNECdoQR.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/bf517f7e12821024c30ad6fa6a15ae1a.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Fantastik",
     "kalite": "None"
   },
   "8966": {
@@ -5533,7 +5568,7 @@
     "baslik": "Karanlıktan Korkma",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/OB98SIC9eagmM9s0iVlFKVvJfqD1GPC4ADdyN973.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/b9288000d7cdde7240e821b906667d1f.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Fantastik",
     "kalite": "None"
   },
   "8967": {
@@ -6131,6 +6166,13 @@
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
+  "8220": {
+    "baslik": "Kutsal Savaşçı",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/f0456d3a01e9e87a0d7ad72d36ef64c917355580367.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a1e989e8639a8222367ef0aa51301df2.jpg",
+    "grup": "ÜmitVIP~Fantastik",
+    "kalite": "None"
+  },
   "8219": {
     "baslik": "Efsunlu 3: Muska",
     "url": "https://load.rectv2024live.com/hls/8/cdn801/95d75bb57934a39b8625eb09adda0a8e17355566197.mp4/index.m3u8",
@@ -6198,13 +6240,6 @@
     "baslik": "Hannas 2",
     "url": "https://load.rectv2024live.com/hls/8/cdn801/1eef5cb91350ecb2fe7c927efd1dbdb7173512230611.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/b7e94b857ddc68d736203f7fe3a3aba1.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "None"
-  },
-  "8193": {
-    "baslik": "Hannas: Karanlıkta Saklanan",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/a1166b9c85b3c36d306b2116b30b2bfd173512229511.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/266289bd5e4a747976287fe94c83c13f.jpg",
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
