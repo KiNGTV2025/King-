@@ -5424,6 +5424,13 @@
     "grup": "ÜmitVIP~Romantik",
     "kalite": "None"
   },
+  "9185": {
+    "baslik": "Yem",
+    "url": "https://load.rectv2024live.com/hls/7/cdn21/VZQc3Bt444NN2hBJ6xEFDYTMq3ITukhc5jTNzvyp.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4c87bfd204286121fcad066f57c8b6bb.jpg",
+    "grup": "ÜmitVIP~Son Filmler",
+    "kalite": "None"
+  },
   "9180": {
     "baslik": "Kurtlar Kapıda",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/gHnUNVj31N1qbvxLcKExSzDgPlPJprzd8jf07YIj.mp4/index.m3u8",
@@ -5582,7 +5589,7 @@
     "baslik": "Geçmişin Laneti - Daddy's Head",
     "url": "https://load.rectv2024live.com/hls/8/cdn1611/EM8lT1nYLcXI3386dcZAT1wPkcvhC8PcAWPVIaeH.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a0fc1942c29692e923bc64dca9f01ac4.jpg",
-    "grup": "ÜmitVIP~Son Filmler",
+    "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
   "8974": {
@@ -6247,13 +6254,6 @@
     "baslik": "Geçen Yaz Ne Yaptığını Hala Biliyorum",
     "url": "https://load.rectv2024live.com/hls/8/cdn801/62cf9e628db3ed5c961ff054d239905c17354764846.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/14d53146fa9f2401adddf5c533ee53d2.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "None"
-  },
-  "8213": {
-    "baslik": "Gece Avı",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/423546975497e6655f46b753075717c917354738386.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/0571688d90d4ed022a7db3e4424868c6.jpg",
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
