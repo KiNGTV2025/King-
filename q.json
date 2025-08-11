@@ -72,6 +72,14 @@ https://zekonew.newkso.ru/zeko/premium64/mono.m3u8
 #EXTVLCOPT:http-referrer=https://jxoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
 https://zekonew.newkso.ru/zeko/premium67/mono.m3u8
+#EXTINF:-1 tvg-id="1493357" tvg-logo="https://media03.tr.beinsports.com/img/highlights/1493357.jpg" group-title="2025-2026 Süperlig Maç Özetleri⚽️",ikas Eyüpspor 1-4 Tümosan Konyaspor
+https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20252026_1_eyup_kon_1h_10agu_ip&secure=1
+#EXTINF:-1 tvg-id="1493356" tvg-logo="https://media02.tr.beinsports.com/img/highlights/1493356.jpg" group-title="2025-2026 Süperlig Maç Özetleri⚽️",Çaykur Rizespor 0-3 Göztepe
+https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20252026_1_v2rize_goz_1h_10agu_ip&secure=1
+#EXTINF:-1 tvg-id="1493355" tvg-logo="https://media01.tr.beinsports.com/img/highlights/1493355.jpg" group-title="2025-2026 Süperlig Maç Özetleri⚽️",Hesap.com Antalyaspor 2-1 Kasımpaşa
+https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20252026_1_ant_kas_1h_9agu_ip&secure=1
+#EXTINF:-1 tvg-id="1493365" tvg-logo="https://media02.tr.beinsports.com/img/highlights/1493365.jpg" group-title="2025-2026 Süperlig Maç Özetleri⚽️",Samsunspor 2-1 Gençlerbirliği
+https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20252026_1_samsun_genc_1h_9agu_ip&secure=1
 #EXTINF:-1 tvg-id="1493363" tvg-logo="https://media03.tr.beinsports.com/img/highlights/1493363.jpg" group-title="2025-2026 Süperlig Maç Özetleri⚽️",Gaziantep FK 0-3 Galatasaray
 https://dt-switch.akamaized.net/api/er/Get?ai=636&ak=null&switch=beinsports&customerid=1&format=4&action=redirect&ar=ligtvcomtr_tauri_ozt_20252026_1_gazi_gs_1h_8agu_ip&secure=1
 #EXTINF:-1 group-title="ŞAMPİYONLAR LİGİ⚽️",Tabii Spor
@@ -4407,6 +4415,113 @@ https://one.b71690837b860d63.click/live/selcuktabiispor/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1842.xyz/
 https://one.b71690837b860d63.click/live/ssportplus1/playlist.m3u8
+
+# 🔁 Güncellendi: SporCafe (33 kanal)
+
+#EXTINF:-1 group-title="SporCafe",beIN Sports 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/sbeinsports-1/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",beIN Sports 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/sbeinsports-2/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",beIN Sports 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/sbeinsports-3/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",beIN Sports 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/sbeinsports-4/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",beIN Sports 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/sbeinsports-5/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",DAZN 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/sdazn1/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",DAZN 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/sdazn2/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",DAZN NFL Network
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/nflnetwork/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",EUROSPORT 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/seurosport1/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",EUROSPORT 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/seurosport2/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",Motorsport TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/smotorsporttv/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",Motorvision TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/smotorvisiontv/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",NBA TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/snbatv-1/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",NBA TV 2 (Yabancı)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/snbatv-2/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",NFL CHANNEL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/nflchannel/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",S Sport
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/sssport/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",S Sport 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/sssport2/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",S Sport Plus
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/sssplus1/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",Sky Sports F1 [DE]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/sskysportsf1de/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",Sky Sports F1 [ITA]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/sskysportsf1ita/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",Sky Sports F1 [UK]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/sskysportsf1uk/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",Tivibu Spor 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/stivibuspor-1/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",Tivibu Spor 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/stivibuspor-2/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",Tivibu Spor 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/stivibuspor-3/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",Tivibu Spor 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/stivibuspor-4/playlist.m3u8
+#EXTINF:-1 group-title="SporCafe",UFC Fight Pass
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.sporcafe13.xyz/
+https://one.b71690837b860d63.click/live/sufcfightpass/playlist.m3u8
 
 #EXTINF:-1 tvg-id="1" tvg-name="BEIN SPORTS 1 (ZIRVE)" group-title="TRGOALSx",BEIN SPORTS 1 (ZIRVE)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
