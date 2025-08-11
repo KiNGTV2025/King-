@@ -748,97 +748,6 @@
     "grup": "ÜmitVIP~Canlı Yayınlar",
     "kalite": "HD"
   },
-  "28": {
-    "baslik": "KON TV",
-    "url": "https://kontv.blutv.com/blutv_kontv2/live_720p2000000kbps/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/da2883f3f44910691413d14b610a698f.png",
-    "grup": "ÜmitVIP~Canlı Yayınlar",
-    "kalite": "None"
-  },
-  "26": {
-    "baslik": "SÖZCÜ TV",
-    "url": "https://ythls.kekikakademi.org/youtube/channel/UCOulx_rep5O4i9y6AyDqVvw.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/d2b37e56c23f53095350038e36c1c8ce.png",
-    "grup": "ÜmitVIP~Canlı Yayınlar",
-    "kalite": "None"
-  },
-  "25": {
-    "baslik": "BENGÜTÜRK",
-    "url": "https://tv.ensonhaber.com/benguturk/benguturk.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/cad74c9ef922f64138434a3ebb0980be.jpg",
-    "grup": "ÜmitVIP~Canlı Yayınlar",
-    "kalite": "None"
-  },
-  "24": {
-    "baslik": "TV 100",
-    "url": "https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/54ebd649dea5b3654544975b9352f100.png",
-    "grup": "ÜmitVIP~Canlı Yayınlar",
-    "kalite": "None"
-  },
-  "22": {
-    "baslik": "TRT 2",
-    "url": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/614e1863861a3dbba1b1e107367b3e53.jpg",
-    "grup": "ÜmitVIP~Canlı Yayınlar",
-    "kalite": "None"
-  },
-  "21": {
-    "baslik": "TV4",
-    "url": "http://65.108.239.207:8080/stream/tvplus/tv4hd/master.m3u8?u=admin&p=3910fe48bd4ea4cbf297cd9007805bd5ea7025f1e66cb7d0be50057f6cd788b1&",
-    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpeg/e97aaf070fbc2858ecabd8625f360eb2.jpeg",
-    "grup": "ÜmitVIP~Canlı Yayınlar",
-    "kalite": "None"
-  },
-  "18": {
-    "baslik": "TRT TÜRK",
-    "url": "https://trtturk.blutv.com/blutv_trtturk2/live_720p2000000kbps/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/45fd54765eebb0b4e708c7448a2c8a93.jpg",
-    "grup": "ÜmitVIP~Canlı Yayınlar",
-    "kalite": "None"
-  },
-  "17": {
-    "baslik": "TRT AVAZ",
-    "url": "https://tv-trtavaz.medya.trt.com.tr/master.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/c1e29a27bff35f6c081fe9b7103953b8.jpg",
-    "grup": "ÜmitVIP~Canlı Yayınlar",
-    "kalite": "None"
-  },
-  "16": {
-    "baslik": "SEMERKAND TV",
-    "url": "http://65.108.239.207:8080/stream/tvplus/semerkandhd/master.m3u8?u=admin&p=3910fe48bd4ea4cbf297cd9007805bd5ea7025f1e66cb7d0be50057f6cd788b1&",
-    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/8ac54924b9791ceedab2f302d9fe2946.jpg",
-    "grup": "ÜmitVIP~Canlı Yayınlar",
-    "kalite": "None"
-  },
-  "13": {
-    "baslik": "TİVİBU SPOR 4",
-    "url": "https://tv.arectv34.sbs/live/t4.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/921670222d56e1af5cde5b3474185425.jpg",
-    "grup": "ÜmitVIP~Canlı Yayınlar",
-    "kalite": "None"
-  },
-  "12": {
-    "baslik": "TRT SPOR YILDIZ",
-    "url": "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor",
-    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/jpg/ddc793321e06b9f205e7b99ebca71e4b.jpg",
-    "grup": "ÜmitVIP~Canlı Yayınlar",
-    "kalite": "None"
-  },
-  "10": {
-    "baslik": "FASHION TV",
-    "url": "https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/0ae3cc600b74755cd008b1695c274f3c.png",
-    "grup": "ÜmitVIP~Canlı Yayınlar",
-    "kalite": "HD"
-  },
-  "10_alt1": {
-    "baslik": "FASHION TV (HD)",
-    "url": "https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/playlist.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/channel_thumb/uploads/png/0ae3cc600b74755cd008b1695c274f3c.png",
-    "grup": "ÜmitVIP~Canlı Yayınlar",
-    "kalite": "HD"
-  },
   "9179": {
     "baslik": "Hostile Takeover",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/b7tu5ZnJMmfKeP7EvwFkLcShfLmlvhQCNPp4i3pK.mp4/index.m3u8",
@@ -1810,237 +1719,6 @@
     "url": "https://load.rectv2024live.com/hls/8/cdn801/a1ac54502717db551a83d70903beddd717389500467.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/0b582b68740bdd6848e9b8037d8ace57.jpg",
     "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8366": {
-    "baslik": "Homestead",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/747854e646b7f12d0eac48053b31dc62173879054113.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/cc771e2a53c43c79f261bb6b12b76706.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8361": {
-    "baslik": "Outlaw Posse",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/444f90f33d69284f0f8e100493a8548917386616649.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/576b1e16303254d83f351b0d359530ea.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8360": {
-    "baslik": "The Clean Up Crew",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/ccf32bf37792d4bb75770437d1e4e255173866164915.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/8e95ada8ffa8388ee19864a4d55125df.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8349": {
-    "baslik": "Nefes: Yer Eksi İki",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/963b9d9639adbef5e8acc58050f488f617384081507.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/086723507d805673fabba1c7902d29e4.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8348": {
-    "baslik": "Suç Takımı 2: Pantera",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/565cf2b3184a97ccbaf10a2b956e710d17383170375.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/c7c1afbb1551b9ca72eae84b4b849e8a.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8338": {
-    "baslik": "M.Ö. 10.000",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/b956d3ed0ff48ac35ba999601d562df817380605347.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/8b6d701a372f2d02b45d8c051fd913e3.jpg",
-    "grup": "ÜmitVIP~Macera",
-    "kalite": "None"
-  },
-  "8333": {
-    "baslik": "Out Come the Wolves",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/141cc96e3ccca2ba9ab39f08da4b6b26173797291711.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/25d055888eb19d1393b0d18568829534.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "None"
-  },
-  "8327": {
-    "baslik": "The Convert",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/cce98f7737d31e4dc56dfa6049ac7c63173780441815.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4668ea8b858dfe9bf3dc8faa58ab70bf.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8315": {
-    "baslik": "The Killer's Game",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/5891734928406bb4b1b3dfd7357ca31f17376295807.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/cbe4ec30032ec49d375b6c77014eb5cc.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8314": {
-    "baslik": "The Crow: Ölümsüz",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/8de9c9f06af05cec09278c1ec6d6d58617376287899.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/41324e4758b767c84e22b3ba9f3d2397.jpg",
-    "grup": "ÜmitVIP~Fantastik",
-    "kalite": "None"
-  },
-  "8310": {
-    "baslik": "Bring Him to Me",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/5d16085195761bfd5f2de10bde099a9e17375499316.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/ce5842fcb8eea129ac99df1c046a1487.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8304": {
-    "baslik": "Henry Danger: The Movie",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/969ed87e8689c63922ba75f36fb8ca9f173754248510.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/9fe8d295a6157df026532d4634718089.jpg",
-    "grup": "ÜmitVIP~Aile",
-    "kalite": "None"
-  },
-  "8303": {
-    "baslik": "Sniper: The Last Stand",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/b45acb772eeba1fddba3aa1188447c0617375425428.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/0709185ebc301e2f4c3d03018cf30def.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8299": {
-    "baslik": "Kuzeyli",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/6cf5ad80591b93189536614c9c8f98a8173788639714.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/fb20b91675835ffc3942c09e1c5f8ffc.jpg",
-    "grup": "ÜmitVIP~Macera",
-    "kalite": "None"
-  },
-  "8299_alt1": {
-    "baslik": "Kuzeyli (None)",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/95d2e8b573355f90f97add5da8038bde173788637613.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/fb20b91675835ffc3942c09e1c5f8ffc.jpg",
-    "grup": "ÜmitVIP~Macera",
-    "kalite": "None"
-  },
-  "8294": {
-    "baslik": "Tetikçi",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/e85bf7d2cd9588b02e27eec0c1c8e4e4173720174711.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/688123e74c09f579c765b7f6b251ca99.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8294_alt1": {
-    "baslik": "Tetikçi (None)",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/ea133844dabf4011faa7883bc9c08afc17372017258.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/688123e74c09f579c765b7f6b251ca99.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8292": {
-    "baslik": "Gün Batımından Şafağa 2",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/168c61519d9373a8c6c9cbb1a01a8a3b173719848512.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/981e6ea6fcd4d43ecc6abde8d904ad52.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "None"
-  },
-  "8291": {
-    "baslik": "Gün Batımından Şafağa",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/423f0b94473b48d41ff93c777f10060917371977255.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a5c1274faeb34cd44f4ac2ba9f085194.jpg",
-    "grup": "ÜmitVIP~Korku",
-    "kalite": "None"
-  },
-  "8288": {
-    "baslik": "Komandir",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/2fcf4145c60bd3800aab69f1357c0360173719737413.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e4b20e1d6c12b85f436f1e22129eba6a.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8287": {
-    "baslik": "Back in Action",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/d15b0ee4e80a12e2e2b783b310eb113017371978418.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/439ea63025a2ea23dd1c7e61aa725b40.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8287_alt1": {
-    "baslik": "Back in Action (None)",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/2bdfa0f166bc1c145b98f4c8c5053c9b173719780111.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/439ea63025a2ea23dd1c7e61aa725b40.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8285": {
-    "baslik": "Scorpion",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/58dc68d255c0686c636808e0897a95d1173710846010.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/81c51ff9b509c9222f583f4db197f43b.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8277": {
-    "baslik": "Kingdom 4: Return of the Great General",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/08222e4222cbbc0f29c84dbfa770fd9017369363239.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e48e4d90488ba6a585e3a5c023eae724.jpg",
-    "grup": "ÜmitVIP~Macera",
-    "kalite": "None"
-  },
-  "8272": {
-    "baslik": "Yüzüklerin Efendisi: Rohirrim'in Savaşı",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/ca7589412bf579970951cdde17a073bc173685193011.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4d11bd2396de9700439cd189a4cad1ba.jpg",
-    "grup": "ÜmitVIP~Macera",
-    "kalite": "None"
-  },
-  "8268": {
-    "baslik": "Mucizevi Londra: Zamanın Sınırında",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/0b226390548e39d53771adf9463ab75917367655577.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/b50e69ac16793f8d8f55138f61c3f846.jpg",
-    "grup": "ÜmitVIP~Macera",
-    "kalite": "None"
-  },
-  "8264": {
-    "baslik": "Ad Vitam",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/144b1193375af9294b757e026c4d595817365076449.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/2646ced14f69ce7c14710bc94adf0db1.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8262": {
-    "baslik": "Borderlands",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/2792bf38577e5b037b43253ded11f9f317364589545.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/8d9190ccb47b38278a327775367369d9.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8258": {
-    "baslik": "The Night Comes for Us",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/60b50c8a7ede8f53a371ed4cf495f9fd173643807112.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/d138feb0af1baecc32011b809ea158c3.jpg",
-    "grup": "ÜmitVIP~Aksiyon",
-    "kalite": "None"
-  },
-  "8257": {
-    "baslik": "The Last Stand of Ellen Cole",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/3dfa08eefce43e637bd971eaee047c18173642138415.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/56eac1b5ca38587357345cadf6a3dcfb.jpg",
-    "grup": "ÜmitVIP~Macera",
-    "kalite": "None"
-  },
-  "8252": {
-    "baslik": "Survivre",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/59460000f6aa28e5a1d8f575ae8ceabf17362526748.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/37c622fa4dd48ed4aceb00cd817b5765.jpg",
-    "grup": "ÜmitVIP~Macera",
-    "kalite": "None"
-  },
-  "8251": {
-    "baslik": "Venom: Son Dans (HD)",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/1da9b3b92d4276bce122a09fb564f3a817362474485.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/60ce8ff7a03176a81078b1a5e637e305.jpg",
-    "grup": "ÜmitVIP~Macera",
-    "kalite": "None"
-  },
-  "8249": {
-    "baslik": "Interceptor",
-    "url": "https://load.rectv2024live.com/hls/8/cdn801/cb31e75476be1b2ddb1c37eed962f7fc17361635967.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/fd10a8e229e3533530d20e8c269bc037.jpg",
-    "grup": "ÜmitVIP~Macera",
     "kalite": "None"
   },
   "9182": {
@@ -6131,11 +5809,25 @@
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
+  "8333": {
+    "baslik": "Out Come the Wolves",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/141cc96e3ccca2ba9ab39f08da4b6b26173797291711.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/25d055888eb19d1393b0d18568829534.jpg",
+    "grup": "ÜmitVIP~Korku",
+    "kalite": "None"
+  },
   "8326": {
     "baslik": "Bu Gece Uyku Yok",
     "url": "https://load.rectv2024live.com/hls/8/cdn801/8c0b9e8c3c628d1558fe01c379d846f417378044086.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/2858adc6a466c2dc30a0be9af96dc119.jpg",
     "grup": "ÜmitVIP~Korku",
+    "kalite": "None"
+  },
+  "8314": {
+    "baslik": "The Crow: Ölümsüz",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/8de9c9f06af05cec09278c1ec6d6d58617376287899.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/41324e4758b767c84e22b3ba9f3d2397.jpg",
+    "grup": "ÜmitVIP~Fantastik",
     "kalite": "None"
   },
   "8309": {
@@ -6156,6 +5848,20 @@
     "baslik": "Gün Batımından Şafağa 3",
     "url": "https://load.rectv2024live.com/hls/8/cdn801/c60a5d32ec5433a2bb12a0a5cadb468a17371985118.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/99036f72fc06339ef74da5b6fa61c0ad.jpg",
+    "grup": "ÜmitVIP~Korku",
+    "kalite": "None"
+  },
+  "8292": {
+    "baslik": "Gün Batımından Şafağa 2",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/168c61519d9373a8c6c9cbb1a01a8a3b173719848512.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/981e6ea6fcd4d43ecc6abde8d904ad52.jpg",
+    "grup": "ÜmitVIP~Korku",
+    "kalite": "None"
+  },
+  "8291": {
+    "baslik": "Gün Batımından Şafağa",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/423f0b94473b48d41ff93c777f10060917371977255.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a5c1274faeb34cd44f4ac2ba9f085194.jpg",
     "grup": "ÜmitVIP~Korku",
     "kalite": "None"
   },
@@ -6369,10 +6075,45 @@
     "grup": "ÜmitVIP~Aile",
     "kalite": "None"
   },
+  "8338": {
+    "baslik": "M.Ö. 10.000",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/b956d3ed0ff48ac35ba999601d562df817380605347.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/8b6d701a372f2d02b45d8c051fd913e3.jpg",
+    "grup": "ÜmitVIP~Macera",
+    "kalite": "None"
+  },
   "8306": {
     "baslik": "Uzaydan Mesaj Var!",
     "url": "https://load.rectv2024live.com/hls/8/cdn801/1250d879cfe242c956e3d91614fdf6ac173754256013.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/da566afc2bb0e0217bf2b5a0880dc4ef.jpg",
+    "grup": "ÜmitVIP~Macera",
+    "kalite": "None"
+  },
+  "8299": {
+    "baslik": "Kuzeyli",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/6cf5ad80591b93189536614c9c8f98a8173788639714.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/fb20b91675835ffc3942c09e1c5f8ffc.jpg",
+    "grup": "ÜmitVIP~Macera",
+    "kalite": "None"
+  },
+  "8299_alt1": {
+    "baslik": "Kuzeyli (None)",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/95d2e8b573355f90f97add5da8038bde173788637613.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/fb20b91675835ffc3942c09e1c5f8ffc.jpg",
+    "grup": "ÜmitVIP~Macera",
+    "kalite": "None"
+  },
+  "8272": {
+    "baslik": "Yüzüklerin Efendisi: Rohirrim'in Savaşı",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/ca7589412bf579970951cdde17a073bc173685193011.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4d11bd2396de9700439cd189a4cad1ba.jpg",
+    "grup": "ÜmitVIP~Macera",
+    "kalite": "None"
+  },
+  "8268": {
+    "baslik": "Mucizevi Londra: Zamanın Sınırında",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/0b226390548e39d53771adf9463ab75917367655577.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/b50e69ac16793f8d8f55138f61c3f846.jpg",
     "grup": "ÜmitVIP~Macera",
     "kalite": "None"
   },
@@ -7643,216 +7384,6 @@
     "grup": "ÜmitVIP~Aile",
     "kalite": "None"
   },
-  "6859": {
-    "baslik": "Çılgın Hırsız 3",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/e0b6c764ff82cc966425a2b17719e93717113201616.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/f4687070f83ad9a29fa926203cc8ba8a.jpg",
-    "grup": "ÜmitVIP~Aile",
-    "kalite": "None"
-  },
-  "6858": {
-    "baslik": "Çılgın Hırsız 2",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/d92a1ea1ae54afe46456603809e85b2917113201089.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a007cfe409c87b4d2754d848416bd381.jpg",
-    "grup": "ÜmitVIP~Aile",
-    "kalite": "None"
-  },
-  "6857": {
-    "baslik": "Çılgın Hırsız",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/03fef2e1dc32365d4bddf51a5ef551a117113201369.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4eb3c64c14a44822ad1d2aeaa8eb3f8f.jpg",
-    "grup": "ÜmitVIP~Aile",
-    "kalite": "None"
-  },
-  "6856": {
-    "baslik": "Minyonlar 2: Gru'nun Yükselişi",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/574bb359ec51f5809ed29e133283daaa171132008611.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/06fe7ebf88ead3a7b82fe0acb8f70cf2.jpg",
-    "grup": "ÜmitVIP~Aile",
-    "kalite": "None"
-  },
-  "6855": {
-    "baslik": "Minyonlar",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/a86240d026c3955ffa4df0cb8b4571e0171132006013.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/6b882fad99587f79df24c0435cf653b7.jpg",
-    "grup": "ÜmitVIP~Aile",
-    "kalite": "None"
-  },
-  "6844": {
-    "baslik": "Arabalar 3",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/16204e17b58b457401610d62a08af740171131767210.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/aa1f5a27edfe9e1bff5e4145de2d9e87.jpg",
-    "grup": "ÜmitVIP~Aile",
-    "kalite": "None"
-  },
-  "6843": {
-    "baslik": "Arabalar 2",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/afabe6ca8e0a0900718851e087dc67ae17113176997.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/3fdd30bdd3cb2f194617588f1cd455fc.jpg",
-    "grup": "ÜmitVIP~Aile",
-    "kalite": "None"
-  },
-  "6842": {
-    "baslik": "Arabalar",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/a0f52758c6bf890fd0f8a4a8c9c0a29b17113177286.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/df42f3a73608b4b268e87545605ed940.jpg",
-    "grup": "ÜmitVIP~Aile",
-    "kalite": "None"
-  },
-  "6821": {
-    "baslik": "Şirinler: Kayıp Köy",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/b75b61a1a3ceed4897e20c4279a7d042171130444311.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/86095be16487dcfb524742993c1f03b3.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6820": {
-    "baslik": "Şirinler 2",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/085c25e9fd26e25ec0f0096cee9b58d817113044848.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/505a12bedd1821081ec6b53336b5c368.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6819": {
-    "baslik": "Şirinler",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/da1e2d6bd4732bcb75b54f7134f5b50e17113044629.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/94a49d80e937368ce0f4cb110f1a9168.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6795": {
-    "baslik": "Alvin ve Sincaplar: Eğlence Adası",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/c5dda0b16d18a9e8f4486e2b14dadd16171124199611.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e2b9a7a3b18e976806bee692bfae0314.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6794": {
-    "baslik": "Alvin ve Sincaplar 2",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/c89aeb4229c5f8e9bed9bc7a936e4f99171124209912.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/d7616e51b8a7d13300af0fde24dbfb8a.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6793": {
-    "baslik": "Alvin ve Sincaplar",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/c043229e3719ab63bc0ee545a163dfd217112420435.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/b59d31a691e45050ac7b5afe61b56d25.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6745": {
-    "baslik": "Casagrande Ailesi",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/,bac0a4b5aa919be09ad26466fba1f5f017111393745.mp4,f895417549257801b8f57d4f36eef4a717111394806.vtt,.urlset/master.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e6687e1a60497ea731149a035e1b8606.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6741": {
-    "baslik": "Two Buddies and a Badger",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/8dc296e062b31fd4b7ffe0f99bb18ca1171104817813.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/452fec565218de76cfd813b692b07516.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6738": {
-    "baslik": "Kaptan Porsuk Kayıp Hazinenin Peşinde",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/007935ba8e3675a19f3ced8ab21c96f3171104617512.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/54a8ef9428e1aa2d483df38014f6c809.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6720": {
-    "baslik": "Karlar Kralı Norm 3",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/ef0c1b577ded1fc80536c816c12f5afb171078544510.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/140c37fa5cfc5b9a7353195a337d89cc.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6718": {
-    "baslik": "Mucize: Uğur Böceği ile Kara Kedi, Film",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/84161b65705dd64b299cc2236bb9a70c17106902569.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/67946eef518e69174fce3564e9e296d3.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6676": {
-    "baslik": "Under the Boardwalk",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/3f43c41de9776c49fdf4db8acdb36c8917101965286.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/9f25ae964fa89799311e4b4253bd1ef7.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6646": {
-    "baslik": "Mortal Kombat Legends: Cage Match",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/32621e2feb3a8873d9c2ebac41086d8e17096488606.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a6fbe73316182df2b3de8934ae3469c8.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6637": {
-    "baslik": "Paw Patrol: Süper Film",
-    "url": "https://load.rectv2024live.com/hls/10/cdn32/32427e7b5f26911ac8dd304ea15fe47b170921765314.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/aeec742e688c43e5e3cc370599f8b40a.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6610": {
-    "baslik": "The Inventor",
-    "url": "https://load.rectv2024live.com/hls/9/cdn31/a4dbf80578cb9152bca637fa3ce56baf170869943410.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/b7e7ca0a361705469463c5c6e6ea7c99.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6605": {
-    "baslik": "Kediler Müzede",
-    "url": "https://load.rectv2024live.com/hls/9/cdn31/9e02e8603141b1119f399f588b3fb68f17086271938.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/2e2b544270d47f48ef693d8675c6145e.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6585": {
-    "baslik": "Snoopy Presents: Welcome Home, Franklin",
-    "url": "https://load.rectv2024live.com/hls/9/cdn31/5c642ad811ed27e368cbd917b2670e2d170809886415.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a2affaf4cd1093e08e3955eb974cdf53.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6567": {
-    "baslik": "Genç Deniz Canavarı Ruby",
-    "url": "https://load.rectv2024live.com/hls/9/cdn31/d79718b7fa490666b87a4e265dc74b7517079316097.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/37f29dd09201585f61afe5d658d70f35.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6520": {
-    "baslik": "Yumurtalar Firarda: Afrika Macerası",
-    "url": "https://load.rectv2024live.com/hls/9/cdn31/65c11a9a2b942-1707154074.mp4/index.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/7acdcf7801dfe00a90e2c230b9f58069.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6508": {
-    "baslik": "Kaplanın Çırağı",
-    "url": "https://load.rectv2024live.com/7/cdn333/90a33187-ab56-41e9-afe7-18a9b17b35db/90a33187-ab56-41e9-afe7-18a9b17b35db-master.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/47cb4b4dfe1ff07593f5cd020453a1ba.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6498": {
-    "baslik": "Orion ve Karanlık",
-    "url": "https://load.rectv2024live.com/7/cdn333/9a80ff06-19cd-49b7-8a86-efd2ef6dc530/9a80ff06-19cd-49b7-8a86-efd2ef6dc530-master.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/6d3b7279cdd8a1b3bff2cd30879838ed.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
-  "6452": {
-    "baslik": "Büyülü Kahramanlar: Büyük Macera",
-    "url": "https://load.rectv2024live.com/7/cdn333/fb0a540a-461f-4d42-9507-e36a457def0f/fb0a540a-461f-4d42-9507-e36a457def0f-master.m3u8",
-    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/74bcfa8cca23617f049181b02733072c.jpg",
-    "grup": "ÜmitVIP~Animasyon",
-    "kalite": "None"
-  },
   "8654": {
     "baslik": "Kaos Kardeşler ve Penguen Paul",
     "url": "https://load.rectv2024live.com/hls/11/cdn65/V1p3XwAoDgK2MrT1aDLjvrKpykftCqIMI4pcpfPr.mp4/index.m3u8",
@@ -7871,6 +7402,13 @@
     "baslik": "Taşlara ve Bulutlara Dair",
     "url": "https://load.rectv2024live.com/hls/8/cdn801/7c1563a412e9baf4033128f210a6c309173762877314.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/80645b299600044919649c6f19e2732b.jpg",
+    "grup": "ÜmitVIP~Aile",
+    "kalite": "None"
+  },
+  "8304": {
+    "baslik": "Henry Danger: The Movie",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/969ed87e8689c63922ba75f36fb8ca9f173754248510.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/9fe8d295a6157df026532d4634718089.jpg",
     "grup": "ÜmitVIP~Aile",
     "kalite": "None"
   },
@@ -8035,6 +7573,62 @@
     "grup": "ÜmitVIP~Aile",
     "kalite": "None"
   },
+  "6859": {
+    "baslik": "Çılgın Hırsız 3",
+    "url": "https://load.rectv2024live.com/hls/10/cdn32/e0b6c764ff82cc966425a2b17719e93717113201616.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/f4687070f83ad9a29fa926203cc8ba8a.jpg",
+    "grup": "ÜmitVIP~Aile",
+    "kalite": "None"
+  },
+  "6858": {
+    "baslik": "Çılgın Hırsız 2",
+    "url": "https://load.rectv2024live.com/hls/10/cdn32/d92a1ea1ae54afe46456603809e85b2917113201089.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/a007cfe409c87b4d2754d848416bd381.jpg",
+    "grup": "ÜmitVIP~Aile",
+    "kalite": "None"
+  },
+  "6857": {
+    "baslik": "Çılgın Hırsız",
+    "url": "https://load.rectv2024live.com/hls/10/cdn32/03fef2e1dc32365d4bddf51a5ef551a117113201369.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/4eb3c64c14a44822ad1d2aeaa8eb3f8f.jpg",
+    "grup": "ÜmitVIP~Aile",
+    "kalite": "None"
+  },
+  "6856": {
+    "baslik": "Minyonlar 2: Gru'nun Yükselişi",
+    "url": "https://load.rectv2024live.com/hls/10/cdn32/574bb359ec51f5809ed29e133283daaa171132008611.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/06fe7ebf88ead3a7b82fe0acb8f70cf2.jpg",
+    "grup": "ÜmitVIP~Aile",
+    "kalite": "None"
+  },
+  "6855": {
+    "baslik": "Minyonlar",
+    "url": "https://load.rectv2024live.com/hls/10/cdn32/a86240d026c3955ffa4df0cb8b4571e0171132006013.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/6b882fad99587f79df24c0435cf653b7.jpg",
+    "grup": "ÜmitVIP~Aile",
+    "kalite": "None"
+  },
+  "6844": {
+    "baslik": "Arabalar 3",
+    "url": "https://load.rectv2024live.com/hls/10/cdn32/16204e17b58b457401610d62a08af740171131767210.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/aa1f5a27edfe9e1bff5e4145de2d9e87.jpg",
+    "grup": "ÜmitVIP~Aile",
+    "kalite": "None"
+  },
+  "6843": {
+    "baslik": "Arabalar 2",
+    "url": "https://load.rectv2024live.com/hls/10/cdn32/afabe6ca8e0a0900718851e087dc67ae17113176997.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/3fdd30bdd3cb2f194617588f1cd455fc.jpg",
+    "grup": "ÜmitVIP~Aile",
+    "kalite": "None"
+  },
+  "6842": {
+    "baslik": "Arabalar",
+    "url": "https://load.rectv2024live.com/hls/10/cdn32/a0f52758c6bf890fd0f8a4a8c9c0a29b17113177286.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/df42f3a73608b4b268e87545605ed940.jpg",
+    "grup": "ÜmitVIP~Aile",
+    "kalite": "None"
+  },
   "9111": {
     "baslik": "Fantastik Dörtlü 4: İlk Adımlar",
     "url": "https://load.rectv2024live.com/hls/7/cdn21/JWKYhmEqStoDbCvcDv50QzKqsvyYxCh6z2w9o13P.mp4/index.m3u8",
@@ -8088,6 +7682,41 @@
     "baslik": "Dalgaların Ötesinde",
     "url": "https://load.rectv2024live.com/hls/8/cdn801/8b4ef6e36986fed038d6242726c2d7f917377327288.mp4/index.m3u8",
     "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/55c8da732dcd00e631620e42bee26c98.jpg",
+    "grup": "ÜmitVIP~Macera",
+    "kalite": "None"
+  },
+  "8277": {
+    "baslik": "Kingdom 4: Return of the Great General",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/08222e4222cbbc0f29c84dbfa770fd9017369363239.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/e48e4d90488ba6a585e3a5c023eae724.jpg",
+    "grup": "ÜmitVIP~Macera",
+    "kalite": "None"
+  },
+  "8257": {
+    "baslik": "The Last Stand of Ellen Cole",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/3dfa08eefce43e637bd971eaee047c18173642138415.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/56eac1b5ca38587357345cadf6a3dcfb.jpg",
+    "grup": "ÜmitVIP~Macera",
+    "kalite": "None"
+  },
+  "8252": {
+    "baslik": "Survivre",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/59460000f6aa28e5a1d8f575ae8ceabf17362526748.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/37c622fa4dd48ed4aceb00cd817b5765.jpg",
+    "grup": "ÜmitVIP~Macera",
+    "kalite": "None"
+  },
+  "8251": {
+    "baslik": "Venom: Son Dans (HD)",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/1da9b3b92d4276bce122a09fb564f3a817362474485.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/60ce8ff7a03176a81078b1a5e637e305.jpg",
+    "grup": "ÜmitVIP~Macera",
+    "kalite": "None"
+  },
+  "8249": {
+    "baslik": "Interceptor",
+    "url": "https://load.rectv2024live.com/hls/8/cdn801/cb31e75476be1b2ddb1c37eed962f7fc17361635967.mp4/index.m3u8",
+    "logo": "https://m.prectv50.sbs/uploads/cache/poster_thumb/uploads/jpg/fd10a8e229e3533530d20e8c269bc037.jpg",
     "grup": "ÜmitVIP~Macera",
     "kalite": "None"
   },
