@@ -4,7 +4,7 @@
 1292|Anka🕊
 28|Azerbaycan
 11|Belgesel
-4|DaddyLiveTürkiye
+5|DaddyLiveTürkiye
 26|Dini
 8|Dizilerin SON Bölümleri📺
 30|Diğer-Eğlence
@@ -21,7 +21,7 @@
 11|Kıbrıs
 18|Müzik
 22|Selcuksports
-27|SporCafe
+25|SporCafe
 35|TRGOALSx
 28|TRGoals
 11|Ulusal
@@ -35,9 +35,9 @@
 44|UmitVIP-spor
 19|UmitVIP-ulusal
 47|Yerel
-432|trGoals2
+504|trGoals2
 14|Çocuk&Eğitim
-69|ÜmitMorpaket
+76|ÜmitMorpaket
 8|ŞAMPİYONLAR LİGİ⚽️
 10|🜲ÜⲘ𝖎ţ KabloNet🜲 Belgesel
 3|🜲ÜⲘ𝖎ţ KabloNet🜲 Müzik
