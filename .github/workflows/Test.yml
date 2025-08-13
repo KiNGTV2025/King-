@@ -1,10 +1,23 @@
-name: Manual Test
+name: ÜMİT TV Telegram Debug
 
 on:
   workflow_dispatch:
 
 jobs:
-  test:
+  notify:
     runs-on: ubuntu-latest
+    env:
+      BOT_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     steps:
-      - run: echo "Elle tetikleme ÇALIŞIYOR ✅"
+      - name: Debug — Secret kontrolü
+        run: |
+          echo "CHAT_ID: ${CHAT_ID}"
+          echo "BOT_TOKEN (ilk 10 karakter): ${BOT_TOKEN:0:10}********"
+      
+      - name: Test mesajını gönder
+        run: |
+          curl -v -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
+            -d chat_id="${CHAT_ID}" \
+            -d parse_mode="HTML" \
+            -d text="Test mesajı — ÜMİT TV botu çalışıyor ✅"
