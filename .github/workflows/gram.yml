@@ -23,23 +23,23 @@ jobs:
           [ -f .data/old_counts.txt ] || touch .data/old_counts.txt
           [ -f .data/old_message_ids.txt ] || touch .data/old_message_ids.txt
 
-      - name: Eski mesajları sil
+      - name: Eski mesajları sil (detaylı log ile)
         run: |
           if [ -s .data/old_message_ids.txt ]; then
+            echo "Silme işlemi başlatıldı..."
             while IFS= read -r MSG_ID; do
-              [ -n "$MSG_ID" ] && \
-              RESP=$(curl -s -X POST \
-                "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
-                -d "chat_id=${CHAT_ID}" \
-                -d "message_id=${MSG_ID}")
-              OK=$(echo "$RESP" | jq -r '.ok')
-              if [ "$OK" != "true" ]; then
-                echo "❌ Silinemedi: $MSG_ID - Yanıt: $RESP"
-              else
-                echo "🗑️ Silindi: $MSG_ID"
+              if [ -n "$MSG_ID" ]; then
+                echo "Mesaj ID: $MSG_ID siliniyor..."
+                RESPONSE=$(curl -s -X POST \
+                  "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
+                  -d "chat_id=${CHAT_ID}" \
+                  -d "message_id=${MSG_ID}")
+                echo "Telegram cevabı: $RESPONSE"
               fi
             done < .data/old_message_ids.txt
             > .data/old_message_ids.txt
+          else
+            echo "Silinecek eski mesaj yok."
           fi
 
       - name: M3U dosyasını indir
@@ -163,4 +163,4 @@ jobs:
           git add .data
           git commit -m "Veriler güncellendi [skip ci]" || echo "Commit yok"
           git pull --rebase origin main
-          git push origin main
+          git push
