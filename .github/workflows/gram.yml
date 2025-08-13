@@ -17,6 +17,18 @@ jobs:
       - name: Repo'yu al
         uses: actions/checkout@v4
 
+      - name: Önceki bildirimleri temizle
+        run: |
+          RESPONSE=$(curl -s "https://api.telegram.org/bot${BOT_TOKEN}/getUpdates?chat_id=${CHAT_ID}")
+          echo "Önceki mesajlar alındı, temizleme başlıyor..."
+          echo $RESPONSE | jq -r '.result[] | select(.message.text | contains("ÜMİT TV KANAL GÜNCELLEME RAPORU")) | .message.message_id' | \
+          while read -r msg_id; do
+            curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
+              -d "chat_id=${CHAT_ID}&message_id=$msg_id"
+            echo "Mesaj ID $msg_id silindi"
+          done
+        continue-on-error: true
+
       - name: Önceki veriyi indir
         run: |
           gh run download --name category_counts || echo "Önceki veri bulunamadı, yeni bir rapor oluşturulacak."
@@ -43,6 +55,7 @@ jobs:
           | sed -E 's/([Bb][Ee][Ii][Nn])/Morpaket/g' \
           | sort \
           | uniq -c \
+          | sort -nr \
           | awk '{$1=$1; count=$1; $1=""; name=substr($0,2); print count "|" name}' > new_counts.txt
 
       - name: Rapor oluştur
@@ -74,6 +87,13 @@ jobs:
           else
             MESSAGE+=" (<code>→ Değişiklik yok</code>)\n\n"
           fi
+
+          # Kategori sıralaması (en çok kanaldan en aza)
+          MESSAGE+="<b>🏆 KATEGORİ SIRALAMASI</b> (En çok kanal içeren)\n"
+          head -n 10 new_counts.txt | awk -F"|" '{print "🏅 " $2 ": <b>" $1 "</b> kanal"}' | while read -r LINE; do
+            MESSAGE+="${LINE}\n"
+          done
+          MESSAGE+="\n"
 
           # Kategori değişiklikleri
           MESSAGE+="<b>📋 KATEGORİ DEĞİŞİKLİKLERİ</b>\n"
@@ -130,7 +150,7 @@ jobs:
             MESSAGE+="\n"
           fi
 
-          if [ -s "$TEMP_UNCHANGED" ]; then
+          if [ -s "$TEMP_UNCHANGED" ] && [ "$(wc -l < "$TEMP_UNCHANGED")" -lt 15 ]; then
             MESSAGE+="\n<b>⚖️ DEĞİŞMEYEN KATEGORİLER</b>\n"
             MESSAGE+=$(cat "$TEMP_UNCHANGED")
             MESSAGE+="\n"
