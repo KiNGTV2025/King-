@@ -16,6 +16,7 @@ jobs:
     steps:
       - name: Önceki kategori verisini indir
         run: echo "---- STEP: Download artifact ----"
+
       - uses: actions/download-artifact@v4
         with:
           name: category_counts
@@ -111,9 +112,6 @@ jobs:
           MESSAGE+="✅ Kanal sayısı arttı%0A"
           MESSAGE+="🔻 Kanal sayısı azaldı%0A"
           MESSAGE+="⚪ Değişiklik yok%0A"
-
-          echo "Generated MESSAGE:"
-          echo "$MESSAGE" | sed 's/%0A/\n/g' 
 
           echo "$MESSAGE" > message.txt
 
