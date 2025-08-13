@@ -23,22 +23,19 @@ jobs:
           [ -f .data/old_counts.txt ] || touch .data/old_counts.txt
           [ -f .data/old_message_ids.txt ] || touch .data/old_message_ids.txt
 
-      - name: Eski mesajları sil (çıktıyı göster)
+      - name: Eski mesajları sil (20sn bekleme ile)
         run: |
           if [ -s .data/old_message_ids.txt ]; then
+            echo "⏳ 20 saniye bekleniyor..."
+            sleep 20
             while IFS= read -r MSG_ID; do
-              if [ -n "$MSG_ID" ]; then
-                echo "Siliniyor: Mesaj ID $MSG_ID"
-                curl -s -X POST \
-                  "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
-                  -d "chat_id=${CHAT_ID}" \
-                  -d "message_id=${MSG_ID}"
-                echo ""
-              fi
+              [ -n "$MSG_ID" ] && curl -s -X POST \
+                "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
+                -d "chat_id=${CHAT_ID}" \
+                -d "message_id=${MSG_ID}" \
+                | jq .
             done < .data/old_message_ids.txt
             > .data/old_message_ids.txt
-          else
-            echo "Silinecek eski mesaj yok."
           fi
 
       - name: M3U dosyasını indir
@@ -135,7 +132,7 @@ jobs:
       - name: jq kur
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Mesajı parçalara bölerek gönder ve ID’leri kaydet
+      - name: Mesajı gönder ve ID’yi kaydet
         run: |
           TEXT=$(cat message.txt)
           MAX=4000
@@ -148,18 +145,20 @@ jobs:
               -d "parse_mode=HTML" \
               "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage")
             MSG_ID=$(echo "$RESPONSE" | jq -r '.result.message_id')
-            echo "$MSG_ID" >> .data/old_message_ids.txt
+            if [ "$MSG_ID" != "null" ]; then
+              echo "$MSG_ID" >> .data/old_message_ids.txt
+            fi
             START=$((START+MAX))
           done
 
       - name: Verileri güncelle
         run: mv new_counts.txt .data/old_counts.txt
 
-      - name: Değişiklikleri commit et (ID dosyası hariç)
+      - name: Değişiklikleri commit et
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add .data/old_counts.txt
+          git add .data
           git commit -m "Veriler güncellendi [skip ci]" || echo "Commit yok"
-          git pull --rebase origin main || true
-          git push || true
+          git pull --rebase origin main || git rebase --abort
+          git push
