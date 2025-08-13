@@ -1,9 +1,9 @@
-name: ÜMİT TV Güncelleme Bildirimi (DEBUG)
+name: ÜMİT TV Güncelleme Bildirimi
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
+    - cron: "0 */6 * * *" # 6 saatte bir (UTC)
+  workflow_dispatch: # Manuel tetikleme
 
 jobs:
   notify:
