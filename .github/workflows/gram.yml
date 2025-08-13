@@ -17,26 +17,28 @@ jobs:
       - name: Repo'yu al
         uses: actions/checkout@v4
 
-      - name: .gitignore ayarla (ID dosyası takip edilmeyecek)
-        run: |
-          echo ".data/old_message_ids.txt" >> .gitignore
-
       - name: Önceki verileri yükle
         run: |
           mkdir -p .data
           [ -f .data/old_counts.txt ] || touch .data/old_counts.txt
           [ -f .data/old_message_ids.txt ] || touch .data/old_message_ids.txt
 
-      - name: Eski mesajları sil
+      - name: Eski mesajları sil (çıktıyı göster)
         run: |
           if [ -s .data/old_message_ids.txt ]; then
             while IFS= read -r MSG_ID; do
-              [ -n "$MSG_ID" ] && curl -s -X POST \
-                "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
-                -d "chat_id=${CHAT_ID}" \
-                -d "message_id=${MSG_ID}" >/dev/null
+              if [ -n "$MSG_ID" ]; then
+                echo "Siliniyor: Mesaj ID $MSG_ID"
+                curl -s -X POST \
+                  "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
+                  -d "chat_id=${CHAT_ID}" \
+                  -d "message_id=${MSG_ID}"
+                echo ""
+              fi
             done < .data/old_message_ids.txt
             > .data/old_message_ids.txt
+          else
+            echo "Silinecek eski mesaj yok."
           fi
 
       - name: M3U dosyasını indir
