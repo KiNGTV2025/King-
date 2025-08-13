@@ -2,7 +2,7 @@ name: ÜMİT TV Güncelleme Raporu
 
 on:
   schedule:
-    - cron: "0 3,9,15,21 * * *" # Türkiye saati 06:00, 12:00, 18:00, 00:00
+    - cron: "0 3,9,15,21 * * *" # Türkiye saatiyle 06:00, 12:00, 18:00, 00:00
   workflow_dispatch:
 
 jobs:
@@ -17,18 +17,11 @@ jobs:
       - name: Repo'yu al
         uses: actions/checkout@v4
 
-      - name: Önceki verileri indir
+      - name: Önceki verileri yükle
         run: |
-          gh run download --name category_counts || echo "Önceki veri bulunamadı"
-          gh run download --name telegram_last_message || echo "Eski mesaj ID'si bulunamadı"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true
-
-      - name: Eski veri kontrolü
-        run: |
-          [ -f old_counts.txt ] || touch old_counts.txt
-          [ -f old_message_id.txt ] || echo "" > old_message_id.txt
+          mkdir -p .data
+          [ -f .data/old_counts.txt ] || touch .data/old_counts.txt
+          [ -f .data/old_message_id.txt ] || touch .data/old_message_id.txt
 
       - name: M3U dosyasını indir
         run: curl -s -L "$M3U_URL" -o playlist.m3u
@@ -45,12 +38,12 @@ jobs:
 
       - name: Rapor oluştur
         run: |
-          if [ -s old_counts.txt ]; then
-            sed -i -E 's/([Bb][Ee][Ii][Nn])/Morpaket/g' old_counts.txt
+          if [ -s .data/old_counts.txt ]; then
+            sed -i -E 's/([Bb][Ee][Ii][Nn])/Morpaket/g' .data/old_counts.txt
           fi
 
           NEW_TOTAL=$(awk -F"|" '{sum += $1} END {print sum}' new_counts.txt)
-          OLD_TOTAL=$(awk -F"|" '{sum += $1} END {print sum}' old_counts.txt 2>/dev/null || echo 0)
+          OLD_TOTAL=$(awk -F"|" '{sum += $1} END {print sum}' .data/old_counts.txt)
           CHANGE=$((NEW_TOTAL - OLD_TOTAL))
           PERCENT="0"
           if [ "$OLD_TOTAL" -gt 0 ]; then
@@ -60,7 +53,6 @@ jobs:
           MESSAGE="<b>📊 ÜMİT TV KANAL GÜNCELLEME RAPORU</b>\n\n"
           MESSAGE+="<b>🕒 Son Güncelleme (TSİ):</b> <code>$(TZ='Europe/Istanbul' date '+%d.%m.%Y %H:%M:%S')</code>\n"
           MESSAGE+="<b>🔢 Toplam Kanal:</b> <b>${NEW_TOTAL}</b>"
-
           if [ "$CHANGE" -gt 0 ]; then
             MESSAGE+=" (<code>↑+${CHANGE}</code> | %${PERCENT})\n\n"
           elif [ "$CHANGE" -lt 0 ]; then
@@ -71,28 +63,27 @@ jobs:
 
           MESSAGE+="<b>📋 KATEGORİ DEĞİŞİKLİKLERİ</b>\n"
 
-          TEMP_CHANGED=$(mktemp)
           TEMP_NEW=$(mktemp)
           TEMP_REMOVED=$(mktemp)
+          TEMP_CHANGED=$(mktemp)
           TEMP_UNCHANGED=$(mktemp)
 
-          # Yeni kategoriler
-          comm -23 <(cut -d"|" -f2 new_counts.txt | sort) <(cut -d"|" -f2 old_counts.txt 2>/dev/null | sort) > new_categories.txt
+          comm -23 <(cut -d"|" -f2 new_counts.txt | sort) <(cut -d"|" -f2 .data/old_counts.txt | sort) > new_categories.txt
           while read -r CATEGORY; do
+            [ -n "$CATEGORY" ] || continue
             COUNT=$(grep -F "|${CATEGORY}" new_counts.txt | cut -d"|" -f1)
             echo "🆕 <b>${CATEGORY}</b>: ${COUNT} kanal (yeni kategori)" >> "$TEMP_NEW"
           done < new_categories.txt
 
-          # Kaldırılan kategoriler
-          comm -13 <(cut -d"|" -f2 new_counts.txt | sort) <(cut -d"|" -f2 old_counts.txt 2>/dev/null | sort) > removed_categories.txt
+          comm -13 <(cut -d"|" -f2 new_counts.txt | sort) <(cut -d"|" -f2 .data/old_counts.txt | sort) > removed_categories.txt
           while read -r CATEGORY; do
-            OLD_COUNT=$(grep -F "|${CATEGORY}" old_counts.txt | cut -d"|" -f1)
+            [ -n "$CATEGORY" ] || continue
+            OLD_COUNT=$(grep -F "|${CATEGORY}" .data/old_counts.txt | cut -d"|" -f1)
             echo "❌ <b>${CATEGORY}</b>: 0 kanal (kaldırıldı, önceki: ${OLD_COUNT})" >> "$TEMP_REMOVED"
           done < removed_categories.txt
 
-          # Değişen kategoriler
           while IFS="|" read -r COUNT CATEGORY; do
-            OLD_COUNT=$(grep -F "|${CATEGORY}" old_counts.txt 2>/dev/null | cut -d"|" -f1)
+            OLD_COUNT=$(grep -F "|${CATEGORY}" .data/old_counts.txt | cut -d"|" -f1)
             if [ -n "$OLD_COUNT" ] && [ "$OLD_COUNT" -ne "$COUNT" ]; then
               if [ "$COUNT" -gt "$OLD_COUNT" ]; then
                 echo "⬆️ <b>${CATEGORY}</b>: ${COUNT} kanal (<code>↑+$((COUNT - OLD_COUNT))</code>)" >> "$TEMP_CHANGED"
@@ -105,24 +96,16 @@ jobs:
           done < new_counts.txt
 
           if [ -s "$TEMP_NEW" ]; then
-            MESSAGE+="\n<b>🌟 YENİ KATEGORİLER</b>\n"
-            MESSAGE+=$(cat "$TEMP_NEW")
-            MESSAGE+="\n"
+            MESSAGE+="\n<b>🌟 YENİ KATEGORİLER</b>\n$(cat "$TEMP_NEW")\n"
           fi
           if [ -s "$TEMP_REMOVED" ]; then
-            MESSAGE+="\n<b>🗑️ KALDIRILAN KATEGORİLER</b>\n"
-            MESSAGE+=$(cat "$TEMP_REMOVED")
-            MESSAGE+="\n"
+            MESSAGE+="\n<b>🗑️ KALDIRILAN KATEGORİLER</b>\n$(cat "$TEMP_REMOVED")\n"
           fi
           if [ -s "$TEMP_CHANGED" ]; then
-            MESSAGE+="\n<b>🔄 DEĞİŞEN KATEGORİLER</b>\n"
-            MESSAGE+=$(cat "$TEMP_CHANGED")
-            MESSAGE+="\n"
+            MESSAGE+="\n<b>🔄 DEĞİŞEN KATEGORİLER</b>\n$(cat "$TEMP_CHANGED")\n"
           fi
           if [ -s "$TEMP_UNCHANGED" ]; then
-            MESSAGE+="\n<b>⚖️ DEĞİŞMEYEN KATEGORİLER</b>\n"
-            MESSAGE+=$(cat "$TEMP_UNCHANGED")
-            MESSAGE+="\n"
+            MESSAGE+="\n<b>⚖️ DEĞİŞMEYEN KATEGORİLER</b>\n$(cat "$TEMP_UNCHANGED")\n"
           fi
 
           MESSAGE+="\n<b>📌 AÇIKLAMALAR</b>\n"
@@ -131,25 +114,25 @@ jobs:
 
           echo -e "$MESSAGE" > message.txt
 
-      - name: Eski mesaj(lar)ı sil
+      - name: Eski mesajı sil
         run: |
-          if [ -s old_message_id.txt ]; then
-            while read -r OLD_ID; do
-              [ -n "$OLD_ID" ] && curl -s -X POST \
-                "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
-                -d "chat_id=${CHAT_ID}" \
-                -d "message_id=${OLD_ID}" >/dev/null
-            done < old_message_id.txt
+          OLD_ID=$(cat .data/old_message_id.txt)
+          if [ -n "$OLD_ID" ]; then
+            curl -s -X POST \
+              "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
+              -d "chat_id=${CHAT_ID}" \
+              -d "message_id=${OLD_ID}" >/dev/null
           fi
-          > old_message_id.txt
+
+      - name: jq kur
+        run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Mesajı parçalara bölerek gönder
         run: |
           TEXT=$(cat message.txt)
           MAX=4000
           START=0
-          > old_message_id.txt
-
+          FIRST_ID=""
           while [ $START -lt ${#TEXT} ]; do
             PART=$(echo "$TEXT" | cut -c$((START+1))-$((START+MAX)))
             RESPONSE=$(curl -s --data-urlencode "text=$PART" \
@@ -157,21 +140,20 @@ jobs:
               -d "parse_mode=HTML" \
               "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage")
             MSG_ID=$(echo "$RESPONSE" | jq -r '.result.message_id')
-            echo "$MSG_ID" >> old_message_id.txt
+            if [ -z "$FIRST_ID" ]; then
+              FIRST_ID="$MSG_ID"
+            fi
             START=$((START+MAX))
           done
+          echo "$FIRST_ID" > .data/old_message_id.txt
 
-      - name: Veriyi güncelle
-        run: mv new_counts.txt old_counts.txt
+      - name: Verileri güncelle
+        run: mv new_counts.txt .data/old_counts.txt
 
-      - name: Yeni verileri kaydet
-        uses: actions/upload-artifact@v4
-        with:
-          name: category_counts
-          path: old_counts.txt
-
-      - name: Mesaj ID'lerini kaydet
-        uses: actions/upload-artifact@v4
-        with:
-          name: telegram_last_message
-          path: old_message_id.txt
+      - name: Değişiklikleri commit et
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .data
+          git commit -m "Veriler güncellendi [skip ci]" || echo "Commit yok"
+          git push
