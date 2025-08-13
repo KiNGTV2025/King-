@@ -32,48 +32,40 @@ jobs:
       - name: Verileri hazırla
         uses: actions/checkout@v4
 
-      - name: Önceki veriyi kontrol et
-        id: check-artifact
+      - name: Eski veriyi başlat (artifact yoksa)
         run: |
-          if gh run download --name category_counts 2>/dev/null; then
-            echo "::set-output name=exists::true"
-          else
-            echo "::set-output name=exists::false"
+          if [ ! -f old_counts.txt ]; then
+            echo "Eski veri dosyası oluşturuluyor..."
             touch old_counts.txt
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true
+        id: init-data
 
       - name: M3U listesini indir ve kontrol et
         run: |
+          echo "M3U listesi indiriliyor..."
           curl -s -L "$M3U_URL" -o playlist.m3u
           if [ ! -s playlist.m3u ]; then
-            echo "Hata: M3U dosyası boş veya indirilemedi!"
+            echo "::error::M3U dosyası boş veya indirilemedi!"
             exit 1
           fi
-          echo "M3U dosyası başarıyla indirildi, satır sayısı: $(wc -l < playlist.m3u)"
+          echo "M3U dosyası başarıyla indirildi, boyut: $(wc -l < playlist.m3u) satır"
 
       - name: Kategorileri analiz et
         run: |
           echo "Kategoriler çıkarılıyor..."
-          grep -oP 'group-title="\K[^"]+' playlist.m3u > categories_raw.txt
           
-          # Kategorileri temizle ve say
+          # Kategorileri çıkar ve temizle
+          grep -oP 'group-title="\K[^"]+' playlist.m3u | \
           sed -e 's/[Bb][Ee][Ii][Nn]/Morpaket/g' \
               -e 's/^[[:space:]]*//' \
               -e 's/[[:space:]]*$//' \
-              -e '/^$/d' categories_raw.txt \
-          | sort | uniq -c | sort -nr \
-          | awk '{print $1 "|" $2}' > new_counts.txt
+              -e '/^$/d' | \
+          sort | uniq -c | sort -nr | \
+          awk '{print $1 "|" $2}' > new_counts.txt
           
           echo "İlk 5 kategori örneği:"
           head -n 5 new_counts.txt
-
-          # Eğer eski veri yoksa boş dosya oluştur
-          if [ ! -f old_counts.txt ]; then
-            touch old_counts.txt
-          fi
+          echo "Toplam kategori sayısı: $(wc -l < new_counts.txt)"
 
       - name: Rapor oluştur
         run: |
@@ -106,7 +98,7 @@ jobs:
               MESSAGE+="$line\n"
             done
           else
-            MESSAGE+="⚠️ Kategori bilgisi bulunamadı\n"
+            MESSAGE+="ℹ️ Hiç kategori bulunamadı\n"
           fi
           MESSAGE+="\n"
 
@@ -169,11 +161,12 @@ jobs:
           MESSAGE+="<i>🔔 Otomatik güncelleme - ÜMİT TV</i>"
 
           echo -e "$MESSAGE" > message.txt
-          echo "Rapor oluşturuldu:"
+          echo "Rapor oluşturuldu, içerik:"
           cat message.txt
 
       - name: Raporu gönder
         run: |
+          echo "Telegram mesajı gönderiliyor..."
           curl -s -X POST \
             "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
             -d "chat_id=${CHAT_ID}" \
@@ -189,3 +182,8 @@ jobs:
           name: category_counts
           path: new_counts.txt
           retention-days: 7
+
+      - name: Bir sonraki çalışma için veriyi hazırla
+        run: |
+          cp new_counts.txt old_counts.txt
+          echo "Yeni veri bir sonraki çalışma için hazırlandı"
