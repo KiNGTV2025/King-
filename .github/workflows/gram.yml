@@ -20,6 +20,12 @@ jobs:
           name: category_counts
         continue-on-error: true
 
+      - name: Eğer eski veri yoksa boş dosya oluştur
+        run: |
+          if [ ! -f old_counts.txt ]; then
+            touch old_counts.txt
+          fi
+
       - name: M3U dosyasını indir
         run: |
           curl -s -L "$M3U_URL" -o playlist.m3u
@@ -36,15 +42,12 @@ jobs:
 
       - name: Değişiklikleri karşılaştır ve HTML mesaj oluştur
         run: |
-          if [ -f old_counts.txt ]; then
+          if [ -s old_counts.txt ]; then
             sed -i -E 's/([Bb][Ee][Ii][Nn])/Morpaket/g' old_counts.txt
           fi
 
           NEW_TOTAL=$(awk '{sum += $1} END {print sum}' new_counts.txt)
-          OLD_TOTAL=0
-          if [ -f old_counts.txt ]; then
-            OLD_TOTAL=$(awk '{sum += $1} END {print sum}' old_counts.txt)
-          fi
+          OLD_TOTAL=$(awk '{sum += $1} END {print sum}' old_counts.txt 2>/dev/null || echo 0)
           CHANGE=$((NEW_TOTAL - OLD_TOTAL))
           PERCENT="0"
           if [ "$OLD_TOTAL" -gt 0 ]; then
@@ -61,7 +64,7 @@ jobs:
           while read -r CATEGORY; do
             COUNT=$(grep -F "$CATEGORY" new_counts.txt | awk '{print $1}')
             OLD_COUNT=$(grep -F "$CATEGORY" old_counts.txt 2>/dev/null | awk '{print $1}')
-            if [ -z "$OLD_COUNT" ]; then
+            if [ -z "$OLD_COUNT" ] || [ "$OLD_TOTAL" -eq 0 ]; then
               ICON="🟢"
               echo "${ICON} <b>${CATEGORY}</b>: ${COUNT} kanal" >> "$TEMP_CHANGE"
             elif [ "$COUNT" -gt "$OLD_COUNT" ]; then
