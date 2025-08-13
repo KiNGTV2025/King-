@@ -2,7 +2,7 @@ name: ÜMİT TV Güncelleme Raporu
 
 on:
   schedule:
-    - cron: "0 3,9,15,21 * * *" # 6 saatte bir (UTC'ye göre ayarlandı, Türkiye saati UTC+3)
+    - cron: "0 3,9,15,21 * * *" # Türkiye saati 06:00, 12:00, 18:00, 00:00
   workflow_dispatch:
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
 
       - name: Önceki veriyi indir
         run: |
-          gh run download --name category_counts || echo "Önceki veri bulunamadı, yeni bir rapor oluşturulacak."
+          gh run download --name category_counts || echo "Önceki veri bulunamadı."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
@@ -28,45 +28,25 @@ jobs:
         run: |
           if [ ! -f old_counts.txt ]; then
             touch old_counts.txt
-            echo "Önceki veri dosyası oluşturuldu."
           fi
 
       - name: M3U dosyasını indir
         run: curl -s -L "$M3U_URL" -o playlist.m3u
 
-      - name: Kategori analizi yap
+      - name: Kategori analizi yap ve rapor hazırla
         run: |
-          # Kategorileri temizle ve standardize et (orijinal sırayı koru)
-          awk -F'group-title="' '{print $2}' playlist.m3u | awk -F'"' '{print $1}' \
+          grep -oP 'group-title="\K[^"]+' playlist.m3u \
           | tr -d '\r' \
           | sed 's/[[:space:]]\+/ /g' \
           | sed -E 's/([Bb][Ee][Ii][Nn])/Morpaket/g' \
-          | awk 'NF' > all_categories.txt
-          
-          # Kategori sıklıklarını hesapla (orijinal sıraya göre)
-          awk '{
-            count[$0]++
-            if (!($0 in seen)) {
-              seen[$0]
-              order[++n] = $0
-            }
-          } END {
-            for (i=1; i<=n; i++) {
-              print count[order[i]] "|" order[i]
-            }
-          }' all_categories.txt > new_counts.txt
+          | sort \
+          | uniq -c \
+          | awk '{$1=$1; count=$1; $1=""; name=substr($0,2); print count "|" name}' > new_counts.txt
 
-      - name: Rapor oluştur
-        run: |
-          # Eski veriyi standardize et
           if [ -s old_counts.txt ]; then
             sed -i -E 's/([Bb][Ee][Ii][Nn])/Morpaket/g' old_counts.txt
           fi
 
-          # Türkiye saati (UTC+3) için zaman ayarı
-          TURKEY_TIME=$(TZ="Europe/Istanbul" date '+%d.%m.%Y %H:%M:%S')
-
-          # Toplam kanal hesaplamaları
           NEW_TOTAL=$(awk -F"|" '{sum += $1} END {print sum}' new_counts.txt)
           OLD_TOTAL=$(awk -F"|" '{sum += $1} END {print sum}' old_counts.txt 2>/dev/null || echo 0)
           CHANGE=$((NEW_TOTAL - OLD_TOTAL))
@@ -75,106 +55,87 @@ jobs:
             PERCENT=$(awk "BEGIN {printf \"%.2f\", ($CHANGE/$OLD_TOTAL)*100}")
           fi
 
-          # Rapor başlığı (daha profesyonel tasarım)
-          MESSAGE="<b>📈 ÜMİT TV KANAL ANALİZ RAPORU</b>\n"
-          MESSAGE+="<code>━━━━━━━━━━━━━━━━━━━━</code>\n"
-          MESSAGE+="<b>🕒 Güncelleme Zamanı:</b> <code>${TURKEY_TIME}</code>\n"
-          MESSAGE+="<b>📊 Toplam Kanal:</b> <b>${NEW_TOTAL}</b>"
-          
-          # Değişim bilgisi
+          MESSAGE="📊 <b>ÜMİT TV - Günlük Kanal Raporu</b>\n"
+          MESSAGE+="━━━━━━━━━━━━━━━━━━━━\n"
+          MESSAGE+="<b>📅 Tarih:</b> <code>$(date '+%d.%m.%Y %H:%M:%S')</code>\n"
+          MESSAGE+="<b>📺 Toplam Kanal:</b> <b>${NEW_TOTAL}</b>"
+
           if [ "$CHANGE" -gt 0 ]; then
-            MESSAGE+=" (<code>↑ +${CHANGE}</code> | %${PERCENT})\n"
+            MESSAGE+=" (<code>+${CHANGE}</code> | %${PERCENT} ↑)\n"
           elif [ "$CHANGE" -lt 0 ]; then
-            MESSAGE+=" (<code>↓ ${CHANGE}</code> | %${PERCENT})\n"
+            MESSAGE+=" (<code>${CHANGE}</code> | %${PERCENT} ↓)\n"
           else
-            MESSAGE+=" (<code>→ 0</code>)\n"
+            MESSAGE+=" (Değişiklik yok)\n"
           fi
-          MESSAGE+="<code>━━━━━━━━━━━━━━━━━━━━</code>\n\n"
 
-          # Kategori değişiklikleri
-          MESSAGE+="<b>📌 KATEGORİ DETAYLARI</b>\n"
+          MESSAGE+="━━━━━━━━━━━━━━━━━━━━\n"
 
-          TEMP_CHANGED=$(mktemp)
           TEMP_NEW=$(mktemp)
           TEMP_REMOVED=$(mktemp)
+          TEMP_CHANGED=$(mktemp)
           TEMP_UNCHANGED=$(mktemp)
 
-          # Yeni kategoriler
-          comm -23 <(cut -d"|" -f2 new_counts.txt | sort) <(cut -d"|" -f2 old_counts.txt 2>/dev/null | sort) > new_categories.txt
-          if [ -s new_categories.txt ]; then
-            MESSAGE+="\n<b>✨ YENİ EKLENENLER</b>\n"
-            while read -r CATEGORY; do
-              COUNT=$(grep -F "|${CATEGORY}" new_counts.txt | cut -d"|" -f1)
-              MESSAGE+="┣ <code>+${COUNT}</code> <b>${CATEGORY}</b>\n"
-            done < new_categories.txt
-          fi
+          comm -23 <(cut -d"|" -f2 new_counts.txt | sort) <(cut -d"|" -f2 old_counts.txt | sort) > new_categories.txt
+          while read -r CATEGORY; do
+            COUNT=$(grep -F "|${CATEGORY}" new_counts.txt | cut -d"|" -f1)
+            echo "🆕 <b>${CATEGORY}</b>: ${COUNT} kanal" >> "$TEMP_NEW"
+          done < new_categories.txt
 
-          # Kaldırılan kategoriler
-          comm -13 <(cut -d"|" -f2 new_counts.txt | sort) <(cut -d"|" -f2 old_counts.txt 2>/dev/null | sort) > removed_categories.txt
-          if [ -s removed_categories.txt ]; then
-            MESSAGE+="\n<b>🗑️ KALDIRILANLAR</b>\n"
-            while read -r CATEGORY; do
-              OLD_COUNT=$(grep -F "|${CATEGORY}" old_counts.txt | cut -d"|" -f1)
-              MESSAGE+="┣ <code>-${OLD_COUNT}</code> <b>${CATEGORY}</b>\n"
-            done < removed_categories.txt
-          fi
+          comm -13 <(cut -d"|" -f2 new_counts.txt | sort) <(cut -d"|" -f2 old_counts.txt | sort) > removed_categories.txt
+          while read -r CATEGORY; do
+            OLD_COUNT=$(grep -F "|${CATEGORY}" old_counts.txt | cut -d"|" -f1)
+            echo "❌ <b>${CATEGORY}</b>: Önce ${OLD_COUNT}, şimdi 0" >> "$TEMP_REMOVED"
+          done < removed_categories.txt
 
-          # Değişen kategoriler
-          CHANGED_CATEGORIES=0
           while IFS="|" read -r COUNT CATEGORY; do
-            OLD_COUNT=$(grep -F "|${CATEGORY}" old_counts.txt 2>/dev/null | cut -d"|" -f1)
-            if [ -n "$OLD_COUNT" ] && [ "$OLD_COUNT" -ne "$COUNT" ]; then
-              if [ $CHANGED_CATEGORIES -eq 0 ]; then
-                MESSAGE+="\n<b>🔄 DEĞİŞİKLİKLER</b>\n"
-              fi
-              DIFF=$((COUNT - OLD_COUNT))
-              if [ "$DIFF" -gt 0 ]; then
-                MESSAGE+="┣ <code>↑+${DIFF}</code> <b>${CATEGORY}</b> (<code>${OLD_COUNT} → ${COUNT}</code>)\n"
+            OLD_COUNT=$(grep -F "|${CATEGORY}" old_counts.txt | cut -d"|" -f1)
+            if [ -n "$OLD_COUNT" ] && [ "$COUNT" -ne "$OLD_COUNT" ]; then
+              if [ "$COUNT" -gt "$OLD_COUNT" ]; then
+                echo "⬆️ <b>${CATEGORY}</b>: ${COUNT} (+$((COUNT - OLD_COUNT)))" >> "$TEMP_CHANGED"
               else
-                MESSAGE+="┣ <code>↓${DIFF}</code> <b>${CATEGORY}</b> (<code>${OLD_COUNT} → ${COUNT}</code>)\n"
+                echo "⬇️ <b>${CATEGORY}</b>: ${COUNT} (-$((OLD_COUNT - COUNT)))" >> "$TEMP_CHANGED"
               fi
-              CHANGED_CATEGORIES=$((CHANGED_CATEGORIES+1))
+            elif [ -n "$OLD_COUNT" ]; then
+              echo "⏺️ <b>${CATEGORY}</b>: ${COUNT} kanal (değişmedi)" >> "$TEMP_UNCHANGED"
             fi
           done < new_counts.txt
 
-          # Sabit kategoriler (ilk 10)
-          UNCHANGED_COUNT=0
-          while IFS="|" read -r COUNT CATEGORY; do
-            OLD_COUNT=$(grep -F "|${CATEGORY}" old_counts.txt 2>/dev/null | cut -d"|" -f1)
-            if [ -n "$OLD_COUNT" ] && [ "$OLD_COUNT" -eq "$COUNT" ]; then
-              UNCHANGED_COUNT=$((UNCHANGED_COUNT+1))
-            fi
-          done < new_counts.txt
-
-          if [ $UNCHANGED_COUNT -gt 0 ]; then
-            MESSAGE+="\n<b>⏺️ SABİT KATEGORİLER</b>\n"
-            MESSAGE+="┣ Toplam <b>${UNCHANGED_COUNT}</b> kategoride değişiklik yok\n"
+          if [ -s "$TEMP_NEW" ]; then
+            MESSAGE+="\n<b>🌟 Yeni Kategoriler</b>\n"
+            MESSAGE+=$(cat "$TEMP_NEW")
+          fi
+          if [ -s "$TEMP_REMOVED" ]; then
+            MESSAGE+="\n\n<b>🗑️ Kaldırılan Kategoriler</b>\n"
+            MESSAGE+=$(cat "$TEMP_REMOVED")
+          fi
+          if [ -s "$TEMP_CHANGED" ]; then
+            MESSAGE+="\n\n<b>🔄 Değişen Kategoriler</b>\n"
+            MESSAGE+=$(cat "$TEMP_CHANGED")
+          fi
+          if [ -s "$TEMP_UNCHANGED" ]; then
+            MESSAGE+="\n\n<b>⚖️ Değişmeyen Kategoriler</b>\n"
+            MESSAGE+=$(cat "$TEMP_UNCHANGED")
           fi
 
-          # İstatistik özeti
-          MESSAGE+="\n<code>━━━━━━━━━━━━━━━━━━━━</code>\n"
-          MESSAGE+="<b>📊 ÖZET</b>\n"
-          MESSAGE+="┣ <b>Toplam Kanal:</b> <code>${NEW_TOTAL}</code>\n"
-          MESSAGE+="┣ <b>Yeni Kategoriler:</b> <code>$(wc -l < new_categories.txt)</code>\n"
-          MESSAGE+="┣ <b>Kaldırılanlar:</b> <code>$(wc -l < removed_categories.txt)</code>\n"
-          MESSAGE+="┣ <b>Değişenler:</b> <code>${CHANGED_CATEGORIES}</code>\n"
-          MESSAGE+="┗ <b>Sabit Kalanlar:</b> <code>${UNCHANGED_COUNT}</code>\n\n"
-          MESSAGE+="<i>🔍 Detaylı analiz için sistem yöneticinizle iletişime geçin.</i>\n"
-          MESSAGE+="<i>🔄 Otomatik güncelleme • ÜMİT TV</i>"
+          MESSAGE+="\n\n<i>Bu rapor otomatik olarak oluşturulmuştur.</i>"
 
           echo -e "$MESSAGE" > message.txt
 
-      - name: Telegram'a gönder
+      - name: Telegram'a gönder (parçalı)
         run: |
-          curl -s -X POST \
-            -H "Content-Type: application/json" \
-            -d '{
-              "chat_id": "'"${CHAT_ID}"'",
-              "text": "'"$(cat message.txt | sed 's/"/\\"/g')"'",
-              "parse_mode": "HTML",
-              "disable_web_page_preview": true
-            }' \
-            "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage"
+          TEXT=$(cat message.txt)
+          MAX=4000  # 96 karakter güvenlik payı
+          LEN=${#TEXT}
+          i=0
+          while [ $i -lt $LEN ]; do
+            PART=$(echo "$TEXT" | cut -c$((i+1))-$((i+MAX)))
+            curl -s --data-urlencode "text=$PART" \
+              -d "chat_id=${CHAT_ID}" \
+              -d "parse_mode=HTML" \
+              "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage"
+            i=$((i+MAX))
+            sleep 1
+          done
 
       - name: Veriyi güncelle
         run: mv new_counts.txt old_counts.txt
