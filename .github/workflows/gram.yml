@@ -2,7 +2,7 @@ name: ÜMİT TV Güncelleme Raporu
 
 on:
   schedule:
-    - cron: "0 3,9,15,21 * * *" # Türkiye saatiyle 06:00, 12:00, 18:00, 00:00
+    - cron: "0 3,9,15,21 * * *"
   workflow_dispatch:
 
 jobs:
@@ -25,14 +25,15 @@ jobs:
 
       - name: Eski mesajları sil
         run: |
-          while read -r MSG_ID; do
-            [ -n "$MSG_ID" ] || continue
-            curl -s -X POST \
-              "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
-              -d "chat_id=${CHAT_ID}" \
-              -d "message_id=${MSG_ID}" >/dev/null
-          done < .data/old_message_ids.txt
-          > .data/old_message_ids.txt
+          if [ -s .data/old_message_ids.txt ]; then
+            while IFS= read -r MSG_ID; do
+              [ -n "$MSG_ID" ] && curl -s -X POST \
+                "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
+                -d "chat_id=${CHAT_ID}" \
+                -d "message_id=${MSG_ID}" >/dev/null
+            done < .data/old_message_ids.txt
+            > .data/old_message_ids.txt
+          fi
 
       - name: M3U dosyasını indir
         run: curl -s -L "$M3U_URL" -o playlist.m3u
@@ -128,7 +129,7 @@ jobs:
       - name: jq kur
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Mesajı parçalara bölerek gönder
+      - name: Mesajı parçalara bölerek gönder ve ID’leri kaydet
         run: |
           TEXT=$(cat message.txt)
           MAX=4000
@@ -154,4 +155,5 @@ jobs:
           git config --global user.email "actions@github.com"
           git add .data
           git commit -m "Veriler güncellendi [skip ci]" || echo "Commit yok"
+          git pull --rebase origin main
           git push
