@@ -32,23 +32,25 @@ jobs:
       - name: Verileri hazırla
         uses: actions/checkout@v4
 
-      - name: Eski veriyi başlat (artifact yoksa)
+      - name: Eski veriyi başlat
         run: |
           if [ ! -f old_counts.txt ]; then
             echo "Eski veri dosyası oluşturuluyor..."
             touch old_counts.txt
           fi
-        id: init-data
+          echo "Mevcut old_counts.txt içeriği:"
+          cat old_counts.txt || echo "Dosya boş"
 
       - name: M3U listesini indir ve kontrol et
         run: |
-          echo "M3U listesi indiriliyor..."
+          echo "M3U listesi indiriliyor: $M3U_URL"
           curl -s -L "$M3U_URL" -o playlist.m3u
           if [ ! -s playlist.m3u ]; then
             echo "::error::M3U dosyası boş veya indirilemedi!"
             exit 1
           fi
-          echo "M3U dosyası başarıyla indirildi, boyut: $(wc -l < playlist.m3u) satır"
+          echo "M3U dosyası başarıyla indirildi, ilk 5 satır:"
+          head -n 5 playlist.m3u
 
       - name: Kategorileri analiz et
         run: |
@@ -63,8 +65,8 @@ jobs:
           sort | uniq -c | sort -nr | \
           awk '{print $1 "|" $2}' > new_counts.txt
           
-          echo "İlk 5 kategori örneği:"
-          head -n 5 new_counts.txt
+          echo "Kategori analizi tamamlandı, ilk 10 kayıt:"
+          head -n 10 new_counts.txt
           echo "Toplam kategori sayısı: $(wc -l < new_counts.txt)"
 
       - name: Rapor oluştur
@@ -161,7 +163,7 @@ jobs:
           MESSAGE+="<i>🔔 Otomatik güncelleme - ÜMİT TV</i>"
 
           echo -e "$MESSAGE" > message.txt
-          echo "Rapor oluşturuldu, içerik:"
+          echo "Oluşturulan rapor:"
           cat message.txt
 
       - name: Raporu gönder
@@ -173,7 +175,7 @@ jobs:
             -d "text=$(cat message.txt)" \
             -d "parse_mode=HTML" \
             -o curl_output.txt
-          echo "Telegram yanıtı:"
+          echo "Telegram API yanıtı:"
           cat curl_output.txt
 
       - name: Yeni veriyi kaydet
@@ -187,3 +189,5 @@ jobs:
         run: |
           cp new_counts.txt old_counts.txt
           echo "Yeni veri bir sonraki çalışma için hazırlandı"
+          echo "Güncellenen old_counts.txt içeriği:"
+          cat old_counts.txt
