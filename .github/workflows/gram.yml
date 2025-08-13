@@ -2,7 +2,7 @@ name: ÜMİT TV Güncelleme Bildirimi
 
 on:
   schedule:
-    - cron: "0 3,9,15,21 * * *"  # Türkiye saatiyle 06:00, 12:00, 18:00, 00:00
+    - cron: "0 6 * * *" # Her gün 06:00 UTC
   workflow_dispatch: # Manuel tetikleme
 
 jobs:
@@ -35,14 +35,20 @@ jobs:
       - name: M3U dosyasını indir
         run: curl -s -L "$M3U_URL" -o playlist.m3u
 
-      - name: Yeni kategori sayımını çıkar (bein → Morpaket)
+      - name: Yeni kategori sayımını çıkar (bein → Morpaket, temizlikli)
         run: |
           grep -oP 'group-title="\K[^"]+' playlist.m3u \
+          | tr -d '\r' \
+          | sed 's/[[:space:]]\+/ /g' \
           | sed -E 's/([Bb][Ee][Ii][Nn])/Morpaket/g' \
+          | awk '{$1=$1};1' \
           | awk '!seen[$0]++ {print $0}' > category_order.txt
 
           grep -oP 'group-title="\K[^"]+' playlist.m3u \
+          | tr -d '\r' \
+          | sed 's/[[:space:]]\+/ /g' \
           | sed -E 's/([Bb][Ee][Ii][Nn])/Morpaket/g' \
+          | awk '{$1=$1};1' \
           | sort | uniq -c > new_counts.txt
 
       - name: Mesajı hazırla
