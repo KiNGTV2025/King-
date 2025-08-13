@@ -21,12 +21,11 @@
 11|Kıbrıs
 18|Müzik
 22|Selcuksports
-25|SporCafe
-35|TRGOALSx
-28|TRGoals
+26|SporCafe
+31|TRGoalsUmit
 11|Ulusal
 7|Ulusal - Yurt Dışı
-15|UmitVIP-belgesel
+14|UmitVIP-belgesel
 4|UmitVIP-cocuk
 2|UmitVIP-diger
 12|UmitVIP-haber
@@ -35,9 +34,8 @@
 44|UmitVIP-spor
 19|UmitVIP-ulusal
 47|Yerel
-504|trGoals2
 14|Çocuk&Eğitim
-76|ÜmitMorpaket
+32|ÜmitMorpaket
 8|ŞAMPİYONLAR LİGİ⚽️
 10|🜲ÜⲘ𝖎ţ KabloNet🜲 Belgesel
 3|🜲ÜⲘ𝖎ţ KabloNet🜲 Müzik
