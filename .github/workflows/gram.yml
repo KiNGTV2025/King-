@@ -27,10 +27,17 @@ jobs:
         run: |
           if [ -s .data/old_message_ids.txt ]; then
             while IFS= read -r MSG_ID; do
-              [ -n "$MSG_ID" ] && curl -s -X POST \
+              [ -n "$MSG_ID" ] && \
+              RESP=$(curl -s -X POST \
                 "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
                 -d "chat_id=${CHAT_ID}" \
-                -d "message_id=${MSG_ID}" >/dev/null
+                -d "message_id=${MSG_ID}")
+              OK=$(echo "$RESP" | jq -r '.ok')
+              if [ "$OK" != "true" ]; then
+                echo "❌ Silinemedi: $MSG_ID - Yanıt: $RESP"
+              else
+                echo "🗑️ Silindi: $MSG_ID"
+              fi
             done < .data/old_message_ids.txt
             > .data/old_message_ids.txt
           fi
@@ -156,4 +163,4 @@ jobs:
           git add .data
           git commit -m "Veriler güncellendi [skip ci]" || echo "Commit yok"
           git pull --rebase origin main
-          git push
+          git push origin main
