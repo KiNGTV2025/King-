@@ -32,40 +32,48 @@ jobs:
       - name: Verileri hazırla
         uses: actions/checkout@v4
 
-      - name: Önceki veriyi indir
-        uses: actions/download-artifact@v4
-        with:
-          name: category_counts
-          path: .
+      - name: Önceki veriyi kontrol et
+        id: check-artifact
+        run: |
+          if gh run download --name category_counts 2>/dev/null; then
+            echo "::set-output name=exists::true"
+          else
+            echo "::set-output name=exists::false"
+            touch old_counts.txt
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
 
-      - name: M3U listesini indir
+      - name: M3U listesini indir ve kontrol et
         run: |
           curl -s -L "$M3U_URL" -o playlist.m3u
-          echo "M3U dosyası indirildi, boyut: $(wc -l playlist.m3u | awk '{print $1}') satır"
+          if [ ! -s playlist.m3u ]; then
+            echo "Hata: M3U dosyası boş veya indirilemedi!"
+            exit 1
+          fi
+          echo "M3U dosyası başarıyla indirildi, satır sayısı: $(wc -l < playlist.m3u)"
 
       - name: Kategorileri analiz et
         run: |
-          # M3U dosyasını kontrol et
-          if [ ! -s playlist.m3u ]; then
-            echo "Hata: playlist.m3u dosyası boş veya eksik!"
-            exit 1
-          fi
-
-          # Kategorileri çıkar ve işle
           echo "Kategoriler çıkarılıyor..."
           grep -oP 'group-title="\K[^"]+' playlist.m3u > categories_raw.txt
-          echo "Toplam $(wc -l categories_raw.txt | awk '{print $1}') kategori bulundu"
-
+          
           # Kategorileri temizle ve say
-          sed 's/[Bb][Ee][Ii][Nn]/Morpaket/g' categories_raw.txt \
+          sed -e 's/[Bb][Ee][Ii][Nn]/Morpaket/g' \
+              -e 's/^[[:space:]]*//' \
+              -e 's/[[:space:]]*$//' \
+              -e '/^$/d' categories_raw.txt \
           | sort | uniq -c | sort -nr \
           | awk '{print $1 "|" $2}' > new_counts.txt
           
-          echo "Kategori sayımı tamamlandı, örnek veri:"
+          echo "İlk 5 kategori örneği:"
           head -n 5 new_counts.txt
 
-          [ -f old_counts.txt ] || touch old_counts.txt
+          # Eğer eski veri yoksa boş dosya oluştur
+          if [ ! -f old_counts.txt ]; then
+            touch old_counts.txt
+          fi
 
       - name: Rapor oluştur
         run: |
@@ -82,7 +90,6 @@ jobs:
           MESSAGE+="<b>🕒 Son Güncelleme:</b> <code>$REPORT_DATE</code>\n"
           MESSAGE+="<b>📈 Toplam Kanal:</b> <b>$NEW_TOTAL</b>"
           
-          # Değişim bilgisi
           if [ $DELTA -gt 0 ]; then
             MESSAGE+=" (🟢 +$DELTA)"
           elif [ $DELTA -lt 0 ]; then
@@ -99,7 +106,7 @@ jobs:
               MESSAGE+="$line\n"
             done
           else
-            MESSAGE+="Kategori bilgisi bulunamadı\n"
+            MESSAGE+="⚠️ Kategori bilgisi bulunamadı\n"
           fi
           MESSAGE+="\n"
 
@@ -109,25 +116,25 @@ jobs:
           # Yeni kategoriler
           NEW_CATS=$(comm -23 <(cut -d'|' -f2 new_counts.txt | sort) <(cut -d'|' -f2 old_counts.txt 2>/dev/null | sort))
           if [ -n "$NEW_CATS" ]; then
-            MESSAGE+="\n<u>Yeni Eklenenler:</u>\n"
+            MESSAGE+="\n<u>➕ Yeni Eklenenler:</u>\n"
             echo "$NEW_CATS" | while read -r cat; do
               count=$(grep -F "|$cat|" new_counts.txt | cut -d'|' -f1)
-              MESSAGE+="🟢 <b>$cat</b> ($count kanal)\n"
+              MESSAGE+="🆕 <b>$cat</b> ($count kanal)\n"
             done
           else
-            MESSAGE+="\n<u>Yeni eklenen kategori yok</u>\n"
+            MESSAGE+="\n<u>➕ Yeni eklenen kategori yok</u>\n"
           fi
 
           # Kaldırılan kategoriler
           DEL_CATS=$(comm -13 <(cut -d'|' -f2 new_counts.txt | sort) <(cut -d'|' -f2 old_counts.txt 2>/dev/null | sort))
           if [ -n "$DEL_CATS" ]; then
-            MESSAGE+="\n<u>Kaldırılanlar:</u>\n"
+            MESSAGE+="\n<u>➖ Kaldırılanlar:</u>\n"
             echo "$DEL_CATS" | while read -r cat; do
               old_count=$(grep -F "|$cat|" old_counts.txt | cut -d'|' -f1)
-              MESSAGE+="🔴 <b>$cat</b> (önceki: $old_count kanal)\n"
+              MESSAGE+="🗑️ <b>$cat</b> (önceki: $old_count kanal)\n"
             done
           else
-            MESSAGE+="\n<u>Kaldırılan kategori yok</u>\n"
+            MESSAGE+="\n<u>➖ Kaldırılan kategori yok</u>\n"
           fi
 
           # Değişen kategoriler
@@ -136,43 +143,49 @@ jobs:
             old_count=$(grep -F "|$cat|" old_counts.txt 2>/dev/null | cut -d'|' -f1 || echo 0)
             if [ "$old_count" -ne 0 ] && [ "$old_count" -ne "$new_count" ]; then
               if [ $CHANGED -eq 0 ]; then
-                MESSAGE+="\n<u>Güncellenenler:</u>\n"
+                MESSAGE+="\n<u>🔄 Güncellenenler:</u>\n"
                 CHANGED=1
               fi
               delta=$((new_count - old_count))
               if [ $delta -gt 0 ]; then
-                MESSAGE+="📈 <b>$cat</b>: $new_count (+$delta)\n"
+                MESSAGE+="📈 <b>$cat</b>: $new_count kanal (<code>+$delta</code>)\n"
               else
-                MESSAGE+="📉 <b>$cat</b>: $new_count ($delta)\n"
+                MESSAGE+="📉 <b>$cat</b>: $new_count kanal (<code>$delta</code>)\n"
               fi
             fi
           done < new_counts.txt
 
-          [ $CHANGED -eq 0 ] && MESSAGE+="\n<u>Güncellenen kategori yok</u>\n"
+          [ $CHANGED -eq 0 ] && MESSAGE+="\n<u>🔄 Güncellenen kategori yok</u>\n"
 
-          MESSAGE+="\n<i>🔔 Otomatik güncelleme - ÜMİT TV</i>"
+          # Simge açıklamaları
+          MESSAGE+="\n<b>📌 SİMGE AÇIKLAMALARI</b>\n"
+          MESSAGE+="🟢 - Toplam kanal artışı\n"
+          MESSAGE+="🔴 - Toplam kanal azalışı\n"
+          MESSAGE+="⚪ - Değişiklik yok\n"
+          MESSAGE+="🆕 - Yeni eklenen kategori\n"
+          MESSAGE+="🗑️ - Kaldırılan kategori\n"
+          MESSAGE+="📈 - Kanal sayısı artan kategori\n"
+          MESSAGE+="📉 - Kanal sayısı azalan kategori\n\n"
+          MESSAGE+="<i>🔔 Otomatik güncelleme - ÜMİT TV</i>"
+
           echo -e "$MESSAGE" > message.txt
-          echo "Rapor oluşturuldu, içerik:"
+          echo "Rapor oluşturuldu:"
           cat message.txt
 
       - name: Raporu gönder
         run: |
-          echo "Telegram mesajı gönderiliyor..."
           curl -s -X POST \
             "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
             -d "chat_id=${CHAT_ID}" \
             -d "text=$(cat message.txt)" \
             -d "parse_mode=HTML" \
             -o curl_output.txt
-
-          echo "Curl çıktısı:"
+          echo "Telegram yanıtı:"
           cat curl_output.txt
 
-      - name: Veriyi güncelle
-        run: mv new_counts.txt old_counts.txt
-
-      - name: Veriyi sakla
+      - name: Yeni veriyi kaydet
         uses: actions/upload-artifact@v4
         with:
           name: category_counts
-          path: old_counts.txt
+          path: new_counts.txt
+          retention-days: 7
