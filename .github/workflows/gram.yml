@@ -21,7 +21,18 @@ jobs:
         run: |
           mkdir -p .data
           [ -f .data/old_counts.txt ] || touch .data/old_counts.txt
-          [ -f .data/old_message_id.txt ] || touch .data/old_message_id.txt
+          [ -f .data/old_message_ids.txt ] || touch .data/old_message_ids.txt
+
+      - name: Eski mesajları sil
+        run: |
+          while read -r MSG_ID; do
+            [ -n "$MSG_ID" ] || continue
+            curl -s -X POST \
+              "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
+              -d "chat_id=${CHAT_ID}" \
+              -d "message_id=${MSG_ID}" >/dev/null
+          done < .data/old_message_ids.txt
+          > .data/old_message_ids.txt
 
       - name: M3U dosyasını indir
         run: curl -s -L "$M3U_URL" -o playlist.m3u
@@ -114,16 +125,6 @@ jobs:
 
           echo -e "$MESSAGE" > message.txt
 
-      - name: Eski mesajı sil
-        run: |
-          OLD_ID=$(cat .data/old_message_id.txt)
-          if [ -n "$OLD_ID" ]; then
-            curl -s -X POST \
-              "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
-              -d "chat_id=${CHAT_ID}" \
-              -d "message_id=${OLD_ID}" >/dev/null
-          fi
-
       - name: jq kur
         run: sudo apt-get update && sudo apt-get install -y jq
 
@@ -132,7 +133,7 @@ jobs:
           TEXT=$(cat message.txt)
           MAX=4000
           START=0
-          FIRST_ID=""
+          > .data/old_message_ids.txt
           while [ $START -lt ${#TEXT} ]; do
             PART=$(echo "$TEXT" | cut -c$((START+1))-$((START+MAX)))
             RESPONSE=$(curl -s --data-urlencode "text=$PART" \
@@ -140,12 +141,9 @@ jobs:
               -d "parse_mode=HTML" \
               "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage")
             MSG_ID=$(echo "$RESPONSE" | jq -r '.result.message_id')
-            if [ -z "$FIRST_ID" ]; then
-              FIRST_ID="$MSG_ID"
-            fi
+            echo "$MSG_ID" >> .data/old_message_ids.txt
             START=$((START+MAX))
           done
-          echo "$FIRST_ID" > .data/old_message_id.txt
 
       - name: Verileri güncelle
         run: mv new_counts.txt .data/old_counts.txt
