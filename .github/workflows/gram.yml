@@ -1,0 +1,111 @@
+name: ÜMİT TV Güncelleme Bildirimi
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    env:
+      BOT_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      M3U_URL: ${{ secrets.M3U_URL }}
+
+    steps:
+      - name: Önceki kategori verisini indir
+        uses: actions/download-artifact@v4
+        with:
+          name: category_counts
+        continue-on-error: true
+
+      - name: M3U dosyasını indir
+        run: |
+          curl -s -L "$M3U_URL" -o playlist.m3u
+
+      - name: Yeni kategori sayımını çıkar (bein → Morpaket)
+        run: |
+          grep -oP 'group-title="\K[^"]+' playlist.m3u \
+          | sed -E 's/([Bb][Ee][Ii][Nn])/Morpaket/g' \
+          | awk '!seen[$0]++ {print $0}' > category_order.txt
+
+          grep -oP 'group-title="\K[^"]+' playlist.m3u \
+          | sed -E 's/([Bb][Ee][Ii][Nn])/Morpaket/g' \
+          | sort | uniq -c > new_counts.txt
+
+      - name: Değişiklikleri karşılaştır ve HTML mesaj oluştur
+        run: |
+          if [ -f old_counts.txt ]; then
+            sed -i -E 's/([Bb][Ee][Ii][Nn])/Morpaket/g' old_counts.txt
+          fi
+
+          NEW_TOTAL=$(awk '{sum += $1} END {print sum}' new_counts.txt)
+          OLD_TOTAL=0
+          if [ -f old_counts.txt ]; then
+            OLD_TOTAL=$(awk '{sum += $1} END {print sum}' old_counts.txt)
+          fi
+          CHANGE=$((NEW_TOTAL - OLD_TOTAL))
+          PERCENT="0"
+          if [ "$OLD_TOTAL" -gt 0 ]; then
+            PERCENT=$(awk "BEGIN {printf \"%.2f\", ($CHANGE/$OLD_TOTAL)*100}")
+          fi
+
+          MESSAGE="<b>📺 ÜMİT TV GÜNCELLENDİ</b>%0A"
+          MESSAGE+="<i>Tarih:</i> <code>$(date '+%Y-%m-%d %H:%M:%S')</code>%0A"
+          MESSAGE+="<b>Kategoriler:</b>%0A"
+
+          TEMP_CHANGE=$(mktemp)
+          TEMP_SAME=$(mktemp)
+
+          while read -r CATEGORY; do
+            COUNT=$(grep -F "$CATEGORY" new_counts.txt | awk '{print $1}')
+            OLD_COUNT=$(grep -F "$CATEGORY" old_counts.txt 2>/dev/null | awk '{print $1}')
+            if [ -z "$OLD_COUNT" ]; then
+              ICON="🟢"
+              echo "${ICON} <b>${CATEGORY}</b>: ${COUNT} kanal" >> "$TEMP_CHANGE"
+            elif [ "$COUNT" -gt "$OLD_COUNT" ]; then
+              ICON="✅"
+              echo "${ICON} <b>${CATEGORY}</b>: ${COUNT} kanal" >> "$TEMP_CHANGE"
+            elif [ "$COUNT" -lt "$OLD_COUNT" ]; then
+              ICON="🔻"
+              echo "${ICON} <b>${CATEGORY}</b>: ${COUNT} kanal" >> "$TEMP_CHANGE"
+            else
+              ICON="⚪"
+              echo "${ICON} <b>${CATEGORY}</b>: ${COUNT} kanal" >> "$TEMP_SAME"
+            fi
+          done < category_order.txt
+
+          cat "$TEMP_CHANGE" "$TEMP_SAME" > sorted_list.txt
+
+          while read -r LINE; do
+            MESSAGE+="${LINE}%0A"
+          done < sorted_list.txt
+
+          MESSAGE+="%0A<b>📊 Toplam:</b> ${NEW_TOTAL} kanal"
+          if [ "$CHANGE" -gt 0 ]; then
+            MESSAGE+=" (✅ +${CHANGE} | %${PERCENT})"
+          elif [ "$CHANGE" -lt 0 ]; then
+            MESSAGE+=" (🔻 ${CHANGE} | %${PERCENT})"
+          fi
+          MESSAGE+="%0A"
+
+          MESSAGE+="%0A<b>📝 Açıklama:</b>%0A"
+          MESSAGE+="🟢 Yeni kategori eklendi%0A"
+          MESSAGE+="✅ Kanal sayısı arttı%0A"
+          MESSAGE+="🔻 Kanal sayısı azaldı%0A"
+          MESSAGE+="⚪ Değişiklik yok%0A"
+
+          curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
+            -d chat_id="${CHAT_ID}" \
+            -d parse_mode="HTML" \
+            -d text="$MESSAGE"
+
+      - name: Yeni veriyi artifact olarak kaydet
+        run: mv new_counts.txt old_counts.txt
+
+      - name: Artifact yükle
+        uses: actions/upload-artifact@v4
+        with:
+          name: category_counts
+          path: old_counts.txt
