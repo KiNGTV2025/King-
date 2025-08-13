@@ -17,29 +17,26 @@ jobs:
       - name: Repo'yu al
         uses: actions/checkout@v4
 
+      - name: .gitignore ayarla (ID dosyası takip edilmeyecek)
+        run: |
+          echo ".data/old_message_ids.txt" >> .gitignore
+
       - name: Önceki verileri yükle
         run: |
           mkdir -p .data
           [ -f .data/old_counts.txt ] || touch .data/old_counts.txt
           [ -f .data/old_message_ids.txt ] || touch .data/old_message_ids.txt
 
-      - name: Eski mesajları sil (detaylı log ile)
+      - name: Eski mesajları sil
         run: |
           if [ -s .data/old_message_ids.txt ]; then
-            echo "Silme işlemi başlatıldı..."
             while IFS= read -r MSG_ID; do
-              if [ -n "$MSG_ID" ]; then
-                echo "Mesaj ID: $MSG_ID siliniyor..."
-                RESPONSE=$(curl -s -X POST \
-                  "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
-                  -d "chat_id=${CHAT_ID}" \
-                  -d "message_id=${MSG_ID}")
-                echo "Telegram cevabı: $RESPONSE"
-              fi
+              [ -n "$MSG_ID" ] && curl -s -X POST \
+                "https://api.telegram.org/bot${BOT_TOKEN}/deleteMessage" \
+                -d "chat_id=${CHAT_ID}" \
+                -d "message_id=${MSG_ID}" >/dev/null
             done < .data/old_message_ids.txt
             > .data/old_message_ids.txt
-          else
-            echo "Silinecek eski mesaj yok."
           fi
 
       - name: M3U dosyasını indir
@@ -156,11 +153,11 @@ jobs:
       - name: Verileri güncelle
         run: mv new_counts.txt .data/old_counts.txt
 
-      - name: Değişiklikleri commit et
+      - name: Değişiklikleri commit et (ID dosyası hariç)
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add .data
+          git add .data/old_counts.txt
           git commit -m "Veriler güncellendi [skip ci]" || echo "Commit yok"
-          git pull --rebase origin main
-          git push
+          git pull --rebase origin main || true
+          git push || true
