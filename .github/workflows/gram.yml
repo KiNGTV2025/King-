@@ -1,8 +1,6 @@
-name: UMIT TV Notify
+name: ÜMİT TV Güncelleme (Manuel + Debug + Hata Bildirimi)
 
 on:
-  schedule:
-    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -14,34 +12,63 @@ jobs:
       M3U_URL: ${{ secrets.M3U_URL }}
 
     steps:
-      - name: Download previous category data
+      - name: 🔹 Başlat
+        run: echo "Workflow başlatıldı — $(date)"
+
+      - name: 🟦 Önceki veriyi indir
         uses: actions/download-artifact@v4
         with:
           name: category_counts
         continue-on-error: true
 
-      - name: Create empty old_counts.txt if missing
+      - name: 📄 Eski veri kontrolü
         run: |
           if [ ! -f old_counts.txt ]; then
+            echo "Eski veri yok, boş dosya oluşturuluyor"
             touch old_counts.txt
           fi
 
-      - name: Download M3U file
+      - name: 🌐 M3U indir
         run: |
-          curl -s -L "$M3U_URL" -o playlist.m3u
+          echo "M3U indiriliyor: $M3U_URL"
+          if ! curl -s -L "$M3U_URL" -o playlist.m3u; then
+            echo "M3U indirme hatası"
+            curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
+              -d chat_id="${CHAT_ID}" \
+              -d parse_mode="HTML" \
+              -d text="❌ <b>ÜMİT TV Güncelleme</b>%0A<i>M3U indirme başarısız oldu!</i>"
+            exit 1
+          fi
+          echo "Dosya boyutu: $(wc -c < playlist.m3u) byte"
 
-      - name: Parse categories (bein -> Morpaket)
+      - name: 📊 Kategori sayımı (bein → Morpaket)
         run: |
-          grep -oP 'group-title="\K[^"]+' playlist.m3u \
+          if ! grep -oP 'group-title="\K[^"]+' playlist.m3u \
           | sed -E 's/([Bb][Ee][Ii][Nn])/Morpaket/g' \
-          | awk '!seen[$0]++ {print $0}' > category_order.txt
+          | awk '!seen[$0]++ {print $0}' > category_order.txt; then
+            echo "Kategori ayıklama hatası"
+            curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
+              -d chat_id="${CHAT_ID}" \
+              -d parse_mode="HTML" \
+              -d text="❌ <b>ÜMİT TV Güncelleme</b>%0A<i>Kategori listesi oluşturulamadı!</i>"
+            exit 1
+          fi
 
           grep -oP 'group-title="\K[^"]+' playlist.m3u \
           | sed -E 's/([Bb][Ee][Ii][Nn])/Morpaket/g' \
           | sort | uniq -c > new_counts.txt
 
-      - name: Compare and build message
+          echo "Yeni kategoriler:"
+          cat new_counts.txt
+
+      - name: 📝 Mesaj oluştur ve gönder
         run: |
+          set -e
+          trap 'curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
+            -d chat_id="${CHAT_ID}" \
+            -d parse_mode="HTML" \
+            -d text="❌ <b>ÜMİT TV Güncelleme</b>%0A<i>Mesaj oluşturma sırasında hata oluştu!</i>"' ERR
+
           if [ -s old_counts.txt ]; then
             sed -i -E 's/([Bb][Ee][Ii][Nn])/Morpaket/g' old_counts.txt
           fi
@@ -54,9 +81,8 @@ jobs:
             PERCENT=$(awk "BEGIN {printf \"%.2f\", ($CHANGE/$OLD_TOTAL)*100}")
           fi
 
-          MESSAGE="<b>📺 UMIT TV GUNCELLENDI</b>%0A"
+          MESSAGE="<b>📺 ÜMİT TV GÜNCELLENDİ</b>%0A"
           MESSAGE+="<i>Tarih:</i> <code>$(date '+%Y-%m-%d %H:%M:%S')</code>%0A"
-          MESSAGE+="<b>Kategoriler:</b>%0A"
 
           TEMP_CHANGE=$(mktemp)
           TEMP_SAME=$(mktemp)
@@ -80,7 +106,6 @@ jobs:
           done < category_order.txt
 
           cat "$TEMP_CHANGE" "$TEMP_SAME" > sorted_list.txt
-
           while read -r LINE; do
             MESSAGE+="${LINE}%0A"
           done < sorted_list.txt
@@ -91,23 +116,19 @@ jobs:
           elif [ "$CHANGE" -lt 0 ]; then
             MESSAGE+=" (🔻 ${CHANGE} | %${PERCENT})"
           fi
-          MESSAGE+="%0A"
 
-          MESSAGE+="%0A<b>📝 Aciklama:</b>%0A"
-          MESSAGE+="🟢 Yeni kategori eklendi%0A"
-          MESSAGE+="✅ Kanal sayisi artti%0A"
-          MESSAGE+="🔻 Kanal sayisi azaldi%0A"
-          MESSAGE+="⚪ Degisiklik yok%0A"
+          MESSAGE+="%0A%0A<b>📝 Açıklama:</b>%0A🟢 Yeni kategori%0A✅ Kanal arttı%0A🔻 Azaldı%0A⚪ Aynı%0A"
 
+          echo "Telegram'a mesaj gönderiliyor..."
           curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
             -d chat_id="${CHAT_ID}" \
             -d parse_mode="HTML" \
             -d text="$MESSAGE"
 
-      - name: Save new data
+      - name: 💾 Yeni veriyi kaydet
         run: mv new_counts.txt old_counts.txt
 
-      - name: Upload artifact
+      - name: 📤 Artifact yükle
         uses: actions/upload-artifact@v4
         with:
           name: category_counts
