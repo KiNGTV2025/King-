@@ -19,7 +19,7 @@ jobs:
 
       - name: Önceki veriyi indir
         run: |
-          gh run download --name category_counts || echo "Önceki veri bulunamadı."
+          gh run download --name category_counts || echo "Önceki veri bulunamadı, yeni bir rapor oluşturulacak."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
@@ -28,13 +28,15 @@ jobs:
         run: |
           if [ ! -f old_counts.txt ]; then
             touch old_counts.txt
+            echo "Önceki veri dosyası oluşturuldu."
           fi
 
       - name: M3U dosyasını indir
         run: curl -s -L "$M3U_URL" -o playlist.m3u
 
-      - name: Kategori analizi yap ve rapor hazırla
+      - name: Kategori analizi yap
         run: |
+          # Kategorileri temizle ve standardize et
           grep -oP 'group-title="\K[^"]+' playlist.m3u \
           | tr -d '\r' \
           | sed 's/[[:space:]]\+/ /g' \
@@ -43,10 +45,14 @@ jobs:
           | uniq -c \
           | awk '{$1=$1; count=$1; $1=""; name=substr($0,2); print count "|" name}' > new_counts.txt
 
+      - name: Rapor oluştur
+        run: |
+          # Eski veriyi standardize et
           if [ -s old_counts.txt ]; then
             sed -i -E 's/([Bb][Ee][Ii][Nn])/Morpaket/g' old_counts.txt
           fi
 
+          # Toplam kanal hesaplamaları
           NEW_TOTAL=$(awk -F"|" '{sum += $1} END {print sum}' new_counts.txt)
           OLD_TOTAL=$(awk -F"|" '{sum += $1} END {print sum}' old_counts.txt 2>/dev/null || echo 0)
           CHANGE=$((NEW_TOTAL - OLD_TOTAL))
@@ -55,86 +61,103 @@ jobs:
             PERCENT=$(awk "BEGIN {printf \"%.2f\", ($CHANGE/$OLD_TOTAL)*100}")
           fi
 
-          MESSAGE="📊 <b>ÜMİT TV - Günlük Kanal Raporu</b>\n"
-          MESSAGE+="━━━━━━━━━━━━━━━━━━━━\n"
-          MESSAGE+="<b>📅 Tarih:</b> <code>$(date '+%d.%m.%Y %H:%M:%S')</code>\n"
-          MESSAGE+="<b>📺 Toplam Kanal:</b> <b>${NEW_TOTAL}</b>"
-
+          # Rapor başlığı
+          MESSAGE="<b>📊 ÜMİT TV KANAL GÜNCELLEME RAPORU</b>\n\n"
+          MESSAGE+="<b>🕒 Son Güncelleme (TSİ):</b> <code>$(TZ='Europe/Istanbul' date '+%d.%m.%Y %H:%M:%S')</code>\n"
+          MESSAGE+="<b>🔢 Toplam Kanal:</b> <b>${NEW_TOTAL}</b>"
+          
+          # Değişim bilgisi
           if [ "$CHANGE" -gt 0 ]; then
-            MESSAGE+=" (<code>+${CHANGE}</code> | %${PERCENT} ↑)\n"
+            MESSAGE+=" (<code>↑+${CHANGE}</code> | %${PERCENT})\n\n"
           elif [ "$CHANGE" -lt 0 ]; then
-            MESSAGE+=" (<code>${CHANGE}</code> | %${PERCENT} ↓)\n"
+            MESSAGE+=" (<code>↓${CHANGE}</code> | %${PERCENT})\n\n"
           else
-            MESSAGE+=" (Değişiklik yok)\n"
+            MESSAGE+=" (<code>→ Değişiklik yok</code>)\n\n"
           fi
 
-          MESSAGE+="━━━━━━━━━━━━━━━━━━━━\n"
+          # Kategori değişiklikleri
+          MESSAGE+="<b>📋 KATEGORİ DEĞİŞİKLİKLERİ</b>\n"
 
+          TEMP_CHANGED=$(mktemp)
           TEMP_NEW=$(mktemp)
           TEMP_REMOVED=$(mktemp)
-          TEMP_CHANGED=$(mktemp)
           TEMP_UNCHANGED=$(mktemp)
 
-          comm -23 <(cut -d"|" -f2 new_counts.txt | sort) <(cut -d"|" -f2 old_counts.txt | sort) > new_categories.txt
+          # Yeni kategoriler
+          comm -23 <(cut -d"|" -f2 new_counts.txt | sort) <(cut -d"|" -f2 old_counts.txt 2>/dev/null | sort) > new_categories.txt
           while read -r CATEGORY; do
             COUNT=$(grep -F "|${CATEGORY}" new_counts.txt | cut -d"|" -f1)
-            echo "🆕 <b>${CATEGORY}</b>: ${COUNT} kanal" >> "$TEMP_NEW"
+            echo "🆕 <b>${CATEGORY}</b>: ${COUNT} kanal (yeni kategori)" >> "$TEMP_NEW"
           done < new_categories.txt
 
-          comm -13 <(cut -d"|" -f2 new_counts.txt | sort) <(cut -d"|" -f2 old_counts.txt | sort) > removed_categories.txt
+          # Kaldırılan kategoriler
+          comm -13 <(cut -d"|" -f2 new_counts.txt | sort) <(cut -d"|" -f2 old_counts.txt 2>/dev/null | sort) > removed_categories.txt
           while read -r CATEGORY; do
             OLD_COUNT=$(grep -F "|${CATEGORY}" old_counts.txt | cut -d"|" -f1)
-            echo "❌ <b>${CATEGORY}</b>: Önce ${OLD_COUNT}, şimdi 0" >> "$TEMP_REMOVED"
+            echo "❌ <b>${CATEGORY}</b>: 0 kanal (kaldırıldı, önceki: ${OLD_COUNT})" >> "$TEMP_REMOVED"
           done < removed_categories.txt
 
+          # Değişen kategoriler
           while IFS="|" read -r COUNT CATEGORY; do
-            OLD_COUNT=$(grep -F "|${CATEGORY}" old_counts.txt | cut -d"|" -f1)
-            if [ -n "$OLD_COUNT" ] && [ "$COUNT" -ne "$OLD_COUNT" ]; then
+            OLD_COUNT=$(grep -F "|${CATEGORY}" old_counts.txt 2>/dev/null | cut -d"|" -f1)
+            if [ -n "$OLD_COUNT" ] && [ "$OLD_COUNT" -ne "$COUNT" ]; then
               if [ "$COUNT" -gt "$OLD_COUNT" ]; then
-                echo "⬆️ <b>${CATEGORY}</b>: ${COUNT} (+$((COUNT - OLD_COUNT)))" >> "$TEMP_CHANGED"
+                echo "⬆️ <b>${CATEGORY}</b>: ${COUNT} kanal (<code>↑+$((COUNT - OLD_COUNT))</code>)" >> "$TEMP_CHANGED"
               else
-                echo "⬇️ <b>${CATEGORY}</b>: ${COUNT} (-$((OLD_COUNT - COUNT)))" >> "$TEMP_CHANGED"
+                echo "⬇️ <b>${CATEGORY}</b>: ${COUNT} kanal (<code>↓-$((OLD_COUNT - COUNT))</code>)" >> "$TEMP_CHANGED"
               fi
             elif [ -n "$OLD_COUNT" ]; then
               echo "⏺️ <b>${CATEGORY}</b>: ${COUNT} kanal (değişmedi)" >> "$TEMP_UNCHANGED"
             fi
           done < new_counts.txt
 
+          # Mesajı birleştir
           if [ -s "$TEMP_NEW" ]; then
-            MESSAGE+="\n<b>🌟 Yeni Kategoriler</b>\n"
+            MESSAGE+="\n<b>🌟 YENİ KATEGORİLER</b>\n"
             MESSAGE+=$(cat "$TEMP_NEW")
-          fi
-          if [ -s "$TEMP_REMOVED" ]; then
-            MESSAGE+="\n\n<b>🗑️ Kaldırılan Kategoriler</b>\n"
-            MESSAGE+=$(cat "$TEMP_REMOVED")
-          fi
-          if [ -s "$TEMP_CHANGED" ]; then
-            MESSAGE+="\n\n<b>🔄 Değişen Kategoriler</b>\n"
-            MESSAGE+=$(cat "$TEMP_CHANGED")
-          fi
-          if [ -s "$TEMP_UNCHANGED" ]; then
-            MESSAGE+="\n\n<b>⚖️ Değişmeyen Kategoriler</b>\n"
-            MESSAGE+=$(cat "$TEMP_UNCHANGED")
+            MESSAGE+="\n"
           fi
 
-          MESSAGE+="\n\n<i>Bu rapor otomatik olarak oluşturulmuştur.</i>"
+          if [ -s "$TEMP_REMOVED" ]; then
+            MESSAGE+="\n<b>🗑️ KALDIRILAN KATEGORİLER</b>\n"
+            MESSAGE+=$(cat "$TEMP_REMOVED")
+            MESSAGE+="\n"
+          fi
+
+          if [ -s "$TEMP_CHANGED" ]; then
+            MESSAGE+="\n<b>🔄 DEĞİŞEN KATEGORİLER</b>\n"
+            MESSAGE+=$(cat "$TEMP_CHANGED")
+            MESSAGE+="\n"
+          fi
+
+          if [ -s "$TEMP_UNCHANGED" ]; then
+            MESSAGE+="\n<b>⚖️ DEĞİŞMEYEN KATEGORİLER</b>\n"
+            MESSAGE+=$(cat "$TEMP_UNCHANGED")
+            MESSAGE+="\n"
+          fi
+
+          # Açıklamalar
+          MESSAGE+="\n<b>📌 AÇIKLAMALAR</b>\n"
+          MESSAGE+="🆕 <b>Yeni Kategori:</b> Listeye yeni eklenen kanal grubu\n"
+          MESSAGE+="⬆️ <b>Artış:</b> Kanal sayısında artış olan kategori\n"
+          MESSAGE+="⬇️ <b>Azalış:</b> Kanal sayısında azalış olan kategori\n"
+          MESSAGE+="⏺️ <b>Sabit:</b> Değişiklik olmayan kategori\n"
+          MESSAGE+="❌ <b>Kaldırılan:</b> Listeden çıkarılan kategori\n\n"
+          MESSAGE+="<i>ℹ️ Otomatik güncelleme raporu - ÜMİT TV</i>"
 
           echo -e "$MESSAGE" > message.txt
 
-      - name: Telegram'a gönder (parçalı)
+      - name: Telegram'a gönder (4096 karakter sınırını aşarsa böl)
         run: |
           TEXT=$(cat message.txt)
-          MAX=4000  # 96 karakter güvenlik payı
-          LEN=${#TEXT}
-          i=0
-          while [ $i -lt $LEN ]; do
-            PART=$(echo "$TEXT" | cut -c$((i+1))-$((i+MAX)))
-            curl -s --data-urlencode "text=$PART" \
+          MAX_LENGTH=4000
+          while [ ${#TEXT} -gt 0 ]; do
+            PART="${TEXT:0:$MAX_LENGTH}"
+            curl -s --data-urlencode "text=${PART}" \
               -d "chat_id=${CHAT_ID}" \
               -d "parse_mode=HTML" \
               "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage"
-            i=$((i+MAX))
-            sleep 1
+            TEXT="${TEXT:$MAX_LENGTH}"
           done
 
       - name: Veriyi güncelle
