@@ -5,6 +5,7 @@
 28|Azerbaycan
 11|Belgesel
 5|DaddyLiveTürkiye
+35|Dengetv54
 26|Dini
 8|Dizilerin SON Bölümleri📺
 30|Diğer-Eğlence
@@ -21,7 +22,7 @@
 11|Kıbrıs
 18|Müzik
 22|Selcuksports
-26|SporCafe
+27|SporCafe
 31|TRGoalsUmit
 11|Ulusal
 7|Ulusal - Yurt Dışı
