@@ -21,7 +21,7 @@
 11|Kıbrıs
 18|Müzik
 22|Selcuksports
-24|SporCafe
+26|SporCafe
 31|TRGoalsUmit
 11|Ulusal
 7|Ulusal - Yurt Dışı
