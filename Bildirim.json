@@ -1,6 +1,6 @@
 {
   "autoShowEnabled": true,
-  "autoShowType": "warning",
+  "autoShowType": "info",
   "success": { "enabled": true, "message": "Anka🕊 iptv+KablowebTV Vod🎥 eklenmiştir.📺", "duration": 3000 },
   "error":   { "enabled": true, "message": "Oops error!", "duration": 3000 },
   "warning": { "enabled": true, "message": "Anka Telegrama giriş yapamıyorum haberin olsun‼️", "duration": 3500 },
