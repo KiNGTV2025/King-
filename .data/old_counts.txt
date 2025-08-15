@@ -1,9 +1,9 @@
 664|RADYO
 1|RADYO
 6|2025-2026 Süperlig Maç Özetleri⚽️
-1292|Anka🕊
 28|Azerbaycan
 11|Belgesel
+173|CanliTVme
 4|DaddyLiveTürkiye
 35|Dengetv54
 26|Dini
@@ -22,7 +22,7 @@
 11|Kıbrıs
 18|Müzik
 22|Selcuksports
-33|SporCafe
+27|SporCafe
 31|TRGoalsUmit
 11|Ulusal
 7|Ulusal - Yurt Dışı
@@ -37,7 +37,7 @@
 16|XYZsports
 47|Yerel
 14|Çocuk&Eğitim
-18|ÜmitMorpaket
+12|ÜmitMorpaket
 8|ŞAMPİYONLAR LİGİ⚽️
 10|🜲ÜⲘ𝖎ţ KabloNet🜲 Belgesel
 3|🜲ÜⲘ𝖎ţ KabloNet🜲 Müzik
