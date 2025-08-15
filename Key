@@ -33,5 +33,12 @@
     "password": "umit",
     "expiresAt": "2025-11-30",
     "allowOffline": true
+  },
+{
+    "id": "a941f0dda8b4b31c",
+    "username": "umit",
+    "password": "umit",
+    "expiresAt": "2025-11-30",
+    "allowOffline": true
   }
 ]
