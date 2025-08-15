@@ -3,6 +3,7 @@
 6|2025-2026 Süperlig Maç Özetleri⚽️
 28|Azerbaycan
 11|Belgesel
+2|CanliMacTV
 173|CanliTVme
 4|DaddyLiveTürkiye
 35|Dengetv54
@@ -37,8 +38,8 @@
 16|XYZsports
 47|Yerel
 14|Çocuk&Eğitim
-12|ÜmitMorpaket
-8|ŞAMPİYONLAR LİGİ⚽️
+14|ÜmitMorpaket
+5|ŞAMPİYONLAR LİGİ⚽️
 10|🜲ÜⲘ𝖎ţ KabloNet🜲 Belgesel
 3|🜲ÜⲘ𝖎ţ KabloNet🜲 Müzik
 9|🜲ÜⲘ𝖎ţ KabloNet🜲 Sinema ve Dizi
