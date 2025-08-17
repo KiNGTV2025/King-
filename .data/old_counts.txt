@@ -1,6 +1,6 @@
 664|RADYO
 1|RADYO
-8|2025-2026 Süperlig Maç Özetleri⚽️
+30|2025-2026 Süperlig Maç Özetleri⚽️
 28|Azerbaycan
 11|Belgesel
 35|Dengetv54
@@ -19,7 +19,7 @@
 11|Kıbrıs
 18|Müzik
 22|Selcuksports
-33|SporCafe
+31|TRGoalsUmit
 11|Ulusal
 7|Ulusal - Yurt Dışı
 14|UmitVIP-belgesel
@@ -33,7 +33,7 @@
 16|XYZsports
 47|Yerel
 14|Çocuk&Eğitim
-10|ÜmitMorpaket
+11|ÜmitMorpaket
 1|ÜmitTV
 8|ŞAMPİYONLAR LİGİ⚽️
 10|🜲ÜⲘ𝖎ţ KabloNet🜲 Belgesel
