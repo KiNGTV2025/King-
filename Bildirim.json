@@ -1,8 +1,8 @@
 {
   "autoShowEnabled": true,
-  "autoShowType": "info",
+  "autoShowType": "success",
   "success": { "enabled": true, "message": "mesajyaz", "duration": 3000 },
-  "error":   { "enabled": true, "message": "Oops error!", "duration": 3000 },
+  "error":   { "enabled": true, "message": "İyi seyirler Ahmet,Yusuf Kankim", "duration": 4000 },
   "warning": { "enabled": true, "message": "nesajyaz", "duration": 3500 },
   "info":    { "enabled": true, "message": "🜲ÜⲘ𝖎ţ🜲 İyi seyirler diler", "duration": 4800 }
 }
