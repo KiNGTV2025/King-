@@ -1,6 +1,6 @@
 {
   "autoShowEnabled": true,
-  "autoShowType": "success",
+  "autoShowType": "info",
   "success": { "enabled": true, "message": "İyi seyirler A H M E T", "duration": 34000 },
   "error":   { "enabled": true, "message": "mesajyaz", "duration": 4000 },
   "warning": { "enabled": true, "message": "nesajyaz", "duration": 3500 },
