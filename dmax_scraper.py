@@ -5,6 +5,7 @@
 DMAX scraper (M3U üretir ve Dropbox'a yükler)
 - all.m3u       → ./DMAX/all.m3u ve Dropbox /DMAX/all.m3u
 - programlar/*.m3u → ./DMAX/programs/<slug>.m3u ve Dropbox /DMAX/programs/<slug>.m3u
+- Dropbox'ta eski M3U'lar otomatik silinir
 """
 
 import os
@@ -34,18 +35,34 @@ PROGRAMS_DIR = OUTPUT_DIR / "programs"
 # ============================
 DROPBOX_REFRESH_TOKEN = os.environ.get("DROPBOX_REFRESH_TOKEN")
 
-def upload_to_dropbox(local_path: str, dropbox_path: str):
+def upload_to_dropbox(local_path: Path, dropbox_path: str, dbx: Optional[dropbox.Dropbox] = None):
     """Dosyayı Dropbox'a yükler."""
     if not DROPBOX_REFRESH_TOKEN:
         logging.warning("DROPBOX_REFRESH_TOKEN tanımlı değil, yükleme yapılmadı.")
         return
     try:
-        dbx = dropbox.Dropbox(DROPBOX_REFRESH_TOKEN)
+        if dbx is None:
+            dbx = dropbox.Dropbox(DROPBOX_REFRESH_TOKEN)
         with open(local_path, "rb") as f:
             dbx.files_upload(f.read(), dropbox_path, mode=dropbox.files.WriteMode.overwrite)
         log.info("Dropbox'a yüklendi: %s", dropbox_path)
     except Exception as e:
         log.error("Dropbox yükleme hatası: %s", e)
+
+def clean_dropbox_folder(folder_path: str, dbx: Optional[dropbox.Dropbox] = None):
+    """Dropbox klasöründeki tüm dosyaları siler."""
+    if not DROPBOX_REFRESH_TOKEN:
+        return
+    if dbx is None:
+        dbx = dropbox.Dropbox(DROPBOX_REFRESH_TOKEN)
+    try:
+        res = dbx.files_list_folder(folder_path)
+        for entry in res.entries:
+            dbx.files_delete_v2(entry.path_lower)
+            log.info("Dropbox dosyası silindi: %s", entry.path_lower)
+    except dropbox.exceptions.ApiError as e:
+        # Klasör yoksa hata verir, gözardı et
+        pass
 
 # ============================
 # M3U YARDIMCILARI
@@ -73,12 +90,18 @@ def _pick_stream_url(ep: Dict[str, Any]) -> Optional[str]:
     return None
 
 # ============================
-# M3U OLUŞTURMA
+# M3U OLUŞTURMA & DROPBOX
 # ============================
 
 def create_m3us(data: List[Dict[str, Any]], master: bool = False):
     _ensure_dir(PROGRAMS_DIR)
     master_lines: List[str] = ["#EXTM3U"] if master else []
+    dbx = dropbox.Dropbox(DROPBOX_REFRESH_TOKEN) if DROPBOX_REFRESH_TOKEN else None
+
+    # Dropbox temizleme
+    if dbx:
+        clean_dropbox_folder("/DMAX", dbx)
+        clean_dropbox_folder("/DMAX/programs", dbx)
 
     for serie in data:
         episodes = serie.get("episodes") or []
@@ -103,7 +126,8 @@ def create_m3us(data: List[Dict[str, Any]], master: bool = False):
 
         if len(lines) > 1:
             _atomic_write(plist_path, "\n".join(lines) + "\n")
-            upload_to_dropbox(plist_path, f"/DMAX/programs/{plist_name}")
+            if dbx:
+                upload_to_dropbox(plist_path, f"/DMAX/programs/{plist_name}", dbx)
             if master:
                 master_lines.append(f'#EXTINF:-1 tvg-logo="{series_logo}", {series_name}')
                 master_lines.append(f'programs/{plist_name}')
@@ -111,12 +135,12 @@ def create_m3us(data: List[Dict[str, Any]], master: bool = False):
     if master:
         master_path = OUTPUT_DIR / "all.m3u"
         _atomic_write(master_path, "\n".join(master_lines) + "\n")
-        upload_to_dropbox(master_path, "/DMAX/all.m3u")
+        if dbx:
+            upload_to_dropbox(master_path, "/DMAX/all.m3u", dbx)
 
 def create_single_m3u(data: List[Dict[str, Any]], custom_name: str = "all"):
     _ensure_dir(OUTPUT_DIR)
     master_path = OUTPUT_DIR / f"{custom_name}.m3u"
-
     lines = ["#EXTM3U"]
     for serie in data:
         series_name = (serie.get("name") or "Bilinmeyen Seri").strip()
@@ -131,9 +155,9 @@ def create_single_m3u(data: List[Dict[str, Any]], custom_name: str = "all"):
             group = series_name.replace('"', "'")
             lines.append(f'#EXTINF:-1 tvg-logo="{logo_for_line}" group-title="{group}",{ep_name}')
             lines.append(stream)
-
     _atomic_write(master_path, "\n".join(lines) + "\n")
-    upload_to_dropbox(master_path, f"/DMAX/{custom_name}.m3u")
+    if DROPBOX_REFRESH_TOKEN:
+        upload_to_dropbox(master_path, f"/DMAX/{custom_name}.m3u")
 
 # ============================
 # SAVE OUTPUTS
@@ -144,16 +168,13 @@ def save_outputs_only_m3u(data: Dict[str, Any]):
     try:
         create_single_m3u(programs, "all")
         create_m3us(programs, master=True)
-        log.info("Tüm M3U dosyaları oluşturuldu ve Dropbox /DMAX altında yüklendi.")
+        log.info("Tüm M3U dosyaları oluşturuldu ve Dropbox /DMAX altında güncellendi.")
     except Exception as e:
         log.error("M3U oluşturma hatası: %s", e)
 
 # ============================
-# Geri kalan scraper kodları
-# (get_soup_from_post, get_soup_from_get, get_all_programs, run vb.)
+# ARG PARSE & MAIN
 # ============================
-
-# … önceki kodları buraya aynen ekleyin …
 
 def parse_args(argv: List[str]) -> Tuple[int, int]:
     start, end = 0, 0
