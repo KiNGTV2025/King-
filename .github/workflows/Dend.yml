@@ -1,0 +1,34 @@
+name: Update M3U
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"   # her 2 saatte bir
+  workflow_dispatch:        # elle çalıştırma opsiyonu
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          playwright install chromium
+
+      - name: Run script
+        run: python generate_m3u.py
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add 1UmitTV.m3u
+          git commit -m "Update M3U"
+          git push
