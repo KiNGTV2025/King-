@@ -2,8 +2,8 @@ name: Update M3U
 
 on:
   schedule:
-    - cron: "0 */2 * * *"   # her 2 saatte bir
-  workflow_dispatch:        # manuel çalıştırma
+    - cron: "0 */2 * * *"  # Her 2 saatte bir
+  workflow_dispatch:        # Elle tetikleme
 
 jobs:
   build:
