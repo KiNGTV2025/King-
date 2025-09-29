@@ -1,4 +1,4 @@
-# İZİN VERİLEN DOMAİNLER
-prada.zirvedesin15.sbs
-https://dengetv66.live/
-
+{
+  "domain": "https://prada.zirvedesin15.sbs",
+  "referer": "https://dengetv66.live/"
+}
