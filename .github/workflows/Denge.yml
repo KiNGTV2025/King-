@@ -2,8 +2,8 @@ name: Update M3U
 
 on:
   schedule:
-    - cron: "0 */2 * * *"  # her 2 saatte bir çalıştır
-  workflow_dispatch:       # manuel tetikleme için
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
@@ -12,6 +12,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+
+      - name: Ensure M3U file exists
+        run: |
+          if [ ! -f 1UmitTV.m3u ]; then
+            echo "#EXTM3U" > 1UmitTV.m3u
+          fi
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -31,7 +39,10 @@ jobs:
       - name: Commit & push if changed
         run: |
           git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add 1UmitTV.m3u || true
-          git commit -m "Update M3U" || echo "No changes to commit"
-          git push || echo "Push failed"
+          git config --global user.email "github-actions@github-actions"
+          git add 1UmitTV.m3u
+          if ! git diff --cached --quiet; then
+            git commit -m "Update M3U"
+            git push
+          else
+            echo "No changes to commit"
