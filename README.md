@@ -1,1 +1,1 @@
-Son güncelleme: 2025-10-01 16:31:47
+Son güncelleme: 2025-10-02 16:29:23
