@@ -8,6 +8,7 @@ on:
 jobs:
   find:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -31,9 +32,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: found_swkeys
-          path: found_swkeys.txt
+          path: playwright_capture/found_swkeys.txt  # ✅ doğru klasör
 
-      # Opsiyonel: otomatik commit (uyarı: gizli token'ları public repoya koyma riski)
+      # ⚠️ Opsiyonel: sadece PRIVATE repolarda aktif et
       - name: Commit found_swkeys back to repo (OPTIONAL)
         if: env.COMMIT_RESULTS == 'true'
         env:
@@ -42,6 +43,6 @@ jobs:
         run: |
           git config user.name "$COMMIT_AUTHOR_NAME"
           git config user.email "$COMMIT_AUTHOR_EMAIL"
-          git add found_swkeys.txt || true
+          git add playwright_capture/found_swkeys.txt || true
           git commit -m "Add found_swkeys.txt (auto)" || echo "no changes"
           git push
