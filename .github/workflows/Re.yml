@@ -3,16 +3,14 @@ name: Find swKey
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *' # günlük 06:00 UTC (opsiyonel)
+    - cron: '0 6 * * *' # Günlük 06:00 UTC
 
 jobs:
   find:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -25,66 +23,18 @@ jobs:
           pip install playwright aiohttp requests
           python -m playwright install --with-deps
 
-      - name: Run swKey finder (Playwright)
-        env:
-          # opsiyonel: daha uzun çalışması gerekiyorsa arttır
-          PLAYWRIGHT_MAX_TIMEOUT: "30000"
+      - name: Run Playwright swKey capture + validation
         run: |
-          echo -e "\033[34m[i] Starting Playwright swKey capture...\033[0m"
-          python find_swkey_playwright.py || echo -e "\033[33m[!] finder script exited with non-zero (continuing to report)\033[0m"
+          python find_swkey_playwright.py
 
-      - name: Domain summary & colored report
-        run: |
-          set -e
-
-          RAW="playwright_capture/found_swkeys_raw.txt"
-          VALID="playwright_capture/found_swkeys_valid.txt"
-
-          echo -e "\n\033[36m[i] Domain bazlı ham candidate sayısı:\033[0m"
-          if [ -f "$RAW" ]; then
-            # raw file lines are like: domain|where|candidate  OR maybe domain|resp|candidate
-            awk -F'|' '{print $1}' "$RAW" | sed 's/ *$//' | sort | uniq -c | sort -rn | while read -r cnt dom; do
-              if [ -n "$dom" ]; then
-                echo -e "\033[33m$dom → $cnt candidate\033[0m"
-              fi
-            done
-          else
-            echo -e "\033[33m[!] Ham candidate dosyası bulunamadı: $RAW\033[0m"
-          fi
-
-          echo -e "\n\033[36m[i] Doğrulama özet (geçerli / geçersiz):\033[0m"
-          if [ -f "$VALID" ]; then
-            total_valid=$(wc -l < "$VALID" | tr -d ' ')
-            if [ "$total_valid" -eq 0 ]; then
-              echo -e "\033[31m[x] Hiç geçerli key bulunamadı.\033[0m"
-            else
-              echo -e "\033[32m✅ $total_valid geçerli key bulundu (ilk 20 gösteriliyor):\033[0m"
-              head -n 20 "$VALID" | sed -n '1,20p' | while IFS= read -r line; do
-                # VALID file format: key  # base=...  test=...
-                key=$(echo "$line" | sed -E 's/^[[:space:]]*([^ ]+).*/\1/')
-                base=$(echo "$line" | sed -n 's/.*# base=\([^ ]*\).*/\1/p' || true)
-                testurl=$(echo "$line" | sed -n 's/.*test=\(.*\)$/\1/p' || true)
-                echo -e "\033[32m[VALID] $key  (base: $base)\033[0m"
-              done
-            fi
-          else
-            echo -e "\033[33m[!] Geçerli key dosyası bulunamadı: $VALID\033[0m"
-          fi
-
-          # Ayrıca, ham listede domainlere göre geçersizleri de göster (basit)
-          if [ -f "$RAW" ]; then
-            echo -e "\n\033[36m[i] Örnek ham candidate (domain | where | candidate) — ilk 30:\033[0m"
-            head -n 30 "$RAW" | sed -n '1,30p' | nl -ba -w2 -s': '
-          fi
-
-      - name: Upload artifacts
+      - name: Upload found_swkeys artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: found_swkeys
-          path: playwright_capture/*.txt
+          path: playwright_capture/
 
-      # Opc: commit back (private-only). Aktif etmek için repo secrets veya Actions vars ile COMMIT_RESULTS=true ayarla
+      # ⚠️ PRIVATE repo için otomatik commit (opsiyonel)
       - name: Commit found_swkeys back to repo (OPTIONAL)
         if: env.COMMIT_RESULTS == 'true'
         env:
@@ -93,6 +43,6 @@ jobs:
         run: |
           git config user.name "$COMMIT_AUTHOR_NAME"
           git config user.email "$COMMIT_AUTHOR_EMAIL"
-          git add playwright_capture/*.txt || true
-          git commit -m "Update found_swkeys (auto)" || echo "no changes"
+          git add playwright_capture/ || true
+          git commit -m "Add found_swkeys.txt (auto)" || echo "no changes"
           git push
