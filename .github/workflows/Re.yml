@@ -26,6 +26,11 @@ jobs:
       - name: Run finder
         run: |
           python find_swkey_playwright.py
+          
+          - name: Validate found keys
+        run: |
+          pip install requests
+          python validate_swkey.py
 
       - name: Upload found_swkeys artifact
         if: always()
