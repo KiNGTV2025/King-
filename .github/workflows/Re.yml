@@ -20,16 +20,15 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install playwright
+          pip install playwright requests
           python -m playwright install --with-deps
 
       - name: Run finder
         run: |
           python find_swkey_playwright.py
-          
-          - name: Validate found keys
+
+      - name: Validate found keys
         run: |
-          pip install requests
           python validate_swkey.py
 
       - name: Upload found_swkeys artifact
@@ -37,7 +36,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: found_swkeys
-          path: playwright_capture/found_swkeys.txt  # ✅ doğru klasör
+          path: playwright_capture/
 
       # ⚠️ Opsiyonel: sadece PRIVATE repolarda aktif et
       - name: Commit found_swkeys back to repo (OPTIONAL)
