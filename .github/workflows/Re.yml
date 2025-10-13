@@ -3,7 +3,7 @@ name: Find swKey
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *' # günlük saat 06:00 UTC (isteğe bağlı)
+    - cron: '0 6 * * *' # günlük 06:00 UTC
 
 jobs:
   find:
@@ -20,25 +20,20 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install playwright requests
+          pip install playwright requests aiohttp
           python -m playwright install --with-deps
 
-      - name: Run finder
-        run: |
-          python find_swkey_playwright.py
+      - name: Run swKey finder
+        run: python find_swkey_playwright.py
 
-      - name: Validate found keys
-        run: |
-          python validate_swkey.py
-
-      - name: Upload found_swkeys artifact
+      - name: Upload found_swkeys artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: found_swkeys
-          path: playwright_capture/
+          path: playwright_capture/*.txt
 
-      # ⚠️ Opsiyonel: sadece PRIVATE repolarda aktif et
+      # ⚠️ Opsiyonel: sadece PRIVATE repo’larda kullan
       - name: Commit found_swkeys back to repo (OPTIONAL)
         if: env.COMMIT_RESULTS == 'true'
         env:
@@ -47,6 +42,6 @@ jobs:
         run: |
           git config user.name "$COMMIT_AUTHOR_NAME"
           git config user.email "$COMMIT_AUTHOR_EMAIL"
-          git add playwright_capture/found_swkeys.txt || true
-          git commit -m "Add found_swkeys.txt (auto)" || echo "no changes"
+          git add playwright_capture/*.txt || true
+          git commit -m "Update found_swkeys (auto)" || echo "no changes"
           git push
