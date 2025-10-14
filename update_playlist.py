@@ -2,30 +2,34 @@ import subprocess
 import datetime
 import os
 
-# Youtube canlı yayın URL
+# YouTube canlı yayını linki
 YOUTUBE_URL = "https://www.youtube.com/live/ztmY_cCtUl0"
-OUTPUT_FILE = "playlist/Sozcu_Tv.m3u8"
 
-# Cookies secret'i environment variable'dan alıyoruz
+# Çıktı dosyası
+output_dir = os.path.join(os.getcwd(), "playlist")
+os.makedirs(output_dir, exist_ok=True)
+OUTPUT_FILE = os.path.join(output_dir, "Sozcu_Tv.m3u8")
+
+# YouTube cookies env değişkeni
 COOKIES_FILE = os.environ.get("YOUTUBE_COOKIES")
 
 def get_stream(itag):
     try:
-        result = subprocess.run(
-            [
-                "yt-dlp",
-                "-g",
-                "-f", str(itag),
-                "--cookies", COOKIES_FILE,
-                "--add-header", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-                "--add-header", "Referer: https://www.youtube.com",
-                YOUTUBE_URL
-            ],
-            capture_output=True, text=True, check=True
-        )
+        cmd = [
+            "yt-dlp",
+            "-g",
+            "-f", str(itag),
+            "--add-header", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+            "--add-header", "Referer: https://www.youtube.com",
+        ]
+        if COOKIES_FILE:
+            cmd += ["--cookies", COOKIES_FILE]
+        cmd.append(YOUTUBE_URL)
+
+        result = subprocess.run(cmd, capture_output=True, text=True, check=True)
         return result.stdout.strip()
     except subprocess.CalledProcessError as e:
-        print(f"❌ Itag {itag} hatası:", e.stderr)
+        print(f"Error fetching itag {itag}: {e}")
         return None
 
 itag_map = {
@@ -38,6 +42,7 @@ itag_map = {
 }
 
 lines = ["#EXTM3U", "#EXT-X-INDEPENDENT-SEGMENTS"]
+
 for itag, res in itag_map.items():
     url = get_stream(itag)
     if url:
@@ -46,7 +51,6 @@ for itag, res in itag_map.items():
 
 m3u8 = "\n".join(lines) + f"\n# Generated: {datetime.datetime.utcnow().isoformat()} UTC\n"
 
-os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 with open(OUTPUT_FILE, "w") as f:
     f.write(m3u8)
 
