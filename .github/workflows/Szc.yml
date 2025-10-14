@@ -26,6 +26,10 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add playlist/Sozcu_Tv.m3u8
-          git commit -m "Update playlist $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
-          git push
+          if [ -f playlist/Sozcu_Tv.m3u8 ]; then
+            git add playlist/Sozcu_Tv.m3u8
+            git commit -m "Update playlist $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+            git push
+          else
+            echo "M3U8 dosyası yok, commit yapılmadı"
+          fi
