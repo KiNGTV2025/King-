@@ -1,38 +1,32 @@
-name: Update Sözcü TV Playlist
+name: Update Sözcü TV M3U8
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Her 10 dakikada bir
-  workflow_dispatch:        # Manuel tetikleme
+    - cron: "*/10 * * * *"  # Her 10 dakikada bir
+  workflow_dispatch:       # Manuel çalıştırmak istersen
 
 jobs:
-  update_playlist:
+  update:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - name: Repo indir
+        uses: actions/checkout@v4
 
-      - name: Setup cookies
-        run: echo "${{ secrets.YOUTUBE_COOKIES }}" > cookies.txt
+      - name: Python yükle
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
 
-      - name: Install dependencies
-        run: |
-          sudo apt update
-          sudo apt install -y python3-pip ffmpeg
-          pip install -U yt-dlp
+      - name: yt-dlp yükle
+        run: pip install -U yt-dlp
 
-      - name: Run update script
+      - name: Playlist oluştur
         run: python3 update_playlist.py
 
-      - name: Commit & Push
+      - name: Değişiklikleri kaydet
         run: |
           git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          if [ -f playlist/Sozcu_Tv.m3u8 ]; then
-            git add playlist/Sozcu_Tv.m3u8
-            git commit -m "Update playlist $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
-            git push
-          else
-            echo "M3U8 dosyası yok, commit yapılmadı"
-          fi
+          git config --global user.email "actions@github.com"
+          git add playlist/Sozcu_Tv.m3u8
+          git commit -m "Auto update M3U8 [$(date)]" || echo "No changes to commit"
+          git push
