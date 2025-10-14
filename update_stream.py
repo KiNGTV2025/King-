@@ -1,24 +1,31 @@
-import os
 import subprocess
+import os
 
-# YouTube canlı yayını URL’si
-url = "https://www.youtube.com/watch?v=ztmY_cCtUl0"
+# GitHub Secrets üzerinden cookies alıyoruz
+COOKIES_FILE = "yt_cookies.txt"
+cookies_content = os.environ.get("YT_COOKIES")
+
+if not cookies_content:
+    raise Exception("YT_COOKIES secret bulunamadı!")
+
+# Cookies dosyasını oluştur
+with open(COOKIES_FILE, "w") as f:
+    f.write(cookies_content)
+
+# YouTube video URL'si
+VIDEO_URL = "https://www.youtube.com/watch?v=ztmY_cCtUl0"
+
+# yt-dlp komutu
+cmd = [
+    "yt-dlp",
+    "--cookies", COOKIES_FILE,
+    "-f", "best",
+    VIDEO_URL
+]
 
 try:
-    # HLS manifest URL’si al
-    hls_url = subprocess.check_output(
-        ["yt-dlp", "-g", url], text=True
-    ).strip()
-except subprocess.CalledProcessError:
-    print("Yeni URL alınamadı.")
-    exit(1)
-
-# playlist dizini yoksa oluştur
-os.makedirs("playlist", exist_ok=True)
-
-# playlist.m3u8 dosyasına yaz
-playlist_file = "playlist/playlist.m3u8"
-with open(playlist_file, "w") as f:
-    f.write(f"#EXTM3U\n{hls_url}\n")
-
-print("playlist.m3u8 oluşturuldu:", playlist_file)
+    print("Video indiriliyor...")
+    subprocess.run(cmd, check=True)
+    print("İndirme tamamlandı!")
+except subprocess.CalledProcessError as e:
+    print("İndirme sırasında hata oluştu:", e)
