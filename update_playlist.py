@@ -2,18 +2,14 @@ import subprocess
 import datetime
 import os
 
-# YouTube canlı yayını
 YOUTUBE_URL = "https://www.youtube.com/live/ztmY_cCtUl0"
-
-# Hedef dosya
 OUTPUT_FILE = "playlist/Sozcu_Tv.m3u8"
-
-# Format ID (en yüksek kalite)
-FORMAT_ID = "96"
+FORMAT_ID = "96"  # En yüksek kalite
+COOKIES_FILE = "cookies.txt"
 
 try:
     result = subprocess.run(
-        ["yt-dlp", "-f", FORMAT_ID, "-g", YOUTUBE_URL],
+        ["yt-dlp", "-f", FORMAT_ID, "--cookies", COOKIES_FILE, "-g", YOUTUBE_URL],
         capture_output=True, text=True, check=True
     )
     stream_url = result.stdout.strip()
