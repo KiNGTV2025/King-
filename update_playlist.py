@@ -1,7 +1,13 @@
-import subprocess, datetime, os
+import subprocess
+import datetime
+import os
 
+# Youtube canlı yayın URL
 YOUTUBE_URL = "https://www.youtube.com/live/ztmY_cCtUl0"
 OUTPUT_FILE = "playlist/Sozcu_Tv.m3u8"
+
+# Cookies secret'i environment variable'dan alıyoruz
+COOKIES_FILE = os.environ.get("YOUTUBE_COOKIES")
 
 def get_stream(itag):
     try:
@@ -10,6 +16,7 @@ def get_stream(itag):
                 "yt-dlp",
                 "-g",
                 "-f", str(itag),
+                "--cookies", COOKIES_FILE,
                 "--add-header", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
                 "--add-header", "Referer: https://www.youtube.com",
                 YOUTUBE_URL
@@ -17,7 +24,8 @@ def get_stream(itag):
             capture_output=True, text=True, check=True
         )
         return result.stdout.strip()
-    except subprocess.CalledProcessError:
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Itag {itag} hatası:", e.stderr)
         return None
 
 itag_map = {
