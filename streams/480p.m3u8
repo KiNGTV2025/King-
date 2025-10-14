@@ -1,0 +1,10 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:1
+#EXT-X-TARGETDURATION:10
+#EXT-X-PLAYLIST-TYPE:EVENT
+#EXTINF:10.0,
+https://example.com/segment1.ts
+#EXTINF:10.0,
+https://example.com/segment2.ts
+#EXT-X-ENDLIST
