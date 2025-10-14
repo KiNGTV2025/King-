@@ -1,35 +1,24 @@
-import subprocess
 import os
-from datetime import datetime
+import subprocess
 
-YOUTUBE_URL = "https://www.youtube.com/watch?v=ztmY_cCtUl0"
-OUTPUT_FILE = "playlist/playlist.m3u8"
+# YouTube canlı yayını URL’si
+url = "https://www.youtube.com/watch?v=ztmY_cCtUl0"
 
-def get_stream_url():
-    try:
-        # yt-dlp ile en iyi kaliteyi al
-        result = subprocess.run(
-            ["yt-dlp", "-g", "-f", "best", YOUTUBE_URL],
-            capture_output=True, text=True, check=True
-        )
-        return result.stdout.strip()
-    except subprocess.CalledProcessError as e:
-        print("Hata: yt-dlp çalıştırılamadı:", e)
-        return None
+try:
+    # HLS manifest URL’si al
+    hls_url = subprocess.check_output(
+        ["yt-dlp", "-g", url], text=True
+    ).strip()
+except subprocess.CalledProcessError:
+    print("Yeni URL alınamadı.")
+    exit(1)
 
-def update_m3u8(url):
-    content = f"#EXTM3U\n#EXTINF:-1,Live Stream (Updated at {datetime.utcnow()} UTC)\n{url}\n"
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(content)
-    print(f"{OUTPUT_FILE} güncellendi.")
+# playlist dizini yoksa oluştur
+os.makedirs("playlist", exist_ok=True)
 
-def main():
-    url = get_stream_url()
-    if url:
-        update_m3u8(url)
-    else:
-        print("Yeni URL alınamadı.")
+# playlist.m3u8 dosyasına yaz
+playlist_file = "playlist/playlist.m3u8"
+with open(playlist_file, "w") as f:
+    f.write(f"#EXTM3U\n{hls_url}\n")
 
-if __name__ == "__main__":
-    main()
+print("playlist.m3u8 oluşturuldu:", playlist_file)
