@@ -1,0 +1,31 @@
+name: Update Sözcü TV Playlist
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # Her 10 dakikada bir
+  workflow_dispatch:        # Manuel tetikleme
+
+jobs:
+  update_playlist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y python3-pip ffmpeg
+          pip install -U yt-dlp
+
+      - name: Run update script
+        run: python3 update_playlist.py
+
+      - name: Commit & Push
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add playlist/Sozcu_Tv.m3u8
+          git commit -m "Update playlist $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git push
