@@ -1,87 +1,64 @@
 name: Update Sozcu TV Playlist
 
 on:
-  schedule:
-    - cron: '*/15 * * * *'  # 15 dakikada bir çalıştır
   workflow_dispatch:
 
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
-
-    env:
-      YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      - name: Upgrade pip
-        run: python -m pip install --upgrade pip
-
       - name: Install dependencies
-        run: pip install yt-dlp
+        run: python -m pip install --upgrade pip yt-dlp
 
-      - name: Run playlist script
+      - name: Write YouTube cookies
+        run: echo "$YOUTUBE_COOKIES" > cookies.txt
+        # YOUTUBE_COOKIES secret’ini repo secrets’te saklayacaksın
+
+      - name: Update playlist
         run: |
-          python3 - << 'EOF'
-          import subprocess
-          import datetime
-          import os
+          python3 - <<'EOF'
+          import subprocess, datetime, os
 
           YOUTUBE_URL = "https://www.youtube.com/live/ztmY_cCtUl0"
+          COOKIES_FILE = "cookies.txt"
+          OUTPUT_FILE = "Sozcu_Tv.m3u8"
 
-          output_dir = os.path.join(os.getcwd(), "playlist")
-          os.makedirs(output_dir, exist_ok=True)
-          OUTPUT_FILE = os.path.join(output_dir, "Sozcu_Tv.m3u8")
+          itag_map = {91: "256x144", 92: "426x240", 93: "640x360", 94: "854x480", 95: "1280x720", 96: "1920x1080"}
 
-          COOKIES_FILE = os.environ.get("YOUTUBE_COOKIES")
+          lines = ["#EXTM3U", "#EXT-X-INDEPENDENT-SEGMENTS"]
 
           def get_stream(itag):
               try:
-                  cmd = [
-                      "yt-dlp",
-                      "-g",
-                      "-f", str(itag),
-                      "--add-header", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-                      "--add-header", "Referer: https://www.youtube.com",
-                  ]
-                  if COOKIES_FILE:
-                      cmd += ["--cookies", COOKIES_FILE]
-                  cmd.append(YOUTUBE_URL)
-
-                  result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+                  result = subprocess.run(
+                      ["yt-dlp", "-g", "-f", str(itag),
+                       "--cookies", COOKIES_FILE,
+                       "--add-header", "User-Agent: Mozilla/5.0",
+                       "--add-header", "Referer: https://www.youtube.com",
+                       YOUTUBE_URL],
+                      capture_output=True, text=True, check=True
+                  )
                   return result.stdout.strip()
-              except subprocess.CalledProcessError as e:
-                  print(f"Error fetching itag {itag}: {e}")
+              except subprocess.CalledProcessError:
                   return None
-
-          itag_map = {
-              91: "256x144",
-              92: "426x240",
-              93: "640x360",
-              94: "854x480",
-              95: "1280x720",
-              96: "1920x1080"
-          }
-
-          lines = ["#EXTM3U", "#EXT-X-INDEPENDENT-SEGMENTS"]
 
           for itag, res in itag_map.items():
               url = get_stream(itag)
               if url:
-                  lines.append(f'#EXT-X-STREAM-INF:BANDWIDTH=1000000,CODECS="mp4a.40.2,avc1.4D401F",RESOLUTION={res},FRAME-RATE=30,VIDEO-RANGE=SDR,CLOSED-CAPTIONS=NONE')
+                  lines.append(f'#EXT-X-STREAM-INF:BANDWIDTH=1000000,CODECS="mp4a.40.2,avc1.4D401F",RESOLUTION={res},FRAME-RATE=30')
                   lines.append(url)
 
-          m3u8 = "\n".join(lines) + f"\n# Generated: {datetime.datetime.utcnow().isoformat()} UTC\n"
+          lines.append(f"# Generated: {datetime.datetime.utcnow().isoformat()} UTC")
 
           with open(OUTPUT_FILE, "w") as f:
-              f.write(m3u8)
+              f.write("\n".join(lines))
 
-          print("✅ Sözcü TV playlist güncellendi:", OUTPUT_FILE)
+          print("✅ Playlist oluşturuldu:", OUTPUT_FILE)
           EOF
