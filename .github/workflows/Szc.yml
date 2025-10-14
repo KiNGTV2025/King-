@@ -1,64 +1,40 @@
-name: Update Sozcu TV Playlist
-
+name: Update YouTube Streams
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '*/10 * * * *'  # 10 dakikada bir
+  workflow_dispatch:  # Manuel çalıştırma
+  push:
+    paths:
+      - 'scripts/**'
 
 jobs:
-  update-playlist:
+  update-streams:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: python -m pip install --upgrade pip yt-dlp
-
-      - name: Write YouTube cookies
-        run: echo "$YOUTUBE_COOKIES" > cookies.txt
-        # YOUTUBE_COOKIES secret’ini repo secrets’te saklayacaksın
-
-      - name: Update playlist
-        run: |
-          python3 - <<'EOF'
-          import subprocess, datetime, os
-
-          YOUTUBE_URL = "https://www.youtube.com/live/ztmY_cCtUl0"
-          COOKIES_FILE = "cookies.txt"
-          OUTPUT_FILE = "Sozcu_Tv.m3u8"
-
-          itag_map = {91: "256x144", 92: "426x240", 93: "640x360", 94: "854x480", 95: "1280x720", 96: "1920x1080"}
-
-          lines = ["#EXTM3U", "#EXT-X-INDEPENDENT-SEGMENTS"]
-
-          def get_stream(itag):
-              try:
-                  result = subprocess.run(
-                      ["yt-dlp", "-g", "-f", str(itag),
-                       "--cookies", COOKIES_FILE,
-                       "--add-header", "User-Agent: Mozilla/5.0",
-                       "--add-header", "Referer: https://www.youtube.com",
-                       YOUTUBE_URL],
-                      capture_output=True, text=True, check=True
-                  )
-                  return result.stdout.strip()
-              except subprocess.CalledProcessError:
-                  return None
-
-          for itag, res in itag_map.items():
-              url = get_stream(itag)
-              if url:
-                  lines.append(f'#EXT-X-STREAM-INF:BANDWIDTH=1000000,CODECS="mp4a.40.2,avc1.4D401F",RESOLUTION={res},FRAME-RATE=30')
-                  lines.append(url)
-
-          lines.append(f"# Generated: {datetime.datetime.utcnow().isoformat()} UTC")
-
-          with open(OUTPUT_FILE, "w") as f:
-              f.write("\n".join(lines))
-
-          print("✅ Playlist oluşturuldu:", OUTPUT_FILE)
-          EOF
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        
+    - name: Run YouTube M3U8 fetcher
+      run: |
+        python scripts/get_youtube_m3u8.py
+        
+    - name: Commit and push if changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git diff --staged --quiet || git commit -m "🤖 Auto-update YouTube streams - $(date)"
+        git push
