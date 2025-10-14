@@ -10,20 +10,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
 
-      - name: Install yt-dlp
+      - name: Install dependencies
         run: pip install yt-dlp
+
+      - name: Show working dir and files (debug)
+        run: |
+          pwd
+          ls -l
 
       - name: Run update script
         run: python update_stream.py
-
-      - name: Commit & Push changes
+        working-directory: ${{ github.workspace }}  # <-- burası kritik
+          
+      - name: Commit & push changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
