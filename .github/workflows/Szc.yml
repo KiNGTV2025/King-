@@ -1,42 +1,32 @@
-name: Update YouTube Streams
+name: Auto Update YouTube Stream
+
 on:
   schedule:
-    - cron: '*/15 * * * *'  # 15 dakikada bir
-  workflow_dispatch:  # Manuel çalıştırma
-  push:
-    paths:
-      - 'scripts/**'
+    - cron: "*/30 * * * *"  # her 30 dakikada bir
+  workflow_dispatch:         # manuel çalıştırma imkanı
 
 jobs:
-  update-streams:
+  update:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.9'
-        
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests
-        # yt-dlp'yi kur
-        pip install yt-dlp
-        
-    - name: Run YouTube M3U8 fetcher
-      run: |
-        python scripts/get_youtube_m3u8.py
-        
-    - name: Commit and push if changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git diff --staged --quiet || git commit -m "🤖 Auto-update YouTube streams - $(date +'%Y-%m-%d %H:%M:%S')"
-        git push
+      - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install yt-dlp
+        run: pip install yt-dlp
+
+      - name: Run update script
+        run: python update_stream.py
+
+      - name: Commit & Push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add playlist/playlist.m3u8
+          git commit -m "Auto update playlist.m3u8" || echo "No changes to commit"
+          git push
