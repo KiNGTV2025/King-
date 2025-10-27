@@ -1,7 +1,7 @@
 {
   "now": "https://www.nowtv.com.tr/canli-yayin",
   "kanald": "https://www.kanald.com.tr/canli-yayin",
-  "showturk": "https://www.showtv.com.tr/canli-yayin",
+  "showtv": "https://www.showtv.com.tr/canli-yayin",
   "tv8": "https://www.tv8.com.tr/canli-yayin",
   "tv85": "https://www.tv8bucuk.com/tv8-5-canli-yayin",
   "tlc": "https://www.tlctv.com.tr/canli-izle",
@@ -16,6 +16,7 @@
   "tvnet": "https://www.tvnet.com.tr/canli-yayin",
   "akittv": "https://www.akittv.com.tr/canli-izle",
   "ekolsports": "https://www.ekoltv.com.tr/ekol-sports",
-  "minikacocuk": "https://www.minikacocuk.com.tr/webtv/canli-yayin"
+  "minikacocuk": "https://www.minikacocuk.com.tr/webtv/canli-yayin",
+  "startv": "https://www.startv.com.tr/canli-yayin"
   
 }
