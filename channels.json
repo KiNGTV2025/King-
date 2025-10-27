@@ -1,21 +1,149 @@
 {
-  "now": "https://www.nowtv.com.tr/canli-yayin",
+  // ULUSAL KANALLAR
+  "atv": "https://www.atv.com.tr/canli-yayin",
+  "showtv": "https://www.showtv.com.tr/canli-yayin",
+  "star": "https://www.startv.com.tr/canli-yayin",
+  "fox": "https://www.fox.com.tr/canli-yayin",
   "kanald": "https://www.kanald.com.tr/canli-yayin",
-  "showturk": "https://www.showtv.com.tr/canli-yayin",
   "tv8": "https://www.tv8.com.tr/canli-yayin",
   "tv85": "https://www.tv8bucuk.com/tv8-5-canli-yayin",
-  "tlc": "https://www.tlctv.com.tr/canli-izle",
-  "ekoltv": "https://www.ekoltv.com.tr/canli-yayin",
-  "gzt": "https://www.gzt.com/gzttv-canli-yayin",
-  "dmax": "https://www.dmax.com.tr/canli-izle",
+  
+  // HABER KANALLARI
   "cnnturk": "https://www.cnnturk.com/canli-yayin",
   "haberturk": "https://www.haberturk.com/canliyayin",
+  "ntv": "https://www.ntv.com.tr/canli-yayin",
+  "ahaber": "https://www.ahaber.com.tr/canli-yayin",
+  "tgrthaber": "https://www.tgrthaber.com.tr/canli",
+  "trthaber": "https://www.trthaber.com/canliyayin.html",
   "halktv": "https://halktv.com.tr/canli-yayin",
-  "yirmidort": "https://www.yirmidort.tv/canli-yayin",
-  "tgrthaber": "https://www.tgrthaber.com/canli",
+  "tele1": "https://tele1.com.tr/canli-yayin/",
+  "ulke": "https://www.ulketv.com.tr/canli-yayin",
+  "tv100": "https://www.tv100.com/canli-yayin",
   "tvnet": "https://www.tvnet.com.tr/canli-yayin",
-  "akittv": "https://www.akittv.com.tr/canli-izle",
-  "ekolsports": "https://www.ekoltv.com.tr/ekol-sports",
-  "atv": "https://www.atv.com.tr/canli-yayin"
+  "kanal7": "https://www.kanal7.com/canli-yayin",
+  "atvhaber": "https://www.atv.com.tr/atvhaber/canli-yayin",
+  "showhaber": "https://www.showtv.com.tr/show-haber/canli-yayin",
+  "showhaber2": "https://www.showtv.com.tr/show-haber-2/canli-yayin",
+  "yirmidort": "https://www.yirmidort.tv/canli-yayin",
+  "kralpop": "https://www.kralpop.com.tr/webtv/canli-yayin",
   
-}
+  // SPOR KANALLARI
+  "beinhaber": "https://www.bein.com/tr-tr/haber/",
+  "ahaberspor": "https://www.ahaber.com.tr/spor/canli-yayin",
+  "aspor": "https://www.aspor.com.tr/canli-yayin",
+  "trtspor": "https://www.trtspor.com.tr/canli-yayin",
+  
+  // MÜZİK & EĞLENCE
+  "powerturk": "https://www.powerturk.com/canli-yayin",
+  "powertv": "https://www.powertv.com.tr/canli-yayin",
+  "numberone": "https://www.number1tv.com.tr/canli-yayin",
+  "numberoneturk": "https://www.numberoneturk.com/canli-yayin",
+  "dreamtv": "https://www.dreamturk.com.tr/canli-yayin",
+  "dreamturk": "https://www.dreamturktv.com/canli-yayin",
+  "kralpop": "https://www.kralpop.com.tr/webtv/canli-yayin",
+  "kralmuzik": "https://www.kralmuzik.com.tr/webtv/canli-yayin",
+  
+  // YEREL KANALLAR
+  "kocaelitv": "https://www.kocaelitv.com.tr/canli-yayin",
+  "tvt": "https://www.tvt.com.tr/canli-yayin",
+  "kenttv": "https://www.kenttv.com.tr/canli-yayin",
+  "egetv": "https://www.egetv.com.tr/canli-yayin",
+  
+  // ULUSLARARASI TÜRK KANALLARI
+  "trt1": "https://www.trt1.com.tr/canli-yayin",
+  "trt2": "https://www.trt2.com.tr/canli-yayin",
+  "trtcocuk": "https://www.trtcocuk.net.tr/canli-yayin",
+  "trtbelgesel": "https://www.trtbelgesel.com.tr/canli-yayin",
+  "trtmuzik": "https://www.trtmuzik.net.tr/canli-yayin",
+  "trtavaz": "https://www.trtavaz.com.tr/canli-yayin",
+  "trtturk": "https://www.trtturk.com.tr/canli-yayin",
+  "trtarabi": "https://www.trtarabi.com/canli-yayin",
+  "trtworld": "https://www.trtworld.com/tv/live",
+  
+  // DİJİTAL PLATFORMLAR
+  "now": "https://www.nowtv.com.tr/canli-yayin",
+  "exxen": "https://www.exxen.com/live",
+  "blutv": "https://www.blutv.com/canli-yayin",
+  "puhutv": "https://puhutv.com/canli-yayin",
+  
+  // EĞİTİM & BELGESEL
+  "tlc": "https://www.tlctv.com.tr/canli-izle",
+  "dmax": "https://www.dmax.com.tr/canli-izle",
+  "investigation": "https://www.investigationdiscovery.com.tr/canli-izle",
+  "foodnetwork": "https://www.foodnetwork.com.tr/canli-izle",
+  "fineliving": "https://www.fineliving.com.tr/canli-izle",
+  
+  // ÇOCUK KANALLARI
+  "cartoonnetwork": "https://www.cartoonnetwork.com.tr/canli-yayin",
+  "minika": "https://www.minikago.com.tr/canli-yayin",
+  "minikacocuk": "https://www.minikacocuk.com.tr/canli-yayin",
+  
+  // DİNİ KANALLAR
+  "diyanet": "https://www.diyanet.tv/canli-yayin",
+  "diyanet2": "https://www.diyanet.tv/canli-yayin-2",
+  "mesaj": "https://www.mesaj.tv/canli-yayin",
+  "huzur": "https://www.huzurtv.com.tr/canli-yayin",
+  
+  // ALIŞVERİŞ KANALLARI
+  "shoppings": "https://www.shoppings.tv/canli-yayin",
+  "shopping": "https://www.shoppingtv.com.tr/canli-yayin",
+  "shopkanal": "https://www.shopkanal.com.tr/canli-yayin",
+  
+  // SİNEMA
+  "sinematv": "https://www.sinematv.com.tr/canli-yayin",
+  "filmbox": "https://www.filmbox.com.tr/canli-yayin",
+  
+  // HABER (EKSTRA)
+  "ahaber2": "https://www.ahaber.com.tr/ahaber2/canli-yayin",
+  "ahaber3": "https://www.ahaber.com.tr/ahaber3/canli-yayin",
+  "kanal7avrupa": "https://www.kanal7avrupa.tv/canli-yayin",
+  "beyaztv": "https://www.beyaztv.com.tr/canli-yayin",
+  "flashhaber": "https://www.flashhaber.com.tr/canli-yayin",
+  "telegundem": "https://www.telegundem.com/canli-yayin",
+  "aktifhaber": "https://www.aktifhaber.com/canli-yayin",
+  "baristurk": "https://www.baristurk.tv/canli-yayin",
+  "ekoturk": "https://www.ekoturktv.com.tr/canli-yayin",
+  "kackartv": "https://www.kackartv.com/canli-yayin",
+  "on4haber": "https://www.on4haber.com/canli-yayin",
+  "sonsoz": "https://www.sonsoz.com.tr/canli-yayin",
+  "sozcu": "https://www.sozcu.com.tr/sozcu-tv/canli-yayin",
+  "turkhaber": "https://www.turkhaber.com.tr/canli-yayin",
+  "yenihaber": "https://www.yenihaber.com.tr/canli-yayin",
+  
+  // SPOR (EKSTRA)
+  "ahaberspor2": "https://www.ahaber.com.tr/ahaber-spor-2/canli-yayin",
+  "fanatik": "https://www.fanatik.com.tr/fanatik-tv/canli-yayin",
+  "fotomac": "https://www.fotomac.com.tr/fotomac-tv/canli-yayin",
+  "gsrtv": "https://www.gsrtv.com.tr/canli-yayin",
+  "sporx": "https://www.sporx.com/sporx-tv/canli-yayin",
+  
+  // MÜZİK (EKSTRA)
+  "alemfm": "https://www.alemfm.com.tr/canli-yayin",
+  "bestfm": "https://www.bestfm.com.tr/canli-yayin",
+  "joyturk": "https://www.joyturk.com.tr/canli-yayin",
+  "metrofm": "https://www.metrofm.com.tr/canli-yayin",
+  "powerturktv": "https://www.powerturk.tv/canli-yayin",
+  "ralfm": "https://www.ralfm.com.tr/canli-yayin",
+  "slowturk": "https://www.slowturk.com.tr/canli-yayin",
+  "superfm": "https://www.superfm.com.tr/canli-yayin",
+  
+  // YEREL (EKSTRA)
+  "akdeniztv": "https://www.akdeniztv.com.tr/canli-yayin",
+  "artv": "https://www.artv.com.tr/canli-yayin",
+  "beykoztv": "https://www.beykoztv.com.tr/canli-yayin",
+  "bodrumtv": "https://www.bodrumtv.com.tr/canli-yayin",
+  "bursatv": "https://www.bursatv.com.tr/canli-yayin",
+  "canaktan": "https://www.canaktan.tv/canli-yayin",
+  "denizlitv": "https://www.denizlitv.com.tr/canli-yayin",
+  "erzurumtv": "https://www.erzurumtv.com.tr/canli-yayin",
+  "eskisehirekspres": "https://www.eskisehirekspres.com.tr/canli-yayin",
+  "gaziantepolay": "https://www.gaziantepolay.com/canli-yayin",
+  "guneytv": "https://www.guneytv.com.tr/canli-yayin",
+  "istanbultv": "https://www.istanbultv.com.tr/canli-yayin",
+  "izmirtv": "https://www.izmir.tv/canli-yayin",
+  "konyatv": "https://www.konyatv.com.tr/canli-yayin",
+  "sakaryatv": "https://www.sakaryatv.com.tr/canli-yayin",
+  "samanyolu": "https://www.samanyoluhaber.com/canli-yayin",
+  "turkmax": "https://www.turkmax.com.tr/canli-yayin",
+  "vantv": "https://www.vantv.com.tr/canli-yayin"
+};
