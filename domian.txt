@@ -1,4 +1,4 @@
 {
-  "domain": "https://prada.zirvedesin15.sbs",
-  "referer": "https://dengetv66.live/"
+  "domain": "https://galaxy.zirvedesin26.sbs/",
+  "referer": "https://dengetv67.live/"
 }
