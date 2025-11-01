@@ -1,4 +1,2 @@
-{
-  "domain": "https://galaxy.zirvedesin26.sbs/",
-  "referer": "https://dengetv67.live/"
-}
+https://galaxy.zirvedesin26.sbs/
+https://dengetv67.live/
