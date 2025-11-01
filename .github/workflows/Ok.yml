@@ -1,0 +1,63 @@
+name: Update Domain URLs Automatically
+
+on:
+  schedule:
+    # Her gün 06:00'da çalış (UTC)
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # Manuel çalıştırma
+  push:
+    paths:
+      - 'scripts/**'  # Script değişince tetikle
+
+jobs:
+  update-domains:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 🛎️ Repository'yi checkout et
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: 🐍 Python kurulumu
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: 📦 Gereksinimleri yükle
+      run: |
+        pip install -r requirements.txt
+        
+    - name: 🚀 Domain güncelleme scriptini çalıştır
+      run: python main.py
+      
+    - name: 📊 Sonuçları göster
+      run: |
+        if [ -f "result.json" ]; then
+          echo "=== GÜNCELLEME SONUÇLARI ==="
+          cat result.json
+          echo "============================="
+        fi
+        
+    - name: 💾 Değişiklikleri commit et
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        if git diff --quiet domian.txt; then
+          echo "✅ Değişiklik yok"
+        else
+          git add domian.txt
+          git commit -m "🤖 Auto-update domain: $(date +'%Y-%m-%d %H:%M')"
+          git push
+          echo "✅ Domain güncellendi ve commit edildi"
+        fi
+        
+    - name: 🔔 Discord Bildirimi (Opsiyonel)
+      if: always()
+      uses: sarisia/actions-status-discord@v1
+      with:
+        webhook: ${{ secrets.DISCORD_WEBHOOK }}
+        status: ${{ job.status }}
+        title: "Domain Auto-Update"
+        description: "Domain URLs updated automatically"
