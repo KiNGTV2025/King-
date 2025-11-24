@@ -1,0 +1,19 @@
+{
+  "lists": [
+    {
+      "id": "umit",
+      "name": "ForTV Listesi", 
+      "url": "https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/fortv.m3u"
+    },
+    {
+      "id": "umit2",
+      "name": "PlusTV Listesi",
+      "url": "https://raw.githubusercontent.com/pcwolfman/plustv/refs/heads/main/tr.m3u"
+    },
+    {
+      "id": "yeni-liste",
+      "name": "Yeni Liste",
+      "url": "https://raw.githubusercontent.com/raalbatros/iptv/refs/heads/main/yeni.m3u"
+    }
+  ]
+}
