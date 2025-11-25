@@ -11,6 +11,6 @@
             { id: 'ts', name: 'Trabzonspor', primary: '#3BB4E5', secondary: '#800000', bg: '#560410', panel: '#700515' },
             { id: 'ocean', name: 'Ocean Blue', primary: '#00d2ff', secondary: '#3a7bd5', bg: '#0f2027', panel: '#203a43' },
             { id: 'matrix', name: 'Matrix Green', primary: '#00ff00', secondary: '#003300', bg: '#000', panel: '#050' }
-        ];
+        ]
 
 }
