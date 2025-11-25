@@ -1,19 +1,9 @@
 {
-  "lists": [
-    {
-      "id": "umit",
-      "name": "Ümit Listesi", 
-      "url": "https://raw.githubusercontent.com/Lunedor/iptvTR/refs/heads/main/fortv.m3u"
-    },
-    {
-      "id": "umit2",
-      "name": "TV liberal Listesi",
-      "url": "https://raw.githubusercontent.com/pcwolfman/plustv/refs/heads/main/tr.m3u"
-    },
-    {
-      "id": "yeni-liste",
-      "name": "Aslan",
-      "url": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/Title.m3u"
-    }
+  "m3u_list": [
+    "https://raw.githubusercontent.com/Lunedor/iptvTR/main/fortv.m3u",
+    "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/Title.m3u"
+  ],
+  "themes": [
+    { "id": "premium", "name": "Premium Gold", "primary": "#FFD700", "secondary": "#F1C40F", "bg": "#1a1a1a", "panel": "#242424" }
   ]
 }
