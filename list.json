@@ -4,6 +4,13 @@
     "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/Title.m3u"
   ],
   "themes": [
-    { "id": "premium", "name": "Premium Gold", "primary": "#FFD700", "secondary": "#F1C40F", "bg": "#1a1a1a", "panel": "#242424" }
-  ]
+            { id: 'premium', name: 'Premium Gold', primary: '#FFD700', secondary: '#F1C40F', bg: '#1a1a1a', panel: '#242424' },
+            { id: 'gs', name: 'Galatasaray', primary: '#FDB913', secondary: '#A90432', bg: '#5f0213', panel: '#7a041a' },
+            { id: 'fb', name: 'Fenerbahçe', primary: '#FFFF00', secondary: '#002d72', bg: '#001a40', panel: '#00265c' },
+            { id: 'bjk', name: 'Beşiktaş', primary: '#ffffff', secondary: '#777', bg: '#000000', panel: '#111' },
+            { id: 'ts', name: 'Trabzonspor', primary: '#3BB4E5', secondary: '#800000', bg: '#560410', panel: '#700515' },
+            { id: 'ocean', name: 'Ocean Blue', primary: '#00d2ff', secondary: '#3a7bd5', bg: '#0f2027', panel: '#203a43' },
+            { id: 'matrix', name: 'Matrix Green', primary: '#00ff00', secondary: '#003300', bg: '#000', panel: '#050' }
+        ];
+
 }
