@@ -2,7 +2,7 @@
   "m3u_list": [
     { "name": "Türk 9", "url": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/Title.m3u" },
     { "name": "Yabancı Kanallar", "url": "https://raw.githubusercontent.com/Lunedor/iptvTR/main/fortv.m3u" },
-    { "name": "address", "url": "https://raw.githubusercontent.com/ahmet21ahmet/Trgoalsvsdengetv/refs/heads/main/Birlesik.m3u" }
+    { "name": "ÜmitVIP", "url": "https://raw.githubusercontent.com/ahmet21ahmet/Trgoalsvsdengetv/refs/heads/main/Birlesik.m3u" }
   ],
   "themes": [
     { "id": "premium", "name": "Premium Gold", "primary": "#FFD700", "secondary": "#F1C40F", "bg": "#1a1a1a", "panel": "#242424" },
