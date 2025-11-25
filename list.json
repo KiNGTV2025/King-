@@ -1,5 +1,5 @@
 {
-  ""m3u_list": [
+  "m3u_list": [
   { "name": "Türk Kanalları", "url": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/Title.m3u" },
   { "name": "Yabancı Kanallar", "url": "https://raw.githubusercontent.com/Lunedor/iptvTR/main/fortv.m3u" },
   { "name": "Radyo", "url": "https://raw.githubusercontent.com/nigelhayes11/temp/8f85feca89edf03164fb59c91f12ae93a2bfa49f/MAN%20NORMAL%20TV%202025.m3u" }
