@@ -1,7 +1,7 @@
 {
   "m3u_list": [
     "https://raw.githubusercontent.com/Lunedor/iptvTR/main/fortv.m3u",
-    "https://example.com/list2.m3u"
+    "https://raw.githubusercontent.com/raalbatros/iptv/refs/heads/main/yeni.m3u"
   ],
   "themes": [
     { id: 'premium', name: 'Premium Gold', primary: '#FFD700', secondary: '#F1C40F', bg: '#1a1a1a', panel: '#242424' },
