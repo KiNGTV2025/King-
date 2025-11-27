@@ -5,9 +5,10 @@
     { "name": "📻Radyo", "url": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/Radyo.m3u" }
   ],
   "themes": [
+   { "id": "premium", "name": "Premium Gold(varsayılan)", "primary": "#FFD700", "secondary": "#F1C40F", "bg": "#1a1a1a", "panel": "#242424" },
     { 
       "id": "morbeyaz", 
-      "name": "💜 Mor ve Beyaz 🆕", 
+      "name": "Mor ve Beyaz🆕", 
       "tag": {
         "text": "YENİ",
         "color": "#FF0000"
@@ -17,7 +18,6 @@
       "bg": "#1c1c2b", 
       "panel": "#333355" 
     },
-    { "id": "premium", "name": "Premium Gold", "primary": "#FFD700", "secondary": "#F1C40F", "bg": "#1a1a1a", "panel": "#242424" },
     { "id": "gs", "name": "Galatasaray", "primary": "#FDB913", "secondary": "#A90432", "bg": "#5f0213", "panel": "#7a041a" },
     { "id": "fb", "name": "Fenerbahçe", "primary": "#FFFF00", "secondary": "#002d72", "bg": "#001a40", "panel": "#00265c" },
     { "id": "bjk", "name": "Beşiktaş", "primary": "#ffffff", "secondary": "#777", "bg": "#000000", "panel": "#111" },
