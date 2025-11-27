@@ -14,7 +14,7 @@
     { "id": "bursa", "name": "Bursaspor", "primary": "#44b366", "secondary": "#ffffff", "bg": "#052e16", "panel": "#084a24" },
     { "id": "eses", "name": "Eskişehirspor", "primary": "#bd151b", "secondary": "#000000", "bg": "#1f0304", "panel": "#330506" },
     { "id": "ocean", "name": "Ümit Blue", "primary": "#00d2ff", "secondary": "#3a7bd5", "bg": "#0f2027", "panel": "#203a43" },
-    { "id": "matrix", "name": "Matrix Green", "primary": "#00ff00", "secondary": "#003300", "bg": "#000", "panel": "#050" }
+    { "id": "matrix", "name": "Sakarya", "primary": "#00ff00", "secondary": "#003300", "bg": "#000", "panel": "#050" }
 ]
 
 }
