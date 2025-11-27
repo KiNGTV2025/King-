@@ -5,6 +5,18 @@
     { "name": "📻Radyo", "url": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/Radyo.m3u" }
   ],
   "themes": [
+    { 
+      "id": "morbeyaz", 
+      "name": "💜 Mor ve Beyaz 🆕", 
+      "tag": {
+        "text": "YENİ",
+        "color": "#FF0000"
+      },
+      "primary": "#8A2BE2", 
+      "secondary": "#FFFFFF", 
+      "bg": "#1c1c2b", 
+      "panel": "#333355" 
+    },
     { "id": "premium", "name": "Premium Gold", "primary": "#FFD700", "secondary": "#F1C40F", "bg": "#1a1a1a", "panel": "#242424" },
     { "id": "gs", "name": "Galatasaray", "primary": "#FDB913", "secondary": "#A90432", "bg": "#5f0213", "panel": "#7a041a" },
     { "id": "fb", "name": "Fenerbahçe", "primary": "#FFFF00", "secondary": "#002d72", "bg": "#001a40", "panel": "#00265c" },
@@ -15,6 +27,5 @@
     { "id": "eses", "name": "Eskişehirspor", "primary": "#bd151b", "secondary": "#000000", "bg": "#1f0304", "panel": "#330506" },
     { "id": "ocean", "name": "Ümit Blue", "primary": "#00d2ff", "secondary": "#3a7bd5", "bg": "#0f2027", "panel": "#203a43" },
     { "id": "matrix", "name": "Sakarya", "primary": "#00ff00", "secondary": "#003300", "bg": "#000", "panel": "#050" }
-]
-
+  ]
 }
