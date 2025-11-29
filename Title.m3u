@@ -82,7 +82,7 @@ http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Veliaht.SON.mkv
 http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Tasacak.Bu.Deniz.SON.mkv
 #EXTINF:1 tvg-name="esrefruya" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS19Eh3n4s_Lt2rhhl6Yq__Rqmt_QDNNrrAm5r6qn52aw&s" group-title="Dizilerin SON Bölümleri📺",Eşref Rüya(Çarşamba-KanalD)
 http://45.159.95.10:8880/STORE/DIZI.SON.BOLUMLER/Esref.Ruya.SON.mkv
-#EXTINF:-1 tvg-id="trt1" tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="Ulusal",TRT 1
+#EXTINF:-1 tvg-id="24TV.tr" tvg-logo="http://assets.tvcdn.net/1045ea2f-2453-451d-a55f-ba17539641dd.png" group-title="Ulusal",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="atv" tvg-logo="http://assets.tvcdn.net/89a47b4b-5d20-4248-9f4c-a3d2756072dd.png" group-title="Ulusal",Atv
 http://65.108.239.207/atv/index.m3u8
