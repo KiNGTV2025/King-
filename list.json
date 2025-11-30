@@ -2,7 +2,7 @@
   "x-tvg-url": "https://github.com/KiNGTV2025/King-/releases/download/epg-latest/epg_updated.xml,https://raw.githubusercontent.com/tecobaba/tecom3u/refs/heads/main/tr-guide.xml",
   "m3u_list": [
     { "name": "📺TV Kanalları","url": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/Title.m3u" },
-    { "name": "📽Filmler","password":"1234", "url": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/xSinema.m3u" },
+    { "name": "📽Filmler","password":"1244", "url": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/xSinema.m3u" },
     { "name": "📻Radyo","url": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/Radyo.m3u" }
   ],
   "themes": [
