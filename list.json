@@ -1,7 +1,7 @@
 {
   "m3u_list": [
     { "name": "📺TV Kanalları","url": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/Title.m3u" },
-    { "name": "📽Filmler","password":"1234", "url": "https://raw.githubusercontent.com/bayzero1905/m3u/refs/heads/main/tvbox.m3u" },
+    { "name": "📽Filmler","password":"1234", "url": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/Sinema.m3u" },
     { "name": "📻Radyo","url": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/Radyo.m3u" }
   ],
   "themes": [
