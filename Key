@@ -10,7 +10,7 @@
     "id": "f1eed7824a430df1",
     "username": "umit",
     "password": "umit1",
-    "expiresAt": "2025-11-30",
+    "expiresAt": "2026-11-30",
     "allowOffline": true
   },
 {
@@ -31,14 +31,14 @@
     "id": "019f51a5e086c39e",
     "username": "umit",
     "password": "umit",
-    "expiresAt": "2025-11-30",
+    "expiresAt": "2026-11-30",
     "allowOffline": true
   },
 {
     "id": "a941f0dda8b4b31c",
     "username": "ahmet",
     "password": "ahmet",
-    "expiresAt": "2025-11-30",
+    "expiresAt": "2026-11-30",
     "allowOffline": true
   }
 ]
