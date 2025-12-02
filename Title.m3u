@@ -644,3 +644,5 @@ http://stream.tvcdn.net/yerel/hunat-tv.m3u8
 http://stream.tvcdn.net/yerel/icel-tv.m3u8
 #EXTINF:1 tvg-id="" tvg-logo="http://assets.tvcdn.net/557c3d07-ac1f-49ec-95ab-8171f782580f.png" group-title="Yerel",İzmir Saat 35
 http://stream.tvcdn.net/yerel/izmir-time-35.m3u8
+#EXTINF:-1 tvg-id="beinsports1" tvg-name="Bein Sports 1" tvg-logo="https://i.hizliresim.com/81cx7cu.png" group-title="ÜmitBein",Bein Sports 1 M (ÜmitTV)
+https://vizioncore.xyz/static/bs1.m3u8
