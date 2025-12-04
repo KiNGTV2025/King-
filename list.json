@@ -1,5 +1,5 @@
 {
-  "x-tvg-url": "https://github.com/KiNGTV2025/King-/releases/download/epg-latest/epg_updated.xml",
+  "epg-url": "https://github.com/KiNGTV2025/King-/releases/download/epg-latest/epg_updated.xml",
   "buttons": [
     { "text": "💠 Menü A", "action": "go:A" },
     { "text": "📺 Canlı TV", "action": "go:TV" },
