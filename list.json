@@ -1,7 +1,7 @@
 {
   "epg-url": "https://github.com/KiNGTV2025/King-/releases/download/epg-latest/epg_updated.xml",
   "buttons": [
-    { "text": "💠 Menü A", "action": "go:A" },
+    { "text": "💠 Menü A", "action": "go:FAV" },
     { "text": "📺 Canlı TV", "action": "go:TV" },
     { "text": "🎬 Filmler", "action": "go:Movies" },
     { "text": "🎶 Radyo", "action": "go:Radio" }
