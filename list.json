@@ -1,8 +1,7 @@
 {
   "epg-url": "https://github.com/KiNGTV2025/King-/releases/download/epg-latest/epg_updated.xml",
   "buttons": [
-    { "text": "💠 Menü A", "action": "go:Free" }
-      ],
+    "buttons": [ { "text": "💠 Menü A", "action": "dynamic:FAV" } ],
   "m3u_list": [
     { "name": "📺TV Kanalları","url": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/Title.m3u" },
     { "name": "📽Filmler","password":"1991", "url": "https://raw.githubusercontent.com/KiNGTV2025/King-/refs/heads/main/amk.m3u" },
