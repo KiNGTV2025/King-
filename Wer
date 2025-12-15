@@ -1,0 +1,14 @@
+[
+  {
+    "username": "kullanici1",
+    "password": "123",
+    "device_id": "DEV-TWJJFD09Q",
+    "expiry_date": "2025-12-31T23:59:59"
+  },
+  {
+    "username": "admin",
+    "password": "adminpassword",
+    "device_id": "TEST-DEVICE-ID-1234",
+    "expiry_date": "2025-12-20T12:00:00"
+  }
+]
