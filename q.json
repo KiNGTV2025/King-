@@ -1,627 +1,2329 @@
-#EXTM3U
-
-#EXTINF:-1 tvg-id="160" tvg-name="S Sport Plus" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg" group-title="UmitVIP-spor",S Sport Plus
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/pl1.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="160_umitmod1" tvg-name="S Sport Plus" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg" group-title="UmitVIP-spor",S Sport Plus
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/pl2.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="160_umitmod2" tvg-name="S Sport Plus" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg" group-title="UmitVIP-spor",S Sport Plus
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/pl3.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="160_umitmod3" tvg-name="S Sport Plus" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg" group-title="UmitVIP-spor",S Sport Plus
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/pl4.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="160_umitmod4" tvg-name="S Sport Plus" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg" group-title="UmitVIP-spor",S Sport Plus
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/pl5.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="160_umitmod5" tvg-name="S Sport Plus" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg" group-title="UmitVIP-spor",S Sport Plus
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/pl6.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="157" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="UmitVIP-spor",TABİİ SPOR
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/tabi.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="157_umitmod1" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="UmitVIP-spor",TABİİ SPOR
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://tv-trtspor1.medya.trt.com.tr/master.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="157_umitmod2" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="UmitVIP-spor",TABİİ SPOR
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://tv-trt1.medya.trt.com.tr/master.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="157_umitmod3" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="UmitVIP-spor",TABİİ SPOR
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/tabi1.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="157_umitmod4" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="UmitVIP-spor",TABİİ SPOR
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/tabi2.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="157_umitmod5" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="UmitVIP-spor",TABİİ SPOR
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/tabi3.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="157_umitmod6" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="UmitVIP-spor",TABİİ SPOR
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/tabi4.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="157_umitmod7" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="UmitVIP-spor",TABİİ SPOR
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/tabi5.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="157_umitmod8" tvg-name="TABİİ SPOR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg" group-title="UmitVIP-spor",TABİİ SPOR
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/tabi6.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="149" tvg-name="Bein Sports 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" group-title="UmitVIP-spor",Bein Sports 1
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/bs1.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="149_umitmod1" tvg-name="Bein Sports 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png" group-title="UmitVIP-spor",Bein Sports 1
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/bs11.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="148" tvg-name="Bein Sports 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/6e235279a86721ccf20f97237669c15b.png" group-title="UmitVIP-spor",Bein Sports 2
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/bs2.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="147" tvg-name="Bein Sports 3" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/cc82d1d3295bbdabd4b0f7ddaa0321b7.png" group-title="UmitVIP-spor",Bein Sports 3
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/bs3.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="146" tvg-name="Bein Sports 4" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/2ff145f33c044ec8e7e11fdde18aa844.png" group-title="UmitVIP-spor",Bein Sports 4
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/bs4.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="145" tvg-name="Bein Sports 5" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/abff4cbc62b84597225b664e0e9c64f1.png" group-title="UmitVIP-spor",Bein Sports 5
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/bs5.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="144" tvg-name="Bein Sports Max 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/45e029fab41029ba5aa986cf157ab30e.png" group-title="UmitVIP-spor",Bein Sports Max 1
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/bm1/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="142" tvg-name="Bein Sports Max 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/e0de03768014baae665e79af69d5198f.png" group-title="UmitVIP-spor",Bein Sports Max 2
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/bm2/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="141" tvg-name="S SPORT 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/29b3ca0f04190b3727b3d8255cbb5d2a.jpg" group-title="UmitVIP-spor",S SPORT 1
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/ss11.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="140" tvg-name="S SPORT 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/46e2f65ec582fdbc8edfd01899eca2a1.jpg" group-title="UmitVIP-spor",S SPORT 2
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://1.cf32-2c8.workers.dev/static/ss2.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="139" tvg-name="Spor Smart 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/e4e94b5f588beff702dfe39729379251.png" group-title="UmitVIP-spor",Spor Smart 1
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/smart1/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="138" tvg-name="Spor Smart 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/cabc0eca8d8333d022305c01b433f367.png" group-title="UmitVIP-spor",Spor Smart 2
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/smart2/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="137" tvg-name="Euro Sport 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/f40c9c2ad62bd4e3ff87d5859ea2bb54.jpg" group-title="UmitVIP-spor",Euro Sport 1
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/euro1/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="135" tvg-name="Euro Sport 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/8802d4e354a9ca77d6aa3bbd8362e3e8.png" group-title="UmitVIP-spor",Euro Sport 2
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/euro2/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="134" tvg-name="Tivibu Spor 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/e0837009bbe1e595a7c7364aa45d02f7.jpg" group-title="UmitVIP-spor",Tivibu Spor 1
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/t1/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="133" tvg-name="Tivibu Spor 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/8c23cd76a1f7c2b12ab4e757b45ca87f.jpg" group-title="UmitVIP-spor",Tivibu Spor 2
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/t2/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="132" tvg-name="Tivibu Spor 3" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/2dd58a06227ac0410461a0be92123f12.jpg" group-title="UmitVIP-spor",Tivibu Spor 3
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/t3/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="131" tvg-name="Trt Spor HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/c9aa0ea0e7cf2e4ec3523352f7dfd8ff.jpg" group-title="UmitVIP-spor",Trt Spor HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://tv-trtspor1.medya.trt.com.tr/master.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="130" tvg-name="A Spor HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/b8582c521e6d1bf91ef06f34b7c58c37.jpg" group-title="UmitVIP-spor",A Spor HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="129" tvg-name="GS TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/155c62b2d55c69b9abbb2d9867adc1b8.jpg" group-title="UmitVIP-spor",GS TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://owifavo5.rocketcdn.com/gstv/gstv.smil/chunklist_b1828000_sltur.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="128" tvg-name="FB TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/56c7f2499a5ba8bab88be9cebaedd6be.jpg" group-title="UmitVIP-spor",FB TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/fbtv/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="127" tvg-name="Nba TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/7b8b88c5d436a3cdecf4facb78342019.jpg" group-title="UmitVIP-spor",Nba TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/yayinnbatv/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="126" tvg-name="HT SPOR HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/3173922d598840a24005bc0c04cc926e.jpg" group-title="UmitVIP-spor",HT SPOR HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&ppid=675956db19f9bb686edda21d15d911e8&dfp_paln=AQzzBGQEBm1BO0E2iVe9tLfcsqJ3gAOMJ63P8Ch?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="122" tvg-name="Sports TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/d3fa136e0548a46e2b55393a00a93296.jpg" group-title="UmitVIP-spor",Sports TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://live.sportstv.com.tr/hls/low/sportstv.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="121" tvg-name="EKOL SPORT" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/80d8999029533191ed8383fb12ccf042.jpg" group-title="UmitVIP-spor",EKOL SPORT
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="64" tvg-name="GZT TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/b329450ea66cb793aef8e2accc313d62.jpg" group-title="UmitVIP-spor",GZT TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="13" tvg-name="TİVİBU SPOR 4" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/921670222d56e1af5cde5b3474185425.jpg" group-title="UmitVIP-spor",TİVİBU SPOR 4
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/t4/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
-#EXTINF:-1 tvg-id="12" tvg-name="TRT SPOR YILDIZ" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/ddc793321e06b9f205e7b99ebca71e4b.jpg" group-title="UmitVIP-spor",TRT SPOR YILDIZ
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
-#EXTINF:-1 tvg-id="114" tvg-name="TRT 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/14f516e981f4bc0961c5a162665814bf.jpg" group-title="UmitVIP-ulusal",TRT 1
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://tv-trt1.medya.trt.com.tr/master.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="113" tvg-name="STAR TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/9077322c9860d2cd30e3f5cc3d46d56d.jpg" group-title="UmitVIP-ulusal",STAR TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/startv/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="112" tvg-name="KANAL D" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/7c5c8e0ca5549732e5ceda6fcc62748d.jpg" group-title="UmitVIP-ulusal",KANAL D
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/kanald/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="111" tvg-name="SHOW TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/93eebff893a76defd8ab61fdb69943c3.jpg" group-title="UmitVIP-ulusal",SHOW TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/showtv/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345
-
-#EXTINF:-1 tvg-id="110" tvg-name="ATV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/50f26ac81150eb251be02f16e329d5ff.jpg" group-title="UmitVIP-ulusal",ATV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/atv/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="109" tvg-name="TV 8 HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/33204f43b374b3d0b662a80afa712518.jpg" group-title="UmitVIP-ulusal",TV 8 HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/kanald/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="108" tvg-name="TV 8.5" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/48ec74f19b2e7707d89f70ace71eae1c.jpg" group-title="UmitVIP-ulusal",TV 8.5
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://tv8.daioncdn.net/tv8bucuk/tv8bucuk_1080p.m3u8?app=tv8bucuk_web&ce=3?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="107" tvg-name="FOX TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/50824b68e8d4a1377f0d6ed9242d68d7.jpg" group-title="UmitVIP-ulusal",FOX TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="106" tvg-name="KANAL 7" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/9ebd243aafd11f7e8bd8409e04a13860.jpg" group-title="UmitVIP-ulusal",KANAL 7
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="105" tvg-name="BEYAZ TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/f52aae2d29699a04cf4209cbe7367996.png" group-title="UmitVIP-ulusal",BEYAZ TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="103" tvg-name="TEVE 2 HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/2cf916833b3c64448b36830d2b238685.png" group-title="UmitVIP-ulusal",TEVE 2 HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://demiroren-live.daioncdn.net/teve2/teve2.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="29" tvg-name="TVNET" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/27c80e3806fdd33e2f72b20cd4256dec.jpg" group-title="UmitVIP-ulusal",TVNET
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/tvnet/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
-#EXTINF:-1 tvg-id="25" tvg-name="BENGÜTÜRK" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/cad74c9ef922f64138434a3ebb0980be.jpg" group-title="UmitVIP-ulusal",BENGÜTÜRK
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/bengu/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
-#EXTINF:-1 tvg-id="24" tvg-name="TV 100" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/54ebd649dea5b3654544975b9352f100.png" group-title="UmitVIP-ulusal",TV 100
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
-#EXTINF:-1 tvg-id="22" tvg-name="TRT 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/614e1863861a3dbba1b1e107367b3e53.jpg" group-title="UmitVIP-ulusal",TRT 2
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://tv-trt2.medya.trt.com.tr/master.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
-#EXTINF:-1 tvg-id="21" tvg-name="TV4" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpeg/e97aaf070fbc2858ecabd8625f360eb2.jpeg" group-title="UmitVIP-ulusal",TV4
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://turkmedya-live.ercdn.net/tv4/tv4_1080p.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
-#EXTINF:-1 tvg-id="18" tvg-name="TRT TÜRK" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/45fd54765eebb0b4e708c7448a2c8a93.jpg" group-title="UmitVIP-ulusal",TRT TÜRK
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://trtturk.blutv.com/blutv_trtturk2/live_720p2000000kbps/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
-#EXTINF:-1 tvg-id="17" tvg-name="TRT AVAZ" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/c1e29a27bff35f6c081fe9b7103953b8.jpg" group-title="UmitVIP-ulusal",TRT AVAZ
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://tv-trtavaz.medya.trt.com.tr/master.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
-#EXTINF:-1 tvg-id="16" tvg-name="SEMERKAND TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/8ac54924b9791ceedab2f302d9fe2946.jpg" group-title="UmitVIP-ulusal",SEMERKAND TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/mt_2.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
-#EXTINF:-1 tvg-id="102" tvg-name="TRT HABER HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/d066e7368bc1ea6388e912650ec7354c.png" group-title="UmitVIP-haber",TRT HABER HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://tv-trthaber.medya.trt.com.tr/master_720.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="101" tvg-name="HABER TURK HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/8cc654161cccc4a0b183615672809444.jpg" group-title="UmitVIP-haber",HABER TURK HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/haberturk/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="100" tvg-name="A HABER HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/dc748243e0ce52f5315946c0f26f50fe.jpg" group-title="UmitVIP-haber",A HABER HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/ahaber/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="99" tvg-name="CNN TURK HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/59310b5017a91855a65fd3993f085710.jpg" group-title="UmitVIP-haber",CNN TURK HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/cnn/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="98" tvg-name="NTV HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/fc2233de54eddcc4b38e07e8eedb8446.jpg" group-title="UmitVIP-haber",NTV HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://dogus-live.daioncdn.net/ntv/ntv.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="97" tvg-name="24 HABER HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/a7ee2263901d79464e2249d0b23217cf.jpg" group-title="UmitVIP-haber",24 HABER HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://tv.ensonhaber.com/tv24/tv24.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="96" tvg-name="BLOOMBERG HT HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/fe34ebd140199c087be663e2c57ceb2f.jpg" group-title="UmitVIP-haber",BLOOMBERG HT HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/bloomberg/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="95" tvg-name="HALK TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/ba872632eff716bff680517fd72de5fd.jpg" group-title="UmitVIP-haber",HALK TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/halk/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="94" tvg-name="HABER GLOBAL" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/aa5d0e853efaf9070117c772c4db6358.jpg" group-title="UmitVIP-haber",HABER GLOBAL
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/haberg/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="93" tvg-name="TGRT HABER HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/fb4488783f29ccc9b6873395f6c001bd.jpg" group-title="UmitVIP-haber",TGRT HABER HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="91" tvg-name="ÜLKE TV HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/f308a739f78540555d8b8819f785eb4f.jpg" group-title="UmitVIP-haber",ÜLKE TV HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/ulke/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="82" tvg-name="EKOL TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/2adaac7b2a1e39ca67dc34115ce40f3c.jpg" group-title="UmitVIP-haber",EKOL TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ekoltv-live.ercdn.net/ekoltv/ekoltv_1080p.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="26" tvg-name="SÖZCÜ TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/d2b37e56c23f53095350038e36c1c8ce.png" group-title="UmitVIP-haber",SÖZCÜ TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/sozcutv/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
-#EXTINF:-1 tvg-id="89" tvg-name="NATIONAL GEO HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/666cbc1feac437aea3fc2c8218b9539e.jpg" group-title="UmitVIP-belgesel",NATIONAL GEO HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://saran-live.ercdn.net/natgeohd/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="88" tvg-name="NATIONAL GEO WILD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/ae18d42e87a266954420b315bb23c749.jpg" group-title="UmitVIP-belgesel",NATIONAL GEO WILD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://saran-live.ercdn.net/natgeowild/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="87" tvg-name="HISTORY CHANNEL" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/77f52eb67864c8f809626fa5c7d1bae6.png" group-title="UmitVIP-belgesel",HISTORY CHANNEL
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/history/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="86" tvg-name="BBC EARTH HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/9ed6faa15f968198d17c0362658f6b50.jpg" group-title="UmitVIP-belgesel",BBC EARTH HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/bbc/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="85" tvg-name="TARİH TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/b61d518744b390174e6f672d7171107d.png" group-title="UmitVIP-belgesel",TARİH TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/tarihtv/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="84" tvg-name="Docubox" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/d90ba2bcb80b997800fbe4824f1d71c6.png" group-title="UmitVIP-belgesel",Docubox
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/docubox/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="83" tvg-name="TLC" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/08cd8548f90ea341ac8bf315ec5ab4f9.jpg" group-title="UmitVIP-belgesel",TLC
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://dogus-live.daioncdn.net/tlc/tlc.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="81" tvg-name="DMAX HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/8c8f9b27a338d4b5713098251d9f5284.png" group-title="UmitVIP-belgesel",DMAX HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://dogus-live.daioncdn.net/dmax/dmax.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="80" tvg-name="YABAN TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/717339637240b8d0ade5063ae8a18fcd.png" group-title="UmitVIP-belgesel",YABAN TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/yaban/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="79" tvg-name="DISCOVERY CHANNEL" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/45a6752ed9a833b4d0303885092b8f54.png" group-title="UmitVIP-belgesel",DISCOVERY CHANNEL
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/discovery/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="78" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/a83bf94e67fe34718d644ed9da8ca82d.png" group-title="UmitVIP-belgesel",DISCOVERY SCIENCE
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/discs/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369
-
-#EXTINF:-1 tvg-id="77" tvg-name="TRT BELGESEL HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/cee1ae3bfe067fe869b8e20c0272938b.jpg" group-title="UmitVIP-belgesel",TRT BELGESEL HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="32" tvg-name="LOVE NATURE" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/c34095b97dc3f94306666eec346defb8.png" group-title="UmitVIP-belgesel",LOVE NATURE
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/lovenature/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
-#EXTINF:-1 tvg-id="30" tvg-name="VIASAT HISTORY" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/8ea2619561935fed906ee2278d5fa961.png" group-title="UmitVIP-belgesel",VIASAT HISTORY
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/viasathistory/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
-#EXTINF:-1 tvg-id="76" tvg-name="BS ACTION 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/1883f1dfa1e69b6788849eaab4b1f8e7.png" group-title="UmitVIP-sinema",BS ACTION 1
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/bsaction1/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="75" tvg-name="BS TURK" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/b2d030cf4ca567bf7c8358b15c8177a9.png" group-title="UmitVIP-sinema",BS TURK
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/bsturk/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="74" tvg-name="BS FAMILY" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/a2f7541d9a7a2947275ba3b3d3b6cb47.png" group-title="UmitVIP-sinema",BS FAMILY
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/bsfamily/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="73" tvg-name="Bein Series HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/cac143893c2e56485498895df040b2b1.png" group-title="UmitVIP-sinema",Bein Series HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/bsseries1/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="73_umitmod1" tvg-name="Bein Series HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/cac143893c2e56485498895df040b2b1.png" group-title="UmitVIP-sinema",Bein Series HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/bsseries2/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="73_umitmod2" tvg-name="Bein Series HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/cac143893c2e56485498895df040b2b1.png" group-title="UmitVIP-sinema",Bein Series HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/bsseries3/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="73_umitmod3" tvg-name="Bein Series HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/cac143893c2e56485498895df040b2b1.png" group-title="UmitVIP-sinema",Bein Series HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/bsseries4/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="72" tvg-name="BS STARS" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/45d92ce49a65dd1e9823a55694fe2a7e.png" group-title="UmitVIP-sinema",BS STARS
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/bsstars/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="71" tvg-name="BS PREMIER" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/05607925151ae07d26cdf2c93b99e006.png" group-title="UmitVIP-sinema",BS PREMIER
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/bspremier1/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="70" tvg-name="BS BOX OFFİCE 1" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/a5e035e5aad903052fdb35a3a7984518.jpg" group-title="UmitVIP-sinema",BS BOX OFFİCE 1
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/box1/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="69" tvg-name="BS BOX OFFİCE 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/aec5f81a9d58714b840be9a285928224.png" group-title="UmitVIP-sinema",BS BOX OFFİCE 2
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/box2/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="68" tvg-name="BS BOX OFFİCE 3" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/7c52499be2693a149616127f02cc633a.png" group-title="UmitVIP-sinema",BS BOX OFFİCE 3
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/box3/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="67" tvg-name="Moviesmart Turk" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/771bc3c19a6cfa2187001771d74ba63c.jpg" group-title="UmitVIP-sinema",Moviesmart Turk
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/mvturk/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="65" tvg-name="FX Kanalı" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/6c4faa576fe3d2fe9e850efd5c57005d.jpg" group-title="UmitVIP-sinema",FX Kanalı
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://saran-live.ercdn.net/fx/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="61" tvg-name="Sinema TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/40b261b65aeef4696661f2b497c55c89.png" group-title="UmitVIP-sinema",Sinema TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/sinema/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="60" tvg-name="Sinema TV 2" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/389d982cb693a94e1c6aae2ee5e34594.png" group-title="UmitVIP-sinema",Sinema TV 2
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/sinema2/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="59" tvg-name="Sinema TV Aksiyon" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/11ae72baa495a639e5193cbed5fd92da.png" group-title="UmitVIP-sinema",Sinema TV Aksiyon
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/sinemaaksiyon2/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="59_umitmod1" tvg-name="Sinema TV Aksiyon" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/11ae72baa495a639e5193cbed5fd92da.png" group-title="UmitVIP-sinema",Sinema TV Aksiyon
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/sinemaaksiyon/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="57" tvg-name="Sinema TV Komedi" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/bb0d39dbbdee543eb42f4e77fd30c324.png" group-title="UmitVIP-sinema",Sinema TV Komedi
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/sinemakomedi/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="56" tvg-name="Sinema TV Yerli" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png" group-title="UmitVIP-sinema",Sinema TV Yerli
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/sinemayerli/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="56_umitmod1" tvg-name="Sinema TV Yerli" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png" group-title="UmitVIP-sinema",Sinema TV Yerli
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/sinemayerli2/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="55" tvg-name="Sinema TV Aile" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/5959572ddb15da121258c8eaa756f7c9.png" group-title="UmitVIP-sinema",Sinema TV Aile
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/sinemaaile/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="53" tvg-name="Sinema TV 1001" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/8c31ff828bc07a09eb52fb8312f23abb.png" group-title="UmitVIP-sinema",Sinema TV 1001
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/sinema1001/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="52" tvg-name="Sinema TV 1002" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/96603c9e4ba10ae864380f670e210cf0.png" group-title="UmitVIP-sinema",Sinema TV 1002
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/sinema1002/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="63" tvg-name="Bİ KANAL" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/b709f8b25cbb59b00b3f3aab0f8c07aa.jpg" group-title="UmitVIP-diger",Bİ KANAL
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://live.artidijitalmedya.com/artidijital_bikanal/bikanal/chunks.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="10" tvg-name="FASHION TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/0ae3cc600b74755cd008b1695c274f3c.png" group-title="UmitVIP-diger",FASHION TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
-#EXTINF:-1 tvg-id="10_umitmod1" tvg-name="FASHION TV" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/0ae3cc600b74755cd008b1695c274f3c.png" group-title="UmitVIP-diger",FASHION TV
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/playlist.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
-#EXTINF:-1 tvg-id="51" tvg-name="DREAM TÜRK TV HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/9756196c45fab27cf682ca813c12ceee.png" group-title="UmitVIP-muzik",DREAM TÜRK TV HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="50" tvg-name="TRT MUZIK HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/08508325378853b59bcb51a2451cb872.jpg" group-title="UmitVIP-muzik",TRT MUZIK HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://tv-trtmuzik.medya.trt.com.tr/master.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="49" tvg-name="POWER TURK HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/3817afb79e408b0a106a2c1c51281de9.jpg" group-title="UmitVIP-muzik",POWER TURK HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="48" tvg-name="POWER TV HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/8610a3cb93710691265a4b50e76bf57d.jpg" group-title="UmitVIP-muzik",POWER TV HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="47" tvg-name="NR1 TURK HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/6a1816b24244ae99036e04ea13af3663.jpg" group-title="UmitVIP-muzik",NR1 TURK HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="46" tvg-name="Number 1 HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/7160f6b2568df0a9d1da11f02c1f866b.jpg" group-title="UmitVIP-muzik",Number 1 HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="36" tvg-name="CARTON NETWORK" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/1a8262974a202c19d6543b82335e39de.jpg" group-title="UmitVIP-cocuk",CARTON NETWORK
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://ds.ayakkabiparti.lol/cartoonnetwork/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="35" tvg-name="Nickelodeon HD" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/4a6d8c2049dd4c014cd443a9cd411f3b.png" group-title="UmitVIP-cocuk",Nickelodeon HD
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-http://fl1.moveonjoy.com/NICKELODEON/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409
-
-#EXTINF:-1 tvg-id="33" tvg-name="Disney JR" tvg-logo="https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/4a33046f4748f1d987b710da68d7b58f.png" group-title="UmitVIP-cocuk",Disney JR
-#EXTVLCOPT:http-user-agent=googleusercontent
-#EXTVLCOPT:http-referrer=https://twitter.com/
-https://saran-live.ercdn.net/disneyjunior/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375
-
+{
+  "info": {
+    "generated_at": "18.01.2026 04:52",
+    "domain": "https://m.prectv60.lol",
+    "total_channels": 105
+  },
+  "channels": [
+    {
+      "id": "160_umitmod6",
+      "title": "S Sport Plus",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/226d5b2f3ab5c01698dff96b24b14629.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 311952,
+          "title": "S Sport Plus 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/pl1.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        },
+        {
+          "id": 312338,
+          "title": "S Sport Plus 2",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/pl2.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        },
+        {
+          "id": 313231,
+          "title": "S Sport Plus 3",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/pl3.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        },
+        {
+          "id": 318490,
+          "title": "S Sport Plus 4",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/pl4.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        },
+        {
+          "id": 318491,
+          "title": "S Sport Plus 5",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/pl5.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        },
+        {
+          "id": 318492,
+          "title": "S Sport Plus 6",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/pl6.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "157_umitmod9",
+      "title": "TABİİ SPOR",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/19a35035f4b4f98c39f97ba07e44bc37.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 311136,
+          "title": "TABİİ SPOR",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/tabi.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        },
+        {
+          "id": 311137,
+          "title": "TRT SPOR",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://tv-trtspor1.medya.trt.com.tr/master.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        },
+        {
+          "id": 311189,
+          "title": "TRT 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        },
+        {
+          "id": 311844,
+          "title": "TABİİ SPOR 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/tabi1.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        },
+        {
+          "id": 311845,
+          "title": "TABİİ SPOR 2",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/tabi2.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        },
+        {
+          "id": 311846,
+          "title": "TABİİ SPOR 3",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/tabi3.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        },
+        {
+          "id": 311847,
+          "title": "TABİİ SPOR 4",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/tabi4.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        },
+        {
+          "id": 311848,
+          "title": "TABİİ SPOR 5",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/tabi5.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        },
+        {
+          "id": 311849,
+          "title": "TABİİ SPOR 6",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/tabi6.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "149_umitmod2",
+      "title": "Bein Sports 1",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/b93455fe6c92f337a2e330b2d468d564.png",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 319046,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/bs1.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        },
+        {
+          "id": 321900,
+          "title": "down",
+          "quality": "FHD 1",
+          "size": null,
+          "kind": "both",
+          "premium": "3",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/bs11.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "148_umitmod1",
+      "title": "Bein Sports 2",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/6e235279a86721ccf20f97237669c15b.png",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 319048,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/bs2.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "147_umitmod1",
+      "title": "Bein Sports 3",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/cc82d1d3295bbdabd4b0f7ddaa0321b7.png",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 319049,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/bs3.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "146_umitmod1",
+      "title": "Bein Sports 4",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/2ff145f33c044ec8e7e11fdde18aa844.png",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 319050,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/bs4.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "145_umitmod1",
+      "title": "Bein Sports 5",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/abff4cbc62b84597225b664e0e9c64f1.png",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 319051,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/bs5.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "144_umitmod1",
+      "title": "Bein Sports Max 1",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/45e029fab41029ba5aa986cf157ab30e.png",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 319058,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/bm1/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "142_umitmod1",
+      "title": "Bein Sports Max 2",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/e0de03768014baae665e79af69d5198f.png",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 319059,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/bm2/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "141_umitmod1",
+      "title": "S SPORT 1",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/29b3ca0f04190b3727b3d8255cbb5d2a.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 35592,
+          "title": "İzleme Kaynağı",
+          "quality": "HD",
+          "size": null,
+          "kind": "play",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/ss11.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "140_umitmod1",
+      "title": "S SPORT 2",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/46e2f65ec582fdbc8edfd01899eca2a1.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 18401,
+          "title": "İzleme Kaynağı",
+          "quality": "HD",
+          "size": null,
+          "kind": "play",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://1.cf32-2c8.workers.dev/static/ss2.m3u8?&ad=random?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "139_umitmod1",
+      "title": "Spor Smart 1",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/e4e94b5f588beff702dfe39729379251.png",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 18524,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "play",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/smart1/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "138_umitmod1",
+      "title": "Spor Smart 2",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/cabc0eca8d8333d022305c01b433f367.png",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 18813,
+          "title": "Kaynak 1",
+          "quality": "SD",
+          "size": null,
+          "kind": "play",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/smart2/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "137_umitmod1",
+      "title": "Euro Sport 1",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/f40c9c2ad62bd4e3ff87d5859ea2bb54.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 18330,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "play",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/euro1/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "135_umitmod1",
+      "title": "Euro Sport 2",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/8802d4e354a9ca77d6aa3bbd8362e3e8.png",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 9729,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "play",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/euro2/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "134_umitmod1",
+      "title": "Tivibu Spor 1",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/e0837009bbe1e595a7c7364aa45d02f7.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 25612,
+          "title": "İzleme Kaynağı",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "play",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/t1/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "133_umitmod1",
+      "title": "Tivibu Spor 2",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/8c23cd76a1f7c2b12ab4e757b45ca87f.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 18290,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/t2/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "132_umitmod1",
+      "title": "Tivibu Spor 3",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/2dd58a06227ac0410461a0be92123f12.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 18320,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/t3/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "131_umitmod1",
+      "title": "Trt Spor HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/c9aa0ea0e7cf2e4ec3523352f7dfd8ff.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 309101,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://tv-trtspor1.medya.trt.com.tr/master.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "130_umitmod1",
+      "title": "A Spor HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/b8582c521e6d1bf91ef06f34b7c58c37.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 25636,
+          "title": "İzleme ve İndirme Kaynağı",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "129_umitmod1",
+      "title": "GS TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/155c62b2d55c69b9abbb2d9867adc1b8.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 25637,
+          "title": "Kaynak İzlemek için Tıkla",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://owifavo5.rocketcdn.com/gstv/gstv.smil/chunklist_b1828000_sltur.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "128_umitmod1",
+      "title": "FB TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/56c7f2499a5ba8bab88be9cebaedd6be.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 25638,
+          "title": "Kaynak İzlemek için Tıkla",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/fbtv/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "127_umitmod1",
+      "title": "Nba TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/7b8b88c5d436a3cdecf4facb78342019.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 18311,
+          "title": "İzlemek için Tıkla",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/yayinnbatv/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "126_umitmod1",
+      "title": "HT SPOR HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/3173922d598840a24005bc0c04cc926e.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 8887,
+          "title": "1",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&ppid=675956db19f9bb686edda21d15d911e8&dfp_paln=AQzzBGQEBm1BO0E2iVe9tLfcsqJ3gAOMJ63P8Ch?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "122_umitmod1",
+      "title": "Sports TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/d3fa136e0548a46e2b55393a00a93296.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 4139,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://live.sportstv.com.tr/hls/low/sportstv.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "121_umitmod1",
+      "title": "EKOL SPORT",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/80d8999029533191ed8383fb12ccf042.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 4914,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ekoltv-live.ercdn.net/ekolsport/ekolsport_1080p.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "64_umitmod1",
+      "title": "GZT TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/b329450ea66cb793aef8e2accc313d62.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 8334,
+          "title": "m3u8",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "13_umitmod1",
+      "title": "TİVİBU SPOR 4",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/921670222d56e1af5cde5b3474185425.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 26,
+          "title": "webm",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/t4/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        }
+      ]
+    },
+    {
+      "id": "12_umitmod1",
+      "title": "TRT SPOR YILDIZ",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/ddc793321e06b9f205e7b99ebca71e4b.jpg",
+      "category": "Spor",
+      "clean_category": "UmitVIP-spor",
+      "sources": [
+        {
+          "id": 25,
+          "title": "Kaynak 1",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        }
+      ]
+    },
+    {
+      "id": "114_umitmod1",
+      "title": "TRT 1",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/14f516e981f4bc0961c5a162665814bf.jpg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 37508,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "113_umitmod1",
+      "title": "STAR TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/9077322c9860d2cd30e3f5cc3d46d56d.jpg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 976,
+          "title": "Kaynak 1",
+          "quality": "FHD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/startv/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "112_umitmod1",
+      "title": "KANAL D",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/7c5c8e0ca5549732e5ceda6fcc62748d.jpg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 18797,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/kanald/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "111_umitmod1",
+      "title": "SHOW TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/93eebff893a76defd8ab61fdb69943c3.jpg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 23309,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/showtv/index.m3u8?token=LaKfaPL5E_3WzVGot1zlOQ&tms=1768784345"
+        }
+      ]
+    },
+    {
+      "id": "110_umitmod1",
+      "title": "ATV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/50f26ac81150eb251be02f16e329d5ff.jpg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 263794,
+          "title": "1",
+          "quality": null,
+          "size": "HD",
+          "kind": "play",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/atv/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "109_umitmod1",
+      "title": "TV 8 HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/33204f43b374b3d0b662a80afa712518.jpg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 305606,
+          "title": "İzleme Kaynağı",
+          "quality": null,
+          "size": null,
+          "kind": "play",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/kanald/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "108_umitmod1",
+      "title": "TV 8.5",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/48ec74f19b2e7707d89f70ace71eae1c.jpg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 906,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://tv8.daioncdn.net/tv8bucuk/tv8bucuk_1080p.m3u8?app=tv8bucuk_web&ce=3?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "107_umitmod1",
+      "title": "FOX TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/50824b68e8d4a1377f0d6ed9242d68d7.jpg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 779,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "106_umitmod1",
+      "title": "KANAL 7",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/9ebd243aafd11f7e8bd8409e04a13860.jpg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 908,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "105_umitmod1",
+      "title": "BEYAZ TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/f52aae2d29699a04cf4209cbe7367996.png",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 8330,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "103_umitmod1",
+      "title": "TEVE 2 HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/2cf916833b3c64448b36830d2b238685.png",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 8332,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://demiroren-live.daioncdn.net/teve2/teve2.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "29_umitmod1",
+      "title": "TVNET",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/27c80e3806fdd33e2f72b20cd4256dec.jpg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 47,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/tvnet/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        }
+      ]
+    },
+    {
+      "id": "25_umitmod1",
+      "title": "BENGÜTÜRK",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/cad74c9ef922f64138434a3ebb0980be.jpg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 42,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/bengu/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        }
+      ]
+    },
+    {
+      "id": "24_umitmod1",
+      "title": "TV 100",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/54ebd649dea5b3654544975b9352f100.png",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 40,
+          "title": "Kaynak 1",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        }
+      ]
+    },
+    {
+      "id": "22_umitmod1",
+      "title": "TRT 2",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/614e1863861a3dbba1b1e107367b3e53.jpg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 37,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://tv-trt2.medya.trt.com.tr/master.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        }
+      ]
+    },
+    {
+      "id": "21_umitmod1",
+      "title": "TV4",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpeg/e97aaf070fbc2858ecabd8625f360eb2.jpeg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 35,
+          "title": "Kaynak 1",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://turkmedya-live.ercdn.net/tv4/tv4_1080p.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        }
+      ]
+    },
+    {
+      "id": "18_umitmod1",
+      "title": "TRT TÜRK",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/45fd54765eebb0b4e708c7448a2c8a93.jpg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 32,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://trtturk.blutv.com/blutv_trtturk2/live_720p2000000kbps/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        }
+      ]
+    },
+    {
+      "id": "17_umitmod1",
+      "title": "TRT AVAZ",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/c1e29a27bff35f6c081fe9b7103953b8.jpg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 31,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://tv-trtavaz.medya.trt.com.tr/master.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        }
+      ]
+    },
+    {
+      "id": "16_umitmod1",
+      "title": "SEMERKAND TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/8ac54924b9791ceedab2f302d9fe2946.jpg",
+      "category": "Ulusal",
+      "clean_category": "UmitVIP-ulusal",
+      "sources": [
+        {
+          "id": 29,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/mt_2.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        }
+      ]
+    },
+    {
+      "id": "102_umitmod1",
+      "title": "TRT HABER HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/d066e7368bc1ea6388e912650ec7354c.png",
+      "category": "Haber",
+      "clean_category": "UmitVIP-haber",
+      "sources": [
+        {
+          "id": 132,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://tv-trthaber.medya.trt.com.tr/master_720.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "101_umitmod1",
+      "title": "HABER TURK HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/8cc654161cccc4a0b183615672809444.jpg",
+      "category": "Haber",
+      "clean_category": "UmitVIP-haber",
+      "sources": [
+        {
+          "id": 18687,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/haberturk/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "100_umitmod1",
+      "title": "A HABER HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/dc748243e0ce52f5315946c0f26f50fe.jpg",
+      "category": "Haber",
+      "clean_category": "UmitVIP-haber",
+      "sources": [
+        {
+          "id": 9575,
+          "title": "1",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/ahaber/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "99_umitmod1",
+      "title": "CNN TURK HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/59310b5017a91855a65fd3993f085710.jpg",
+      "category": "Haber",
+      "clean_category": "UmitVIP-haber",
+      "sources": [
+        {
+          "id": 1042,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/cnn/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "98_umitmod1",
+      "title": "NTV HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/fc2233de54eddcc4b38e07e8eedb8446.jpg",
+      "category": "Haber",
+      "clean_category": "UmitVIP-haber",
+      "sources": [
+        {
+          "id": 758,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://dogus-live.daioncdn.net/ntv/ntv.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "97_umitmod1",
+      "title": "24 HABER HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/a7ee2263901d79464e2249d0b23217cf.jpg",
+      "category": "Haber",
+      "clean_category": "UmitVIP-haber",
+      "sources": [
+        {
+          "id": 125,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://tv.ensonhaber.com/tv24/tv24.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "96_umitmod1",
+      "title": "BLOOMBERG HT HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/fe34ebd140199c087be663e2c57ceb2f.jpg",
+      "category": "Haber",
+      "clean_category": "UmitVIP-haber",
+      "sources": [
+        {
+          "id": 124,
+          "title": "Kaynak 1",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/bloomberg/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "95_umitmod1",
+      "title": "HALK TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/ba872632eff716bff680517fd72de5fd.jpg",
+      "category": "Haber",
+      "clean_category": "UmitVIP-haber",
+      "sources": [
+        {
+          "id": 8042,
+          "title": "Kaynak 1",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/halk/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "94_umitmod1",
+      "title": "HABER GLOBAL",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/aa5d0e853efaf9070117c772c4db6358.jpg",
+      "category": "Haber",
+      "clean_category": "UmitVIP-haber",
+      "sources": [
+        {
+          "id": 122,
+          "title": "Kaynak 1",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/haberg/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "93_umitmod1",
+      "title": "TGRT HABER HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/fb4488783f29ccc9b6873395f6c001bd.jpg",
+      "category": "Haber",
+      "clean_category": "UmitVIP-haber",
+      "sources": [
+        {
+          "id": 121,
+          "title": "Kaynak 1",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "91_umitmod1",
+      "title": "ÜLKE TV HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/f308a739f78540555d8b8819f785eb4f.jpg",
+      "category": "Haber",
+      "clean_category": "UmitVIP-haber",
+      "sources": [
+        {
+          "id": 119,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/ulke/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "82_umitmod1",
+      "title": "EKOL TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/2adaac7b2a1e39ca67dc34115ce40f3c.jpg",
+      "category": "Haber",
+      "clean_category": "UmitVIP-haber",
+      "sources": [
+        {
+          "id": 109,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ekoltv-live.ercdn.net/ekoltv/ekoltv_1080p.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "26_umitmod1",
+      "title": "SÖZCÜ TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/d2b37e56c23f53095350038e36c1c8ce.png",
+      "category": "Haber",
+      "clean_category": "UmitVIP-haber",
+      "sources": [
+        {
+          "id": 44,
+          "title": "İzleme ve İndirme Kaynağı",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/sozcutv/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        }
+      ]
+    },
+    {
+      "id": "89_umitmod1",
+      "title": "NATIONAL GEO HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/666cbc1feac437aea3fc2c8218b9539e.jpg",
+      "category": "Belgesel",
+      "clean_category": "UmitVIP-belgesel",
+      "sources": [
+        {
+          "id": 117,
+          "title": "1",
+          "quality": null,
+          "size": "HD",
+          "kind": "play",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://saran-live.ercdn.net/natgeohd/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "88_umitmod1",
+      "title": "NATIONAL GEO WILD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/ae18d42e87a266954420b315bb23c749.jpg",
+      "category": "Belgesel",
+      "clean_category": "UmitVIP-belgesel",
+      "sources": [
+        {
+          "id": 116,
+          "title": "1",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://saran-live.ercdn.net/natgeowild/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "87_umitmod1",
+      "title": "HISTORY CHANNEL",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/77f52eb67864c8f809626fa5c7d1bae6.png",
+      "category": "Belgesel",
+      "clean_category": "UmitVIP-belgesel",
+      "sources": [
+        {
+          "id": 114,
+          "title": "1",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/history/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "86_umitmod1",
+      "title": "BBC EARTH HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/9ed6faa15f968198d17c0362658f6b50.jpg",
+      "category": "Belgesel",
+      "clean_category": "UmitVIP-belgesel",
+      "sources": [
+        {
+          "id": 113,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/bbc/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "85_umitmod1",
+      "title": "TARİH TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/b61d518744b390174e6f672d7171107d.png",
+      "category": "Belgesel",
+      "clean_category": "UmitVIP-belgesel",
+      "sources": [
+        {
+          "id": 112,
+          "title": "İzleme Kaynağı",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "play",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/tarihtv/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "84_umitmod1",
+      "title": "Docubox",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/d90ba2bcb80b997800fbe4824f1d71c6.png",
+      "category": "Belgesel",
+      "clean_category": "UmitVIP-belgesel",
+      "sources": [
+        {
+          "id": 7578,
+          "title": "m3u8",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/docubox/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "83_umitmod1",
+      "title": "TLC",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/08cd8548f90ea341ac8bf315ec5ab4f9.jpg",
+      "category": "Belgesel",
+      "clean_category": "UmitVIP-belgesel",
+      "sources": [
+        {
+          "id": 110,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://dogus-live.daioncdn.net/tlc/tlc.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "81_umitmod1",
+      "title": "DMAX HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/8c8f9b27a338d4b5713098251d9f5284.png",
+      "category": "Belgesel",
+      "clean_category": "UmitVIP-belgesel",
+      "sources": [
+        {
+          "id": 108,
+          "title": "Kaynak 1",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://dogus-live.daioncdn.net/dmax/dmax.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "80_umitmod1",
+      "title": "YABAN TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/717339637240b8d0ade5063ae8a18fcd.png",
+      "category": "Belgesel",
+      "clean_category": "UmitVIP-belgesel",
+      "sources": [
+        {
+          "id": 107,
+          "title": "m3u8",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/yaban/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "79_umitmod1",
+      "title": "DISCOVERY CHANNEL",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/45a6752ed9a833b4d0303885092b8f54.png",
+      "category": "Belgesel",
+      "clean_category": "UmitVIP-belgesel",
+      "sources": [
+        {
+          "id": 106,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/discovery/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "78_umitmod1",
+      "title": "DISCOVERY SCIENCE",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/a83bf94e67fe34718d644ed9da8ca82d.png",
+      "category": "Belgesel",
+      "clean_category": "UmitVIP-belgesel",
+      "sources": [
+        {
+          "id": 105,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/discs/index.m3u8?token=Ty3TgvrVVZqOGsJBGTN-7g&tms=1768784369"
+        }
+      ]
+    },
+    {
+      "id": "77_umitmod1",
+      "title": "TRT BELGESEL HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/cee1ae3bfe067fe869b8e20c0272938b.jpg",
+      "category": "Belgesel",
+      "clean_category": "UmitVIP-belgesel",
+      "sources": [
+        {
+          "id": 104,
+          "title": "Kaynak 1",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "32_umitmod1",
+      "title": "LOVE NATURE",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/c34095b97dc3f94306666eec346defb8.png",
+      "category": "Belgesel",
+      "clean_category": "UmitVIP-belgesel",
+      "sources": [
+        {
+          "id": 3701,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/lovenature/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        }
+      ]
+    },
+    {
+      "id": "30_umitmod1",
+      "title": "VIASAT HISTORY",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/8ea2619561935fed906ee2278d5fa961.png",
+      "category": "Belgesel",
+      "clean_category": "UmitVIP-belgesel",
+      "sources": [
+        {
+          "id": 48,
+          "title": "viasathistory",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/viasathistory/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        }
+      ]
+    },
+    {
+      "id": "76_umitmod1",
+      "title": "BS ACTION 1",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/1883f1dfa1e69b6788849eaab4b1f8e7.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 103,
+          "title": "m3u8",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/bsaction1/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "75_umitmod1",
+      "title": "BS TURK",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/b2d030cf4ca567bf7c8358b15c8177a9.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 101,
+          "title": "1",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/bsturk/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "74_umitmod1",
+      "title": "BS FAMILY",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/a2f7541d9a7a2947275ba3b3d3b6cb47.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 99,
+          "title": "1",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/bsfamily/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "73_umitmod4",
+      "title": "Bein Series HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/cac143893c2e56485498895df040b2b1.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 97,
+          "title": "Bein Series 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/bsseries1/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        },
+        {
+          "id": 316659,
+          "title": "Bein Series 2",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/bsseries2/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        },
+        {
+          "id": 316660,
+          "title": "Bein Series 3",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/bsseries3/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        },
+        {
+          "id": 316661,
+          "title": "Bein Series 4",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/bsseries4/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "72_umitmod1",
+      "title": "BS STARS",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/45d92ce49a65dd1e9823a55694fe2a7e.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 95,
+          "title": "1",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/bsstars/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "71_umitmod1",
+      "title": "BS PREMIER",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/05607925151ae07d26cdf2c93b99e006.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 93,
+          "title": "m3u8",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/bspremier1/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "70_umitmod1",
+      "title": "BS BOX OFFİCE 1",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/a5e035e5aad903052fdb35a3a7984518.jpg",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 91,
+          "title": "m3u8",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/box1/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "69_umitmod1",
+      "title": "BS BOX OFFİCE 2",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/aec5f81a9d58714b840be9a285928224.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 89,
+          "title": "m3u8",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/box2/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "68_umitmod1",
+      "title": "BS BOX OFFİCE 3",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/7c52499be2693a149616127f02cc633a.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 87,
+          "title": "m3u8",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/box3/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "67_umitmod1",
+      "title": "Moviesmart Turk",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/771bc3c19a6cfa2187001771d74ba63c.jpg",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 85,
+          "title": "m3u8",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/mvturk/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "65_umitmod1",
+      "title": "FX Kanalı",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/6c4faa576fe3d2fe9e850efd5c57005d.jpg",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 83,
+          "title": "m3u8",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://saran-live.ercdn.net/fx/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "61_umitmod1",
+      "title": "Sinema TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/40b261b65aeef4696661f2b497c55c89.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 8336,
+          "title": "1",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/sinema/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "60_umitmod1",
+      "title": "Sinema TV 2",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/389d982cb693a94e1c6aae2ee5e34594.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 8327,
+          "title": "1",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/sinema2/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "59_umitmod2",
+      "title": "Sinema TV Aksiyon",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/11ae72baa495a639e5193cbed5fd92da.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 306606,
+          "title": "Sinema Aksiyon 2",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/sinemaaksiyon2/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        },
+        {
+          "id": 321429,
+          "title": "Sinema Aksiyon 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/sinemaaksiyon/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "57_umitmod1",
+      "title": "Sinema TV Komedi",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/bb0d39dbbdee543eb42f4e77fd30c324.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 75,
+          "title": "Komedi 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/sinemakomedi/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "56_umitmod2",
+      "title": "Sinema TV Yerli",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/aefea49a94d29d26305b35ffd21ca4e7.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 74,
+          "title": "Yerli 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/sinemayerli/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        },
+        {
+          "id": 306106,
+          "title": "Yerli 2",
+          "quality": "HD",
+          "size": null,
+          "kind": "play",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/sinemayerli2/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "55_umitmod1",
+      "title": "Sinema TV Aile",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/5959572ddb15da121258c8eaa756f7c9.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 73,
+          "title": "Aile 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/sinemaaile/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "53_umitmod1",
+      "title": "Sinema TV 1001",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/8c31ff828bc07a09eb52fb8312f23abb.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 8338,
+          "title": "1",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/sinema1001/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "52_umitmod1",
+      "title": "Sinema TV 1002",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/96603c9e4ba10ae864380f670e210cf0.png",
+      "category": "Sinema",
+      "clean_category": "UmitVIP-sinema",
+      "sources": [
+        {
+          "id": 8339,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/sinema1002/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "63_umitmod1",
+      "title": "Bİ KANAL",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/b709f8b25cbb59b00b3f3aab0f8c07aa.jpg",
+      "category": "Diğer",
+      "clean_category": "UmitVIP-diger",
+      "sources": [
+        {
+          "id": 8335,
+          "title": "m3u8",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://live.artidijitalmedya.com/artidijital_bikanal/bikanal/chunks.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "10_umitmod2",
+      "title": "FASHION TV",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/0ae3cc600b74755cd008b1695c274f3c.png",
+      "category": "Diğer",
+      "clean_category": "UmitVIP-diger",
+      "sources": [
+        {
+          "id": 80665,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        },
+        {
+          "id": 305607,
+          "title": "Kaynak 2",
+          "quality": "HD",
+          "size": null,
+          "kind": "play",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://fash1043.cloudycdn.services/slive/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/playlist.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        }
+      ]
+    },
+    {
+      "id": "51_umitmod1",
+      "title": "DREAM TÜRK TV HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/9756196c45fab27cf682ca813c12ceee.png",
+      "category": "Müzik",
+      "clean_category": "UmitVIP-muzik",
+      "sources": [
+        {
+          "id": 69,
+          "title": "Kaynak 1",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "50_umitmod1",
+      "title": "TRT MUZIK HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/08508325378853b59bcb51a2451cb872.jpg",
+      "category": "Müzik",
+      "clean_category": "UmitVIP-muzik",
+      "sources": [
+        {
+          "id": 68,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "49_umitmod1",
+      "title": "POWER TURK HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/3817afb79e408b0a106a2c1c51281de9.jpg",
+      "category": "Müzik",
+      "clean_category": "UmitVIP-muzik",
+      "sources": [
+        {
+          "id": 2358,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "48_umitmod1",
+      "title": "POWER TV HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/8610a3cb93710691265a4b50e76bf57d.jpg",
+      "category": "Müzik",
+      "clean_category": "UmitVIP-muzik",
+      "sources": [
+        {
+          "id": 66,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "47_umitmod1",
+      "title": "NR1 TURK HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/6a1816b24244ae99036e04ea13af3663.jpg",
+      "category": "Müzik",
+      "clean_category": "UmitVIP-muzik",
+      "sources": [
+        {
+          "id": 65,
+          "title": "Kaynak 1",
+          "quality": "HD",
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "46_umitmod1",
+      "title": "Number 1 HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/7160f6b2568df0a9d1da11f02c1f866b.jpg",
+      "category": "Müzik",
+      "clean_category": "UmitVIP-muzik",
+      "sources": [
+        {
+          "id": 64,
+          "title": "m3u8",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e187770143.smil/playlist.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "36_umitmod1",
+      "title": "CARTON NETWORK",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/jpg/1a8262974a202c19d6543b82335e39de.jpg",
+      "category": "Çocuk",
+      "clean_category": "UmitVIP-cocuk",
+      "sources": [
+        {
+          "id": 54,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://ds.ayakkabiparti.lol/cartoonnetwork/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "35_umitmod1",
+      "title": "Nickelodeon HD",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/4a6d8c2049dd4c014cd443a9cd411f3b.png",
+      "category": "Çocuk",
+      "clean_category": "UmitVIP-cocuk",
+      "sources": [
+        {
+          "id": 53,
+          "title": "m3u8",
+          "quality": null,
+          "size": null,
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "http://fl1.moveonjoy.com/NICKELODEON/index.m3u8?token=CLKCxicBU-PFqjgAuo5A2w&tms=1768784409"
+        }
+      ]
+    },
+    {
+      "id": "33_umitmod1",
+      "title": "Disney JR",
+      "logo": "https://m.prectv60.lol/uploads/cache/channel_thumb/uploads/png/4a33046f4748f1d987b710da68d7b58f.png",
+      "category": "Çocuk",
+      "clean_category": "UmitVIP-cocuk",
+      "sources": [
+        {
+          "id": 51,
+          "title": "m3u8",
+          "quality": null,
+          "size": "HD",
+          "kind": "both",
+          "premium": "1",
+          "external": false,
+          "type": "m3u8",
+          "url": "https://saran-live.ercdn.net/disneyjunior/index.m3u8?token=edas7v0_2FR3JpHM9YAV6A&tms=1768784375"
+        }
+      ]
+    }
+  ]
+}
