@@ -434,16 +434,16 @@
     <desc lang="tr">Ailesinin karanlık geçmişinden kaçarken bambaşka bir hayata adım atan Doğan'ın, yıllar sonra yüzleşmek zorunda kaldığı sırlarla dolu hikâyesini anlatır.</desc>
   </programme>
   <programme start="20260211002000 +0300" stop="20260211030000 +0300" channel="02abd163-5c0a-444a-a035-cb6f45b4700a">
-    <title lang="tr">Yerli Dizi</title>
-    <desc lang="tr">Yerli Dizi dramatik olay örgüsü ve güçlü karakterleriyle izleyiciyi ekran başına bağlıyor. Sırlar, aşk ve entrika her bölümde artıyor.</desc>
+    <title lang="tr">Aynı Yağmur Altında</title>
+    <desc lang="tr">İnsan hakları savunucusu Rosa, Londrada katıldığı protestonun ardından kendini İstanbulda bulur ve Ali ile yolları yeniden kesişir.</desc>
   </programme>
   <programme start="20260211030000 +0300" stop="20260211053000 +0300" channel="02abd163-5c0a-444a-a035-cb6f45b4700a">
     <title lang="tr">Bir Gece Masalı</title>
     <desc lang="tr">Bir Gece Masalı imkansız bir aşkla başlayan dramatik hikayesiyle izleyiciyi içine çekiyor. Geçmiş sırlar kader ve umut iç içe ilerliyor.</desc>
   </programme>
   <programme start="20260211053000 +0300" stop="20260211080000 +0300" channel="02abd163-5c0a-444a-a035-cb6f45b4700a">
-    <title lang="tr">Aldatmak</title>
-    <desc lang="tr">Mutluluk zannettiği hayatının aslında büyük bir yalan olduğunu fark eden Güzide, adalet ve gerçek için zorlu bir mücadeleye girer.</desc>
+    <title lang="tr">Başka Bir Gün</title>
+    <desc lang="tr">Çocuklarına bakmak için mesleği olan avukatlığa ara veren Nehir'in, kocası Serdar ile mutlu giden evliliğinde bir gün Serdar'ın ortadan kaybolmasıyla gelişen olayları konu alan Başka Bir Gün dizisi sadece ATV'de.</desc>
   </programme>
   <channel id="82bb74f3-0906-4efc-b66d-cefa72e659e6">
     <display-name>Show TV</display-name>
@@ -1833,65 +1833,73 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <title lang="tr">Halil Çin'de: Asya'nın En Pahalı Şehri</title>
     <desc lang="tr">Halil Çin'de, Çin'in gündelik yaşamını, sokak kültürünü ve ilginç detaylarını yerinde keşfederek izleyiciye farklı bir coğrafyayı yakından tanıma fırsatı sunuyor.</desc>
   </programme>
-  <programme start="20260211000000 +0300" stop="20260211001500 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
-    <title lang="tr">Rotasız Seyyah</title>
-    <desc lang="tr">Rotası olmayan yolculukların hikâyesini anlatan bu program, farklı şehirleri, köyleri ve kültürleri keşfederken izleyiciye ilham verir.</desc>
-  </programme>
-  <programme start="20260211001500 +0300" stop="20260211005800 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
-    <title lang="tr">Wilderness Cooking</title>
-    <desc lang="tr">Doğanın sessizliğinde, ateşin başında pişen yemeklerle izleyiciyi buluşturan bu program, sade yaşamın ve doğal lezzetlerin büyüsünü ekrana taşır.</desc>
-  </programme>
-  <programme start="20260211005800 +0300" stop="20260211013500 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
-    <title lang="tr">Outdoor Builder</title>
-    <desc lang="tr">Doğanın içinde, sıfırdan yapılar inşa eden bu program, yaratıcılık, dayanıklılık ve pratik çözümleri bir araya getirerek izleyiciye ilham verir.</desc>
-  </programme>
-  <programme start="20260211013500 +0300" stop="20260211015500 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
-    <title lang="tr">İsa Şahintürk</title>
-    <desc lang="tr">Deniz, keşfedilmemiş sırlarla dolu bir dünya… İsa Şahintürk, serbest dalışçı kimliğiyle su altının derinliklerine dalıyor, izleyiciyi hem doğal yaşamın hem de deniz ekolojisinin kalbine götürüyor.</desc>
-  </programme>
-  <programme start="20260211015500 +0300" stop="20260211025000 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
-    <title lang="tr">Clean Up 1991</title>
-    <desc lang="tr">Clean Up 1991, terk edilmiş alanların temizlenmesini merkeze alarak çevre kirliliğine dikkat çekiyor ve doğaya karşı sorumluluk bilincini artırmayı amaçlıyor.</desc>
-  </programme>
-  <programme start="20260211025000 +0300" stop="20260211025800 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
-    <title lang="tr">Guga Foods</title>
-    <desc lang="tr">Guga Foods; etler, steakler ve yaratıcı pişirme deneylerini eğlenceli ve bilgilendirici bir dille ekrana taşıyan içerikler sunar. Tarifler izleyiciyi mutfakta deney yapmaya davet eder.</desc>
-  </programme>
-  <programme start="20260211025800 +0300" stop="20260211031700 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+  <programme start="20260211000000 +0300" stop="20260211003200 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
     <title lang="tr">Halil Çin'de</title>
     <desc lang="tr">Halil Çin'de, Çin'in gündelik yaşamını, sokak kültürünü ve ilginç detaylarını yerinde keşfederek izleyiciye farklı bir coğrafyayı yakından tanıma fırsatı sunuyor.</desc>
   </programme>
-  <programme start="20260211031700 +0300" stop="20260211040000 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
-    <title lang="tr">Kend Hayatı</title>
-    <desc lang="tr">Şehir yaşamının hızını, sokakların gündelik akışını ve kent insanının hikâyelerini anlatan bu program, kentin görünmeyen yüzünü samimi bir dille ekrana taşır.</desc>
+  <programme start="20260211003200 +0300" stop="20260211005200 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+    <title lang="tr">İsa Şahintürk: İstanbul Boğazının Altındaki Dünya</title>
+    <desc lang="tr">Deniz, keşfedilmemiş sırlarla dolu bir dünya… İsa Şahintürk, serbest dalışçı kimliğiyle su altının derinliklerine dalıyor, izleyiciyi hem doğal yaşamın hem de deniz ekolojisinin kalbine götürüyor.</desc>
   </programme>
-  <programme start="20260211040000 +0300" stop="20260211041500 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
-    <title lang="tr">Knives Project</title>
+  <programme start="20260211005200 +0300" stop="20260211013000 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+    <title lang="tr">İsa Şahintürk</title>
+    <desc lang="tr">Deniz, keşfedilmemiş sırlarla dolu bir dünya… İsa Şahintürk, serbest dalışçı kimliğiyle su altının derinliklerine dalıyor, izleyiciyi hem doğal yaşamın hem de deniz ekolojisinin kalbine götürüyor.</desc>
+  </programme>
+  <programme start="20260211013000 +0300" stop="20260211014800 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+    <title lang="tr">Knives Project: Paslı Çivilerin Dönüşümü</title>
     <desc lang="tr">Knives Project, metal parçaların ateşe ve ham dövüşüne dönüşümünü baştan sona izleyiciyle buluşturan bir programdır. Elden çıkan bıçaklar her adımdan geçer.</desc>
   </programme>
-  <programme start="20260211041500 +0300" stop="20260211050900 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
-    <title lang="tr">Herodot</title>
-    <desc lang="tr">Herodot antik tarih ve mitolojiye dair ilginç öyküleri, eski uygarlıkların gizemlerini ve kadim hikâyeleri sürükleyici görüntülerle izleyiciye sunan bir belgeseldir.</desc>
+  <programme start="20260211014800 +0300" stop="20260211020300 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+    <title lang="tr">Knives Project: Çelik Halattan Bıçak Yapımı</title>
+    <desc lang="tr">Knives Project, metal parçaların ateşe ve ham dövüşüne dönüşümünü baştan sona izleyiciyle buluşturan bir programdır. Elden çıkan bıçaklar her adımdan geçer.</desc>
   </programme>
-  <programme start="20260211050900 +0300" stop="20260211054000 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
-    <title lang="tr">At Restoration</title>
-    <desc lang="tr">AT Restoration eskimiş, hurda ya da hasarlı eşyaları orijinal haline yaklaştırmak için temizleme, tamir ve restore süreçlerini izleyiciyle buluşturan ilgi çekici bir programdır.</desc>
+  <programme start="20260211020300 +0300" stop="20260211021900 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+    <title lang="tr">Knives Project: Eski Zincirden Satır Yapımı</title>
+    <desc lang="tr">Knives Project, metal parçaların ateşe ve ham dövüşüne dönüşümünü baştan sona izleyiciyle buluşturan bir programdır. Elden çıkan bıçaklar her adımdan geçer.</desc>
   </programme>
-  <programme start="20260211054000 +0300" stop="20260211060900 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
-    <title lang="tr">Farm Tales</title>
-    <desc lang="tr">Farm Tales, GZT TV'de doğa ve çiftlik yaşamını yakından izleyenleri ekrana bağlayan belgesel tadında bir programdır. Farklı mevsimlerde çiftlikteki görüntülerle yaşamın ritmi izleyiciye aktarılıyor.</desc>
+  <programme start="20260211021900 +0300" stop="20260211030200 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+    <title lang="tr">Faraway Village: Gürcülerin Lezzetli Yemeği Hınkali</title>
+    <desc lang="tr">Faraway Village, doğayla iç içe, geleneksel yaşamın ve köy kültürünün hikâyesini ekranlara taşıyor.</desc>
   </programme>
-  <programme start="20260211060900 +0300" stop="20260211062500 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+  <programme start="20260211030200 +0300" stop="20260211032700 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+    <title lang="tr">Faraway Village: Dağ Köyünde Yetişen Meyveler</title>
+    <desc lang="tr">Faraway Village, doğayla iç içe, geleneksel yaşamın ve köy kültürünün hikâyesini ekranlara taşıyor.</desc>
+  </programme>
+  <programme start="20260211032700 +0300" stop="20260211034400 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+    <title lang="tr">Rotasız Seyyah: Japonya'nın En Meşhur Köyü</title>
+    <desc lang="tr">Rotası olmayan yolculukların hikâyesini anlatan bu program, farklı şehirleri, köyleri ve kültürleri keşfederken izleyiciye ilham verir.</desc>
+  </programme>
+  <programme start="20260211034400 +0300" stop="20260211041100 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+    <title lang="tr">Rotasız Seyyah: Japonya'da Restoran Deneyimi</title>
+    <desc lang="tr">Rotası olmayan yolculukların hikâyesini anlatan bu program, farklı şehirleri, köyleri ve kültürleri keşfederken izleyiciye ilham verir.</desc>
+  </programme>
+  <programme start="20260211041100 +0300" stop="20260211050000 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+    <title lang="tr">Muratca: Hayatın Geri Dönüşümü</title>
+    <desc lang="tr">Günlük hayata dair konuları sıcak bir dille ele alan bu program, samimi sohbetleri ve içten anlatımıyla izleyiciye keyifli anlar yaşatır.</desc>
+  </programme>
+  <programme start="20260211050000 +0300" stop="20260211051300 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
     <title lang="tr">Bir Pilotun Gözünden</title>
     <desc lang="tr">Bir Pilotun Gözünden, havacılık dünyasını pilot perspektifiyle anlatan, uçuş anılarını, teknik detayları ve gökyüzünün sırlarını izleyiciye samimi bir dille aktaran içeriktir.</desc>
   </programme>
-  <programme start="20260211062500 +0300" stop="20260211064800 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
-    <title lang="tr">Seyyarhane</title>
-    <desc lang="tr">Karavanla yaşamı ve yolculukların sıradışı hikâyelerini paylaşan bu seri, doğayla iç içe kamp deneyimlerini ve kişisel keşifleri izleyiciye sıcak bir dille sunar.</desc>
+  <programme start="20260211051300 +0300" stop="20260211052400 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+    <title lang="tr">Anlatan Adamlar</title>
+    <desc lang="tr">Anlatan Adamlar, otomobillerin motor, şanzıman ve diğer parçalarının nasıl çalıştığını ve teknolojinin otomotiv dünyasını nasıl şekillendirdiğini sade ve öğretici bir dille izleyiciye aktarıyor.</desc>
   </programme>
-  <programme start="20260211064800 +0300" stop="20260211070000 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
-    <title lang="tr">Editör Anlatıyor</title>
-    <desc lang="tr">Editör Anlatıyor, Türkiye ve dünyada yaşanan gelişmeleri deneyimli gazetecilerin yorumlarıyla derinlemesine ele alıyor. Programda gündemin öne çıkan başlıkları detaylı analizlerle aktarılırken, olayların perde arkası sade ve anlaşılır bir dille izleyi....</desc>
+  <programme start="20260211052400 +0300" stop="20260211055300 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+    <title lang="tr">At Restoration</title>
+    <desc lang="tr">AT Restoration eskimiş, hurda ya da hasarlı eşyaları orijinal haline yaklaştırmak için temizleme, tamir ve restore süreçlerini izleyiciyle buluşturan ilgi çekici bir programdır.</desc>
+  </programme>
+  <programme start="20260211055300 +0300" stop="20260211061800 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+    <title lang="tr">At Restoration: Asırlık Sandalye Dönüşümü</title>
+    <desc lang="tr">AT Restoration eskimiş, hurda ya da hasarlı eşyaları orijinal haline yaklaştırmak için temizleme, tamir ve restore süreçlerini izleyiciyle buluşturan ilgi çekici bir programdır.</desc>
+  </programme>
+  <programme start="20260211061800 +0300" stop="20260211063900 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+    <title lang="tr">Farm Tales</title>
+    <desc lang="tr">Farm Tales, GZT TV'de doğa ve çiftlik yaşamını yakından izleyenleri ekrana bağlayan belgesel tadında bir programdır. Farklı mevsimlerde çiftlikteki görüntülerle yaşamın ritmi izleyiciye aktarılıyor.</desc>
+  </programme>
+  <programme start="20260211063900 +0300" stop="20260211070000 +0300" channel="1e73d8cb-c8a1-428e-98c0-314d59b18794">
+    <title lang="tr">Farm Tales: Dağların Zirvesinde Ağaç Dikimi</title>
+    <desc lang="tr">Farm Tales, GZT TV'de doğa ve çiftlik yaşamını yakından izleyenleri ekrana bağlayan belgesel tadında bir programdır. Farklı mevsimlerde çiftlikteki görüntülerle yaşamın ritmi izleyiciye aktarılıyor.</desc>
   </programme>
   <channel id="97bf4a3c-6889-4270-a0c9-0365016d8dca">
     <display-name>Tv 8,5</display-name>
@@ -13062,100 +13070,9 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>Eurosport 1</display-name>
     <icon src="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/54cad412-5f3a-4184-b5fc-d567a5de7160.png" />
   </channel>
-  <programme start="20260210063700 +0300" stop="20260210070100 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Kış Olimpiyat Oyunları: Milano Cortina 2026: Olimpiyatlar'da Bugün</title>
-    <desc lang="tr">Kış Olimpiyat Oyunları: Milano Cortina, dünyanın en iyi kış sporcularının bir araya geldiği, heyecan ve rekabet dolu olimpiyat etkinliklerini ekrana taşır.</desc>
-  </programme>
-  <programme start="20260210070100 +0300" stop="20260210075800 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Alp Disiplini: Dünya Kupası: _ Erkekler Kombine Slalom (Tekrar)</title>
-    <desc lang="tr">Alp disiplini kapsamında dört önemli yarış türü vardır. Bunlar, slalom (SL), büyük slalom (GS), süper büyük slalom (super-G) ve iniş yarışlarıdır.</desc>
-  </programme>
-  <programme start="20260210075800 +0300" stop="20260210090100 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Kayakla Atlama: _ Erkekler HS125 (Tekrar)</title>
-    <desc lang="tr">Popüler kayakla atlamalar, karla kaplı kayakla atlamaları içerir. Mümkün olduğunca "uçmak" hedefine ek olarak, jumperların stil ve tekniği de değerlendirilir.</desc>
-  </programme>
-  <programme start="20260210090100 +0300" stop="20260210093200 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Kış Olimpiyat Oyunları: Milano Cortina 2026: Olimpiyatlar'da Bugün</title>
-    <desc lang="tr">Kış Olimpiyat Oyunları: Milano Cortina, dünyanın en iyi kış sporcularının bir araya geldiği, heyecan ve rekabet dolu olimpiyat etkinliklerini ekrana taşır.</desc>
-  </programme>
-  <programme start="20260210093200 +0300" stop="20260210102900 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Alp Disiplini: Dünya Kupası: _ Erkekler Kombine Slalom (Tekrar)</title>
-    <desc lang="tr">Alp disiplini kapsamında dört önemli yarış türü vardır. Bunlar, slalom (SL), büyük slalom (GS), süper büyük slalom (super-G) ve iniş yarışlarıdır.</desc>
-  </programme>
-  <programme start="20260210102900 +0300" stop="20260210110000 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Kış Olimpiyat Oyunları: Milano Cortina 2026: Olimpiyatlar'da Bugün</title>
-    <desc lang="tr">Kış Olimpiyat Oyunları: Milano Cortina, dünyanın en iyi kış sporcularının bir araya geldiği, heyecan ve rekabet dolu olimpiyat etkinliklerini ekrana taşır.</desc>
-  </programme>
-  <programme start="20260210110000 +0300" stop="20260210123700 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Kayaklı Koşu</title>
-    <desc lang="tr">Kayaklı koşu, (kayaklı kros) engebeli ve dağlık bir arazide kayakla yapılan uzun mesafeli yarış.</desc>
-  </programme>
-  <programme start="20260210123700 +0300" stop="20260210135700 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Alp Disiplini: Dünya Kupası</title>
-    <desc lang="tr">Alp disiplini kapsamında dört önemli yarış türü vardır. Bunlar, slalom (SL), büyük slalom (GS), süper büyük slalom (super-G) ve iniş yarışlarıdır.</desc>
-  </programme>
-  <programme start="20260210135700 +0300" stop="20260210154300 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Kayaklı Koşu</title>
-    <desc lang="tr">Kayaklı koşu, (kayaklı kros) engebeli ve dağlık bir arazide kayakla yapılan uzun mesafeli yarış.</desc>
-  </programme>
-  <programme start="20260210154300 +0300" stop="20260210171200 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Alp Disiplini: Dünya Kupası</title>
-    <desc lang="tr">Alp disiplini kapsamında dört önemli yarış türü vardır. Bunlar, slalom (SL), büyük slalom (GS), süper büyük slalom (super-G) ve iniş yarışlarıdır.</desc>
-  </programme>
-  <programme start="20260210171200 +0300" stop="20260210181700 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Körling</title>
-  </programme>
-  <programme start="20260210181700 +0300" stop="20260210190700 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Milano Cortina 2026: Disiplini</title>
-  </programme>
-  <programme start="20260210190700 +0300" stop="20260210200200 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Luge: Women | SINGLES | RUN 03</title>
-  </programme>
-  <programme start="20260210200200 +0300" stop="20260210203200 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Kış Olimpiyat Oyunları: Milano Cortina 2026: Milano Cortina 2026</title>
-    <desc lang="tr">Kış Olimpiyat Oyunları: Milano Cortina, dünyanın en iyi kış sporcularının bir araya geldiği, heyecan ve rekabet dolu olimpiyat etkinliklerini ekrana taşır.</desc>
-  </programme>
-  <programme start="20260210203200 +0300" stop="20260210212700 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Kızak</title>
-  </programme>
-  <programme start="20260210212700 +0300" stop="20260210224500 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Milano Cortina 2026: Atlama</title>
-  </programme>
-  <programme start="20260210224500 +0300" stop="20260211004500 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">ISU Grand Prix Artistik Buz Pateni</title>
-    <desc lang="tr">ISU Grand Prix Artistik Buz Pateni, dünyanın en yetenekli buz patencilerinin zarif ve heyecan dolu performanslarını izleyiciye sunar.</desc>
-  </programme>
-  <programme start="20260211004500 +0300" stop="20260211013000 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Buz Hokeyi</title>
-    <desc lang="tr">Buz hokeyi maçı, hızlı tempolu mücadeleleri ve heyecan dolu anlarıyla izleyiciyi ekran başına kilitleyen heyecanlı bir spor karşılaşmasıdır.</desc>
-  </programme>
-  <programme start="20260211013000 +0300" stop="20260211020000 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Kış Olimpiyat Oyunları: Milano Cortina 2026: Olimpiyatlar'da Bugün</title>
-    <desc lang="tr">Kış Olimpiyat Oyunları: Milano Cortina, dünyanın en iyi kış sporcularının bir araya geldiği, heyecan ve rekabet dolu olimpiyat etkinliklerini ekrana taşır.</desc>
-  </programme>
-  <programme start="20260211020000 +0300" stop="20260211030000 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Alp Disiplini: Dünya Kupası: _ Kadınlar Kombine Slalom (Tekrar)</title>
-    <desc lang="tr">Alp disiplini kapsamında dört önemli yarış türü vardır. Bunlar, slalom (SL), büyük slalom (GS), süper büyük slalom (super-G) ve iniş yarışlarıdır.</desc>
-  </programme>
-  <programme start="20260211030000 +0300" stop="20260211040000 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Kayakla Atlama</title>
-    <desc lang="tr">Popüler kayakla atlamalar, karla kaplı kayakla atlamaları içerir. Mümkün olduğunca "uçmak" hedefine ek olarak, jumperların stil ve tekniği de değerlendirilir.</desc>
-  </programme>
-  <programme start="20260211040000 +0300" stop="20260211043000 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Kış Olimpiyat Oyunları: Milano Cortina 2026: Olimpiyatlar'da Bugün</title>
-    <desc lang="tr">Kış Olimpiyat Oyunları: Milano Cortina, dünyanın en iyi kış sporcularının bir araya geldiği, heyecan ve rekabet dolu olimpiyat etkinliklerini ekrana taşır.</desc>
-  </programme>
-  <programme start="20260211043000 +0300" stop="20260211053000 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Alp Disiplini: Dünya Kupası: _ Kadınlar Kombine Slalom (Tekrar)</title>
-    <desc lang="tr">Alp disiplini kapsamında dört önemli yarış türü vardır. Bunlar, slalom (SL), büyük slalom (GS), süper büyük slalom (super-G) ve iniş yarışlarıdır.</desc>
-  </programme>
-  <programme start="20260211053000 +0300" stop="20260211063000 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Kayakla Atlama</title>
-    <desc lang="tr">Popüler kayakla atlamalar, karla kaplı kayakla atlamaları içerir. Mümkün olduğunca "uçmak" hedefine ek olarak, jumperların stil ve tekniği de değerlendirilir.</desc>
-  </programme>
-  <programme start="20260211063000 +0300" stop="20260211070000 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
-    <title lang="tr">Kış Olimpiyat Oyunları: Milano Cortina 2026: Olimpiyatlar'da Bugün</title>
-    <desc lang="tr">Kış Olimpiyat Oyunları: Milano Cortina, dünyanın en iyi kış sporcularının bir araya geldiği, heyecan ve rekabet dolu olimpiyat etkinliklerini ekrana taşır.</desc>
+  <programme start="20260210070000 +0300" stop="20260211065900 +0300" channel="c9d84c8b-5742-48af-bbf1-ac7d176b3c7a">
+    <title lang="tr">No Program Available.</title>
+    <desc lang="tr">There is no program guide data to show at this time.</desc>
   </programme>
   <channel id="f9f3488e-105d-42ad-b5f5-a0cb3f082971">
     <display-name>Eurosport 2</display-name>
