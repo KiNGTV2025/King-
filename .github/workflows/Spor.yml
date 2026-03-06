@@ -1,0 +1,27 @@
+name: Sports Scanner
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Kaynak (selcuk/cafe/all)'
+        required: true
+        default: 'all'
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: pip install requests
+      - run: python sports_scanner.py ${{ github.event.inputs.source || 'all' }}
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add *.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "update $(date +%Y%m%d-%H%M)" && git push)
