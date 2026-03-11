@@ -75,6 +75,10 @@ https://dga1op10s1u3leo.450bb93555fef8.click/live/seurosport1/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.450bb93555fef8.click/live/seurosport2/playlist.m3u8
 
+#EXTINF:-1,Sf1
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
+https://dga1op10s1u3leo.450bb93555fef8.click/live/sf1/playlist.m3u8
+
 #EXTINF:-1,Stabiispor
 #EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.450bb93555fef8.click/live/stabiispor/playlist.m3u8
