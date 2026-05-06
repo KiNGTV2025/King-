@@ -25,7 +25,7 @@ jobs:
         pip install cloudscraper beautifulsoup4 requests
     
     - name: Run scraper
-      run: python kanald_scraper.py
+      run: python kanald.py
     
     - name: Upload M3U as artifact
       uses: actions/upload-artifact@v4
