@@ -1,10 +1,10 @@
 [
   {
     "id": "363b9e3c9323533b",
-    "username": "umit01",
-    "password": "umit1",
+    "username": "umit",
+    "password": "umit",
     "expiresAt": "2026-09-28",
-    "allowOffline": false
+    "allowOffline": true
   },
   {
     "id": "19542332d83fb8d8",
