@@ -3,6 +3,10 @@
 #EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.33a6243d11525c.click/live/sbeinsports-1/playlist.m3u8
 
+#EXTINF:-1,Sbeinsports 2
+#EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
+https://dga1op10s1u3leo.33a6243d11525c.click/live/sbeinsports-2/playlist.m3u8
+
 #EXTINF:-1,Sbeinsports 3
 #EXTVLCOPT:http-referrer=https://www.sporcafe14.xyz/
 https://dga1op10s1u3leo.33a6243d11525c.click/live/sbeinsports-3/playlist.m3u8
