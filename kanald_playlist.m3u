@@ -1,6 +1,6 @@
 #EXTM3U
-#PLAYLIST: Kanal D - 03.07.2026 02:39
-# 14 dizi, 94 bölüm
+#PLAYLIST: Kanal D - 04.07.2026 02:42
+# 17 dizi, 134 bölüm
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/600155b9e226012d100358b6.jpg" group-title="Kanal D",Acemi Cadı - Daha Sonra İzle01:10:04Acemi Cadı 34. Bölüm
 https://www.kanald.com.tr/acemi-cadi/bolum/acemi-cadi-34-bolum
@@ -245,11 +245,17 @@ https://kanaldvod.duhnet.tv/https://kanaldvodnew.duhnet.tv/vms/e228sc3e0o/H/B8/o
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/546ca013f6309914d4a68957.jpg" group-title="Kanal D",Hayat Yolunda - Daha Sonra İzle01:50:558.Bölüm
 https://www.kanald.com.tr/hayat-yolunda/bolum/8-bolum
 
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834dc8884687ed42a4b7f4e.jpg" group-title="Kanal D",Kavak Yelleri - Daha Sonra İzle00:15:36141.Bölüm
+https://www.kanald.com.tr/embed/54749c02f493b92ff01a54b3
+
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5475cc73f630990a7c7bf81a.jpg" group-title="Kanal D",Küçük Ağa - Daha Sonra İzle01:50:57Küçük Ağa 36. Bölüm
 https://kanaldvod.duhnet.tv/S8/HLS_VOD/60495_4ffe/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5475cc73f630990a7c7bf81a.jpg" group-title="Kanal D",Küçük Ağa - Daha Sonra İzle01:42:36Küçük Ağa 35. Bölüm
 https://kanaldvod.duhnet.tv/S8/HLS_VOD/59977_afc0/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834eea584687ed42a4b7fcd.jpg" group-title="Kanal D",Menekşe İle Halil - Daha Sonra İzle00:14:267.bölüm
+https://www.kanald.com.tr/menekseılehalil/bolum/7-bolum
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/682701b5db0c47dc3f616049.jpg" group-title="Kanal D",Rüzgarlı Bahçe - Daha Sonra İzle01:00:05Rüzgarlı Bahçe 4. Bölüm
 https://www.kanald.com.tr/ruzgarli-bahce1/bolum/ruzgarli-bahce-4-bolum
@@ -272,6 +278,93 @@ https://kanaldvod.duhnet.tv/https://kanaldvodnew.duhnet.tv/vms/e228sc3e0o/d/b_/Z
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - ÖNE ÇIKANSihirli Annem 119. Bölüm - FİNAL!Tatlı bir peri olan Betüş, iki çocuklu ve dul olan Sadık ile evlenecektir. İkisi de birbirlerini çok sevmektedir. Ancak Betüş’ün annesi Dudu bu evliliğe şiddetle karşı çıkar. Bütün sihirlerini kullanarak onları ayırmaya çalışır. Çünkü Dudu, geçmişte Taci adında birisiyle evlenmiş, ancak Taci kendisini aldatınca insanlara olan güvenini de kaybetmiştir. Bu nedenle Dudu, Betüş’ün de aldatılacağını düşünmekte ve onları ayırmaya çalışmaktadır. Ama ne yaparsa yapsın bu evlilik gerçekleşir. Betüş, Sadık ve onun iki çocuğuyla birlikte mutlu bir yuva kurar. ...
 https://kanaldvod.duhnet.tv/S1/HLS_VOD/e05c_2738/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:10:00Sihirli Annem 1. Bölüm
+https://www.kanald.com.tr/sihirli-annem/bolum/sihirli-annem-1-bolum
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:08:11Sihirli Annem 2. Bölüm
+https://www.kanald.com.tr/embed/5465f055cf45af1064b72813
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:08:42Sihirli Annem 3. Bölüm
+https://www.kanald.com.tr/embed/5465f055cf45af1064b72816
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:08:48Sihirli Annem 4. Bölüm
+https://www.kanald.com.tr/embed/5465f056cf45af1064b72819
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:10:10Sihirli Annem 5. Bölüm
+https://www.kanald.com.tr/embed/5465f056cf45af1064b7281c
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:10:00Sihirli Annem 6. Bölüm
+https://www.kanald.com.tr/embed/5465f056cf45af1064b7281f
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:10:08Sihirli Annem 7. Bölüm
+https://www.kanald.com.tr/sihirli-annem/bolum/sihirli-annem-7-bolum
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:10:09Sihirli Annem 8. Bölüm
+https://www.kanald.com.tr/embed/5465f056cf45af1064b72825
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:09:52Sihirli Annem 9. Bölüm
+https://www.kanald.com.tr/embed/5465f056cf45af1064b72828
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:09:04Sihirli Annem 10. Bölüm
+https://www.kanald.com.tr/embed/5465f057cf45af1064b7282b
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:09:36Sihirli Annem 11. Bölüm
+https://www.kanald.com.tr/embed/5465f057cf45af1064b7282e
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:11:25Sihirli Annem 12. Bölüm
+https://www.kanald.com.tr/embed/5465f057cf45af1064b72831
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:09:20Sihirli Annem 13. Bölüm
+https://www.kanald.com.tr/embed/5465f057cf45af1064b72834
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:09:38Sihirli Annem 14. Bölüm
+https://www.kanald.com.tr/embed/5465f057cf45af1064b72837
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:08:16Sihirli Annem 15. Bölüm
+https://www.kanald.com.tr/embed/5465f057cf45af1064b7283a
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:09:42Sihirli Annem 16. Bölüm
+https://www.kanald.com.tr/embed/5465f057cf45af1064b7283d
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:09:38Sihirli Annem 17. Bölüm
+https://www.kanald.com.tr/embed/5465f057cf45af1064b72840
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:11:04Sihirli Annem 18. Bölüm
+https://www.kanald.com.tr/embed/5465f058cf45af1064b72843
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:09:52Sihirli Annem 19. Bölüm
+https://www.kanald.com.tr/embed/5465f058cf45af1064b72846
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:09:28Sihirli Annem 20. Bölüm
+https://www.kanald.com.tr/embed/5465f058cf45af1064b72849
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:00:30Sihirli Annem 21. Bölüm
+https://www.kanald.com.tr/sihirli-annem/bolum/sihirli-annem-21-bolum
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:07:46Sihirli Annem 22. Bölüm
+https://www.kanald.com.tr/embed/5465f058cf45af1064b7284f
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:09:10Sihirli Annem 23. Bölüm
+https://www.kanald.com.tr/embed/5465f058cf45af1064b72852
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:09:28Sihirli Annem 24. Bölüm
+https://www.kanald.com.tr/embed/5465f059cf45af1064b72855
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:08:31Sihirli Annem 25. Bölüm
+https://www.kanald.com.tr/embed/5465f059cf45af1064b72858
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:10:24Sihirli Annem 26. Bölüm
+https://www.kanald.com.tr/embed/5465f059cf45af1064b7285b
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:11:20Sihirli Annem 27. Bölüm
+https://www.kanald.com.tr/embed/5465f059cf45af1064b7285e
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:09:52Sihirli Annem 28. Bölüm
+https://www.kanald.com.tr/embed/5465f059cf45af1064b72861
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - Daha Sonra İzle00:09:46Sihirli Annem 29. Bölüm
+https://www.kanald.com.tr/embed/5465f059cf45af1064b72864
+
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/54f49cc6e50aa93944109d86.jpg" group-title="Kanal D",Ulan İstanbul - Daha Sonra İzle01:55:23Ulan İstanbul 24. Bölüm
 https://kanaldvod.duhnet.tv/S8/HLS_VOD/60416_50ea/index.m3u8
 
@@ -283,4 +376,31 @@ https://kanaldvod.duhnet.tv/S8/HLS_VOD/59506_ec36/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/546ca126f6309914d4a68967.jpg" group-title="Kanal D",Yalan Dünya - Daha Sonra İzle01:51:4085.Bölüm
 https://kanaldvod.duhnet.tv/S7/HLS_VOD/45692_17d6/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834e73184687ed42a4b7f88.jpg" group-title="Kanal D",Zoraki Koca - Daha Sonra İzle00:14:5626.bölüm - FİNAL!
+https://www.kanald.com.tr/diziler/arsiv/zorakikoca/bolum/26-bolum
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834e73184687ed42a4b7f88.jpg" group-title="Kanal D",Zoraki Koca - Daha Sonra İzle00:14:1025.bölüm
+https://www.kanald.com.tr/diziler/arsiv/zorakikoca/bolum/25-bolum
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834e73184687ed42a4b7f88.jpg" group-title="Kanal D",Zoraki Koca - Daha Sonra İzle00:14:2024.bölüm
+https://www.kanald.com.tr/diziler/arsiv/zorakikoca/bolum/24-bolum
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834e73184687ed42a4b7f88.jpg" group-title="Kanal D",Zoraki Koca - Daha Sonra İzle00:14:0823.bölüm
+https://www.kanald.com.tr/diziler/arsiv/zorakikoca/bolum/23-bolum
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834e73184687ed42a4b7f88.jpg" group-title="Kanal D",Zoraki Koca - Daha Sonra İzle00:14:1022.bölüm
+https://www.kanald.com.tr/diziler/arsiv/zorakikoca/bolum/22-bolum
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834e73184687ed42a4b7f88.jpg" group-title="Kanal D",Zoraki Koca - Daha Sonra İzle00:14:0819.bölüm
+https://www.kanald.com.tr/diziler/arsiv/zorakikoca/bolum/19-bolum
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834e73184687ed42a4b7f88.jpg" group-title="Kanal D",Zoraki Koca - Daha Sonra İzle00:14:0818.bölüm
+https://www.kanald.com.tr/diziler/arsiv/zorakikoca/bolum/18-bolum
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834e73184687ed42a4b7f88.jpg" group-title="Kanal D",Zoraki Koca - Daha Sonra İzle00:14:0917.bölüm
+https://www.kanald.com.tr/diziler/arsiv/zorakikoca/bolum/17-bolum
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834e73184687ed42a4b7f88.jpg" group-title="Kanal D",Zoraki Koca - Daha Sonra İzle00:14:4016.bölüm
+https://www.kanald.com.tr/diziler/arsiv/zorakikoca/bolum/16-bolum
 
