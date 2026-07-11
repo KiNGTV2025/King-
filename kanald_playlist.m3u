@@ -1,6 +1,6 @@
 #EXTM3U
-#PLAYLIST: Kanal D - 10.07.2026 02:39
-# 16 dizi, 133 bölüm
+#PLAYLIST: Kanal D - 11.07.2026 02:25
+# 17 dizi, 134 bölüm
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/600155b9e226012d100358b6.jpg" group-title="Kanal D",Acemi Cadı - Daha Sonra İzle01:10:04Acemi Cadı 34. Bölüm
 https://www.kanald.com.tr/acemi-cadi/bolum/acemi-cadi-34-bolum
@@ -244,6 +244,9 @@ https://kanaldvod.duhnet.tv/https://kanaldvodnew.duhnet.tv/vms/e228sc3e0o/H/B8/o
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/546ca013f6309914d4a68957.jpg" group-title="Kanal D",Hayat Yolunda - Daha Sonra İzle01:50:558.Bölüm
 https://www.kanald.com.tr/hayat-yolunda/bolum/8-bolum
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834dc8884687ed42a4b7f4e.jpg" group-title="Kanal D",Kavak Yelleri - Daha Sonra İzle00:15:36141.Bölüm
+https://www.kanald.com.tr/embed/54749c02f493b92ff01a54b3
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5475cc73f630990a7c7bf81a.jpg" group-title="Kanal D",Küçük Ağa - Daha Sonra İzle01:50:57Küçük Ağa 36. Bölüm
 https://kanaldvod.duhnet.tv/S8/HLS_VOD/60495_4ffe/index.m3u8
