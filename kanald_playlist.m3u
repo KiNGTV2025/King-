@@ -1,6 +1,6 @@
 #EXTM3U
-#PLAYLIST: Kanal D - 24.07.2026 02:29
-# 16 dizi, 132 bölüm
+#PLAYLIST: Kanal D - 25.07.2026 02:29
+# 17 dizi, 134 bölüm
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/600155b9e226012d100358b6.jpg" group-title="Kanal D",Acemi Cadı - Daha Sonra İzle01:10:04Acemi Cadı 34. Bölüm
 https://www.kanald.com.tr/acemi-cadi/bolum/acemi-cadi-34-bolum
@@ -370,6 +370,12 @@ https://kanaldvod.duhnet.tv/S8/HLS_VOD/60416_50ea/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/54f49cc6e50aa93944109d86.jpg" group-title="Kanal D",Ulan İstanbul - Daha Sonra İzle01:49:43Ulan İstanbul 23. Bölüm
 https://kanaldvod.duhnet.tv/S8/HLS_VOD/59885_37ae/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/546ca126f6309914d4a68967.jpg" group-title="Kanal D",Yalan Dünya - Daha Sonra İzle01:18:5690. Bölüm
+https://kanaldvod.duhnet.tv/S8/HLS_VOD/59506_ec36/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/546ca126f6309914d4a68967.jpg" group-title="Kanal D",Yalan Dünya - Daha Sonra İzle01:51:4085.Bölüm
+https://kanaldvod.duhnet.tv/S7/HLS_VOD/45692_17d6/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834e73184687ed42a4b7f88.jpg" group-title="Kanal D",Zoraki Koca - Daha Sonra İzle00:14:5626.bölüm - FİNAL!
 https://www.kanald.com.tr/diziler/arsiv/zorakikoca/bolum/26-bolum
