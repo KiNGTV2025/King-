@@ -1,6 +1,6 @@
 #EXTM3U
-#PLAYLIST: Kanal D - 05.08.2026 02:23
-# 17 dizi, 134 bölüm
+#PLAYLIST: Kanal D - 06.08.2026 02:23
+# 16 dizi, 133 bölüm
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/600155b9e226012d100358b6.jpg" group-title="Kanal D",Acemi Cadı - Daha Sonra İzle01:10:04Acemi Cadı 34. Bölüm
 https://www.kanald.com.tr/acemi-cadi/bolum/acemi-cadi-34-bolum
@@ -253,9 +253,6 @@ https://kanaldvod.duhnet.tv/S8/HLS_VOD/60495_4ffe/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5475cc73f630990a7c7bf81a.jpg" group-title="Kanal D",Küçük Ağa - Daha Sonra İzle01:42:36Küçük Ağa 35. Bölüm
 https://kanaldvod.duhnet.tv/S8/HLS_VOD/59977_afc0/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834eea584687ed42a4b7fcd.jpg" group-title="Kanal D",Menekşe İle Halil - Daha Sonra İzle00:14:267.bölüm
-https://www.kanald.com.tr/menekseılehalil/bolum/7-bolum
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/682701b5db0c47dc3f616049.jpg" group-title="Kanal D",Rüzgarlı Bahçe - Daha Sonra İzle01:00:05Rüzgarlı Bahçe 4. Bölüm
 https://www.kanald.com.tr/ruzgarli-bahce1/bolum/ruzgarli-bahce-4-bolum
