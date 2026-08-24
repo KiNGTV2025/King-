@@ -345,17 +345,9 @@
     <title lang="tr">Karayip Korsanları 4: Gizemli Denizlerde</title>
     <desc lang="tr">Kaptan Jack Sparrow, ölümsüzlüğün peşinde çıktığı macerada tehlikeli düşmanlar ve gizemli sularla karşı karşıya kalır.</desc>
   </programme>
-  <programme start="20260824024000 +0300" stop="20260824051300 +0300" channel="bc305150-3c09-46e1-8471-352367c823d7">
+  <programme start="20260824024000 +0300" stop="20260824060000 +0300" channel="bc305150-3c09-46e1-8471-352367c823d7">
     <title lang="tr">Taşacak Bu Deniz</title>
     <desc lang="tr">Taşacak Bu Deniz, Karadeniz'in hırçın doğasında, aşk ile nefretin, geçmiş ile kaderin iç içe geçtiği tutkulu bir hikâyeyi anlatıyor.</desc>
-  </programme>
-  <programme start="20260824051300 +0300" stop="20260824051500 +0300" channel="bc305150-3c09-46e1-8471-352367c823d7">
-    <title lang="tr">İstiklal Marşı</title>
-    <desc lang="tr">Türkiye Cumhuriyeti'nin milli marşı İstiklal Marşı, önemli yayın anlarında saygı ve birlik duygusu eşliğinde ekranda yer alıyor.</desc>
-  </programme>
-  <programme start="20260824051500 +0300" stop="20260824060000 +0300" channel="bc305150-3c09-46e1-8471-352367c823d7">
-    <title lang="tr">Hayallerinin Peşinde</title>
-    <desc lang="tr">"Hayallerinin Peşinde", zorlu koşullarda yaşayan kadınların, devlet ve toplum desteğiyle verdikleri mücadelenin ardından elde ettikleri başarı hikâyelerini ekrana taşıyor.</desc>
   </programme>
   <programme start="20260824060000 +0300" stop="20260824070000 +0300" channel="bc305150-3c09-46e1-8471-352367c823d7">
     <title lang="tr">Turgay Başyayla İle Lezzetli Tavsiye</title>
@@ -5164,57 +5156,81 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <title lang="tr">Teknik Analiz</title>
     <desc lang="tr">Taktikler, dizilişler ve kritik hamleler detaylı grafiklerle inceleniyor. Teknik Analiz, futbolu gerçekten anlamak isteyenler için.</desc>
   </programme>
-  <programme start="20260824070000 +0300" stop="20260824085500 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+  <programme start="20260824070000 +0300" stop="20260824073000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+    <title lang="tr">Temsilcilerimizin Avrupa Maç Özetleri</title>
+    <desc lang="tr">Avrupa'daki temsilcilerimizin maç özetlerini ve kritik anlarını hızlı ve etkili bir şekilde izleyiciye sunuyor.</desc>
+  </programme>
+  <programme start="20260824073000 +0300" stop="20260824080000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+    <title lang="tr">Trendyol Süper Lig Özetler</title>
+    <desc lang="tr">Trendyol Süper Lig'de oynanan haftanın karşılaşmalarından öne çıkan anlar, goller ve maçların kritik dakikaları bu programda bir araya getiriliyor.</desc>
+  </programme>
+  <programme start="20260824080000 +0300" stop="20260824100000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
     <title lang="tr">İlk Baskı</title>
     <desc lang="tr">İlk Baskı, spor dünyasındaki önemli gelişmeleri ve günün gündemini izleyiciye aktaran haber programıdır. Programda spor gündemi öne çıkarılıyor.</desc>
   </programme>
-  <programme start="20260824085500 +0300" stop="20260824090000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
-    <title lang="tr">Spor Takvimi</title>
-    <desc lang="tr">Hafta boyunca oynanacak futbol, basketbol ve diğer branşlardaki önemli karşılaşmalar bu programda bir araya geliyor.</desc>
-  </programme>
-  <programme start="20260824090000 +0300" stop="20260824100000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
-    <title lang="tr">İşitme Engelliler Spor Bülteni</title>
-    <desc lang="tr">İşitme Engelliler Spor Bülteni, işitme engelli sporcular ve engelli spor gündemiyle ilgili haberleri izleyiciye aktaran spor bültenidir.</desc>
-  </programme>
-  <programme start="20260824100000 +0300" stop="20260824110000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+  <programme start="20260824100000 +0300" stop="20260824101500 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
     <title lang="tr">Spor Bülteni</title>
     <desc lang="tr">Spor Bülteni, günün öne çıkan spor gelişmelerini ve haberlerini izleyiciye aktaran programdır.</desc>
   </programme>
-  <programme start="20260824110000 +0300" stop="20260824130000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+  <programme start="20260824101500 +0300" stop="20260824104500 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+    <title lang="tr">Futbol: İspanya La Liga Özetler</title>
+    <desc lang="tr">La Liga'da haftanın maçlarından öne çıkan anlar, goller ve önemli pozisyonlar özetlerle ekrana geliyor.</desc>
+  </programme>
+  <programme start="20260824104500 +0300" stop="20260824110000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+    <title lang="tr">Trendyol Süper Lig Özetler</title>
+    <desc lang="tr">Trendyol Süper Lig'de oynanan haftanın karşılaşmalarından öne çıkan anlar, goller ve maçların kritik dakikaları bu programda bir araya getiriliyor.</desc>
+  </programme>
+  <programme start="20260824110000 +0300" stop="20260824123000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
     <title lang="tr">Spor Manşet</title>
     <desc lang="tr">Günün öne çıkan spor haberleri, maç sonuçları ve dikkat çeken gelişmeler hızlı, net ve dinamik bir özetle ekrana taşınıyor.</desc>
   </programme>
-  <programme start="20260824130000 +0300" stop="20260824140000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
-    <title lang="tr">Muhabir Saati</title>
-    <desc lang="tr">Muhabir Saati, sahadaki muhabirlerin aktardığı güncel gelişmeler ve öne çıkan başlıklarla gündemi anlık ve doğrudan izleyiciye taşıyor.</desc>
+  <programme start="20260824123000 +0300" stop="20260824133000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+    <title lang="tr">Gün Ortası</title>
+    <desc lang="tr">Son dakika gelişmeleri, maç sonuçları ve öne çıkan performanslarla hızlı ve dinamik bir özet sunuyor.</desc>
   </programme>
-  <programme start="20260824140000 +0300" stop="20260824160000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+  <programme start="20260824133000 +0300" stop="20260824140000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+    <title lang="tr">Trendyol Süper Lig Özetler</title>
+    <desc lang="tr">Trendyol Süper Lig'de oynanan haftanın karşılaşmalarından öne çıkan anlar, goller ve maçların kritik dakikaları bu programda bir araya getiriliyor.</desc>
+  </programme>
+  <programme start="20260824140000 +0300" stop="20260824153000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
     <title lang="tr">Spor Stüdyosu</title>
     <desc lang="tr">Spor Stüdyosu, günün önemli spor gelişmelerini, son dakika haberlerini ve analizleri izleyiciye aktarıyor.</desc>
   </programme>
-  <programme start="20260824160000 +0300" stop="20260824173000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+  <programme start="20260824153000 +0300" stop="20260824170000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
     <title lang="tr">Gündem Futbol</title>
     <desc lang="tr">Gündem Futbol, haftanın öne çıkan maçlarını ve futbol dünyasındaki sıcak gelişmeleri özetleri ekrana taşır.</desc>
   </programme>
-  <programme start="20260824173000 +0300" stop="20260824175000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
-    <title lang="tr">Dünyadan Spor</title>
-    <desc lang="tr">Dünyadan Spor, farklı ülkelerden ve branşlardan öne çıkan spor gelişmelerini ve dikkat çeken olayları ekrana taşıyor.</desc>
+  <programme start="20260824170000 +0300" stop="20260824173000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+    <title lang="tr">Spor Dijital</title>
+    <desc lang="tr">Spor dünyasından güncel haberler, önemli gelişmeler, maç sonuçları ve öne çıkan gündem başlıkları ekrana geliyor.</desc>
   </programme>
-  <programme start="20260824175000 +0300" stop="20260824180000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
-    <title lang="tr">Bizim Ligler</title>
-    <desc lang="tr">Bizim Ligler, Türkiye'nin alt liglerindeki futbol mücadelelerini ve bu liglerdeki hikâyeleri izleyiciye aktaran spor programıdır.</desc>
+  <programme start="20260824173000 +0300" stop="20260824183000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+    <title lang="tr">Spor Merkezi</title>
+    <desc lang="tr">Spor Merkezi, günün öne çıkan spor gelişmelerini ve haberlerini izleyiciye aktaran kapsamlı bir spor programıdır.</desc>
   </programme>
-  <programme start="20260824180000 +0300" stop="20260824220000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
-    <title lang="tr">Aktüel Futbol</title>
-    <desc lang="tr">Aktüel Futbol, haftanın futbol programını ve öne çıkan karşılaşmaları ekrana taşır.</desc>
+  <programme start="20260824183000 +0300" stop="20260824190000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+    <title lang="tr">Set Sayısı</title>
+    <desc lang="tr">Set Sayısı, voleybol ve diğer güncel karşılaşmaların maç önü ve maç sonrası değerlendirmeleri ile öne çıkan başlıkları izleyiciye aktaran spor programıdır.</desc>
   </programme>
-  <programme start="20260824220000 +0300" stop="20260824233000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
-    <title lang="tr">Stadyum</title>
-    <desc lang="tr">Maç analizleri, sıcak gelişmeler ve uzman yorumlarıyla sahadaki her an ekrana taşınıyor.</desc>
+  <programme start="20260824190000 +0300" stop="20260824203000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+    <title lang="tr">Avrupa Şampiyonası</title>
+    <desc lang="tr">Avrupa futbolunun en büyük sahnesi UEFA Avrupa Şampiyonası'nı UEFA Euro Magazine ile daha yakından takip edin.</desc>
+  </programme>
+  <programme start="20260824203000 +0300" stop="20260824205000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+    <title lang="tr">Set Sayısı</title>
+    <desc lang="tr">Set Sayısı, voleybol ve diğer güncel karşılaşmaların maç önü ve maç sonrası değerlendirmeleri ile öne çıkan başlıkları izleyiciye aktaran spor programıdır.</desc>
+  </programme>
+  <programme start="20260824205000 +0300" stop="20260824213000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+    <title lang="tr">Spor Akşamı</title>
+    <desc lang="tr">Günün spor gündemini ekranlara taşıyan Spor Akşamı, karşılaşma sonuçlarını, öne çıkan gelişmeleri ve dikkat çeken performansları derli toplu biçimde sunuyor.</desc>
+  </programme>
+  <programme start="20260824213000 +0300" stop="20260824233000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
+    <title lang="tr">Futbol: Trendyol 1. Lig</title>
+    <desc lang="tr">Zirve mücadelesi, kritik maçlar ve yükselme heyecanı bu ligde yaşanıyor. Her hafta nefes kesen karşılaşmalar futbolseverlerle buluşuyor.</desc>
   </programme>
   <programme start="20260824233000 +0300" stop="20260825010000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
-    <title lang="tr">Teknik Analiz</title>
-    <desc lang="tr">Taktikler, dizilişler ve kritik hamleler detaylı grafiklerle inceleniyor. Teknik Analiz, futbolu gerçekten anlamak isteyenler için.</desc>
+    <title lang="tr">Aktüel Futbol Transfer</title>
+    <desc lang="tr">Transfer gündemindeki son dakika gelişmeleri, sürpriz hamleler ve kulis bilgileri hızlı ve net bir özetle ekrana geliyor.</desc>
   </programme>
   <channel id="90483f55-65d2-4564-8782-df1935075a85">
     <display-name>TRT Kurdî</display-name>
@@ -9596,17 +9612,9 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <title lang="tr">A day in history</title>
     <desc lang="tr">Key historical events from different eras are revisited, highlighting moments that left a lasting mark on history.</desc>
   </programme>
-  <programme start="20260824013600 +0300" stop="20260824020000 +0300" channel="d47df7df-8be5-4b71-b518-4e4820874c29">
+  <programme start="20260824013600 +0300" stop="20260824090000 +0300" channel="d47df7df-8be5-4b71-b518-4e4820874c29">
     <title lang="tr">Mobile reporter</title>
     <desc lang="tr">User generated footage and eyewitness reports bring breaking events to the screen, showing incidents, emergencies, and daily news as they unfold in real time.</desc>
-  </programme>
-  <programme start="20260824020000 +0300" stop="20260824060000 +0300" channel="d47df7df-8be5-4b71-b518-4e4820874c29">
-    <title lang="tr">Transmission break</title>
-    <desc lang="tr">Transmission break</desc>
-  </programme>
-  <programme start="20260824060000 +0300" stop="20260824090000 +0300" channel="d47df7df-8be5-4b71-b518-4e4820874c29">
-    <title lang="tr">Transmission break</title>
-    <desc lang="tr">Transmission break</desc>
   </programme>
   <programme start="20260824090000 +0300" stop="20260824093000 +0300" channel="d47df7df-8be5-4b71-b518-4e4820874c29">
     <title lang="tr">News at 9</title>
@@ -13112,57 +13120,81 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <title lang="tr">Teknik Analiz</title>
     <desc lang="tr">Taktikler, dizilişler ve kritik hamleler detaylı grafiklerle inceleniyor. Teknik Analiz, futbolu gerçekten anlamak isteyenler için.</desc>
   </programme>
-  <programme start="20260824070000 +0300" stop="20260824085500 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+  <programme start="20260824070000 +0300" stop="20260824073000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+    <title lang="tr">Temsilcilerimizin Avrupa Maç Özetleri</title>
+    <desc lang="tr">Avrupa'daki temsilcilerimizin maç özetlerini ve kritik anlarını hızlı ve etkili bir şekilde izleyiciye sunuyor.</desc>
+  </programme>
+  <programme start="20260824073000 +0300" stop="20260824080000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+    <title lang="tr">Trendyol Süper Lig Özetler</title>
+    <desc lang="tr">Trendyol Süper Lig'de oynanan haftanın karşılaşmalarından öne çıkan anlar, goller ve maçların kritik dakikaları bu programda bir araya getiriliyor.</desc>
+  </programme>
+  <programme start="20260824080000 +0300" stop="20260824100000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
     <title lang="tr">İlk Baskı</title>
     <desc lang="tr">İlk Baskı, spor dünyasındaki önemli gelişmeleri ve günün gündemini izleyiciye aktaran haber programıdır. Programda spor gündemi öne çıkarılıyor.</desc>
   </programme>
-  <programme start="20260824085500 +0300" stop="20260824090000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
-    <title lang="tr">Spor Takvimi</title>
-    <desc lang="tr">Hafta boyunca oynanacak futbol, basketbol ve diğer branşlardaki önemli karşılaşmalar bu programda bir araya geliyor.</desc>
-  </programme>
-  <programme start="20260824090000 +0300" stop="20260824100000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
-    <title lang="tr">İşitme Engelliler Spor Bülteni</title>
-    <desc lang="tr">İşitme Engelliler Spor Bülteni, işitme engelli sporcular ve engelli spor gündemiyle ilgili haberleri izleyiciye aktaran spor bültenidir.</desc>
-  </programme>
-  <programme start="20260824100000 +0300" stop="20260824110000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+  <programme start="20260824100000 +0300" stop="20260824101500 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
     <title lang="tr">Spor Bülteni</title>
     <desc lang="tr">Spor Bülteni, günün öne çıkan spor gelişmelerini ve haberlerini izleyiciye aktaran programdır.</desc>
   </programme>
-  <programme start="20260824110000 +0300" stop="20260824130000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+  <programme start="20260824101500 +0300" stop="20260824104500 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+    <title lang="tr">Futbol: İspanya La Liga Özetler</title>
+    <desc lang="tr">La Liga'da haftanın maçlarından öne çıkan anlar, goller ve önemli pozisyonlar özetlerle ekrana geliyor.</desc>
+  </programme>
+  <programme start="20260824104500 +0300" stop="20260824110000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+    <title lang="tr">Trendyol Süper Lig Özetler</title>
+    <desc lang="tr">Trendyol Süper Lig'de oynanan haftanın karşılaşmalarından öne çıkan anlar, goller ve maçların kritik dakikaları bu programda bir araya getiriliyor.</desc>
+  </programme>
+  <programme start="20260824110000 +0300" stop="20260824123000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
     <title lang="tr">Spor Manşet</title>
     <desc lang="tr">Günün öne çıkan spor haberleri, maç sonuçları ve dikkat çeken gelişmeler hızlı, net ve dinamik bir özetle ekrana taşınıyor.</desc>
   </programme>
-  <programme start="20260824130000 +0300" stop="20260824140000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
-    <title lang="tr">Muhabir Saati</title>
-    <desc lang="tr">Muhabir Saati, sahadaki muhabirlerin aktardığı güncel gelişmeler ve öne çıkan başlıklarla gündemi anlık ve doğrudan izleyiciye taşıyor.</desc>
+  <programme start="20260824123000 +0300" stop="20260824133000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+    <title lang="tr">Gün Ortası</title>
+    <desc lang="tr">Son dakika gelişmeleri, maç sonuçları ve öne çıkan performanslarla hızlı ve dinamik bir özet sunuyor.</desc>
   </programme>
-  <programme start="20260824140000 +0300" stop="20260824160000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+  <programme start="20260824133000 +0300" stop="20260824140000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+    <title lang="tr">Trendyol Süper Lig Özetler</title>
+    <desc lang="tr">Trendyol Süper Lig'de oynanan haftanın karşılaşmalarından öne çıkan anlar, goller ve maçların kritik dakikaları bu programda bir araya getiriliyor.</desc>
+  </programme>
+  <programme start="20260824140000 +0300" stop="20260824153000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
     <title lang="tr">Spor Stüdyosu</title>
     <desc lang="tr">Spor Stüdyosu, günün önemli spor gelişmelerini, son dakika haberlerini ve analizleri izleyiciye aktarıyor.</desc>
   </programme>
-  <programme start="20260824160000 +0300" stop="20260824173000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+  <programme start="20260824153000 +0300" stop="20260824170000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
     <title lang="tr">Gündem Futbol</title>
     <desc lang="tr">Gündem Futbol, haftanın öne çıkan maçlarını ve futbol dünyasındaki sıcak gelişmeleri özetleri ekrana taşır.</desc>
   </programme>
-  <programme start="20260824173000 +0300" stop="20260824175000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
-    <title lang="tr">Dünyadan Spor</title>
-    <desc lang="tr">Dünyadan Spor, farklı ülkelerden ve branşlardan öne çıkan spor gelişmelerini ve dikkat çeken olayları ekrana taşıyor.</desc>
+  <programme start="20260824170000 +0300" stop="20260824173000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+    <title lang="tr">Spor Dijital</title>
+    <desc lang="tr">Spor dünyasından güncel haberler, önemli gelişmeler, maç sonuçları ve öne çıkan gündem başlıkları ekrana geliyor.</desc>
   </programme>
-  <programme start="20260824175000 +0300" stop="20260824180000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
-    <title lang="tr">Bizim Ligler</title>
-    <desc lang="tr">Bizim Ligler, Türkiye'nin alt liglerindeki futbol mücadelelerini ve bu liglerdeki hikâyeleri izleyiciye aktaran spor programıdır.</desc>
+  <programme start="20260824173000 +0300" stop="20260824183000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+    <title lang="tr">Spor Merkezi</title>
+    <desc lang="tr">Spor Merkezi, günün öne çıkan spor gelişmelerini ve haberlerini izleyiciye aktaran kapsamlı bir spor programıdır.</desc>
   </programme>
-  <programme start="20260824180000 +0300" stop="20260824220000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
-    <title lang="tr">Aktüel Futbol</title>
-    <desc lang="tr">Aktüel Futbol, haftanın futbol programını ve öne çıkan karşılaşmaları ekrana taşır.</desc>
+  <programme start="20260824183000 +0300" stop="20260824190000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+    <title lang="tr">Set Sayısı</title>
+    <desc lang="tr">Set Sayısı, voleybol ve diğer güncel karşılaşmaların maç önü ve maç sonrası değerlendirmeleri ile öne çıkan başlıkları izleyiciye aktaran spor programıdır.</desc>
   </programme>
-  <programme start="20260824220000 +0300" stop="20260824233000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
-    <title lang="tr">Stadyum</title>
-    <desc lang="tr">Maç analizleri, sıcak gelişmeler ve uzman yorumlarıyla sahadaki her an ekrana taşınıyor.</desc>
+  <programme start="20260824190000 +0300" stop="20260824203000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+    <title lang="tr">Avrupa Şampiyonası</title>
+    <desc lang="tr">Avrupa futbolunun en büyük sahnesi UEFA Avrupa Şampiyonası'nı UEFA Euro Magazine ile daha yakından takip edin.</desc>
+  </programme>
+  <programme start="20260824203000 +0300" stop="20260824205000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+    <title lang="tr">Set Sayısı</title>
+    <desc lang="tr">Set Sayısı, voleybol ve diğer güncel karşılaşmaların maç önü ve maç sonrası değerlendirmeleri ile öne çıkan başlıkları izleyiciye aktaran spor programıdır.</desc>
+  </programme>
+  <programme start="20260824205000 +0300" stop="20260824213000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+    <title lang="tr">Spor Akşamı</title>
+    <desc lang="tr">Günün spor gündemini ekranlara taşıyan Spor Akşamı, karşılaşma sonuçlarını, öne çıkan gelişmeleri ve dikkat çeken performansları derli toplu biçimde sunuyor.</desc>
+  </programme>
+  <programme start="20260824213000 +0300" stop="20260824233000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
+    <title lang="tr">Futbol: Trendyol 1. Lig</title>
+    <desc lang="tr">Zirve mücadelesi, kritik maçlar ve yükselme heyecanı bu ligde yaşanıyor. Her hafta nefes kesen karşılaşmalar futbolseverlerle buluşuyor.</desc>
   </programme>
   <programme start="20260824233000 +0300" stop="20260825010000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
-    <title lang="tr">Teknik Analiz</title>
-    <desc lang="tr">Taktikler, dizilişler ve kritik hamleler detaylı grafiklerle inceleniyor. Teknik Analiz, futbolu gerçekten anlamak isteyenler için.</desc>
+    <title lang="tr">Aktüel Futbol Transfer</title>
+    <desc lang="tr">Transfer gündemindeki son dakika gelişmeleri, sürpriz hamleler ve kulis bilgileri hızlı ve net bir özetle ekrana geliyor.</desc>
   </programme>
   <channel id="ab1b7d14-560d-41b7-811d-82ae1fb878a8">
     <display-name>beIN SPORTS HABER</display-name>
@@ -13424,49 +13456,61 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <title lang="tr">Bisiklet: İspanya Turu</title>
     <desc lang="tr">İspanya'nın zorlu yollarında gerçekleşen büyük bisiklet mücadelesinde hız, dayanıklılık ve strateji ön plana çıkıyor.</desc>
   </programme>
-  <programme start="20260824060000 +0300" stop="20260824073000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
+  <programme start="20260824060000 +0300" stop="20260824080000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
     <title lang="tr">Snooker: Wuhan Açık</title>
     <desc lang="tr">Snooker dünyasının yıldızları Wuhan Açık'ta karşı karşıya geliyor. Kritik vuruşlar ve büyük rekabet ekranlara taşınıyor.</desc>
   </programme>
-  <programme start="20260824073000 +0300" stop="20260824083000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
-    <title lang="tr">Dağ Bisikleti Dünya Kupası</title>
-    <desc lang="tr">Dünyanın en zorlu parkurlarında gerçekleşen dağ bisikleti yarışları devam ediyor.</desc>
+  <programme start="20260824080000 +0300" stop="20260824090000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
+    <title lang="tr">Dünya Formula E Şampiyonası</title>
+    <desc lang="tr">Elektrikli motorların mücadelesi başlıyor. Dünya Formula E Şampiyonası, şehir pistlerinde hız, strateji ve teknoloji yarışını ekrana taşıyor.</desc>
   </programme>
-  <programme start="20260824083000 +0300" stop="20260824093000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
-    <title lang="tr">Dağ Bisikleti Dünya Kupası</title>
-    <desc lang="tr">Dünyanın en zorlu parkurlarında gerçekleşen dağ bisikleti yarışları devam ediyor.</desc>
+  <programme start="20260824090000 +0300" stop="20260824100000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
+    <title lang="tr">Dünya Formula E Şampiyonası</title>
+    <desc lang="tr">Elektrikli motorların mücadelesi başlıyor. Dünya Formula E Şampiyonası, şehir pistlerinde hız, strateji ve teknoloji yarışını ekrana taşıyor.</desc>
   </programme>
-  <programme start="20260824093000 +0300" stop="20260824120000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
-    <title lang="tr">Snooker: Londra Açık</title>
-    <desc lang="tr">Snooker: Londra Açık, dünyanın önde gelen snooker oyuncularını prestijli bir turnuvada buluşturuyor.</desc>
+  <programme start="20260824100000 +0300" stop="20260824130000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
+    <title lang="tr">Binicilik Dünya Şampiyonası</title>
+    <desc lang="tr">Binicilik Dünya Şampiyonası'nda üst düzey mücadele sürüyor. Uyum, denge, teknik beceri ve doğru zamanlama başarıyı belirliyor.</desc>
   </programme>
-  <programme start="20260824120000 +0300" stop="20260824150000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
-    <title lang="tr">Dayanıklılık Araba Yarışı: Le Mans 24 Saat Yarışları</title>
-    <desc lang="tr">Motor sporlarının en prestijli organizasyonlarından biri olan yarışta ekipler, 24 saat boyunca dayanıklılık ve hız mücadelesi veriyor.</desc>
+  <programme start="20260824130000 +0300" stop="20260824134500 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
+    <title lang="tr">Motokros: Dünya Şampiyonası</title>
+    <desc lang="tr">Dünyanın en zorlu motocross yarışları ekrana geliyor. FIM Motocross Dünya Şampiyonası'nda hız, denge ve cesaret sınanıyor.</desc>
   </programme>
-  <programme start="20260824150000 +0300" stop="20260824160000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
-    <title lang="tr">Dağ Bisikleti Dünya Kupası</title>
-    <desc lang="tr">Dünyanın en zorlu parkurlarında gerçekleşen dağ bisikleti yarışları devam ediyor.</desc>
+  <programme start="20260824134500 +0300" stop="20260824143000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
+    <title lang="tr">Motokros: Dünya Şampiyonası</title>
+    <desc lang="tr">Dünyanın en zorlu motocross yarışları ekrana geliyor. FIM Motocross Dünya Şampiyonası'nda hız, denge ve cesaret sınanıyor.</desc>
   </programme>
-  <programme start="20260824160000 +0300" stop="20260824170000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
-    <title lang="tr">Bisiklet: Turu Auvergne-Rhône-Alpes</title>
-    <desc lang="tr">Fransa'nın zorlu etaplarında geçen bisiklet yarışında sporcuların dayanıklılık ve hız mücadelesi ele alınıyor.</desc>
+  <programme start="20260824143000 +0300" stop="20260824173000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
+    <title lang="tr">Snooker: Wuhan Açık</title>
+    <desc lang="tr">Snooker dünyasının yıldızları Wuhan Açık'ta karşı karşıya geliyor. Kritik vuruşlar ve büyük rekabet ekranlara taşınıyor.</desc>
   </programme>
-  <programme start="20260824170000 +0300" stop="20260824180000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
-    <title lang="tr">Bisiklet: Turu Auvergne-Rhône-Alpes</title>
-    <desc lang="tr">Fransa'nın zorlu etaplarında geçen bisiklet yarışında sporcuların dayanıklılık ve hız mücadelesi ele alınıyor.</desc>
+  <programme start="20260824173000 +0300" stop="20260824190000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
+    <title lang="tr">Tırmanış Dünya Serisi</title>
+    <desc lang="tr">Dünyanın en iyi spor tırmanışçıları zorlu parkurlarda hız, güç ve teknikle zirve için yarışıyor.</desc>
   </programme>
-  <programme start="20260824180000 +0300" stop="20260824190000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
-    <title lang="tr">Bisiklet: Copenhagen Sprint</title>
-    <desc lang="tr">Şehir içindeki hızlı ve tempolu mücadelede sporcular, taktik ve dayanıklılıklarını sergileyerek zafere ulaşmaya çalışıyor.</desc>
+  <programme start="20260824190000 +0300" stop="20260824193000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
+    <title lang="tr">Motokros: Dünya Şampiyonası</title>
+    <desc lang="tr">Dünyanın en zorlu motocross yarışları ekrana geliyor. FIM Motocross Dünya Şampiyonası'nda hız, denge ve cesaret sınanıyor.</desc>
   </programme>
-  <programme start="20260824190000 +0300" stop="20260824220000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
-    <title lang="tr">Dayanıklılık Araba Yarışı: Le Mans 24 Saat Yarışları</title>
-    <desc lang="tr">Motor sporlarının en prestijli organizasyonlarından biri olan yarışta ekipler, 24 saat boyunca dayanıklılık ve hız mücadelesi veriyor.</desc>
+  <programme start="20260824193000 +0300" stop="20260824200000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
+    <title lang="tr">Motokros: Dünya Şampiyonası</title>
+    <desc lang="tr">Dünyanın en zorlu motocross yarışları ekrana geliyor. FIM Motocross Dünya Şampiyonası'nda hız, denge ve cesaret sınanıyor.</desc>
   </programme>
-  <programme start="20260824220000 +0300" stop="20260825000000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
-    <title lang="tr">Binicilik: Global Şampiyonlar Turu</title>
-    <desc lang="tr">Global Şampiyonlar Turu'nda biniciler ve atları engelleri aşmak için hız ve teknikle yarışıyor. Heyecan dolu mücadele Eurosport ekranında.</desc>
+  <programme start="20260824200000 +0300" stop="20260824203000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
+    <title lang="tr">Motokros: Dünya Şampiyonası</title>
+    <desc lang="tr">Dünyanın en zorlu motocross yarışları ekrana geliyor. FIM Motocross Dünya Şampiyonası'nda hız, denge ve cesaret sınanıyor.</desc>
+  </programme>
+  <programme start="20260824203000 +0300" stop="20260824210000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
+    <title lang="tr">Motokros: Dünya Şampiyonası</title>
+    <desc lang="tr">Dünyanın en zorlu motocross yarışları ekrana geliyor. FIM Motocross Dünya Şampiyonası'nda hız, denge ve cesaret sınanıyor.</desc>
+  </programme>
+  <programme start="20260824210000 +0300" stop="20260824230000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
+    <title lang="tr">Bisiklet: İspanya Turu</title>
+    <desc lang="tr">İspanya'nın zorlu yollarında gerçekleşen büyük bisiklet mücadelesinde hız, dayanıklılık ve strateji ön plana çıkıyor.</desc>
+  </programme>
+  <programme start="20260824230000 +0300" stop="20260825010000 +0300" channel="1f3fc9de-44a1-4d09-bff0-73ab1f3aca38">
+    <title lang="tr">Snooker: Wuhan Açık</title>
+    <desc lang="tr">Snooker dünyasının yıldızları Wuhan Açık'ta karşı karşıya geliyor. Kritik vuruşlar ve büyük rekabet ekranlara taşınıyor.</desc>
   </programme>
   <channel id="0ebb4b6c-f816-4b97-b692-00ba215196d8">
     <display-name>HT Spor</display-name>
@@ -14026,7 +14070,7 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
   </programme>
   <programme start="20260824020000 +0300" stop="20260824021500 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
     <title lang="tr">Extreme Kupası</title>
-    <desc lang="tr">Extreme Kupası</desc>
+    <desc lang="tr">Zorlu parkurların, yüksek adrenalinin ve nefes kesen mücadelenin buluştuğu Extreme Kupası'nda heyecan hız kesmeden devam ediyor.</desc>
   </programme>
   <programme start="20260824021500 +0300" stop="20260824023500 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
     <title lang="tr">Yapabilir Misin?</title>
@@ -14068,49 +14112,81 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <title lang="tr">İstiklal Marşı</title>
     <desc lang="tr">Türkiye Cumhuriyeti'nin milli marşı İstiklal Marşı, önemli yayın anlarında saygı ve birlik duygusu eşliğinde ekranda yer alıyor.</desc>
   </programme>
-  <programme start="20260824070000 +0300" stop="20260824092500 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
-    <title lang="tr">Haber Bülteni</title>
-    <desc lang="tr">Günün öne çıkan gelişmeleri, başlıklar ve önemli detaylar Haber Bülteni'nde tarafsız ve anlaşılır bir sunumla ekrana geliyor.</desc>
+  <programme start="20260824070000 +0300" stop="20260824071500 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Tenis Dünyası</title>
+    <desc lang="tr">Türkiye ve dünya tenisindeki güncel gelişmeleri, röportajları, turnuva özetlerini ve kort içi haberleri izleyiciye sunar.</desc>
   </programme>
-  <programme start="20260824092500 +0300" stop="20260824100000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
-    <title lang="tr">Kardeşler Takımı</title>
-    <desc lang="tr">Sporun birleştirici gücünü en samimi hikâyelerle ekranlara taşıyan Kardeşler Takımı, genç sporcuların mücadele, disiplin ve kardeşlik bağlarını seyirciyle buluşturuyor.</desc>
+  <programme start="20260824071500 +0300" stop="20260824074500 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Süper Spor</title>
+    <desc lang="tr">Süper Spor, günün öne çıkan spor gelişmelerini, karşılaşma özetlerini ve önemli başlıkları derli toplu bir akışla izleyiciye aktarıyor.</desc>
   </programme>
-  <programme start="20260824100000 +0300" stop="20260824104500 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
-    <title lang="tr">7 Metre</title>
-    <desc lang="tr">Milli takım ve Süper Lig ekiplerinin son durumu, maçlardan öne çıkan anlar, özel röportajlar ve haftanın en iyileri.</desc>
+  <programme start="20260824074500 +0300" stop="20260824080000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Olimpiyat Yıldızları</title>
+    <desc lang="tr">Olimpiyat Yıldızları, olimpiyatlarda başarı elde eden sporcuların kariyer yolculuklarını ve öne çıkan performanslarını ekranlara taşıyor.</desc>
   </programme>
-  <programme start="20260824104500 +0300" stop="20260824105000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
-    <title lang="tr">Nedir? Nasıl Oynanır?</title>
-    <desc lang="tr">Spor dalları temel kurallarıyla anlaşılır ve öğretici şekilde izleyiciye anlatılır.</desc>
+  <programme start="20260824080000 +0300" stop="20260824090000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Paralimpik Spor</title>
+    <desc lang="tr">Paralimpik sporcuların başarı hikâyeleri, mücadele ruhu ve ilham veren performansları ekrana taşınır.</desc>
   </programme>
-  <programme start="20260824105000 +0300" stop="20260824110000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
-    <title lang="tr">Rucking</title>
-    <desc lang="tr">Rucking, doğayla iç içe güç, dayanıklılık ve keşif.</desc>
+  <programme start="20260824090000 +0300" stop="20260824091500 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Extreme Kupası</title>
+    <desc lang="tr">Zorlu parkurların, yüksek adrenalinin ve nefes kesen mücadelenin buluştuğu Extreme Kupası'nda heyecan hız kesmeden devam ediyor.</desc>
   </programme>
-  <programme start="20260824110000 +0300" stop="20260824153000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
-    <title lang="tr">Hayalimdeki Araba</title>
-    <desc lang="tr">Hayalimdeki Araba, hayallerdeki tasarımların gerçeğe dönüştüğü, ilham veren keyifli bir otomobil programı.</desc>
+  <programme start="20260824091500 +0300" stop="20260824093000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Sporla Değişen Hayatlar</title>
+    <desc lang="tr">Sporla Değişen Hayatlar bu ekranda.</desc>
   </programme>
-  <programme start="20260824153000 +0300" stop="20260824154000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
-    <title lang="tr">Spor Atlası</title>
-    <desc lang="tr">Spor Dünyasındaki güncel gelişmeler, basketbol'dan tenise, atletizm'den motor sporlarına kadar birçok organizasyon ve ekstrem sporcuların birbirinden özel anları.</desc>
+  <programme start="20260824093000 +0300" stop="20260824094500 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Kuralına Göre Oyna</title>
+    <desc lang="tr">Sahada başarı sadece yetenekle değil, disiplin ve doğru stratejiyle gelir.</desc>
   </programme>
-  <programme start="20260824154000 +0300" stop="20260824201000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+  <programme start="20260824094500 +0300" stop="20260824095000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Sporun İkonları</title>
+    <desc lang="tr">Sporun İkonları, spor tarihine damga vurmuş efsane isimlerin kariyerlerini, kırılma anlarını ve unutulmaz başarılarını ele alan bir spor programıdır.</desc>
+  </programme>
+  <programme start="20260824095000 +0300" stop="20260824095500 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Özel Dosya</title>
+    <desc lang="tr">Özel Dosya, spor dünyasının belirli etkinlik, konu ve gelişim alanlarına odaklanan özel içeriklerin derlendiği, seçilmiş başlıkların aktarıldığı program kuşağıdır.</desc>
+  </programme>
+  <programme start="20260824095500 +0300" stop="20260824110000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Akdeniz Oyunları Bisiklet</title>
+    <desc lang="tr">2026 Akdeniz Oyunları'nda heyecan başlıyor. Farklı branşlarda mücadele eden sporcular, madalya için tüm güçlerini ortaya koyuyor.</desc>
+  </programme>
+  <programme start="20260824110000 +0300" stop="20260824150000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">955. Yıl Sultan Alparslan Açık Hava Özel Puta Koşusu</title>
+    <desc lang="tr">955. Yıl Sultan Alparslan Açık Hava Özel Puta Koşusu</desc>
+  </programme>
+  <programme start="20260824150000 +0300" stop="20260824170000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Atletizm: Elmas Lig</title>
+    <desc lang="tr">Sezon boyunca dünyanın en iyi atletleri seçkin pistlerde buluşur ve yüksek rekabetli yarışlarda mücadele eder.</desc>
+  </programme>
+  <programme start="20260824170000 +0300" stop="20260824171500 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Özel Dosya</title>
+    <desc lang="tr">Özel Dosya, spor dünyasının belirli etkinlik, konu ve gelişim alanlarına odaklanan özel içeriklerin derlendiği, seçilmiş başlıkların aktarıldığı program kuşağıdır.</desc>
+  </programme>
+  <programme start="20260824171500 +0300" stop="20260824173500 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
     <title lang="tr">Yapabilir Misin?</title>
     <desc lang="tr">Sınırları zorlayan performanslar ve ilham veren mücadelelerle izleyiciyi her bölümde harekete geçirir!</desc>
   </programme>
-  <programme start="20260824201000 +0300" stop="20260824234500 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
-    <title lang="tr">Albümdeki Yıldızlar</title>
-    <desc lang="tr">Spor dünyasının yıldız isimleri ve unutulmaz anları Albümdeki Yıldızlar'da! Efsanelerin kariyer yolculukları ve iz bırakan hikâyeleri bu programda.</desc>
+  <programme start="20260824173500 +0300" stop="20260824175000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Tenis Dünyası</title>
+    <desc lang="tr">Türkiye ve dünya tenisindeki güncel gelişmeleri, röportajları, turnuva özetlerini ve kort içi haberleri izleyiciye sunar.</desc>
   </programme>
-  <programme start="20260824234500 +0300" stop="20260824235500 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
-    <title lang="tr">Savunma Sanatları</title>
-    <desc lang="tr">Dövüş sanatlarının gücü, disiplini ve teknikleri; maç özetleri, röportajlar ve analizlerle ekranda.</desc>
+  <programme start="20260824175000 +0300" stop="20260824175500 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Özel Dosya</title>
+    <desc lang="tr">Özel Dosya, spor dünyasının belirli etkinlik, konu ve gelişim alanlarına odaklanan özel içeriklerin derlendiği, seçilmiş başlıkların aktarıldığı program kuşağıdır.</desc>
   </programme>
-  <programme start="20260824235500 +0300" stop="20260825000000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
-    <title lang="tr">Nedir? Nasıl Oynanır?</title>
-    <desc lang="tr">Spor dalları temel kurallarıyla anlaşılır ve öğretici şekilde izleyiciye anlatılır.</desc>
+  <programme start="20260824175500 +0300" stop="20260824230000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Akdeniz Oyunları</title>
+    <desc lang="tr">2026 Akdeniz Oyunları'nda heyecan başlıyor. Farklı branşlarda mücadele eden sporcular, madalya için tüm güçlerini ortaya koyuyor.</desc>
+  </programme>
+  <programme start="20260824230000 +0300" stop="20260824232500 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Açık Hava Sporları</title>
+    <desc lang="tr">Doğayla iç içe sporların heyecanı bu programda buluşuyor.</desc>
+  </programme>
+  <programme start="20260824232500 +0300" stop="20260825001000 +0300" channel="6e79e022-db3a-4e0c-a373-5f5fd9e1f708">
+    <title lang="tr">Kuralına Göre Oyna</title>
+    <desc lang="tr">Sahada başarı sadece yetenekle değil, disiplin ve doğru stratejiyle gelir.</desc>
   </programme>
   <channel id="16437a6c-130d-4dfd-a2cd-9250c399e2d9">
     <display-name>Sports Tv</display-name>
@@ -14192,117 +14268,149 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
     <display-name>FB TV</display-name>
     <icon src="https://ryok.tvheryerde.com/ake/resize/500/500/channellogos//1778570154009-logo.png" />
   </channel>
-  <programme start="20260824000000 +0300" stop="20260824013000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Maçın Ardından</title>
-    <desc lang="tr">Maçın Ardından, futbol karşılaşmalarının ardından maçın kritik anları, oyuncu performansları ve teknik detaylar ele alınıyor</desc>
+  <programme start="20260824000000 +0300" stop="20260824003000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Güncel</title>
+    <desc lang="tr">Fenerbahçe TV'den tarafından hazırlanan özel haberler ekrana geliyor.</desc>
   </programme>
-  <programme start="20260824013000 +0300" stop="20260824030000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Basketbol: Kadınlar Süper Ligi</title>
-    <desc lang="tr">Türkiye Basketbol Federasyonu tarafından düzenlenen Türk kadın basketbolunun en üst seviye ligi.</desc>
+  <programme start="20260824003000 +0300" stop="20260824010000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Armamızın Gücüyle</title>
+    <desc lang="tr">Kulübün ruhunu, taraftar gücünü ve spor kültürünü merkeze alan içeriklerle spor dünyasına odaklanır.</desc>
   </programme>
-  <programme start="20260824030000 +0300" stop="20260824033000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+  <programme start="20260824010000 +0300" stop="20260824020000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Maç Özetleri</title>
+    <desc lang="tr">Futbol dünyasından öne çıkan karşılaşmalar, goller ve kritik anlar bu programda. Maç özetleri ve kısa analizlerle kaçırdığınız anları yakalayın.</desc>
+  </programme>
+  <programme start="20260824020000 +0300" stop="20260824023000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Yıldız Takımı</title>
+    <desc lang="tr">Yıldız Takımı, Fenerbahçe'nin yıldız oyuncularını ve öne çıkan performanslarını ekrana taşıyor.</desc>
+  </programme>
+  <programme start="20260824023000 +0300" stop="20260824024500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
     <title lang="tr">Gece Haberi</title>
     <desc lang="tr">FB TV'de Gece Haberi Türkiye'nin ve dünyadaki en önemli haberleri ekranlarınıza taşınıyor... </desc>
   </programme>
-  <programme start="20260824033000 +0300" stop="20260824051500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+  <programme start="20260824024500 +0300" stop="20260824040000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Tarih Ve Fenerbahçe</title>
+    <desc lang="tr">Fenerbahçe tarihinin dönüm noktaları, efsaneler ve kulübün mirasını anlatan özel belgesel serisi.</desc>
+  </programme>
+  <programme start="20260824040000 +0300" stop="20260824060000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
     <title lang="tr">U19 Paf Ligi</title>
     <desc lang="tr">U19 PAF Ligi, genç futbolcuların gelişimini ve rekabetini sahaya taşıyan önemli bir organizasyondur.</desc>
   </programme>
-  <programme start="20260824051500 +0300" stop="20260824064500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Maçın Ardından</title>
-    <desc lang="tr">Maçın Ardından, futbol karşılaşmalarının ardından maçın kritik anları, oyuncu performansları ve teknik detaylar ele alınıyor</desc>
+  <programme start="20260824060000 +0300" stop="20260824080000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Futbol: UEFA Şampiyonlar Ligi</title>
+    <desc lang="tr">Avrupa futbolunun zirvesindeki mücadeleler, unutulmaz anlar ve haftanın öne çıkan gelişmeleri ekranda.</desc>
   </programme>
-  <programme start="20260824064500 +0300" stop="20260824083000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Voleybol: Türkiye Kadınlar Ligi</title>
-    <desc lang="tr">Voleybol: Türkiye Kadınlar Ligi, Türkiye'nin en üst düzey kadın voleybol liginde oynanan karşılaşmaları izleyiciyle buluşturuyor.</desc>
-  </programme>
-  <programme start="20260824083000 +0300" stop="20260824090000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Sarı Kanaryalar</title>
-    <desc lang="tr">Fenerbahçe'nin geçmişten bugüne uzanan hikâyesi, unutulmaz anlar ve kulüp kültürü bu programda buluşuyor. Sarı-lacivert dünyaya yakından bakın.</desc>
+  <programme start="20260824080000 +0300" stop="20260824090000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Top 50</title>
+    <desc lang="tr">Top 50, spor dünyasının en iyi performanslarını ve unutulmaz anlarını bir araya getirerek heyecan dolu bir geri sayım sunuyor.</desc>
   </programme>
   <programme start="20260824090000 +0300" stop="20260824093000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Spor Okulları</title>
-    <desc lang="tr">Fenerbahçe'nin Türkiye genelindeki spor okullarında yürütülen çalışmaları bu ekranda sizlerle.</desc>
+    <title lang="tr">Armamızın Gücüyle</title>
+    <desc lang="tr">Kulübün ruhunu, taraftar gücünü ve spor kültürünü merkeze alan içeriklerle spor dünyasına odaklanır.</desc>
   </programme>
-  <programme start="20260824093000 +0300" stop="20260824110000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Basketbol: Kadınlar Süper Ligi</title>
-    <desc lang="tr">Türkiye Basketbol Federasyonu tarafından düzenlenen Türk kadın basketbolunun en üst seviye ligi.</desc>
-  </programme>
-  <programme start="20260824110000 +0300" stop="20260824120000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">EuroLeague Analiz</title>
-    <desc lang="tr">EuroLeague Analiz, EuroLeague maçlarını oyun, taktik ve istatistikler üzerinden değerlendiriyor.</desc>
-  </programme>
-  <programme start="20260824120000 +0300" stop="20260824123000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Futbol Dosyası</title>
-    <desc lang="tr">Futbolun perde arkasına yakından bakıyoruz. Analizler, röportajlar ve özel dosyalarla Futbol Dosyası sadece FB TV'de!</desc>
-  </programme>
-  <programme start="20260824123000 +0300" stop="20260824130000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">EuroLeague Analiz</title>
-    <desc lang="tr">EuroLeague Analiz, EuroLeague maçlarını oyun, taktik ve istatistikler üzerinden değerlendiriyor.</desc>
-  </programme>
-  <programme start="20260824130000 +0300" stop="20260824131500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+  <programme start="20260824093000 +0300" stop="20260824094500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
     <title lang="tr">Tarihte Bugün</title>
     <desc lang="tr">Futbol tarihinin en iyi hamleleri hakkında bir program şimdilik Fenerbahçe Televizyon'da sizlerle.</desc>
   </programme>
-  <programme start="20260824131500 +0300" stop="20260824140000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Euroleague'de Bu Hafta</title>
-    <desc lang="tr">EuroLeague'de haftanın öne çıkan karşılaşmaları ve sonuçları ekrana geliyor. Takımların performansları, dikkat çeken oyuncular ve haftanın önemli anları bu programda değerlendiriliyor.</desc>
+  <programme start="20260824094500 +0300" stop="20260824100000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Onun 10 Golü</title>
+    <desc lang="tr">Futbol tarihine damga vuran yıldızın en unutulmaz 10 golü bu programda bir araya geliyor. FB TV ekranlarında</desc>
+  </programme>
+  <programme start="20260824100000 +0300" stop="20260824111500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Tarih Ve Fenerbahçe</title>
+    <desc lang="tr">Fenerbahçe tarihinin dönüm noktaları, efsaneler ve kulübün mirasını anlatan özel belgesel serisi.</desc>
+  </programme>
+  <programme start="20260824111500 +0300" stop="20260824114500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Yıldız Takımı</title>
+    <desc lang="tr">Yıldız Takımı, Fenerbahçe'nin yıldız oyuncularını ve öne çıkan performanslarını ekrana taşıyor.</desc>
+  </programme>
+  <programme start="20260824114500 +0300" stop="20260824120000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Evladıma Miras Bu Sevda</title>
+    <desc lang="tr">Nesilden nesile aktarılan Fenerbahçe sevgisinin en içten hikâyeleri. Sarı lacivert bir mirasın izinde duygusal bir yolculuk.</desc>
+  </programme>
+  <programme start="20260824120000 +0300" stop="20260824121500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Haber</title>
+    <desc lang="tr">Haber, günün öne çıkan gelişmelerini hızlı ve doğru şekilde ekrana taşıyor. FB TV ekranlarında sizlerle</desc>
+  </programme>
+  <programme start="20260824121500 +0300" stop="20260824123000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Tarihte Bugün</title>
+    <desc lang="tr">Futbol tarihinin en iyi hamleleri hakkında bir program şimdilik Fenerbahçe Televizyon'da sizlerle.</desc>
+  </programme>
+  <programme start="20260824123000 +0300" stop="20260824133000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Maç Özetleri</title>
+    <desc lang="tr">Futbol dünyasından öne çıkan karşılaşmalar, goller ve kritik anlar bu programda. Maç özetleri ve kısa analizlerle kaçırdığınız anları yakalayın.</desc>
+  </programme>
+  <programme start="20260824133000 +0300" stop="20260824140000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Armamızın Gücüyle</title>
+    <desc lang="tr">Kulübün ruhunu, taraftar gücünü ve spor kültürünü merkeze alan içeriklerle spor dünyasına odaklanır.</desc>
   </programme>
   <programme start="20260824140000 +0300" stop="20260824141500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
     <title lang="tr">Haber</title>
     <desc lang="tr">Haber, günün öne çıkan gelişmelerini hızlı ve doğru şekilde ekrana taşıyor. FB TV ekranlarında sizlerle</desc>
   </programme>
   <programme start="20260824141500 +0300" stop="20260824143000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Tarihte Bugün</title>
-    <desc lang="tr">Futbol tarihinin en iyi hamleleri hakkında bir program şimdilik Fenerbahçe Televizyon'da sizlerle.</desc>
+    <title lang="tr">Süper Yıldızlar</title>
+    <desc lang="tr">Spor dünyasındaki yıldız isimleri, güncel gelişmeler ve özel röportajlar bu programda izleyiciyle buluşur.</desc>
   </programme>
-  <programme start="20260824143000 +0300" stop="20260824160000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Basketbol: Kadınlar Süper Ligi</title>
-    <desc lang="tr">Türkiye Basketbol Federasyonu tarafından düzenlenen Türk kadın basketbolunun en üst seviye ligi.</desc>
+  <programme start="20260824143000 +0300" stop="20260824153000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Futbol Dosyası</title>
+    <desc lang="tr">Futbolun perde arkasına yakından bakıyoruz. Analizler, röportajlar ve özel dosyalarla Futbol Dosyası sadece FB TV'de!</desc>
+  </programme>
+  <programme start="20260824153000 +0300" stop="20260824160000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Yıldız Takımı</title>
+    <desc lang="tr">Yıldız Takımı, Fenerbahçe'nin yıldız oyuncularını ve öne çıkan performanslarını ekrana taşıyor.</desc>
   </programme>
   <programme start="20260824160000 +0300" stop="20260824161500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
     <title lang="tr">Haber</title>
     <desc lang="tr">Haber, günün öne çıkan gelişmelerini hızlı ve doğru şekilde ekrana taşıyor. FB TV ekranlarında sizlerle</desc>
   </programme>
   <programme start="20260824161500 +0300" stop="20260824163000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Tarihte Bugün</title>
-    <desc lang="tr">Futbol tarihinin en iyi hamleleri hakkında bir program şimdilik Fenerbahçe Televizyon'da sizlerle.</desc>
+    <title lang="tr">Evladıma Miras Bu Sevda</title>
+    <desc lang="tr">Nesilden nesile aktarılan Fenerbahçe sevgisinin en içten hikâyeleri. Sarı lacivert bir mirasın izinde duygusal bir yolculuk.</desc>
   </programme>
-  <programme start="20260824163000 +0300" stop="20260824180000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Basketbol: Euroleague</title>
-    <desc lang="tr">EuroLeague, Avrupa'nın en iyi basketbol takımlarını üst düzey rekabetle parkede buluşturuyor.</desc>
+  <programme start="20260824163000 +0300" stop="20260824183000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Futbol: UEFA Şampiyonlar Ligi</title>
+    <desc lang="tr">Avrupa futbolunun zirvesindeki mücadeleler, unutulmaz anlar ve haftanın öne çıkan gelişmeleri ekranda.</desc>
   </programme>
-  <programme start="20260824180000 +0300" stop="20260824184500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">EuroLeague Analiz</title>
-    <desc lang="tr">EuroLeague Analiz, EuroLeague maçlarını oyun, taktik ve istatistikler üzerinden değerlendiriyor.</desc>
-  </programme>
-  <programme start="20260824184500 +0300" stop="20260824190700 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Tarihte Bugün</title>
-    <desc lang="tr">Futbol tarihinin en iyi hamleleri hakkında bir program şimdilik Fenerbahçe Televizyon'da sizlerle.</desc>
+  <programme start="20260824183000 +0300" stop="20260824190700 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Güncel</title>
+    <desc lang="tr">Fenerbahçe TV'den tarafından hazırlanan özel haberler ekrana geliyor.</desc>
   </programme>
   <programme start="20260824190700 +0300" stop="20260824193000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
     <title lang="tr">Ana Haber</title>
     <desc lang="tr">Ana Haber, gün boyunca yaşanan gelişmeleri doğru ve hızlı biçimde izleyiciye aktarıyor. FB TV ekranlarında sizlerle</desc>
   </programme>
-  <programme start="20260824193000 +0300" stop="20260824200000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">EuroLeague Analiz</title>
-    <desc lang="tr">EuroLeague Analiz, EuroLeague maçlarını oyun, taktik ve istatistikler üzerinden değerlendiriyor.</desc>
+  <programme start="20260824193000 +0300" stop="20260824203000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Top 50</title>
+    <desc lang="tr">Top 50, spor dünyasının en iyi performanslarını ve unutulmaz anlarını bir araya getirerek heyecan dolu bir geri sayım sunuyor.</desc>
   </programme>
-  <programme start="20260824200000 +0300" stop="20260824213000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Basketbol: Kadınlar Süper Ligi</title>
-    <desc lang="tr">Türkiye Basketbol Federasyonu tarafından düzenlenen Türk kadın basketbolunun en üst seviye ligi.</desc>
+  <programme start="20260824203000 +0300" stop="20260824210000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Yıldız Takımı</title>
+    <desc lang="tr">Yıldız Takımı, Fenerbahçe'nin yıldız oyuncularını ve öne çıkan performanslarını ekrana taşıyor.</desc>
+  </programme>
+  <programme start="20260824210000 +0300" stop="20260824213000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Güncel</title>
+    <desc lang="tr">Fenerbahçe TV'den tarafından hazırlanan özel haberler ekrana geliyor.</desc>
   </programme>
   <programme start="20260824213000 +0300" stop="20260824223000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Euroleague Özel</title>
-    <desc lang="tr">EuroLeague maçlarını, analizleri ve yıldız performanslarını ekrana taşıyan özel basketbol programı.</desc>
-  </programme>
-  <programme start="20260824223000 +0300" stop="20260824230000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
     <title lang="tr">Futbol Dosyası</title>
     <desc lang="tr">Futbolun perde arkasına yakından bakıyoruz. Analizler, röportajlar ve özel dosyalarla Futbol Dosyası sadece FB TV'de!</desc>
   </programme>
-  <programme start="20260824230000 +0300" stop="20260824234500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Euroleague'de Bu Hafta</title>
-    <desc lang="tr">EuroLeague'de haftanın öne çıkan karşılaşmaları ve sonuçları ekrana geliyor. Takımların performansları, dikkat çeken oyuncular ve haftanın önemli anları bu programda değerlendiriliyor.</desc>
+  <programme start="20260824223000 +0300" stop="20260824224500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Analiz Fenerbahçe</title>
+    <desc lang="tr">Analiz Fenerbahçe, sarı-lacivertli takımın maçlarını ve performansını detaylı biçimde değerlendiriyor.</desc>
+  </programme>
+  <programme start="20260824224500 +0300" stop="20260824230000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Söz Taraftarda</title>
+    <desc lang="tr">Fenerbahçe'mizin ve Türk Futbolunun gündemini, yapacağımız maçların skorlarını Büyük Fenerbahçe Taraftarına sorduğumuz Söz Taraftarda programı FB TV ekranlarında</desc>
+  </programme>
+  <programme start="20260824230000 +0300" stop="20260824233000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Armamızın Gücüyle</title>
+    <desc lang="tr">Kulübün ruhunu, taraftar gücünü ve spor kültürünü merkeze alan içeriklerle spor dünyasına odaklanır.</desc>
+  </programme>
+  <programme start="20260824233000 +0300" stop="20260824234500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Evladıma Miras Bu Sevda</title>
+    <desc lang="tr">Nesilden nesile aktarılan Fenerbahçe sevgisinin en içten hikâyeleri. Sarı lacivert bir mirasın izinde duygusal bir yolculuk.</desc>
   </programme>
   <programme start="20260824234500 +0300" stop="20260825000000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
     <title lang="tr">Gece Haberi</title>
@@ -24174,11 +24282,11 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
   </programme>
   <programme start="20260824133000 +0300" stop="20260824140000 +0300" channel="6d7c40d5-d709-4819-bdac-146848e3232c">
     <title lang="tr">Özel Eğitim Türkçe</title>
-    <desc lang="tr">Milli Eğitim Bakanlığı tarafından ders müfredatına uygun olarak hazırlanan özel eğitim öğrencilerine yönelik Türkçe dersi</desc>
+    <desc lang="tr">Özel Eğitim Türkçe, öğrencilerin dil ve iletişim becerilerini geliştirmeye odaklanıyor; etkinlikler ve örneklerle öğrenmeyi eğlenceli hâle getiriyor.</desc>
   </programme>
   <programme start="20260824140000 +0300" stop="20260824143000 +0300" channel="6d7c40d5-d709-4819-bdac-146848e3232c">
     <title lang="tr">İngilizce-5 Ortaokul</title>
-    <desc lang="tr">Milli Eğitim Bakanlığı tarafından ders müfredatına uygun olarak hazırlanan Ortaokul 5. sınıflar için İngilizce dersi</desc>
+    <desc lang="tr">The Animal Shelter (Quiz Show)</desc>
   </programme>
   <programme start="20260824143000 +0300" stop="20260824153000 +0300" channel="6d7c40d5-d709-4819-bdac-146848e3232c">
     <title lang="tr">LGS'ye Doğru</title>
@@ -24226,11 +24334,11 @@ Ekonomi gündemine dair her şey, Son Baskı ile gün bitmeden yarını bugünde
   </programme>
   <programme start="20260824210500 +0300" stop="20260824213000 +0300" channel="6d7c40d5-d709-4819-bdac-146848e3232c">
     <title lang="tr">Din Kültürü Ve Ahlak Bilgisi-12</title>
-    <desc lang="tr">Müfredata uygun olarak hazırlanan 12. Sınıflar için Din Kültürü ve Ahlak Dersi</desc>
+    <desc lang="tr">12. sınıf Din Kültürü ve Ahlak Bilgisi konularını öğreten müfredata uygun ders.</desc>
   </programme>
   <programme start="20260824213000 +0300" stop="20260824220000 +0300" channel="6d7c40d5-d709-4819-bdac-146848e3232c">
     <title lang="tr">İngilizce-12</title>
-    <desc lang="tr">Müfredata uygun olarak hazırlanan 12. Sınıflar için İngilizce Dersi</desc>
+    <desc lang="tr">12. sınıf İngilizce konularını müfredata uygun şekilde öğreten ders.</desc>
   </programme>
   <programme start="20260824220000 +0300" stop="20260824233000 +0300" channel="6d7c40d5-d709-4819-bdac-146848e3232c">
     <title lang="tr">YKS'ye Doğru</title>
