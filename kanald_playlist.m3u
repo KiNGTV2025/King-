@@ -1,6 +1,6 @@
 #EXTM3U
-#PLAYLIST: Kanal D - 26.08.2026 01:04
-# 7 dizi, 39 bölüm
+#PLAYLIST: Kanal D - 27.08.2026 06:14
+# 5 dizi, 64 bölüm
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/600155b9e226012d100358b6.jpg" group-title="Kanal D",Acemi Cadı - Daha Sonra İzle01:10:04Acemi Cadı 34. Bölüm
 https://www.kanald.com.tr/acemi-cadi/bolum/acemi-cadi-34-bolum
@@ -92,30 +92,105 @@ https://kanaldvod.duhnet.tv/S12/HLS_VOD/305606_56b4/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/600155b9e226012d100358b6.jpg" group-title="Kanal D",Acemi Cadı - Daha Sonra İzle01:07:56Acemi Cadı 1. Bölüm
 https://kanaldvod.duhnet.tv/S12/HLS_VOD/305605_56b2/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:14:5780.Bölüm FİNAL
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/7f8e_2581/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:15:0479.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/5c10_2580/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:15:3678.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/db77_2579/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:17:3976.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/db56_2577/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:16:1675.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/90e7_2576/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:16:2177.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/a485_2578/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:16:481.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/3d3d_457/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:14:017.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/5aa8_490/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:17:5274.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/05a6_2574/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:19:3573.Bölüm
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/5923_8545/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:15:2172.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/77f8_2570/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:17:4471.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/7aae_2568/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:15:1770.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/043c_2566/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:17:3669.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/3cff_2563/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:15:5268.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/6c8a_2561/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:17:2067.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/bc6c_2559/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:15:3266.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/398c_2557/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:16:0665.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/eb13_2383/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:17:0864.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/8ca3_2381/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:16:0863.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/6efd_2379/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:16:5662.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/0fbe_2376/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:17:2061. Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/ff98_2373/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:16:0060.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/d214_2371/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:16:4059.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/f700_2368/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:17:2058.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/54a5_2366/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:16:0757.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/d496_2364/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:17:2856.Bölüm
+https://kanaldvod.duhnet.tv/S2/HLS_VOD/69810_4709/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:15:5255.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/f1ea_1886/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:15:5454.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/852d_1881/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:16:2053.Bölüm
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/5c31_1876/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834d5b484687ed42a4b7f10.jpg" group-title="Kanal D",Galip Derviş - Daha Sonra İzle01:02:0452.Bölüm
+https://kanaldvod.duhnet.tv/S8/HLS_VOD/60336_e398/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834d5b484687ed42a4b7f10.jpg" group-title="Kanal D",Galip Derviş - Daha Sonra İzle00:59:5251. Bölüm
+https://kanaldvod.duhnet.tv/S8/HLS_VOD/59225_bb91/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834d92684687ed42a4b7f24.jpg" group-title="Kanal D",Hanımın Çiftliği - Daha Sonra İzle00:14:0845. Bölüm
 https://www.kanald.com.tr/diziler/arsiv/haniminciftligi/bolum/45-bolum
 
-#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/546ca013f6309914d4a68957.jpg" group-title="Kanal D",Hayat Yolunda - Daha Sonra İzle01:50:558.Bölüm
-https://www.kanald.com.tr/hayat-yolunda/bolum/8-bolum
-
-#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5475cc73f630990a7c7bf81a.jpg" group-title="Kanal D",Küçük Ağa - Daha Sonra İzle01:50:57Küçük Ağa 36. Bölüm
-https://kanaldvod.duhnet.tv/S8/HLS_VOD/60495_4ffe/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5475cc73f630990a7c7bf81a.jpg" group-title="Kanal D",Küçük Ağa - Daha Sonra İzle01:42:36Küçük Ağa 35. Bölüm
-https://kanaldvod.duhnet.tv/S8/HLS_VOD/59977_afc0/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - ÖNE ÇIKANSihirli Annem 119. Bölüm - FİNAL!Tatlı bir peri olan Betüş, iki çocuklu ve dul olan Sadık ile evlenecektir. İkisi de birbirlerini çok sevmektedir. Ancak Betüş’ün annesi Dudu bu evliliğe şiddetle karşı çıkar. Bütün sihirlerini kullanarak onları ayırmaya çalışır. Çünkü Dudu, geçmişte Taci adında birisiyle evlenmiş, ancak Taci kendisini aldatınca insanlara olan güvenini de kaybetmiştir. Bu nedenle Dudu, Betüş’ün de aldatılacağını düşünmekte ve onları ayırmaya çalışmaktadır. Ama ne yaparsa yapsın bu evlilik gerçekleşir. Betüş, Sadık ve onun iki çocuğuyla birlikte mutlu bir yuva kurar. ...
 https://kanaldvod.duhnet.tv/S1/HLS_VOD/e05c_2738/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/54f49cc6e50aa93944109d86.jpg" group-title="Kanal D",Ulan İstanbul - Daha Sonra İzle01:55:23Ulan İstanbul 24. Bölüm
-https://kanaldvod.duhnet.tv/S8/HLS_VOD/60416_50ea/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/54f49cc6e50aa93944109d86.jpg" group-title="Kanal D",Ulan İstanbul - Daha Sonra İzle01:49:43Ulan İstanbul 23. Bölüm
-https://kanaldvod.duhnet.tv/S8/HLS_VOD/59885_37ae/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/546ca126f6309914d4a68967.jpg" group-title="Kanal D",Yalan Dünya - Daha Sonra İzle01:18:5690. Bölüm
-https://kanaldvod.duhnet.tv/S8/HLS_VOD/59506_ec36/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/546ca126f6309914d4a68967.jpg" group-title="Kanal D",Yalan Dünya - Daha Sonra İzle01:51:4085.Bölüm
-https://kanaldvod.duhnet.tv/S7/HLS_VOD/45692_17d6/index.m3u8
 
