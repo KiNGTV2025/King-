@@ -1,6 +1,6 @@
 #EXTM3U
-#PLAYLIST: Kanal D - 27.08.2026 06:14
-# 5 dizi, 64 bölüm
+#PLAYLIST: Kanal D - 28.08.2026 08:29
+# 9 dizi, 71 bölüm
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/600155b9e226012d100358b6.jpg" group-title="Kanal D",Acemi Cadı - Daha Sonra İzle01:10:04Acemi Cadı 34. Bölüm
 https://www.kanald.com.tr/acemi-cadi/bolum/acemi-cadi-34-bolum
@@ -191,6 +191,27 @@ https://kanaldvod.duhnet.tv/S8/HLS_VOD/59225_bb91/index.m3u8
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834d92684687ed42a4b7f24.jpg" group-title="Kanal D",Hanımın Çiftliği - Daha Sonra İzle00:14:0845. Bölüm
 https://www.kanald.com.tr/diziler/arsiv/haniminciftligi/bolum/45-bolum
 
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/546ca013f6309914d4a68957.jpg" group-title="Kanal D",Hayat Yolunda - Daha Sonra İzle01:50:558.Bölüm
+https://www.kanald.com.tr/hayat-yolunda/bolum/8-bolum
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5475cc73f630990a7c7bf81a.jpg" group-title="Kanal D",Küçük Ağa - Daha Sonra İzle01:50:57Küçük Ağa 36. Bölüm
+https://kanaldvod.duhnet.tv/S8/HLS_VOD/60495_4ffe/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5475cc73f630990a7c7bf81a.jpg" group-title="Kanal D",Küçük Ağa - Daha Sonra İzle01:42:36Küçük Ağa 35. Bölüm
+https://kanaldvod.duhnet.tv/S8/HLS_VOD/59977_afc0/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834ec2084687ed42a4b7fb7.jpg" group-title="Kanal D",Sihirli Annem - ÖNE ÇIKANSihirli Annem 119. Bölüm - FİNAL!Tatlı bir peri olan Betüş, iki çocuklu ve dul olan Sadık ile evlenecektir. İkisi de birbirlerini çok sevmektedir. Ancak Betüş’ün annesi Dudu bu evliliğe şiddetle karşı çıkar. Bütün sihirlerini kullanarak onları ayırmaya çalışır. Çünkü Dudu, geçmişte Taci adında birisiyle evlenmiş, ancak Taci kendisini aldatınca insanlara olan güvenini de kaybetmiştir. Bu nedenle Dudu, Betüş’ün de aldatılacağını düşünmekte ve onları ayırmaya çalışmaktadır. Ama ne yaparsa yapsın bu evlilik gerçekleşir. Betüş, Sadık ve onun iki çocuğuyla birlikte mutlu bir yuva kurar. ...
 https://kanaldvod.duhnet.tv/S1/HLS_VOD/e05c_2738/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/54f49cc6e50aa93944109d86.jpg" group-title="Kanal D",Ulan İstanbul - Daha Sonra İzle01:55:23Ulan İstanbul 24. Bölüm
+https://kanaldvod.duhnet.tv/S8/HLS_VOD/60416_50ea/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/54f49cc6e50aa93944109d86.jpg" group-title="Kanal D",Ulan İstanbul - Daha Sonra İzle01:49:43Ulan İstanbul 23. Bölüm
+https://kanaldvod.duhnet.tv/S8/HLS_VOD/59885_37ae/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/546ca126f6309914d4a68967.jpg" group-title="Kanal D",Yalan Dünya - Daha Sonra İzle01:18:5690. Bölüm
+https://kanaldvod.duhnet.tv/S8/HLS_VOD/59506_ec36/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/546ca126f6309914d4a68967.jpg" group-title="Kanal D",Yalan Dünya - Daha Sonra İzle01:51:4085.Bölüm
+https://kanaldvod.duhnet.tv/S7/HLS_VOD/45692_17d6/index.m3u8
 
