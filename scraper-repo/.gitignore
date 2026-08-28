@@ -1,9 +1,0 @@
-# Ortam değişkeni dosyaları (API anahtarı buraya yazılırsa asla commit edilmesin)
-.env
-*.env
-
-# Script çıktısı (isteğe bağlı: M3U'yu repoda tutmak istiyorsan bu satırı sil)
-# filmler/films.m3u
-
-__pycache__/
-*.pyc
