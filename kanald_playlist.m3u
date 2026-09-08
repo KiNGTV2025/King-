@@ -1,6 +1,6 @@
 #EXTM3U
-#PLAYLIST: Kanal D - 07.09.2026 02:22
-# 9 dizi, 71 bölüm
+#PLAYLIST: Kanal D - 08.09.2026 02:35
+# 10 dizi, 72 bölüm
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/600155b9e226012d100358b6.jpg" group-title="Kanal D",Acemi Cadı - Daha Sonra İzle01:10:04Acemi Cadı 34. Bölüm
 https://www.kanald.com.tr/acemi-cadi/bolum/acemi-cadi-34-bolum
@@ -91,6 +91,12 @@ https://kanaldvod.duhnet.tv/S12/HLS_VOD/305606_56b4/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/600155b9e226012d100358b6.jpg" group-title="Kanal D",Acemi Cadı - Daha Sonra İzle01:07:56Acemi Cadı 1. Bölüm
 https://kanaldvod.duhnet.tv/S12/HLS_VOD/305605_56b2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5d19e9dd4020112cf8a208b4.jpg" group-title="Kanal D",Aşk-ı Memnu - ÖNE ÇIKAN79.Bölüm-VEDANihal ve Behlül’ün düğün gününden bir sabah önce, Bihter, koruda gizli bir buluşmanın telaşını yaşamaktadır. Behlül onu aramış ve koruya çağırmıştır. Bihter herkesten gizli, Behlül’le koruda buluşur. 
+Aynı dakikalarda, Nihal tarafından evden kovulan Matmazel, Beşir’in giderek kötüleştiğini haber almış ve onu herkesten gizli ziyaret etmek için yalının üst kapısını kullanmak üzere korunun sokağa açılan kapısına gelmiştir. 
+Taksiden indiğinde, Behlül’ün arabasını görür. Behlül’ün düğünden önceki haftayı yeni teknesinde geçirdiğini, mutfak takımından öğrendiği için, Behlül’ün arka kapıdan eve ziyaretinin şüpheleriyle koruya adım atar ve birkaç dakika sonra Behlül ve Bihter’i görür. 
+Bu andan itibaren herkesin hayatında dönüm noktası olacak bir süreç başlar....
+https://kanaldvod.duhnet.tv/S1/HLS_VOD/a2df_2043/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/5fbfbadc3ab16625ec15c120.jpg" group-title="Kanal D",Fatmagül'ün Suçu Ne? - Daha Sonra İzle00:14:5780.Bölüm FİNAL
 https://kanaldvod.duhnet.tv/S1/HLS_VOD/7f8e_2581/index.m3u8
