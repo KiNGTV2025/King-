@@ -377,13 +377,13 @@
     <title lang="tr">Kanal D Ana Haber</title>
     <desc lang="tr">Günün öne çıkan gelişmeleri Türkiye ve dünyanın gündemiyle Kanal D Ana Haberde izleyiciyle buluşuyor. Siyaset ekonomi ve toplumdan önemli başlıklar ekrana taşınıyor.</desc>
   </programme>
-  <programme start="20261009200000 +0300" stop="20261009234500 +0300" channel="94c5e957-9d5c-41dc-8fc1-b110dc6eb12c">
+  <programme start="20261009200000 +0300" stop="20261009233000 +0300" channel="94c5e957-9d5c-41dc-8fc1-b110dc6eb12c">
     <title lang="tr">Beyaz'la Joker</title>
     <desc lang="tr">Beyaz'ın enerjisi ve Joker'in renkli yorumlarıyla ekrana gelen bu program, sohbeti, mizahı ve sürpriz anları bir araya getirerek izleyiciye keyifli dakikalar yaşatır.</desc>
   </programme>
-  <programme start="20261009234500 +0300" stop="20261010023000 +0300" channel="94c5e957-9d5c-41dc-8fc1-b110dc6eb12c">
-    <title lang="tr">Haysiyet</title>
-    <desc lang="tr">Güç, adalet ve sadakat arasında sıkışan hayatlar; geçmişin sırlarıyla birlikte yeni çatışmaları ortaya çıkarıyor.</desc>
+  <programme start="20261009233000 +0300" stop="20261010020000 +0300" channel="94c5e957-9d5c-41dc-8fc1-b110dc6eb12c">
+    <title lang="tr">Uzak Şehir</title>
+    <desc lang="tr">Uzak Şehir, geçmişlerinden kaçmaya çalışan insanların yeni bir şehirde tutunma mücadelesini konu alıyor. Aşk, sırlar ve yüzleşmeler iç içe geçiyor.</desc>
   </programme>
   <channel id="54f666cd-8d10-4693-bb92-381f0f6e91b3">
     <display-name>Star</display-name>
@@ -393,15 +393,15 @@
     <title lang="tr">Sevdiğim Sensin</title>
     <desc lang="tr">Askerliğinin bitmesine günler kala bir köyde yolu Dicle ile kesişen Erkan için aşk, planlanmamış bir geleceğin kapısını aralar.</desc>
   </programme>
-  <programme start="20261009001500 +0300" stop="20261009030000 +0300" channel="54f666cd-8d10-4693-bb92-381f0f6e91b3">
+  <programme start="20261009001000 +0300" stop="20261009024500 +0300" channel="54f666cd-8d10-4693-bb92-381f0f6e91b3">
     <title lang="tr">Tuzlu Kahve</title>
     <desc lang="tr">Ailesinin baskısıyla evlenmek isteyen Derin ile Türkiye'ye dönen Mehmet'in yolları kesişir. Gelenekler, sırlar ve sürprizlerle dolu eğlenceli bir aşk hikâyesi başlar.</desc>
   </programme>
-  <programme start="20261009030000 +0300" stop="20261009050000 +0300" channel="54f666cd-8d10-4693-bb92-381f0f6e91b3">
+  <programme start="20261009024500 +0300" stop="20261009054000 +0300" channel="54f666cd-8d10-4693-bb92-381f0f6e91b3">
     <title lang="tr">Başkalarının Hayatı</title>
     <desc lang="tr">Başkalarının yaşamlarına imrenen genç bir kadının hayallerinin peşinden giderken sürüklendiği aşk, hırs ve entrika dolu tehlikeli yolculuk ekrana taşınıyor.</desc>
   </programme>
-  <programme start="20261009050000 +0300" stop="20261009070000 +0300" channel="54f666cd-8d10-4693-bb92-381f0f6e91b3">
+  <programme start="20261009054000 +0300" stop="20261009070000 +0300" channel="54f666cd-8d10-4693-bb92-381f0f6e91b3">
     <title lang="tr">İki Aile</title>
     <desc lang="tr">Aynı evi paylaşmak zorunda kalan iki zıt ailenin çekişmeli, komik ve bir o kadar da sıcak mücadelesi sizi bekliyor.</desc>
   </programme>
@@ -425,13 +425,13 @@
     <title lang="tr">Star Haber</title>
     <desc lang="tr">Türkiye ve dünyadan günün öne çıkan gelişmeleri ekrana geliyor. Siyasetten ekonomiye, yaşamdan spora kadar merak edilen başlıklar, sıcak görüntüler ve canlı bağlantılarla izleyiciye aktarılıyor.</desc>
   </programme>
-  <programme start="20261009200000 +0300" stop="20261009223000 +0300" channel="54f666cd-8d10-4693-bb92-381f0f6e91b3">
-    <title lang="tr">Yerli Dizi / Sinema</title>
-    <desc lang="tr">Sinema sürükleyici hikayesi ve güçlü karakterleriyle izleyiciyi ekrana bağlıyor. Sırlar, aşk ve gerilim her sahnede hissediliyor.</desc>
+  <programme start="20261009200000 +0300" stop="20261009234500 +0300" channel="54f666cd-8d10-4693-bb92-381f0f6e91b3">
+    <title lang="tr">Başkalarının Hayatı</title>
+    <desc lang="tr">Başkalarının yaşamlarına imrenen genç bir kadının hayallerinin peşinden giderken sürüklendiği aşk, hırs ve entrika dolu tehlikeli yolculuk ekrana taşınıyor.</desc>
   </programme>
-  <programme start="20261009223000 +0300" stop="20261010003000 +0300" channel="54f666cd-8d10-4693-bb92-381f0f6e91b3">
-    <title lang="tr">Yerli Dizi / Sinema</title>
-    <desc lang="tr">Sinema sürükleyici hikayesi ve güçlü karakterleriyle izleyiciyi ekrana bağlıyor. Sırlar, aşk ve gerilim her sahnede hissediliyor.</desc>
+  <programme start="20261009234500 +0300" stop="20261010020000 +0300" channel="54f666cd-8d10-4693-bb92-381f0f6e91b3">
+    <title lang="tr">Greenland: Son Sığınak</title>
+    <desc lang="tr">Dünya'ya yaklaşan kuyruklu yıldız nedeniyle bir aile, Grönland'daki sığınağa ulaşmak için zamana karşı mücadele eder.</desc>
   </programme>
   <channel id="efe9ab73-41fc-4751-b8c7-fa4b9b719d97">
     <display-name>Kanal 7</display-name>
@@ -1147,7 +1147,7 @@
   </programme>
   <programme start="20261009235000 +0300" stop="20261010003000 +0300" channel="81b2fac9-9eaf-4957-bae9-624de388e2f8">
     <title lang="tr">Hurda Avcıları: Tamirat "Dünya Savaşları Özel"</title>
-    <desc lang="tr">Hurda Avcıları: Tamirat "Dünya Savaşları Özel"</desc>
+    <desc lang="tr">Usta restoratörler, 1. ve 2. Dünya Savaşı dönemlerine ait tarihi askerî obje ile nadide eşyaları gün yüzüne çıkarıp eski ihtişamına kavuşturuyor.</desc>
   </programme>
   <channel id="931a551c-56e4-4792-9389-aa1029cde406">
     <display-name>Kon TV</display-name>
@@ -1245,7 +1245,7 @@
     <title lang="tr">Hayat Var</title>
     <desc lang="tr">Yaşamın içinden konularla izleyiciye umut ve ilham veriyor. Kon TV'de hayatı yeniden keşfetmeye davetlisiniz.</desc>
   </programme>
-  <programme start="20261009225000 +0300" stop="20261010080000 +0300" channel="931a551c-56e4-4792-9389-aa1029cde406">
+  <programme start="20261009225000 +0300" stop="20261010000000 +0300" channel="931a551c-56e4-4792-9389-aa1029cde406">
     <title lang="tr">Tarım Akademisi</title>
     <desc lang="tr">Tarım Akademisi, modern tarım ve hayvancılık yöntemlerini uzman konuklarla ele alan, üreticilere bilgi ve pratik çözümler sunan programdır.</desc>
   </programme>
@@ -2721,11 +2721,11 @@
     <title lang="tr">Hayat Sanat</title>
     <desc lang="tr">Hafta içi her gün yayınlanan programda, kültür ve sanat haberleri; konserler, sergiler, festivaller, son çıkan kitaplar, tiyatro oyunları, fuarlar, gösterime giren filmler ekrana geliyor.</desc>
   </programme>
-  <programme start="20261009213000 +0300" stop="20261009231500 +0300" channel="81efd91e-3992-4502-8392-8170da32003f">
+  <programme start="20261009213000 +0300" stop="20261009234500 +0300" channel="81efd91e-3992-4502-8392-8170da32003f">
     <title lang="tr">Kimera</title>
     <desc lang="tr">Geçmişin izlerini ve kayıp hazineleri arayan bir adamın rüya ile gerçek arasında sıkışan hikâyesi anlatılıyor.</desc>
   </programme>
-  <programme start="20261009231500 +0300" stop="20261010000000 +0300" channel="81efd91e-3992-4502-8392-8170da32003f">
+  <programme start="20261009234500 +0300" stop="20261010003000 +0300" channel="81efd91e-3992-4502-8392-8170da32003f">
     <title lang="tr">Pazar Konseri</title>
     <desc lang="tr">Pazar Konseri'nde klasik ve çağdaş repertuvardan seçilen eserler, usta müzisyenlerin canlı performanslarıyla ekrana geliyor.</desc>
   </programme>
@@ -3345,17 +3345,17 @@
     <title lang="tr">Hava Durumu</title>
     <desc lang="tr">Yurt genelinde ve dünyada beklenen hava koşullarını güncel verilerle aktararak izleyiciye günlük planlarını yaparken yol gösteren bilgilendirici bir yayın sunuyor.</desc>
   </programme>
-  <programme start="20261009120000 +0300" stop="20261009121000 +0300" channel="47ee5b8f-5d9b-47bf-afc5-f5f2078a0b43">
+  <programme start="20261009120000 +0300" stop="20261009122500 +0300" channel="47ee5b8f-5d9b-47bf-afc5-f5f2078a0b43">
     <title lang="tr">Haber Merkezi</title>
     <desc lang="tr">Türkiye ve dünyadaki güncel gelişmeler bu haber merkezinde izleyiciye aktarılıyor. Gündemi belirleyen başlıklar hızlıca özetleniyor.</desc>
   </programme>
-  <programme start="20261009121000 +0300" stop="20261009121500 +0300" channel="47ee5b8f-5d9b-47bf-afc5-f5f2078a0b43">
+  <programme start="20261009122500 +0300" stop="20261009123000 +0300" channel="47ee5b8f-5d9b-47bf-afc5-f5f2078a0b43">
     <title lang="tr">Piyasalar</title>
     <desc lang="tr">Piyasalardaki son durum ve ekonomiye yön veren gelişmeler bu programda özetleniyor. Borsa, döviz ve küresel hareketler yakından izleniyor.</desc>
   </programme>
-  <programme start="20261009121500 +0300" stop="20261009125000 +0300" channel="47ee5b8f-5d9b-47bf-afc5-f5f2078a0b43">
-    <title lang="tr">Ekonomi Notları</title>
-    <desc lang="tr">Ekonomi gündemindeki öne çıkan başlıklar ve önemli gelişmeler bu programda özetleniyor. Güncel veriler ve dikkat çeken notlar aktarılıyor.</desc>
+  <programme start="20261009123000 +0300" stop="20261009125000 +0300" channel="47ee5b8f-5d9b-47bf-afc5-f5f2078a0b43">
+    <title lang="tr">Piyasa Ekranı</title>
+    <desc lang="tr">Günün ekonomi gündemini, piyasa gelişmelerini ve öne çıkan manşetleri uzman yorumlarıyla izleyiciye aktaran kapsamlı bir ekonomi programı.</desc>
   </programme>
   <programme start="20261009125000 +0300" stop="20261009125500 +0300" channel="47ee5b8f-5d9b-47bf-afc5-f5f2078a0b43">
     <title lang="tr">Paranın Nabzı</title>
@@ -3445,17 +3445,13 @@
     <title lang="tr">Hava Durumu</title>
     <desc lang="tr">Yurt genelinde ve dünyada beklenen hava koşullarını güncel verilerle aktararak izleyiciye günlük planlarını yaparken yol gösteren bilgilendirici bir yayın sunuyor.</desc>
   </programme>
-  <programme start="20261009180000 +0300" stop="20261009183500 +0300" channel="47ee5b8f-5d9b-47bf-afc5-f5f2078a0b43">
+  <programme start="20261009180000 +0300" stop="20261009184000 +0300" channel="47ee5b8f-5d9b-47bf-afc5-f5f2078a0b43">
     <title lang="tr">Günün İçinden</title>
     <desc lang="tr">NTV Günün İçinden gün boyunca öne çıkan gelişmeleri kısa ve anlaşılır başlıklarla bir araya getirerek izleyiciye günün genel haber özetini sunuyor.</desc>
   </programme>
-  <programme start="20261009183500 +0300" stop="20261009184000 +0300" channel="47ee5b8f-5d9b-47bf-afc5-f5f2078a0b43">
+  <programme start="20261009184000 +0300" stop="20261009184500 +0300" channel="47ee5b8f-5d9b-47bf-afc5-f5f2078a0b43">
     <title lang="tr">Piyasalar</title>
     <desc lang="tr">Piyasalardaki son durum ve ekonomiye yön veren gelişmeler bu programda özetleniyor. Borsa, döviz ve küresel hareketler yakından izleniyor.</desc>
-  </programme>
-  <programme start="20261009184000 +0300" stop="20261009184500 +0300" channel="47ee5b8f-5d9b-47bf-afc5-f5f2078a0b43">
-    <title lang="tr">Uzman Bakışı</title>
-    <desc lang="tr">Gündemdeki konular uzman değerlendirmeleriyle ele alınıyor. Olayların arka planı ve etkileri net biçimde aktarılıyor.</desc>
   </programme>
   <programme start="20261009184500 +0300" stop="20261009185500 +0300" channel="47ee5b8f-5d9b-47bf-afc5-f5f2078a0b43">
     <title lang="tr">Spor</title>
@@ -7714,8 +7710,8 @@
     <desc lang="tr">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
   </programme>
   <programme start="20261009150000 +0300" stop="20261009160000 +0300" channel="5583c74a-60ff-43a6-b391-2bb89d146ab7">
-    <title lang="tr">Al Jazeera Investigates</title>
-    <desc lang="tr">Al Jazeera Investigative Unit or I-Unit is the name for journalists from the network's Investigative Journalism Directorate. Since its formation, the I-Unit's documentaries have won more than forty awards and over a hundred nominations, including four....</desc>
+    <title lang="tr">Israelism</title>
+    <desc lang="tr">When two young American Jews witness the way Israel treats Palestinians, it changes their lives and exposes a generational divide over modern Jewish identity.</desc>
   </programme>
   <programme start="20261009160000 +0300" stop="20261009170000 +0300" channel="5583c74a-60ff-43a6-b391-2bb89d146ab7">
     <title lang="tr">Newshour</title>
@@ -11931,7 +11927,7 @@
   </programme>
   <programme start="20261009033000 +0300" stop="20261009040000 +0300" channel="45121765-b09a-4d30-b1d3-999826eed4a6">
     <title lang="tr">Today's Close-Up</title>
-    <desc lang="tr">Dig deeper into current affairs. Cutting-edge information and critical analysis on important issues confronting Japanese lives.</desc>
+    <desc lang="tr">There are more middle-aged and older single people in Japan than ever before, but not many landlords are willing to rent to them. We look at the causes and possible solutions to the problem.</desc>
   </programme>
   <programme start="20261009040000 +0300" stop="20261009043000 +0300" channel="45121765-b09a-4d30-b1d3-999826eed4a6">
     <title lang="tr">NHK NEWSLINE</title>
@@ -11975,7 +11971,7 @@
   </programme>
   <programme start="20261009083000 +0300" stop="20261009090000 +0300" channel="45121765-b09a-4d30-b1d3-999826eed4a6">
     <title lang="tr">Today's Close-Up</title>
-    <desc lang="tr">Dig deeper into current affairs. Cutting-edge information and critical analysis on important issues confronting Japanese lives.</desc>
+    <desc lang="tr">There are more middle-aged and older single people in Japan than ever before, but not many landlords are willing to rent to them. We look at the causes and possible solutions to the problem.</desc>
   </programme>
   <programme start="20261009090000 +0300" stop="20261009093000 +0300" channel="45121765-b09a-4d30-b1d3-999826eed4a6">
     <title lang="tr">NEWSLINE ASIA 24</title>
@@ -12019,7 +12015,7 @@
   </programme>
   <programme start="20261009133000 +0300" stop="20261009140000 +0300" channel="45121765-b09a-4d30-b1d3-999826eed4a6">
     <title lang="tr">Today's Close-Up</title>
-    <desc lang="tr">Dig deeper into current affairs. Cutting-edge information and critical analysis on important issues confronting Japanese lives.</desc>
+    <desc lang="tr">There are more middle-aged and older single people in Japan than ever before, but not many landlords are willing to rent to them. We look at the causes and possible solutions to the problem.</desc>
   </programme>
   <programme start="20261009140000 +0300" stop="20261009142800 +0300" channel="45121765-b09a-4d30-b1d3-999826eed4a6">
     <title lang="tr">NEWSROOM TOKYO</title>
@@ -12071,7 +12067,7 @@
   </programme>
   <programme start="20261009183000 +0300" stop="20261009190000 +0300" channel="45121765-b09a-4d30-b1d3-999826eed4a6">
     <title lang="tr">Today's Close-Up</title>
-    <desc lang="tr">Dig deeper into current affairs. Cutting-edge information and critical analysis on important issues confronting Japanese lives.</desc>
+    <desc lang="tr">There are more middle-aged and older single people in Japan than ever before, but not many landlords are willing to rent to them. We look at the causes and possible solutions to the problem.</desc>
   </programme>
   <programme start="20261009190000 +0300" stop="20261009193000 +0300" channel="45121765-b09a-4d30-b1d3-999826eed4a6">
     <title lang="tr">NHK NEWSLINE</title>
@@ -12881,11 +12877,11 @@
     <title lang="tr">Britanya Açık</title>
     <desc lang="tr">British Open, 1985'ten beri sıralama turnuvası olarak düzenlenen profesyonel bir snooker turnuvasıdır; ancak 2004'ten itibaren 17 yıl süreyle ara verilmiştir.</desc>
   </programme>
-  <programme start="20261009210000 +0300" stop="20261009220000 +0300" channel="9bc691e1-93e0-495f-a6b6-421385b81c72">
+  <programme start="20261009210000 +0300" stop="20261009215600 +0300" channel="9bc691e1-93e0-495f-a6b6-421385b81c72">
     <title lang="tr">UTMB Documentary</title>
     <desc lang="tr">Dünyanın en zorlu ultra maratonlarından biri olan UTMB'nin hikâyesini ekrana taşıyan belgesel, atletlerin sınırlarını zorlayan mücadelelerini ve doğa ile insanın müthiş uyumunu gözler önüne seriyor.</desc>
   </programme>
-  <programme start="20261009220000 +0300" stop="20261010000000 +0300" channel="9bc691e1-93e0-495f-a6b6-421385b81c72">
+  <programme start="20261009215600 +0300" stop="20261010000000 +0300" channel="9bc691e1-93e0-495f-a6b6-421385b81c72">
     <title lang="tr">Bisiklet: Lombardiya Turu</title>
     <desc lang="tr">Bisiklet sezonunun en prestijli klasiklerinden biri olan Lombardiya Turu'nda, zorlu parkur ve kıyasıya mücadele ekranlara geliyor.</desc>
   </programme>
