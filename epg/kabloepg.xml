@@ -475,7 +475,7 @@
   </channel>
   <programme start="20261015000000 +0300" stop="20261015024500 +0300" channel="829af9c9-a3ae-4761-8f7f-3bce4a4c1381">
     <title lang="tr">Halef</title>
-    <desc lang="tr">Köklerin Çağrısı, aile bağları, köklerden gelen sorumluluklar ve saklanan sırlar etrafında şekillenen güçlü bir dram hikâyesini ekrana taşıyor.</desc>
+    <desc lang="tr">Halef: Köklerin Çağrısı, aile bağları, köklerden gelen sorumluluklar ve saklanan sırlar etrafında şekillenen güçlü bir dram hikâyesini ekrana taşıyor.</desc>
   </programme>
   <programme start="20261015024500 +0300" stop="20261015050000 +0300" channel="829af9c9-a3ae-4761-8f7f-3bce4a4c1381">
     <title lang="tr">Ömür Usta</title>
@@ -503,7 +503,7 @@
   </programme>
   <programme start="20261015120000 +0300" stop="20261015133000 +0300" channel="829af9c9-a3ae-4761-8f7f-3bce4a4c1381">
     <title lang="tr">Halef</title>
-    <desc lang="tr">Köklerin Çağrısı, aile bağları, köklerden gelen sorumluluklar ve saklanan sırlar etrafında şekillenen güçlü bir dram hikâyesini ekrana taşıyor.</desc>
+    <desc lang="tr">Halef: Köklerin Çağrısı, aile bağları, köklerden gelen sorumluluklar ve saklanan sırlar etrafında şekillenen güçlü bir dram hikâyesini ekrana taşıyor.</desc>
   </programme>
   <programme start="20261015133000 +0300" stop="20261015163000 +0300" channel="829af9c9-a3ae-4761-8f7f-3bce4a4c1381">
     <title lang="tr">En Hamarat Benim</title>
@@ -511,7 +511,7 @@
   </programme>
   <programme start="20261015163000 +0300" stop="20261015173000 +0300" channel="829af9c9-a3ae-4761-8f7f-3bce4a4c1381">
     <title lang="tr">Halef</title>
-    <desc lang="tr">Köklerin Çağrısı, aile bağları, köklerden gelen sorumluluklar ve saklanan sırlar etrafında şekillenen güçlü bir dram hikâyesini ekrana taşıyor.</desc>
+    <desc lang="tr">Halef: Köklerin Çağrısı, aile bağları, köklerden gelen sorumluluklar ve saklanan sırlar etrafında şekillenen güçlü bir dram hikâyesini ekrana taşıyor.</desc>
   </programme>
   <programme start="20261015173000 +0300" stop="20261015190000 +0300" channel="829af9c9-a3ae-4761-8f7f-3bce4a4c1381">
     <title lang="tr">Ali İhsan Varol İle Kumbara</title>
@@ -523,11 +523,11 @@
   </programme>
   <programme start="20261015200000 +0300" stop="20261015210000 +0300" channel="829af9c9-a3ae-4761-8f7f-3bce4a4c1381">
     <title lang="tr">Halef: Köklerin Çağrısı - Özet</title>
-    <desc lang="tr">Köklerin Çağrısı, aile bağları, köklerden gelen sorumluluklar ve saklanan sırlar etrafında şekillenen güçlü bir dram hikâyesini ekrana taşıyor.</desc>
+    <desc lang="tr">Halef: Köklerin Çağrısı, aile bağları, köklerden gelen sorumluluklar ve saklanan sırlar etrafında şekillenen güçlü bir dram hikâyesini ekrana taşıyor.</desc>
   </programme>
   <programme start="20261015210000 +0300" stop="20261016001500 +0300" channel="829af9c9-a3ae-4761-8f7f-3bce4a4c1381">
     <title lang="tr">Halef</title>
-    <desc lang="tr">Köklerin Çağrısı, aile bağları, köklerden gelen sorumluluklar ve saklanan sırlar etrafında şekillenen güçlü bir dram hikâyesini ekrana taşıyor.</desc>
+    <desc lang="tr">Halef: Köklerin Çağrısı, aile bağları, köklerden gelen sorumluluklar ve saklanan sırlar etrafında şekillenen güçlü bir dram hikâyesini ekrana taşıyor.</desc>
   </programme>
   <channel id="b279d47a-c37c-46c5-9743-35e402a3044c">
     <display-name>TV 8</display-name>
@@ -2227,7 +2227,7 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
   </programme>
   <programme start="20261015124500 +0300" stop="20261015130000 +0300" channel="682e9b09-0a39-43fd-b158-fa451458d086">
     <title lang="tr">Dolgu Programlar</title>
-    <desc lang="tr">Dolgu Programlar</desc>
+    <desc lang="tr">Güncel program bilgileri çok yakında rehberinizde yer alacaktır. Kaliteli ve zengin içeriklerimiz için takipte kalmaya devam edin.</desc>
   </programme>
   <programme start="20261015130000 +0300" stop="20261015144500 +0300" channel="682e9b09-0a39-43fd-b158-fa451458d086">
     <title lang="tr">Gün İçi Haber Bülteni</title>
@@ -2235,7 +2235,7 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
   </programme>
   <programme start="20261015144500 +0300" stop="20261015150000 +0300" channel="682e9b09-0a39-43fd-b158-fa451458d086">
     <title lang="tr">Dolgu Programlar</title>
-    <desc lang="tr">Dolgu Programlar</desc>
+    <desc lang="tr">Güncel program bilgileri çok yakında rehberinizde yer alacaktır. Kaliteli ve zengin içeriklerimiz için takipte kalmaya devam edin.</desc>
   </programme>
   <programme start="20261015150000 +0300" stop="20261015163000 +0300" channel="682e9b09-0a39-43fd-b158-fa451458d086">
     <title lang="tr">Banu Noyan'la Ekranda</title>
@@ -2243,7 +2243,7 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
   </programme>
   <programme start="20261015163000 +0300" stop="20261015170000 +0300" channel="682e9b09-0a39-43fd-b158-fa451458d086">
     <title lang="tr">Dolgu Programlar</title>
-    <desc lang="tr">Dolgu Programlar</desc>
+    <desc lang="tr">Güncel program bilgileri çok yakında rehberinizde yer alacaktır. Kaliteli ve zengin içeriklerimiz için takipte kalmaya devam edin.</desc>
   </programme>
   <programme start="20261015170000 +0300" stop="20261015174500 +0300" channel="682e9b09-0a39-43fd-b158-fa451458d086">
     <title lang="tr">Şampiyon Mutfakta</title>
@@ -2251,7 +2251,7 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
   </programme>
   <programme start="20261015174500 +0300" stop="20261015180000 +0300" channel="682e9b09-0a39-43fd-b158-fa451458d086">
     <title lang="tr">Dolgu Programlar</title>
-    <desc lang="tr">Dolgu Programlar</desc>
+    <desc lang="tr">Güncel program bilgileri çok yakında rehberinizde yer alacaktır. Kaliteli ve zengin içeriklerimiz için takipte kalmaya devam edin.</desc>
   </programme>
   <programme start="20261015180000 +0300" stop="20261015184500 +0300" channel="682e9b09-0a39-43fd-b158-fa451458d086">
     <title lang="tr">Gizem Gündoğdu ile Günün Özeti</title>
@@ -2259,7 +2259,7 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
   </programme>
   <programme start="20261015184500 +0300" stop="20261015190000 +0300" channel="682e9b09-0a39-43fd-b158-fa451458d086">
     <title lang="tr">Dolgu Programlar</title>
-    <desc lang="tr">Dolgu Programlar</desc>
+    <desc lang="tr">Güncel program bilgileri çok yakında rehberinizde yer alacaktır. Kaliteli ve zengin içeriklerimiz için takipte kalmaya devam edin.</desc>
   </programme>
   <programme start="20261015190000 +0300" stop="20261015200000 +0300" channel="682e9b09-0a39-43fd-b158-fa451458d086">
     <title lang="tr">Ecem Sultan Özcan ile TYT Türk Ana Haber</title>
@@ -4499,7 +4499,7 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
   </programme>
   <programme start="20261015170000 +0300" stop="20261015180000 +0300" channel="cec39de8-57b3-42d0-8166-923153d0abef">
     <title lang="tr">Benim Güzel Ailem</title>
-    <desc lang="tr">Benim Güzel Ailem dizisinde çocuklarını evlendirmiş bir çiftin yaşamı anlatılıyor. Dört çocuklarının üçünü evlendirilen aile, son çocuklarının düğününe de hazırlık yapmaktadır. Tüm çocuklarının yuvadan uçacağı için ise büyük bir üzüntü duyarlar. Fakat....</desc>
+    <desc lang="tr">Ayşegül Kip ve Sevde Üçüncüoğlu'nun sunduğu programda evlilik, anne babalık, yol arkadaşlığı ve aile olmaya dair ilham veren tüm hikayeler ekrana taşınıyor.</desc>
   </programme>
   <programme start="20261015180000 +0300" stop="20261015184500 +0300" channel="cec39de8-57b3-42d0-8166-923153d0abef">
     <title lang="tr">Günün İçinden</title>
@@ -4874,8 +4874,8 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <desc lang="tr">Gündem Futbol, haftanın öne çıkan maçlarını ve futbol dünyasındaki sıcak gelişmeleri özetleri ekrana taşır.</desc>
   </programme>
   <programme start="20261015173000 +0300" stop="20261015180000 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
-    <title lang="tr">Spor Dijital</title>
-    <desc lang="tr">Spor dünyasından güncel haberler, önemli gelişmeler, maç sonuçları ve öne çıkan gündem başlıkları ekrana geliyor.</desc>
+    <title lang="tr">UEFA Şampiyonlar Ligi Özetler</title>
+    <desc lang="tr">Avrupa futbolunun yıldızları ekranda! UEFA Şampiyonlar Ligi Özetler, maçların kritik anlarını ve öne çıkan gol pozisyonlarını izleyiciye taşıyor.</desc>
   </programme>
   <programme start="20261015180000 +0300" stop="20261015194500 +0300" channel="c45dcc0b-733a-4c89-9605-82eefc5d7429">
     <title lang="tr">Maç Özel</title>
@@ -7755,7 +7755,7 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
   </programme>
   <programme start="20261015223000 +0300" stop="20261015230000 +0300" channel="5583c74a-60ff-43a6-b391-2bb89d146ab7">
     <title lang="tr">Talk to Al Jazeera</title>
-    <desc lang="tr">The International Energy Agency's chief discusses the impact of the post-lockdown surge in greenhouse gas emissions on the climate crisis.</desc>
+    <desc lang="tr">Poland's Foreign Minister addresses growing concerns that Russia's war in Ukraine could spill over into neighbouring NATO members and spread regionally.</desc>
   </programme>
   <programme start="20261015230000 +0300" stop="20261016000000 +0300" channel="5583c74a-60ff-43a6-b391-2bb89d146ab7">
     <title lang="tr">Head to Head</title>
@@ -12566,8 +12566,8 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <desc lang="tr">Gündem Futbol, haftanın öne çıkan maçlarını ve futbol dünyasındaki sıcak gelişmeleri özetleri ekrana taşır.</desc>
   </programme>
   <programme start="20261015173000 +0300" stop="20261015180000 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
-    <title lang="tr">Spor Dijital</title>
-    <desc lang="tr">Spor dünyasından güncel haberler, önemli gelişmeler, maç sonuçları ve öne çıkan gündem başlıkları ekrana geliyor.</desc>
+    <title lang="tr">UEFA Şampiyonlar Ligi Özetler</title>
+    <desc lang="tr">Avrupa futbolunun yıldızları ekranda! UEFA Şampiyonlar Ligi Özetler, maçların kritik anlarını ve öne çıkan gol pozisyonlarını izleyiciye taşıyor.</desc>
   </programme>
   <programme start="20261015180000 +0300" stop="20261015194500 +0300" channel="bb09f3b7-9f46-4904-bc9f-fb3c8148c14a">
     <title lang="tr">Maç Özel</title>
@@ -12857,11 +12857,11 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <title lang="tr">Britanya Açık</title>
     <desc lang="tr">British Open, 1985'ten beri sıralama turnuvası olarak düzenlenen profesyonel bir snooker turnuvasıdır; ancak 2004'ten itibaren 17 yıl süreyle ara verilmiştir.</desc>
   </programme>
-  <programme start="20261015210000 +0300" stop="20261015220000 +0300" channel="9bc691e1-93e0-495f-a6b6-421385b81c72">
+  <programme start="20261015210000 +0300" stop="20261015220600 +0300" channel="9bc691e1-93e0-495f-a6b6-421385b81c72">
     <title lang="tr">Binicilik: Dünya Kupası Oslo</title>
     <desc lang="tr">Atların ve binicilerin uyumunu, hızını ve ustalığını sergilediği Oslo Dünya Kupası'nda heyecan dolu engel atlama mücadelesi.</desc>
   </programme>
-  <programme start="20261015220000 +0300" stop="20261016000000 +0300" channel="9bc691e1-93e0-495f-a6b6-421385b81c72">
+  <programme start="20261015220600 +0300" stop="20261016000000 +0300" channel="9bc691e1-93e0-495f-a6b6-421385b81c72">
     <title lang="tr">Motosiklet: FIM Dayanıklılık Dünya Şampiyonası _Le Mans 24 Saat Yarışları</title>
     <desc lang="tr">24 Saat Le Mans Motosiklet Yarışı, her yıl Fransa'nın Le Mans kentinde düzenlenmektedir. Bu yarış, FIM Dayanıklılık Dünya Şampiyonası'nın bir parçasıdır.</desc>
   </programme>
@@ -13601,9 +13601,13 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <title lang="tr">Tarihte Bugün</title>
     <desc lang="tr">Futbol tarihinin en iyi hamleleri hakkında bir program şimdilik Fenerbahçe Televizyon'da sizlerle.</desc>
   </programme>
-  <programme start="20261015094500 +0300" stop="20261015103000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Fenerium Saati</title>
-    <desc lang="tr">Fenerium Saati, Fenerbahçe'nin lisanslı ürünlerini, yeni sezon koleksiyonlarını ve özel tasarımlarını izleyiciyle buluşturuyor.</desc>
+  <programme start="20261015094500 +0300" stop="20261015101500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Spor Okulları</title>
+    <desc lang="tr">Fenerbahçe'nin Türkiye genelindeki spor okullarında yürütülen çalışmaları bu ekranda sizlerle.</desc>
+  </programme>
+  <programme start="20261015101500 +0300" stop="20261015103000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Haber Artı</title>
+    <desc lang="tr">Gündemin öne çıkan gelişmeleri, önemli haberler ve günün dikkat çeken başlıkları hızlı ve anlaşılır bir şekilde aktarılıyor.</desc>
   </programme>
   <programme start="20261015103000 +0300" stop="20261015120000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
     <title lang="tr">Basketbol: EuroLeague Kadınlar</title>
@@ -13629,53 +13633,53 @@ Güncel konulardan finans dünyasının yeniliklerine, ekonomiye dair ne varsa b
     <title lang="tr">Tarihte Bugün</title>
     <desc lang="tr">Futbol tarihinin en iyi hamleleri hakkında bir program şimdilik Fenerbahçe Televizyon'da sizlerle.</desc>
   </programme>
-  <programme start="20261015143000 +0300" stop="20261015153000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+  <programme start="20261015143000 +0300" stop="20261015160000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
     <title lang="tr">Futbol: TFF U 16 Ligi</title>
     <desc lang="tr">Türkiye'nin dört bir yanından genç futbolcular TFF U16 Ligi'nde yeteneklerini sergiliyor. Geleceğin yıldızları sahneye çıkıyor.</desc>
-  </programme>
-  <programme start="20261015153000 +0300" stop="20261015160000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Yaşayan Çınarlarımız</title>
-    <desc lang="tr">Yaşayan Çınarlarımız, Fenerbahçe'ye yıllarını vermiş değerli isimleri saygıyla ekrana taşıyor.</desc>
   </programme>
   <programme start="20261015160000 +0300" stop="20261015161500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
     <title lang="tr">Haber</title>
     <desc lang="tr">Futbol, basketbol ve diğer branşlardan günün öne çıkan spor haberleri ve son gelişmeler ekrana geliyor.</desc>
   </programme>
   <programme start="20261015161500 +0300" stop="20261015163000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Tarihte Bugün</title>
-    <desc lang="tr">Futbol tarihinin en iyi hamleleri hakkında bir program şimdilik Fenerbahçe Televizyon'da sizlerle.</desc>
+    <title lang="tr">Haber Artı</title>
+    <desc lang="tr">Gündemin öne çıkan gelişmeleri, önemli haberler ve günün dikkat çeken başlıkları hızlı ve anlaşılır bir şekilde aktarılıyor.</desc>
   </programme>
-  <programme start="20261015163000 +0300" stop="20261015180000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Basketbol: Kadınlar Süper Ligi</title>
-    <desc lang="tr">Türkiye Basketbol Federasyonu tarafından düzenlenen Türk kadın basketbolunun en üst seviye ligi.</desc>
-  </programme>
-  <programme start="20261015180000 +0300" stop="20261015184500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+  <programme start="20261015163000 +0300" stop="20261015173000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
     <title lang="tr">Tarih Ve Fenerbahçe</title>
     <desc lang="tr">Fenerbahçe tarihinin dönüm noktaları, efsaneler ve kulübün mirasını anlatan özel belgesel serisi.</desc>
   </programme>
-  <programme start="20261015184500 +0300" stop="20261015190700 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Evladıma Miras Bu Sevda</title>
-    <desc lang="tr">Nesilden nesile aktarılan Fenerbahçe sevgisinin en içten hikâyeleri. Sarı lacivert bir mirasın izinde duygusal bir yolculuk.</desc>
+  <programme start="20261015173000 +0300" stop="20261015190700 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Basketbol: Euroleague</title>
+    <desc lang="tr">EuroLeague, Avrupa'nın en iyi basketbol takımlarını üst düzey rekabetle parkede buluşturuyor.</desc>
   </programme>
   <programme start="20261015190700 +0300" stop="20261015193000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
     <title lang="tr">Ana Haber</title>
     <desc lang="tr">Ana Haber, gün boyunca yaşanan gelişmeleri doğru ve hızlı biçimde izleyiciye aktarıyor. FB TV ekranlarında sizlerle</desc>
   </programme>
-  <programme start="20261015193000 +0300" stop="20261015213000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Basketbol: Kadınlar Süper Ligi</title>
-    <desc lang="tr">Türkiye Basketbol Federasyonu tarafından düzenlenen Türk kadın basketbolunun en üst seviye ligi.</desc>
+  <programme start="20261015193000 +0300" stop="20261015194500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Haber Artı</title>
+    <desc lang="tr">Gündemin öne çıkan gelişmeleri, önemli haberler ve günün dikkat çeken başlıkları hızlı ve anlaşılır bir şekilde aktarılıyor.</desc>
   </programme>
-  <programme start="20261015213000 +0300" stop="20261015223000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">Biz Bize</title>
-    <desc lang="tr">Sarı-lacivertli camianın nabzını tutan samimi sohbetler, unutulmaz anılar ve güncel gelişmeler bu özel içerikte izleyiciyle buluşuyor.</desc>
+  <programme start="20261015194500 +0300" stop="20261015203000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Euroleague Özel</title>
+    <desc lang="tr">EuroLeague maçlarını, analizleri ve yıldız performanslarını ekrana taşıyan özel basketbol programı.</desc>
   </programme>
-  <programme start="20261015223000 +0300" stop="20261015233000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
-    <title lang="tr">40+</title>
-    <desc lang="tr">Sarı-lacivertli formayla iz bırakmış tecrübeli isimler, sahadaki unutulmaz anıları ve kariyer yolculuklarıyla bu özel içerikte yeniden buluşuyor.</desc>
-  </programme>
-  <programme start="20261015233000 +0300" stop="20261015234500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+  <programme start="20261015203000 +0300" stop="20261015204500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
     <title lang="tr">Fenerium Saati</title>
     <desc lang="tr">Fenerium Saati, Fenerbahçe'nin lisanslı ürünlerini, yeni sezon koleksiyonlarını ve özel tasarımlarını izleyiciyle buluşturuyor.</desc>
+  </programme>
+  <programme start="20261015204500 +0300" stop="20261015224500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Basketbol: Euroleague Maç Havası</title>
+    <desc lang="tr">Maç Havası, Fenerbahçe maçları öncesinde stadyum coşkusunu ve taraftar heyecanını ekrana taşıyor.</desc>
+  </programme>
+  <programme start="20261015224500 +0300" stop="20261015233000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Euroleague Özel</title>
+    <desc lang="tr">EuroLeague maçlarını, analizleri ve yıldız performanslarını ekrana taşıyan özel basketbol programı.</desc>
+  </programme>
+  <programme start="20261015233000 +0300" stop="20261015234500 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
+    <title lang="tr">Tarihte Bugün</title>
+    <desc lang="tr">Futbol tarihinin en iyi hamleleri hakkında bir program şimdilik Fenerbahçe Televizyon'da sizlerle.</desc>
   </programme>
   <programme start="20261015234500 +0300" stop="20261016000000 +0300" channel="64f4c29c-5bc2-49a7-9eb8-77eb5c7d140c">
     <title lang="tr">Gece Haberi</title>
