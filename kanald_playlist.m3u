@@ -1,6 +1,6 @@
 #EXTM3U
-#PLAYLIST: Kanal D - 22.10.2026 02:56
-# 9 dizi, 71 bölüm
+#PLAYLIST: Kanal D - 23.10.2026 03:02
+# 10 dizi, 72 bölüm
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/600155b9e226012d100358b6.jpg" group-title="Kanal D",Acemi Cadı - Daha Sonra İzle01:10:04Acemi Cadı 34. Bölüm
 https://www.kanald.com.tr/acemi-cadi/bolum/acemi-cadi-34-bolum
@@ -193,6 +193,9 @@ https://kanaldvod.duhnet.tv/S8/HLS_VOD/60336_e398/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834d5b484687ed42a4b7f10.jpg" group-title="Kanal D",Galip Derviş - Daha Sonra İzle00:59:5251. Bölüm
 https://kanaldvod.duhnet.tv/S8/HLS_VOD/59225_bb91/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/6834d92684687ed42a4b7f24.jpg" group-title="Kanal D",Hanımın Çiftliği - Daha Sonra İzle00:14:0845. Bölüm
+https://www.kanald.com.tr/diziler/arsiv/haniminciftligi/bolum/45-bolum
 
 #EXTINF:-1 tvg-logo="https://image.kanald.com.tr/i/kanald/100/264x365/546ca013f6309914d4a68957.jpg" group-title="Kanal D",Hayat Yolunda - Daha Sonra İzle01:50:558.Bölüm
 https://www.kanald.com.tr/hayat-yolunda/bolum/8-bolum
