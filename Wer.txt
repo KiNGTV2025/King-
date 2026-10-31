@@ -1,1 +1,7 @@
 com.umit.tv
+com.umittv.sanaozel
+com.ottplay.ottplay
+com.lagradost.cloudstream3.prerelease
+com.nuvio.tv
+app.revanced.android.youtube
+org.smarttube.stable
